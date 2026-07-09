@@ -1,5 +1,5 @@
 # General Notes
-. After cloning, be sure to initialize the submodule: `git submodule init` *and* `git submodule update`
+- After cloning, be sure to initialize the submodule: `git submodule init` *and* `git submodule update`
 
 # Creating a project
 1. Branch main. Name your branch in-kebab-case
