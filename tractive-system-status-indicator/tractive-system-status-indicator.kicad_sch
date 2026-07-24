@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "481a8196-5518-48e9-8da8-97983bbbc473")
-	(paper "A4")
+	(paper "B")
+	(title_block
+		(title "TSSI Board")
+		(date "2026-07-20")
+		(rev "1.00")
+		(company "Formula Slug")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
@@ -623,7 +629,7 @@
 	)
 	(text "VCU "
 		(exclude_from_sim no)
-		(at 25.908 76.454 0)
+		(at 24.638 37.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -632,44 +638,80 @@
 		(uuid "968862ea-6528-4777-8f79-63cd9114d593")
 	)
 	(junction
-		(at 121.92 113.03)
+		(at 69.85 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "080bdf88-4fc5-40e4-b273-81ca49da0961")
+	)
+	(junction
+		(at 120.65 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d73fd17-a00d-4bca-9f4c-d7acff8aed0b")
+	)
+	(junction
+		(at 120.65 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f479818-4137-4b70-af65-161dedadeb59")
 	)
 	(junction
-		(at 121.92 85.09)
+		(at 69.85 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f45009d-0511-44f0-bd4c-26708d92c7aa")
+		(uuid "45edb1ea-c64b-40f4-a441-95afa92f6b2e")
 	)
 	(junction
-		(at 71.12 132.08)
+		(at 69.85 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5796e051-7d59-4728-a7e6-a347e7387a4d")
+	)
+	(junction
+		(at 69.85 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7232133a-09fd-40c5-ae38-1b6d7063b10d")
 	)
 	(junction
-		(at 71.12 77.47)
+		(at 69.85 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a1147bb-561d-4995-b623-95bd853824e3")
+		(uuid "8c606875-115e-47f7-b207-33c896d70231")
 	)
 	(junction
-		(at 71.12 105.41)
+		(at 120.65 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99f224c7-fccb-4140-bd5b-084d1e69597a")
+		(uuid "a412450a-1043-49a5-abdf-b27453a76f07")
 	)
 	(junction
-		(at 121.92 138.43)
+		(at 120.65 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ba24d556-1d6b-42a5-8f47-6bad18ba2bcd")
+		(uuid "bb9f295d-13e3-41f1-9324-8057404c6e9c")
+	)
+	(junction
+		(at 120.65 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2e8ce95-bda8-4b36-bd87-e38e960333ea")
+	)
+	(junction
+		(at 120.65 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ad6405-088e-4c1c-914a-c65260dc9733")
+	)
+	(junction
+		(at 69.85 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efcf1357-cca2-48de-b567-9a54976d63f3")
 	)
 	(wire
 		(pts
-			(xy 60.96 87.63) (xy 60.96 132.08)
+			(xy 59.69 48.26) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +721,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 82.55) (xy 66.04 105.41)
+			(xy 69.85 110.49) (xy 69.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a14388b-199c-4b9f-ae7f-542052093880")
+	)
+	(wire
+		(pts
+			(xy 120.65 121.92) (xy 120.65 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2bd141-93d5-4249-b0a9-6a63b82b9fc4")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 64.77 67.31)
 		)
 		(stroke
 			(width 0)
@@ -689,17 +751,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 101.6) (xy 71.12 105.41)
+			(xy 78.74 110.49) (xy 81.28 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1489cda8-52ed-445a-9386-72a033c5c662")
+		(uuid "13fcf997-ed3c-48db-9fa0-e9f2f5fa98d8")
 	)
 	(wire
 		(pts
-			(xy 35.56 87.63) (xy 60.96 87.63)
+			(xy 34.29 48.26) (xy 59.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +771,27 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 73.66) (xy 96.52 73.66)
+			(xy 120.65 110.49) (xy 120.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba8a05d-49cf-4ca3-8640-a842d89f6f36")
+	)
+	(wire
+		(pts
+			(xy 78.74 99.06) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e59d94c-49a8-4bfc-9eeb-28c4665cb84a")
+	)
+	(wire
+		(pts
+			(xy 88.9 31.75) (xy 95.25 31.75)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +801,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 113.03) (xy 121.92 116.84)
+			(xy 120.65 73.66) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +811,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 101.6) (xy 96.52 101.6)
+			(xy 88.9 62.23) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 110.49 85.09)
+			(xy 102.87 45.72) (xy 109.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -749,7 +831,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 127) (xy 71.12 132.08)
+			(xy 69.85 87.63) (xy 69.85 92.71)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 127) (xy 110.49 127)
+			(xy 102.87 87.63) (xy 109.22 87.63)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +851,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 113.03) (xy 121.92 101.6)
+			(xy 120.65 73.66) (xy 120.65 62.23)
 		)
 		(stroke
 			(width 0)
@@ -779,7 +861,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 85.09) (xy 72.39 85.09)
+			(xy 69.85 45.72) (xy 71.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -789,7 +871,27 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 127) (xy 96.52 127)
+			(xy 120.65 133.35) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de91e9e-88d3-4213-9f3a-8ba99482db38")
+	)
+	(wire
+		(pts
+			(xy 102.87 133.35) (xy 109.22 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e34b7c3-9b1a-477f-843c-e1017dc9005b")
+	)
+	(wire
+		(pts
+			(xy 88.9 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -799,17 +901,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 138.43) (xy 82.55 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bb76e5b-7d91-4dfc-9d18-19d9667c6c95")
-	)
-	(wire
-		(pts
-			(xy 35.56 80.01) (xy 69.85 80.01)
+			(xy 34.29 40.64) (xy 67.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -819,7 +911,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 132.08) (xy 71.12 132.08)
+			(xy 59.69 92.71) (xy 69.85 92.71)
 		)
 		(stroke
 			(width 0)
@@ -829,7 +921,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 73.66) (xy 82.55 73.66)
+			(xy 78.74 31.75) (xy 81.28 31.75)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 90.17) (xy 121.92 90.17)
+			(xy 67.31 50.8) (xy 120.65 50.8)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +941,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 82.55) (xy 66.04 82.55)
+			(xy 57.15 138.43) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51140668-42d4-428c-b7fe-2268a80cdf44")
+	)
+	(wire
+		(pts
+			(xy 34.29 43.18) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 101.6) (xy 72.39 101.6)
+			(xy 69.85 62.23) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -869,7 +971,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 113.03) (xy 121.92 113.03)
+			(xy 116.84 73.66) (xy 120.65 73.66)
 		)
 		(stroke
 			(width 0)
@@ -879,7 +981,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 121.92 85.09)
+			(xy 69.85 67.31) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2e83ac-244b-4736-b6b7-5739437b79f7")
+	)
+	(wire
+		(pts
+			(xy 116.84 45.72) (xy 120.65 45.72)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +1001,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 127) (xy 72.39 127)
+			(xy 120.65 87.63) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3efa0a-2cbf-4a95-8e8c-41df3b010aa3")
+	)
+	(wire
+		(pts
+			(xy 69.85 87.63) (xy 71.12 87.63)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 77.47) (xy 71.12 77.47)
+			(xy 34.29 38.1) (xy 69.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 127) (xy 82.55 127)
+			(xy 78.74 87.63) (xy 81.28 87.63)
 		)
 		(stroke
 			(width 0)
@@ -919,7 +1041,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 118.11 101.6)
+			(xy 116.84 133.35) (xy 120.65 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6a11db-3652-4dfa-a125-7e0b425e10a2")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 116.84 62.23)
 		)
 		(stroke
 			(width 0)
@@ -929,17 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 127) (xy 118.11 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e51719d-2c09-4f6d-89ce-48f378d7b8d0")
-	)
-	(wire
-		(pts
-			(xy 121.92 73.66) (xy 118.11 73.66)
+			(xy 120.65 31.75) (xy 116.84 31.75)
 		)
 		(stroke
 			(width 0)
@@ -949,17 +1071,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 90.17) (xy 58.42 140.97)
+			(xy 102.87 110.49) (xy 109.22 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69517ed4-6c8e-40c0-b181-340124a8f514")
+		(uuid "6425d024-5edd-4e36-893a-12b2fb16418d")
 	)
 	(wire
 		(pts
-			(xy 80.01 113.03) (xy 82.55 113.03)
+			(xy 78.74 73.66) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -969,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 113.03) (xy 110.49 113.03)
+			(xy 102.87 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -979,7 +1101,27 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 101.6) (xy 82.55 101.6)
+			(xy 88.9 121.92) (xy 95.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841da69e-3428-4e90-b6d8-adc445e5d7cf")
+	)
+	(wire
+		(pts
+			(xy 69.85 121.92) (xy 69.85 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b0cc68-06cd-49bc-94c1-8ed43c4d9b30")
+	)
+	(wire
+		(pts
+			(xy 78.74 62.23) (xy 81.28 62.23)
 		)
 		(stroke
 			(width 0)
@@ -989,17 +1131,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 138.43) (xy 96.52 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e69995-14cb-4f40-af6f-8f4433e9b85a")
-	)
-	(wire
-		(pts
-			(xy 66.04 105.41) (xy 71.12 105.41)
+			(xy 64.77 67.31) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1009,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 116.84) (xy 63.5 85.09)
+			(xy 62.23 77.47) (xy 62.23 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1019,7 +1151,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 105.41) (xy 71.12 113.03)
+			(xy 69.85 62.23) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1029,7 +1161,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 85.09) (xy 121.92 90.17)
+			(xy 69.85 133.35) (xy 71.12 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bdd2be-8c98-44f5-b536-697080dd2a23")
+	)
+	(wire
+		(pts
+			(xy 120.65 45.72) (xy 120.65 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +1181,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 90.17) (xy 58.42 90.17)
+			(xy 116.84 121.92) (xy 120.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8c403d-23f2-47ae-97a8-74a30ca291ea")
+	)
+	(wire
+		(pts
+			(xy 34.29 50.8) (xy 57.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1049,17 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 138.43) (xy 121.92 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a37be7cf-4df9-437c-bb5f-f2e145bdaeb5")
-	)
-	(wire
-		(pts
-			(xy 71.12 77.47) (xy 71.12 85.09)
+			(xy 69.85 38.1) (xy 69.85 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1211,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 85.09) (xy 121.92 73.66)
+			(xy 116.84 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82b19e9-3206-4939-ad79-afdb58fc254a")
+	)
+	(wire
+		(pts
+			(xy 120.65 45.72) (xy 120.65 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1231,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 113.03) (xy 72.39 113.03)
+			(xy 102.87 99.06) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadc613d-bb12-488d-af80-ac089bd602b1")
+	)
+	(wire
+		(pts
+			(xy 69.85 73.66) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1089,17 +1251,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 138.43) (xy 121.92 127)
+			(xy 78.74 133.35) (xy 81.28 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab1db066-b592-4008-9121-1296940b368a")
+		(uuid "b019b2cb-25ea-4f8a-8813-d74dcc480352")
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 72.39 73.66)
+			(xy 69.85 31.75) (xy 71.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1271,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 116.84) (xy 121.92 116.84)
+			(xy 62.23 77.47) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1119,17 +1281,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 138.43) (xy 121.92 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7a0548-b271-4852-9898-ade44ff3efdd")
-	)
-	(wire
-		(pts
-			(xy 80.01 85.09) (xy 82.55 85.09)
+			(xy 78.74 45.72) (xy 81.28 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1139,7 +1291,47 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 85.09) (xy 63.5 85.09)
+			(xy 88.9 99.06) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65ce438-cacc-4cdd-984f-38166a1f12de")
+	)
+	(wire
+		(pts
+			(xy 120.65 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c694a415-3f8f-45e4-979d-a18556b42991")
+	)
+	(wire
+		(pts
+			(xy 69.85 110.49) (xy 71.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c3764a-460c-4bec-9644-a17a1c5c7c2d")
+	)
+	(wire
+		(pts
+			(xy 120.65 99.06) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8bc70a-aaf6-4291-8e0a-b09a277ac1ba")
+	)
+	(wire
+		(pts
+			(xy 34.29 45.72) (xy 62.23 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1149,17 +1341,37 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 138.43) (xy 110.49 138.43)
+			(xy 69.85 99.06) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d756d097-3aae-4cf8-ba2e-c186d5845666")
+		(uuid "dc3c8963-7cbb-49ab-a3b3-dba35ba5d059")
 	)
 	(wire
 		(pts
-			(xy 69.85 80.01) (xy 69.85 90.17)
+			(xy 69.85 121.92) (xy 71.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff1ba72-6305-4ce3-ae1a-bf8df5d8b685")
+	)
+	(wire
+		(pts
+			(xy 88.9 110.49) (xy 95.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e054f171-487a-420f-ac0b-4839401373bf")
+	)
+	(wire
+		(pts
+			(xy 67.31 40.64) (xy 67.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1381,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 71.12 77.47)
+			(xy 116.84 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f3c40e-b19c-4800-a4d1-52e9cccfe566")
+	)
+	(wire
+		(pts
+			(xy 69.85 31.75) (xy 69.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1179,17 +1401,27 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 140.97) (xy 121.92 140.97)
+			(xy 57.15 50.8) (xy 57.15 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e66df287-08e4-41e1-96e2-ae0c5560db13")
+		(uuid "e624ad72-b6c9-404d-9143-0ff5334515fc")
 	)
 	(wire
 		(pts
-			(xy 71.12 132.08) (xy 71.12 138.43)
+			(xy 88.9 133.35) (xy 95.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff83d31-2369-49a0-839a-125fcd1fff4c")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 69.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1199,7 +1431,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 96.52 85.09)
+			(xy 69.85 99.06) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e87c52-6404-46e7-9f5e-22a4a891727e")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.72) (xy 95.25 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1209,7 +1451,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 110.49 101.6)
+			(xy 102.87 121.92) (xy 109.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45258e2-fb4f-4bc1-a9d9-f982847a3c67")
+	)
+	(wire
+		(pts
+			(xy 102.87 62.23) (xy 109.22 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1219,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 113.03) (xy 96.52 113.03)
+			(xy 88.9 73.66) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1229,17 +1481,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 138.43) (xy 72.39 138.43)
+			(xy 78.74 121.92) (xy 81.28 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd3ae5fc-0bb8-42d7-8447-28190263d202")
+		(uuid "fda2dae6-9693-473a-b845-692671a01850")
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 110.49 73.66)
+			(xy 102.87 31.75) (xy 109.22 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1500,7 @@
 		(uuid "fe09e0e2-4ee6-4df6-a0d3-1f0a17b1ecb8")
 	)
 	(label "TSSI_GREEN_Cathode"
-		(at 41.91 80.01 0)
+		(at 40.64 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1258,7 +1510,7 @@
 		(uuid "102302d6-2d48-43bd-bc5d-bcd4000b55cd")
 	)
 	(label "TSSI_GREEN_Anode"
-		(at 41.91 77.47 0)
+		(at 40.64 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1268,7 +1520,7 @@
 		(uuid "2b2866bb-011d-43cc-bf4b-0b1330fd65b5")
 	)
 	(label "TSSI_RED_Cathode"
-		(at 41.91 85.09 0)
+		(at 40.64 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1278,7 +1530,7 @@
 		(uuid "2e6c50f0-3929-4c92-9a06-0b285ed6419b")
 	)
 	(label "TSSI_RED_Anode"
-		(at 41.91 82.55 0)
+		(at 40.64 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1288,7 +1540,7 @@
 		(uuid "375813f9-cbdd-46d0-8e53-ab490beeaa96")
 	)
 	(label "RTD_LED_Anode"
-		(at 41.91 87.63 0)
+		(at 40.64 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1550,7 @@
 		(uuid "9e69737e-0dfe-47f9-a18e-f9ad64ac2b6d")
 	)
 	(label "RTD_LED_Cathode"
-		(at 41.91 90.17 0)
+		(at 40.64 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1308,8 +1560,8 @@
 		(uuid "a63f53d3-27ce-4dc9-968d-86baa355ecfe")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 76.2 113.03 90)
+		(lib_id "Device:LED")
+		(at 99.06 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1318,9 +1570,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35277334-c77c-4f6d-a8f5-e503ea6c0598")
-		(property "Reference" "R4"
-			(at 76.2 106.68 90)
+		(uuid "08912708-30d1-4934-b4ef-620c2f1ad084")
+		(property "Reference" "D26"
+			(at 100.6475 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1329,8 +1581,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 76.2 109.22 90)
+		(property "Value" "LED"
+			(at 100.6475 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1339,8 +1591,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 114.808 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 99.06 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1351,7 +1603,951 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 113.03 0)
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4dec7fae-52c6-4f20-80b1-18d861297eac")
+		)
+		(pin "2"
+			(uuid "f908cb10-902e-4d66-baf9-870ac7dab255")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 99.06 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "102cf253-f0fe-4a96-b3af-768b329d3b51")
+		(property "Reference" "D23"
+			(at 100.6475 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.6475 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ffe8128-b51b-46b5-99e0-25b8da6d191b")
+		)
+		(pin "2"
+			(uuid "ac16824a-49e5-4398-901a-39b7c19eee3a")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 99.06 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16441aa8-ba58-49f2-9aa4-fa4bbf610e59")
+		(property "Reference" "D20"
+			(at 100.6475 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.6475 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41829bd8-0ca6-40b2-b7f4-a35453a05d2f")
+		)
+		(pin "2"
+			(uuid "64d39d49-f4bf-4d50-838e-92ef94376803")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 85.09 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b536f5e-b7ce-464d-a4d1-f18369e32fb3")
+		(property "Reference" "D19"
+			(at 86.6775 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 86.6775 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c62230cb-9eec-494a-aba7-3a20214c45dd")
+		)
+		(pin "2"
+			(uuid "ffd56a6b-98dd-4934-8df2-e55bb0b4d253")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276339af-f501-4a0d-92e8-e5b39445d739")
+		(property "Reference" "D27"
+			(at 114.6175 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 114.6175 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 113.03 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 113.03 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94978941-a9ee-4987-822c-d9244fd1696f")
+		)
+		(pin "2"
+			(uuid "99aaa98f-7694-4c94-8b6e-dbc60bad5dff")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "297d3572-74a2-4b61-b716-a9492650dbec")
+		(property "Reference" "D18"
+			(at 114.6175 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 114.6175 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9904d275-8e13-4d81-b227-bb45bfbdbaba")
+		)
+		(pin "2"
+			(uuid "57d1fd46-4dc8-492b-a21b-72465cab643c")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f5835db-7fc2-4a2d-a8f6-54506460c89c")
+		(property "Reference" "D15"
+			(at 114.6175 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 114.6175 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9521a39b-ccdd-4bc7-974e-da9c2ca78d99")
+		)
+		(pin "2"
+			(uuid "426277f3-477b-4e06-8bc1-937b46459bfe")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35277334-c77c-4f6d-a8f5-e503ea6c0598")
+		(property "Reference" "R4"
+			(at 74.93 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 74.93 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1362,7 +2558,51 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 113.03 0)
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 74.93 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 74.93 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1389,7 +2629,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 100.33 85.09 180)
+		(at 99.06 45.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1400,7 +2640,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b4c4873-4865-4d91-bc45-c6f38cab315d")
 		(property "Reference" "D5"
-			(at 101.9175 77.47 0)
+			(at 100.6475 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1410,7 +2650,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 101.9175 80.01 0)
+			(at 100.6475 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1419,8 +2659,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 85.09 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1431,7 +2671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 85.09 0)
+			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1442,7 +2682,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 100.33 85.09 0)
+			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1453,7 +2693,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 85.09 0)
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012UGC/25673071?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMArGGJQBwgC6hADgC5QgDKbATgJYA7AOYgAvoQBMABgBsiECkgYcBYmXCVZcOgE4mrDpG58hoiSAC0AFgVKVeQiUjldYWdISMxPoA"
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1480,7 +2764,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 86.36 113.03 180)
+		(at 85.09 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1491,7 +2775,7 @@
 		(fields_autoplaced yes)
 		(uuid "44ec8868-81e5-4b58-b6e0-4cafdc3bdd1c")
 		(property "Reference" "D8"
-			(at 87.9475 105.41 0)
+			(at 86.6775 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1501,7 +2785,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.9475 107.95 0)
+			(at 86.6775 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1510,8 +2794,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 113.03 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 85.09 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,7 +2806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 113.03 0)
+			(at 85.09 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1533,7 +2817,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 86.36 113.03 0)
+			(at 85.09 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1544,7 +2828,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 113.03 0)
+			(at 85.09 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012SURC/25673236?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMYMATABzUiEwCcArNWMyALqEAOAFyggAygIBOASwB2AcxABfQtQAMANkQgUkDDgLEyIas2ZhaEXiEHCxUuYsIBaACybtuvIRKRyptSoRuBWCgA"
+			(at 85.09 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1571,7 +2899,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 100.33 101.6 180)
+		(at 99.06 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1582,7 +2910,7 @@
 		(fields_autoplaced yes)
 		(uuid "45e828f2-de31-419d-8170-68c6a5cbd872")
 		(property "Reference" "D9"
-			(at 101.9175 93.98 0)
+			(at 100.6475 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1592,7 +2920,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 101.9175 96.52 0)
+			(at 100.6475 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1601,8 +2929,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 101.6 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 99.06 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,7 +2941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 101.6 0)
+			(at 99.06 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1624,7 +2952,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 100.33 101.6 0)
+			(at 99.06 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1635,7 +2963,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 101.6 0)
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012SURC/25673236?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMYMATABzUiEwCcArNWMyALqEAOAFyggAygIBOASwB2AcxABfQtQAMANkQgUkDDgLEyIas2ZhaEXiEHCxUuYsIBaACybtuvIRKRyptSoRuBWCgA"
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1661,179 +3033,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 76.2 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4837e0c2-30bc-4862-8bbd-d357a3ac255d")
-		(property "Reference" "R6"
-			(at 76.2 132.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 76.2 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 140.208 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "20101fca-7c61-43e1-ae82-e68ea6441ec8")
-		)
-		(pin "1"
-			(uuid "5a5f68a9-682d-4dc3-b58a-5cc4c9fa042a")
-		)
-		(instances
-			(project "tractive-system-status-indicator"
-				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b1fa8b0-f411-46c5-8cc1-bfa1ed11b00c")
-		(property "Reference" "D17"
-			(at 115.8875 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 115.8875 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 114.3 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c60fea2-6299-4cb7-ad00-2d5057dcbe40")
-		)
-		(pin "2"
-			(uuid "17bd2f01-cedb-4fd1-a75e-31c747cf9aa9")
-		)
-		(instances
-			(project "tractive-system-status-indicator"
-				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 86.36 101.6 180)
+		(at 85.09 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1844,7 +3045,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d16e5a7-c54f-4344-8670-5f3de8d9005d")
 		(property "Reference" "D7"
-			(at 87.9475 93.98 0)
+			(at 86.6775 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1854,7 +3055,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.9475 96.52 0)
+			(at 86.6775 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1863,8 +3064,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 101.6 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1875,7 +3076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 101.6 0)
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1886,7 +3087,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 86.36 101.6 0)
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1897,7 +3098,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 101.6 0)
+			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012SURC/25673236?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMYMATABzUiEwCcArNWMyALqEAOAFyggAygIBOASwB2AcxABfQtQAMANkQgUkDDgLEyIas2ZhaEXiEHCxUuYsIBaACybtuvIRKRyptSoRuBWCgA"
+			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,7 +3169,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 85.09 180)
+		(at 85.09 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1933,9 +3178,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "52186175-b106-4dde-b2fb-723d0b1b1d19")
-		(property "Reference" "D6"
-			(at 115.8875 77.47 0)
+		(uuid "4f7902d9-1ec0-4d80-9021-b8cbc28f7fa9")
+		(property "Reference" "D25"
+			(at 86.6775 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1945,7 +3190,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 115.8875 80.01 0)
+			(at 86.6775 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1954,8 +3199,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 85.09 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 85.09 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1966,7 +3211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 85.09 0)
+			(at 85.09 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +3222,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 85.09 0)
+			(at 85.09 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,7 +3233,186 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 85.09 0)
+			(at 85.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 85.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cefe808-772a-4885-8ebc-48268812789a")
+		)
+		(pin "2"
+			(uuid "2be627a4-86e9-43f2-91ed-ab767622ee1c")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52186175-b106-4dde-b2fb-723d0b1b1d19")
+		(property "Reference" "D6"
+			(at 114.6175 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 114.6175 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012UGC/25673071?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMArGGJQBwgC6hADgC5QgDKbATgJYA7AOYgAvoQBMABgBsiECkgYcBYmXCVZcOgE4mrDpG58hoiSAC0AFgVKVeQiUjldYWdISMxPoA"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2015,98 +3439,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 86.36 138.43 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52e8bf68-c8e4-45ef-9965-399fa7f83a7a")
-		(property "Reference" "D14"
-			(at 87.9475 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 87.9475 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 86.36 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a020364-35ac-49f0-ba92-dbaba038e3c8")
-		)
-		(pin "2"
-			(uuid "94fad83e-47d5-4e59-8d23-0b9cdac3fd48")
-		)
-		(instances
-			(project "tractive-system-status-indicator"
-				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 114.3 113.03 180)
+		(at 113.03 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2117,7 +3450,7 @@
 		(fields_autoplaced yes)
 		(uuid "532eb918-050f-4448-a6c7-57db488255d4")
 		(property "Reference" "D12"
-			(at 115.8875 105.41 0)
+			(at 114.6175 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2127,7 +3460,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 115.8875 107.95 0)
+			(at 114.6175 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2136,8 +3469,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 113.03 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 113.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2148,7 +3481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 113.03 0)
+			(at 113.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2159,7 +3492,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 113.03 0)
+			(at 113.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2170,7 +3503,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 113.03 0)
+			(at 113.03 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012SURC/25673236?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMYMATABzUiEwCcArNWMyALqEAOAFyggAygIBOASwB2AcxABfQtQAMANkQgUkDDgLEyIas2ZhaEXiEHCxUuYsIBaACybtuvIRKRyptSoRuBWCgA"
+			(at 113.03 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2197,7 +3574,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 86.36 127 180)
+		(at 85.09 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2208,7 +3585,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c8a9e9d-729c-406b-a5b2-a5dc5dcd403b")
 		(property "Reference" "D13"
-			(at 87.9475 119.38 0)
+			(at 86.6775 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2218,7 +3595,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.9475 121.92 0)
+			(at 86.6775 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2227,8 +3604,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 127 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 85.09 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2239,7 +3616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 127 0)
+			(at 85.09 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2250,7 +3627,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 86.36 127 0)
+			(at 85.09 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2261,7 +3638,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 127 0)
+			(at 85.09 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 85.09 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +3709,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 85.09 90)
+		(at 74.93 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2296,10 +3717,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64643ef1-d7e2-4ae6-a716-9433e2245587")
-		(property "Reference" "R2"
-			(at 76.2 78.74 90)
+		(uuid "5c8ce722-db86-46ba-98c1-17a3a8e26773")
+		(property "Reference" "R9"
+			(at 74.93 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2308,8 +3728,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 76.2 81.28 90)
+		(property "Value" "200"
+			(at 74.93 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2318,8 +3738,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 86.868 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 135.128 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,7 +3750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 85.09 0)
+			(at 74.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,7 +3761,174 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 85.09 0)
+			(at 74.93 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 74.93 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 74.93 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "524485da-c66a-4698-82cf-05c8c1334191")
+		)
+		(pin "1"
+			(uuid "af1cf630-4680-413a-8454-d5109361db03")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64643ef1-d7e2-4ae6-a716-9433e2245587")
+		(property "Reference" "R2"
+			(at 74.93 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 74.93 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 47.498 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 74.93 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 74.93 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,8 +3954,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 100.33 138.43 180)
+		(lib_id "Device:R")
+		(at 74.93 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2376,10 +3963,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64968fb5-c659-47e0-ada1-ed1698905ab9")
-		(property "Reference" "D16"
-			(at 101.9175 130.81 0)
+		(uuid "64f4ef12-60d2-4ea6-85a7-014940f2ab6f")
+		(property "Reference" "R6"
+			(at 74.93 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2388,8 +3974,8 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 101.9175 133.35 0)
+		(property "Value" "200"
+			(at 74.93 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2398,8 +3984,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 138.43 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 100.838 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,7 +3996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 138.43 0)
+			(at 74.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2420,8 +4006,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 100.33 138.43 0)
+		(property "Description" "Resistor"
+			(at 74.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,8 +4017,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 138.43 0)
+		(property "Digi PN" ""
+			(at 74.93 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2442,16 +4028,49 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "b05a5002-435d-4cb7-b779-4e915e14b8fe")
+		(property "Digi URL" ""
+			(at 74.93 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "43cff22d-0279-4b4a-9cf8-3d6e51911d7b")
+			(uuid "f2f5ad35-c4dc-4337-a322-87968d402fc2")
+		)
+		(pin "1"
+			(uuid "863b8029-2c3a-4791-850e-dff935eb7931")
 		)
 		(instances
 			(project "tractive-system-status-indicator"
 				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
-					(reference "D16")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2459,7 +4078,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 101.6 180)
+		(at 113.03 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2470,7 +4089,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dabce9b-0cb9-4c46-9490-4fcfce3d5f28")
 		(property "Reference" "D11"
-			(at 115.8875 93.98 0)
+			(at 114.6175 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2480,7 +4099,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 115.8875 96.52 0)
+			(at 114.6175 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2489,8 +4108,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 101.6 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +4120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 101.6 0)
+			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +4131,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 101.6 0)
+			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,7 +4142,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 101.6 0)
+			(at 113.03 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012SURC/25673236?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMYMATABzUiEwCcArNWMyALqEAOAFyggAygIBOASwB2AcxABfQtQAMANkQgUkDDgLEyIas2ZhaEXiEHCxUuYsIBaACybtuvIRKRyptSoRuBWCgA"
+			(at 113.03 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,8 +4212,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 30.48 85.09 180)
+		(lib_id "Device:LED")
+		(at 99.06 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2559,9 +4222,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ac3efe4-b5d8-44b0-b8d0-80768dabb850")
-		(property "Reference" "J1"
-			(at 30.48 71.12 0)
+		(uuid "6fa7c8e6-8b0a-4289-bfa2-a0b751526de4")
+		(property "Reference" "D14"
+			(at 100.6475 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2570,8 +4233,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
-			(at 30.48 73.66 0)
+		(property "Value" "LED"
+			(at 100.6475 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2580,8 +4243,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 30.48 85.09 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 99.06 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +4255,412 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 85.09 0)
+			(at 99.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 99.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "286d8a0f-6feb-4776-b739-2a4878999b09")
+		)
+		(pin "2"
+			(uuid "b1fea2a8-1949-4c29-a845-a12bf3fe4986")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7664bb64-1327-4c51-aba1-bf4fa69fcbe5")
+		(property "Reference" "D21"
+			(at 114.6175 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 114.6175 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6043341-d2d9-4b43-ad6c-b63dd59f72f4")
+		)
+		(pin "2"
+			(uuid "f1cb2aaa-bc60-4f60-8479-93882e1907e7")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 85.09 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a116c6f-9653-417a-930f-f9b1f4ce5847")
+		(property "Reference" "D16"
+			(at 86.6775 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 86.6775 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca37e59b-5c60-4b6d-800c-700e8f62a7fd")
+		)
+		(pin "2"
+			(uuid "220f3037-4017-4c3a-9279-9c3be6b7169b")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 29.21 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac3efe4-b5d8-44b0-b8d0-80768dabb850")
+		(property "Reference" "J1"
+			(at 29.21 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 29.21 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0610_1x06-1MP_P3.00mm_Horizontal"
+			(at 29.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +4671,51 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 30.48 85.09 0)
+			(at 29.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 29.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/molex/0436500612/3588693?s=N4IgTCBcDaILIHsA2BTAHgAgAwBYDMAbAKxZYECMEAugL5A"
+			(at 29.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 29.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 29.21 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,98 +4754,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 138.43 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d4ea28e-df5f-4e9d-b874-423e32552b86")
-		(property "Reference" "D18"
-			(at 115.8875 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 115.8875 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 114.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c77fb191-05ab-4464-bfd8-5327b70c53fb")
-		)
-		(pin "2"
-			(uuid "a3d88210-445c-435e-a9e5-c5c161b70bef")
-		)
-		(instances
-			(project "tractive-system-status-indicator"
-				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 114.3 73.66 180)
+		(at 113.03 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2744,7 +4765,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f678a73-af36-4725-8683-20e66d66c914")
 		(property "Reference" "D3"
-			(at 115.8875 66.04 0)
+			(at 114.6175 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2754,7 +4775,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 115.8875 68.58 0)
+			(at 114.6175 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2763,8 +4784,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 73.66 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 113.03 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +4796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 73.66 0)
+			(at 113.03 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2786,7 +4807,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 73.66 0)
+			(at 113.03 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,7 +4818,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 73.66 0)
+			(at 113.03 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012UGC/25673071?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMArGGJQBwgC6hADgC5QgDKbATgJYA7AOYgAvoQBMABgBsiECkgYcBYmXCVZcOgE4mrDpG58hoiSAC0AFgVKVeQiUjldYWdISMxPoA"
+			(at 113.03 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,8 +4888,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 76.2 73.66 90)
+		(lib_id "Device:LED")
+		(at 85.09 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2833,9 +4898,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88aedfd5-f589-4e9b-b3c3-fa7349abb5e5")
-		(property "Reference" "R1"
-			(at 76.2 67.31 90)
+		(uuid "80b9c316-06f6-44f1-997e-8cb6043af23e")
+		(property "Reference" "D22"
+			(at 86.6775 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2844,8 +4909,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 76.2 69.85 90)
+		(property "Value" "LED"
+			(at 86.6775 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2854,8 +4919,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 75.438 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 85.09 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2866,7 +4931,141 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 73.66 0)
+			(at 85.09 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 85.09 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 85.09 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59e66cf0-1674-4723-a7f4-cd42605faf45")
+		)
+		(pin "2"
+			(uuid "d5e23300-dab8-4039-9248-23944109b181")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88aedfd5-f589-4e9b-b3c3-fa7349abb5e5")
+		(property "Reference" "R1"
+			(at 74.93 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 74.93 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 33.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2877,7 +5076,51 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 73.66 0)
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 74.93 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 74.93 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2904,7 +5147,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 86.36 73.66 180)
+		(at 85.09 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2915,7 +5158,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aa15d21-89d9-408b-912b-20986258890f")
 		(property "Reference" "D1"
-			(at 87.9475 66.04 0)
+			(at 86.6775 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2925,7 +5168,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.9475 68.58 0)
+			(at 86.6775 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2934,8 +5177,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 73.66 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2946,7 +5189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 73.66 0)
+			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +5200,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 86.36 73.66 0)
+			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +5211,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 73.66 0)
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012UGC/25673071?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMArGGJQBwgC6hADgC5QgDKbATgJYA7AOYgAvoQBMABgBsiECkgYcBYmXCVZcOgE4mrDpG58hoiSAC0AFgVKVeQiUjldYWdISMxPoA"
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2995,7 +5282,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 100.33 113.03 180)
+		(at 99.06 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3006,7 +5293,7 @@
 		(fields_autoplaced yes)
 		(uuid "97b1db97-e9ad-499f-8ffd-2a6be14be163")
 		(property "Reference" "D10"
-			(at 101.9175 105.41 0)
+			(at 100.6475 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3016,7 +5303,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 101.9175 107.95 0)
+			(at 100.6475 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3025,8 +5312,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 113.03 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,7 +5324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 113.03 0)
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +5335,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 100.33 113.03 0)
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,7 +5346,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 113.03 0)
+			(at 99.06 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012SURC/25673236?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMYMATABzUiEwCcArNWMyALqEAOAFyggAygIBOASwB2AcxABfQtQAMANkQgUkDDgLEyIas2ZhaEXiEHCxUuYsIBaACybtuvIRKRyptSoRuBWCgA"
+			(at 99.06 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,8 +5416,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 76.2 127 90)
+		(lib_id "Device:LED")
+		(at 99.06 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3095,9 +5426,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb1c5f6e-cd93-4740-b179-0fcdcab17cba")
-		(property "Reference" "R5"
-			(at 76.2 120.65 90)
+		(uuid "ac3d8d0e-0c22-4f92-9775-7e5f48438893")
+		(property "Reference" "D17"
+			(at 100.6475 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3106,8 +5437,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 76.2 123.19 90)
+		(property "Value" "LED"
+			(at 100.6475 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3116,8 +5447,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 128.778 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 99.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3128,7 +5459,276 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 127 0)
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d5c0b38-343b-4a4a-a5d5-f282750895d2")
+		)
+		(pin "2"
+			(uuid "3671952d-cd03-437d-88d8-899a9995bd7d")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acfa5889-0b8e-4f4b-adcd-0d8d36e87786")
+		(property "Reference" "D24"
+			(at 114.6175 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 114.6175 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 113.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 113.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LA-A67F-AABB-24-1-30-R33-Z/2671306"
+			(at 113.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 113.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 113.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c58ba40e-f9fd-49d7-b47a-73bf5f61bd11")
+		)
+		(pin "2"
+			(uuid "5c8dd258-44b1-4cd6-b45c-fed00e4e98bf")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b79d14c9-c4e6-4b5a-97ac-a54d28ce617b")
+		(property "Reference" "R8"
+			(at 74.93 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 74.93 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 123.698 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,7 +5739,297 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 127 0)
+			(at 74.93 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 74.93 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 74.93 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0414cb9a-cb2f-4537-88df-f250dec76ce6")
+		)
+		(pin "1"
+			(uuid "ba223996-6589-4904-89af-0e90eaeeb810")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba585b93-258b-48e9-bc2d-5c5402c9dcae")
+		(property "Reference" "R7"
+			(at 74.93 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 74.93 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 112.268 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 74.93 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 74.93 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "013a91a8-4f05-45b8-b964-d8c2d82a2fc1")
+		)
+		(pin "1"
+			(uuid "57f0359f-8616-4ae7-9e4e-551ca7359ebe")
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb1c5f6e-cd93-4740-b179-0fcdcab17cba")
+		(property "Reference" "R5"
+			(at 74.93 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 74.93 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 89.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 74.93 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 74.93 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3166,7 +6056,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 101.6 90)
+		(at 74.93 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3174,10 +6064,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c3aeadf8-8a91-440a-ad54-b20802bc0399")
 		(property "Reference" "R3"
-			(at 76.2 95.25 90)
+			(at 74.93 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3186,8 +6075,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 76.2 97.79 90)
+		(property "Value" "360"
+			(at 74.93 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3196,8 +6085,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 103.378 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 64.008 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +6097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 101.6 0)
+			(at 74.93 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,7 +6108,51 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 101.6 0)
+			(at 74.93 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 74.93 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +6179,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 86.36 85.09 180)
+		(at 85.09 45.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3257,7 +6190,7 @@
 		(fields_autoplaced yes)
 		(uuid "eca6688c-870f-4285-8cf3-c6112570c115")
 		(property "Reference" "D4"
-			(at 87.9475 77.47 0)
+			(at 86.6775 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3267,7 +6200,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.9475 80.01 0)
+			(at 86.6775 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3276,8 +6209,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 85.09 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,7 +6221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 85.09 0)
+			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +6232,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 86.36 85.09 0)
+			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +6243,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 85.09 0)
+			(at 85.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 85.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012UGC/25673071?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMArGGJQBwgC6hADgC5QgDKbATgJYA7AOYgAvoQBMABgBsiECkgYcBYmXCVZcOgE4mrDpG58hoiSAC0AFgVKVeQiUjldYWdISMxPoA"
+			(at 85.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 85.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3337,98 +6314,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 100.33 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7e79c2b-84e8-4e40-b5f1-0da0eed05235")
-		(property "Reference" "D15"
-			(at 101.9175 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 101.9175 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 100.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea6e2cca-1d25-4675-bd73-526575a5b80c")
-		)
-		(pin "2"
-			(uuid "b568059a-fe0b-4e19-9d24-049a6d0d6a49")
-		)
-		(instances
-			(project "tractive-system-status-indicator"
-				(path "/481a8196-5518-48e9-8da8-97983bbbc473"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 100.33 73.66 180)
+		(at 99.06 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3439,7 +6325,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff3f6efc-b385-4f18-9c2a-cd5de4269465")
 		(property "Reference" "D2"
-			(at 101.9175 66.04 0)
+			(at 100.6475 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3449,7 +6335,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 101.9175 68.58 0)
+			(at 100.6475 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3458,8 +6344,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 73.66 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3470,7 +6356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 73.66 0)
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +6367,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 100.33 73.66 0)
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,7 +6378,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 73.66 0)
+			(at 99.06 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 99.06 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/xinglight/XL-TD2012UGC/25673071?s=N4IgjCBcoMwOxVAYygMwIYBsDOBTANCAPZQDaIMArGGJQBwgC6hADgC5QgDKbATgJYA7AOYgAvoQBMABgBsiECkgYcBYmXCVZcOgE4mrDpG58hoiSAC0AFgVKVeQiUjldYWdISMxPoA"
+			(at 99.06 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 99.06 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
