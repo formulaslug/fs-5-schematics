@@ -196,6 +196,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.254,
         0.4,
         0.8,
         1.6
@@ -249,7 +250,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.00"
+      "sch_revision": "${REVISION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -544,7 +545,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://FS_Drawing_Sheet_ANSI_B.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -563,7 +564,109 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Value",
+            "name": "Value",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Do Not Place",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Name",
+            "name": "Name",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Digikey Part Number",
+            "name": "Digikey Part Number",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer Part Number",
+            "name": "Manufacturer Part Number",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Digikey Link",
+            "name": "Digikey Link",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": true,
+        "name": "Digikey Export",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -589,19 +692,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -629,33 +732,57 @@
         },
         {
           "group_by": false,
+          "label": "MFG PN",
+          "name": "MFG PN",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
         },
         {
           "group_by": false,
+          "label": "Digikey Part Number",
+          "name": "Digikey Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey URL",
+          "name": "Digikey URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Digi PN",
           "name": "Digi PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Digi URL",
           "name": "Digi URL",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MFG PN",
-          "name": "MFG PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "MFG",
           "name": "MFG",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
@@ -672,11 +799,32 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Digikey Part Number",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Digikey URL",
+          "url": true,
+          "visible": false
+        },
+        {
+          "name": "Manufacturer",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Manufacturer Part Number",
+          "url": false,
+          "visible": false
+        }
+      ],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
+      "intersheets_ref_short": true,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
@@ -695,7 +843,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://FS_Drawing_Sheet_ANSI_B.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -710,20 +858,26 @@
     "top_level_sheets": [
       {
         "filename": "tractive-system-status-indicator.kicad_sch",
-        "name": "",
-        "uuid": "481a8196-5518-48e9-8da8-97983bbbc473"
+        "name": "tractive-system-status-indicator",
+        "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
-    "used_designators": "D1-40,R1-18,J1",
+    "used_designators": "J1,R1-9,D1-29",
     "variants": []
   },
   "sheets": [
     [
-      "481a8196-5518-48e9-8da8-97983bbbc473",
-      ""
+      "e994741c-7c7d-4124-9d00-43b883baa61d",
+      "tractive-system-status-indicator"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "BOARD_TITLE": "TSSI PCB",
+    "COMMENT1": "",
+    "NAMES": "SULTAN SHEIKH",
+    "REVISION": "1.00",
+    "UPDATE_DATE": "2026/7/24"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
