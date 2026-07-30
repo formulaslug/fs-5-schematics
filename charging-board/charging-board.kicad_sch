@@ -5331,35 +5331,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Relay_SPDT"
+		(symbol "Relay:Relay_SPST-NO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
+			(property "Reference" "K1"
+				(at 2.286 -6.858 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Relay_SPDT"
-				(at 11.43 1.27 0)
+			(property "Value" "Relay_SPST_NO"
+				(at -0.254 -12.446 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "formula_slug_footprint_library:RELAY_PR30-12V-450-1A-E"
 				(at 11.43 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5382,7 +5380,7 @@
 					)
 				)
 			)
-			(property "Description" "Relay SPDT, monostable, EN50005"
+			(property "Description" "Relay SPST, normally open, EN50005"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5393,7 +5391,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
+			(property "Digikey Part Number" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5404,7 +5402,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPDT*"
+			(property "Digikey URL" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5415,7 +5413,51 @@
 					)
 				)
 			)
-			(symbol "Relay_SPDT_0_0"
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Relay?SPST*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Relay_SPST-NO_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -5429,7 +5471,7 @@
 					)
 				)
 			)
-			(symbol "Relay_SPDT_0_1"
+			(symbol "Relay_SPST-NO_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -5538,18 +5580,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy 3.175 0) (xy 3.81 0)
 					)
 					(stroke
@@ -5585,7 +5615,7 @@
 					)
 				)
 			)
-			(symbol "Relay_SPDT_1_1"
+			(symbol "Relay_SPST-NO_1_1"
 				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
@@ -5596,25 +5626,7 @@
 							)
 						)
 					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5632,7 +5644,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6924,6 +6936,12 @@
 		(uuid "1e3b3f01-3678-4657-9b5a-86ea4af90b47")
 	)
 	(junction
+		(at 114.3 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21a80676-5576-40dc-babb-8632d2bf9ff5")
+	)
+	(junction
 		(at 33.02 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7430,16 +7448,6 @@
 			(type default)
 		)
 		(uuid "1788204f-fc86-4e2f-a5b1-e6346c141674")
-	)
-	(wire
-		(pts
-			(xy 137.16 166.37) (xy 144.78 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190c60d9-c2c0-4b46-be30-a6b45a9dd49d")
 	)
 	(wire
 		(pts
@@ -8123,16 +8131,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 149.86) (xy 149.86 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7174c447-0399-4eb5-b859-bb79a59625ff")
-	)
-	(wire
-		(pts
 			(xy 57.15 153.67) (xy 58.42 153.67)
 		)
 		(stroke
@@ -8370,16 +8368,6 @@
 			(type default)
 		)
 		(uuid "89897d0d-3ab0-440d-9c74-aa2ef1dec079")
-	)
-	(wire
-		(pts
-			(xy 144.78 166.37) (xy 144.78 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3ee563-c581-4e39-87fb-b18e9d6731f6")
 	)
 	(wire
 		(pts
@@ -8680,6 +8668,16 @@
 			(type default)
 		)
 		(uuid "b537f964-ec67-46eb-bb8b-c284ddcf7cf3")
+	)
+	(wire
+		(pts
+			(xy 114.3 149.86) (xy 149.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6102055-535a-48d8-b514-681c501fb25c")
 	)
 	(wire
 		(pts
@@ -18248,7 +18246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Relay_SPDT")
+		(lib_id "Relay:Relay_SPST-NO")
 		(at 129.54 168.91 270)
 		(mirror x)
 		(unit 1)
@@ -18269,8 +18267,8 @@
 				)
 			)
 		)
-		(property "Value" "Relay_SPDT"
-			(at 118.618 169.164 90)
+		(property "Value" "Relay_SPST_NO"
+			(at 117.094 169.164 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18279,7 +18277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "formula_slug_footprint_library:RELAY_PR30-12V-450-1A-E"
 			(at 128.27 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -18302,7 +18300,7 @@
 				)
 			)
 		)
-		(property "Description" "Relay SPDT, monostable, EN50005"
+		(property "Description" "Relay SPST, normally open, EN50005"
 			(at 129.54 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -18313,14 +18311,55 @@
 				)
 			)
 		)
-		(pin "11"
+		(property "Digikey Part Number" ""
+			(at 129.54 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 129.54 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 129.54 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 129.54 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
 			(uuid "125be3bd-921f-4d81-97a0-ef05261aef25")
 		)
-		(pin "14"
+		(pin "5"
 			(uuid "29c0a509-d6da-4308-b961-d0304b415670")
-		)
-		(pin "12"
-			(uuid "028b8419-7211-4800-8659-806cb7663a86")
 		)
 		(pin "A2"
 			(uuid "d3b7d8a1-398d-48d8-a108-b50c9006bb43")
