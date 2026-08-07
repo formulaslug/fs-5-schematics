@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -116,9 +110,9 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -146,22 +140,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.2,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.5,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.09,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.25,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -177,7 +171,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -188,7 +182,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -199,7 +193,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -209,13 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.4,
-        0.8,
-        1.6
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -242,20 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.25,
-          "drill": 0.15
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.5
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -265,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "${REVISION}"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -474,7 +449,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -492,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -511,19 +485,17 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "formula_slug_symbol_library"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "template.kicad_pro",
+    "filename": "tractive-system-status-indicator.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -536,8 +508,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -550,17 +522,14 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://FS_Drawing_Sheet_ANSI_B.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -579,109 +548,7 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [
-      {
-        "exclude_dnp": false,
-        "fields_ordered": [
-          {
-            "group_by": false,
-            "label": "Reference",
-            "name": "Reference",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Value",
-            "name": "Value",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "Datasheet",
-            "name": "Datasheet",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "Footprint",
-            "name": "Footprint",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "Do Not Place",
-            "name": "${DNP}",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "Exclude from BOM",
-            "name": "${EXCLUDE_FROM_BOM}",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "Exclude from Board",
-            "name": "${EXCLUDE_FROM_BOARD}",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "Exclude from Simulation",
-            "name": "${EXCLUDE_FROM_SIM}",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "Name",
-            "name": "Name",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Digikey Part Number",
-            "name": "Digikey Part Number",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Manufacturer Part Number",
-            "name": "Manufacturer Part Number",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Description",
-            "name": "Description",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "#",
-            "name": "${ITEM_NUMBER}",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "Digikey Link",
-            "name": "Digikey Link",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Qty",
-            "name": "${QUANTITY}",
-            "show": false
-          }
-        ],
-        "filter_string": "",
-        "group_symbols": true,
-        "include_excluded_from_bom": true,
-        "name": "Digikey Export",
-        "sort_asc": true,
-        "sort_field": "Reference"
-      }
-    ],
+    "bom_presets": [],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -723,6 +590,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -732,24 +611,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -760,32 +627,11 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [
-        {
-          "name": "Digikey Part Number",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "Digikey URL",
-          "url": true,
-          "visible": false
-        },
-        {
-          "name": "Manufacturer",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "Manufacturer Part Number",
-          "url": false,
-          "visible": false
-        }
-      ],
+      "field_names": [],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": true,
+      "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
@@ -803,42 +649,23 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://FS_Drawing_Sheet_ANSI_B.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "template.kicad_sch",
-        "name": "",
-        "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
+        "filename": "tractive-system-status-indicator.kicad_sch",
+        "name": "tractive-system-status-indicator",
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "R1",
+    "used_designators": "",
     "variants": []
   },
-  "sheets": [
-    [
-      "e994741c-7c7d-4124-9d00-43b883baa61d",
-      ""
-    ]
-  ],
-  "text_variables": {
-    "BOARD_TITLE": "[BOARD TITLE]",
-    "COMMENT1": "[COMMENT]",
-    "NAMES": "[NAMES]",
-    "REVISION": "[REVISION]",
-    "UPDATE_DATE": "[UDPATE DATE]"
-  },
+  "sheets": [],
+  "text_variables": {},
   "tuning_profiles": {
     "meta": {
       "version": 0
