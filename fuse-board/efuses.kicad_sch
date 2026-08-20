@@ -1022,6 +1022,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "U4 PEB / U6 Telemetry / U7 TBB (7A to emulate a 5A blade):\nR_ILIM = 210 Ω → I_LIM = 1460/210 + 0.11 = 7.0 A\nR_IMON = 1.91 kΩ → V_IMON @ 7 A = 7 × 1.91k × 243 µA/A ≈ 3.25 V\nC_ITIMER / C_dVdt = open (max slew)\n\nU5 Shutdown / U8 Inverter / U9 VCU (13A to emulate a 10A blade):\nR_ILIM = 113 Ω → I_LIM = 1460/113 + 0.11 = 13.0 A\nR_IMON = 1.05 kΩ → V_IMON @ 13 A = 13 × 1.05k × 243 µA/A ≈ 3.26 V\nC_ITIMER = 1 nF → t_ITIMER = 0.47 ms\nC_dVdt = 1 nF → SR ≈ 4.6 V/ms (turn-on ~2.6 ms @ 12 V)"
+		(exclude_from_sim no)
+		(at 194.564 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b3aa40b-2067-4c77-a9d3-1772790df34a")
+	)
 	(junction
 		(at 146.05 60.96)
 		(diameter 0)
@@ -4777,7 +4788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5458/CL10B105KB9VPJC_Spec.pdf"
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4799,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-3484-1-ND"
+		(property "Digi PN" ""
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4810,7 +4821,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4821,7 +4832,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603JRX7R6BB105"
+		(property "MFG PN" ""
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4832,7 +4843,7 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603JRX7R6BB105/7164368"
+		(property "Digi URL" ""
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4887,7 +4898,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4920,7 +4931,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "1276-CL10B105KB9VPJCCT-ND"
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4931,7 +4942,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4942,7 +4953,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B105KB9VPJC"
 			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5321,7 +5332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "536"
+		(property "Value" "210"
 			(at 68.58 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5963,7 +5974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "280"
+		(property "Value" "113"
 			(at 158.75 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,7 +6325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5458/CL10B105KB9VPJC_Spec.pdf"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6336,7 +6347,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-3484-1-ND"
+		(property "Digi PN" ""
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6347,7 +6358,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6358,7 +6369,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603JRX7R6BB105"
+		(property "MFG PN" ""
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6369,7 +6380,7 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603JRX7R6BB105/7164368"
+		(property "Digi URL" ""
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6435,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6457,7 +6468,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "1276-CL10B105KB9VPJCCT-ND"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6468,7 +6479,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6479,7 +6490,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B105KB9VPJC"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6966,7 +6977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12.1k"
+		(property "Value" "1.91k"
 			(at 78.74 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +7229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12.1k"
+		(property "Value" "1.91k"
 			(at 86.36 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7675,7 +7686,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5458/CL10B105KB9VPJC_Spec.pdf"
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7697,7 +7708,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-3484-1-ND"
+		(property "Digi PN" ""
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7708,7 +7719,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7719,7 +7730,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603JRX7R6BB105"
+		(property "MFG PN" ""
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7741,7 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603JRX7R6BB105/7164368"
+		(property "Digi URL" ""
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7785,7 +7796,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7818,7 +7829,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "1276-CL10B105KB9VPJCCT-ND"
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7829,7 +7840,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7840,7 +7851,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B105KB9VPJC"
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8093,7 +8104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.04k"
+		(property "Value" "1.05k"
 			(at 167.64 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8733,7 +8744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "536"
+		(property "Value" "210"
 			(at 68.58 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8859,7 +8870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.04k"
+		(property "Value" "1.05k"
 			(at 168.91 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9265,7 +9276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "280"
+		(property "Value" "113"
 			(at 157.48 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9673,7 +9684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "280"
+		(property "Value" "113"
 			(at 157.48 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9820,7 +9831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5458/CL10B105KB9VPJC_Spec.pdf"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9842,7 +9853,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-3484-1-ND"
+		(property "Digi PN" ""
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +9864,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9864,7 +9875,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603JRX7R6BB105"
+		(property "MFG PN" ""
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9875,7 +9886,7 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603JRX7R6BB105/7164368"
+		(property "Digi URL" ""
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9930,7 +9941,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9963,7 +9974,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "1276-CL10B105KB9VPJCCT-ND"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9974,7 +9985,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9985,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B105KB9VPJC"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10034,7 +10045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12.1k"
+		(property "Value" "1.91k"
 			(at 78.74 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10461,7 +10472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5458/CL10B105KB9VPJC_Spec.pdf"
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10483,7 +10494,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-3484-1-ND"
+		(property "Digi PN" ""
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10494,7 +10505,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10505,7 +10516,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603JRX7R6BB105"
+		(property "MFG PN" ""
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10516,7 +10527,7 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603JRX7R6BB105/7164368"
+		(property "Digi URL" ""
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10571,7 +10582,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10604,7 +10615,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "1276-CL10B105KB9VPJCCT-ND"
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10615,7 +10626,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10626,7 +10637,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B105KB9VPJC"
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10829,7 +10840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "536"
+		(property "Value" "210"
 			(at 76.2 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10955,7 +10966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.04k"
+		(property "Value" "1.05k"
 			(at 167.64 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11228,7 +11239,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5458/CL10B105KB9VPJC_Spec.pdf"
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11250,7 +11261,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-3484-1-ND"
+		(property "Digi PN" ""
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11261,7 +11272,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11283,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603JRX7R6BB105"
+		(property "MFG PN" ""
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11283,7 +11294,7 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603JRX7R6BB105/7164368"
+		(property "Digi URL" ""
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11338,7 +11349,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11371,7 +11382,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "1276-CL10B105KB9VPJCCT-ND"
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11382,7 +11393,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11393,7 +11404,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B105KB9VPJC"
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)

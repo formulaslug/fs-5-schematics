@@ -1314,6 +1314,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -4024,7 +4190,7 @@
 		(uuid "226c55d2-20cc-4384-b126-73d8603b0de0")
 	)
 	(junction
-		(at 194.31 67.31)
+		(at 191.77 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a3a0e55-d8cf-4292-9032-ccade298a891")
@@ -4106,6 +4272,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be88102-52c9-409b-93de-63ea39b63704")
+	)
+	(junction
+		(at 256.54 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d586751-6685-48b0-9c1a-c884db94e203")
 	)
 	(junction
 		(at 85.09 64.77)
@@ -4270,6 +4442,12 @@
 		(uuid "bb0e7365-018b-42d8-8fb5-8df242f3a9ed")
 	)
 	(junction
+		(at 199.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd6d05c0-a0d2-4e83-92d8-f953a7fb9a85")
+	)
+	(junction
 		(at 105.41 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4286,12 +4464,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e29b12d5-445b-4ce4-9f7c-368269eb94a5")
-	)
-	(junction
-		(at 260.35 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e313db6e-8054-495b-ae8d-80ca2f40674a")
 	)
 	(junction
 		(at 255.27 104.14)
@@ -4312,22 +4484,28 @@
 		(uuid "e7a5a8f2-fa3b-4194-85b5-520bdea413c5")
 	)
 	(junction
+		(at 260.35 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f74fdd93-35ae-48b7-b565-3997079d4580")
+	)
+	(junction
 		(at 90.17 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f91d7b6c-d20f-4a5d-b2d3-aef9290ee0c9")
 	)
 	(junction
-		(at 251.46 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f935346b-b4c1-43d8-af61-49b67b638981")
-	)
-	(junction
 		(at 267.97 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb090991-d524-4db6-b505-2de992d54086")
+	)
+	(junction
+		(at 248.92 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb40c7be-3b4d-4220-84cf-21722fbe9ea6")
 	)
 	(junction
 		(at 217.17 96.52)
@@ -4357,16 +4535,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 41.91) (xy 260.35 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00d13801-5ad5-4218-bbbb-0c76c7683c94")
-	)
-	(wire
-		(pts
 			(xy 223.52 104.14) (xy 229.87 104.14)
 		)
 		(stroke
@@ -4377,7 +4545,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 67.31) (xy 194.31 72.39)
+			(xy 191.77 69.85) (xy 191.77 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4397,7 +4565,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 38.1) (xy 163.83 67.31)
+			(xy 161.29 38.1) (xy 161.29 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4767,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 67.31) (xy 251.46 72.39)
+			(xy 248.92 69.85) (xy 248.92 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4827,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 38.1) (xy 193.04 38.1)
+			(xy 161.29 38.1) (xy 193.04 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5167,7 +5335,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 67.31) (xy 184.15 67.31)
+			(xy 161.29 69.85) (xy 181.61 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5267,7 +5435,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 67.31) (xy 198.12 67.31)
+			(xy 191.77 69.85) (xy 199.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5497,7 +5665,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 67.31) (xy 255.27 67.31)
+			(xy 248.92 69.85) (xy 256.54 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5554,6 +5722,16 @@
 			(type default)
 		)
 		(uuid "a7879e77-a7ef-4f1a-9bf8-cac4f3785213")
+	)
+	(wire
+		(pts
+			(xy 256.54 69.85) (xy 261.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87e9293-e1c9-4e99-8aa0-bb152fdaf617")
 	)
 	(wire
 		(pts
@@ -5667,7 +5845,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 67.31) (xy 251.46 67.31)
+			(xy 246.38 69.85) (xy 248.92 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5917,7 +6095,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 67.31) (xy 241.3 67.31)
+			(xy 237.49 69.85) (xy 238.76 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6077,6 +6255,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 69.85) (xy 203.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf226f4-cf79-419e-b6ed-e0ab4941c4eb")
+	)
+	(wire
+		(pts
 			(xy 111.76 82.55) (xy 114.3 82.55)
 		)
 		(stroke
@@ -6097,7 +6285,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 67.31) (xy 194.31 67.31)
+			(xy 189.23 69.85) (xy 191.77 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6907,7 +7095,7 @@
 	)
 	(global_label "ADC_MUXED_IMON"
 		(shape output)
-		(at 198.12 67.31 0)
+		(at 203.2 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6917,7 +7105,7 @@
 		)
 		(uuid "59ca80e4-471c-4849-9413-501927df9758")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.7966 67.31 0)
+			(at 222.8766 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7575,7 @@
 	)
 	(global_label "ADC_Shutdn_IMON"
 		(shape output)
-		(at 255.27 67.31 0)
+		(at 261.62 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7397,7 +7585,7 @@
 		)
 		(uuid "b7e9f316-fdb4-4504-aac6-b0b502cc1e4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0674 67.31 0)
+			(at 281.4174 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +7743,7 @@
 	)
 	(hierarchical_label "Shutdn_IMON"
 		(shape input)
-		(at 240.03 67.31 180)
+		(at 237.49 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7853,7 +8041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 41.91 0)
+		(at 260.35 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7864,7 +8052,7 @@
 		(fields_autoplaced yes)
 		(uuid "00399559-5d3d-4fff-90fd-8ed16ea5c38d")
 		(property "Reference" "#PWR071"
-			(at 260.35 48.26 0)
+			(at 260.35 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7875,7 +8063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 46.99 0)
+			(at 260.35 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7885,7 +8073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 41.91 0)
+			(at 260.35 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +8084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 41.91 0)
+			(at 260.35 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,7 +8095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 41.91 0)
+			(at 260.35 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8008,6 +8196,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 260.35 36.83 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01dcf94a-2db6-4e94-8561-16c80a996f44")
+		(property "Reference" "C50"
+			(at 265.938 36.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 264.668 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 261.3152 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" ""
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" ""
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" ""
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 260.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7f7224ff-1cdf-4b3d-beb3-6d631fa826ad")
+		)
+		(pin "1"
+			(uuid "e99eba69-ebb8-4dc4-9342-b59ff0fda19e")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:Inolux_IN-PI554FCH")
 		(at 247.65 144.78 180)
 		(unit 1)
@@ -8050,7 +8408,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
 			(at 245.11 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -8063,6 +8421,50 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 247.65 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1830-1106-1-ND"
+			(at 247.65 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/inolux/IN-PI554FCH/7604874?s=N4IgTCBcDaIJIDsD2AbArgDwARwHIFoAFOAVhIBYAxAYQAkQBdAXyA"
+			(at 247.65 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 247.65 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IN-PI554FCH"
 			(at 247.65 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8096,7 +8498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 80.01 0)
+		(at 248.92 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8107,7 +8509,7 @@
 		(fields_autoplaced yes)
 		(uuid "04651c28-d9ca-43d3-9590-f5d33dcdc21e")
 		(property "Reference" "#PWR073"
-			(at 251.46 86.36 0)
+			(at 248.92 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,7 +8520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 85.09 0)
+			(at 248.92 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8128,7 +8530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 80.01 0)
+			(at 248.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8139,7 +8541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 80.01 0)
+			(at 248.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8150,7 +8552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 80.01 0)
+			(at 248.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8239,7 +8641,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "1276-CL10A106KO8NQNCCT-ND"
+		(property "Digi PN" ""
 			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8250,7 +8652,7 @@
 				)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" ""
 			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8261,7 +8663,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CL10A106KO8NQNC"
+		(property "MFG PN" ""
 			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8272,7 +8674,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KO8NQNC/10479038"
+		(property "Digi URL" ""
+			(at 90.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1276-CL10A106KO8NQNCCT-ND"
+			(at 90.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KO8NQNC/10479038"
+			(at 90.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 90.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A106KO8NQNC"
 			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8440,7 +8886,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "XC3063CT-ND"
+		(property "Digi PN" ""
 			(at 49.53 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8451,7 +8897,7 @@
 				)
 			)
 		)
-		(property "MFG" "ECS"
+		(property "MFG" ""
 			(at 49.53 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8462,7 +8908,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "ECS-240-8-37B-CKY-TR"
+		(property "MFG PN" ""
 			(at 49.53 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +8919,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/ecs-inc/ECS-240-8-37B-CKY-TR/9838850"
+		(property "Digi URL" ""
+			(at 49.53 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECS"
+			(at 49.53 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ECS-240-8-37B-CKY-TR"
+			(at 49.53 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "XC3063CT-ND"
+			(at 49.53 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/ecs-inc/ECS-240-8-37B-CKY-TR/9838850"
 			(at 49.53 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -8735,7 +9225,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8746,7 +9236,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8757,7 +9247,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8768,7 +9258,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +9392,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "FTSH-107-01-F-DV-K-P-TR"
+		(property "MFG PN" ""
 			(at 48.26 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8869,7 +9403,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "SAM13170CT-ND"
+		(property "Digi PN" ""
 			(at 48.26 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8880,7 +9414,7 @@
 				)
 			)
 		)
-		(property "MFG" "Samtec Inc."
+		(property "MFG" ""
 			(at 48.26 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8891,7 +9425,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/samtec-inc/FTSH-107-01-F-DV-K-P-TR/6693677"
+		(property "Digi URL" ""
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "FTSH-107-01-F-DV-K-P-TR"
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "SAM13170CT-ND"
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samtec-inc/FTSH-107-01-F-DV-K-P-TR/6693677"
 			(at 48.26 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9157,7 +9735,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 251.46 76.2 0)
+		(at 248.92 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9165,10 +9743,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24fbfb81-0c01-4dca-9e15-808676057caf")
 		(property "Reference" "C52"
-			(at 255.27 74.9299 0)
+			(at 239.268 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9179,7 +9756,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 255.27 77.4699 0)
+			(at 239.268 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9190,7 +9767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.4252 80.01 0)
+			(at 249.8852 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9201,7 +9778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 76.2 0)
+			(at 248.92 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9212,7 +9789,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.46 76.2 0)
+			(at 248.92 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9304,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 261.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9315,7 +9892,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 261.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9326,7 +9903,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 261.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +9914,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 261.62 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 261.62 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 261.62 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 261.62 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 261.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9592,7 +10213,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 229.87 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9603,7 +10224,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 229.87 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9614,7 +10235,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 229.87 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9625,7 +10246,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 229.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 229.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 229.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 229.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 229.87 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9716,7 +10381,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 66.04 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9727,7 +10392,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 66.04 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9738,7 +10403,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 66.04 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9749,7 +10414,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 66.04 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 66.04 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 66.04 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 66.04 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 66.04 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -9842,7 +10551,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 105.41 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +10562,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 105.41 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9864,7 +10573,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 105.41 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9875,7 +10584,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 105.41 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 105.41 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 105.41 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 105.41 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 105.41 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9974,132 +10727,6 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "331389c8-c741-4de8-af00-d5019d15d65b")
-		(property "Reference" "R1"
-			(at 78.74 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 78.74 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 74.422 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 76.2 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "311-10KLDCT-ND"
-			(at 76.2 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 76.2 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "AC0603FR-0710KL"
-			(at 76.2 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
-			(at 76.2 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f95e275b-cf79-4dc3-ab04-8cac41bbc275")
-		)
-		(pin "1"
-			(uuid "a8dbf5ce-e039-49e7-b7c0-0a471ddf803d")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10250,7 +10877,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 223.52 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10261,7 +10888,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 223.52 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10272,7 +10899,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 223.52 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10283,7 +10910,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 223.52 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10373,7 +11044,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-3874-1-ND"
+		(property "Digi PN" ""
 			(at 38.1 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10384,7 +11055,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 38.1 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10395,7 +11066,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603DRNPO9BN6R8"
+		(property "MFG PN" ""
 			(at 38.1 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10406,7 +11077,62 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
+		(property "Digi URL" ""
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-3874-1-ND"
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603DRNPO9BN6R8"
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
 			(at 38.1 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -10466,7 +11192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 126.492 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -10477,7 +11203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 128.27 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10489,6 +11215,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 128.27 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 128.27 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 128.27 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 128.27 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +11327,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
 			(at 270.51 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -10570,6 +11340,50 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 267.97 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1830-1106-1-ND"
+			(at 267.97 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/inolux/IN-PI554FCH/7604874?s=N4IgTCBcDaIJIDsD2AbArgDwARwHIFoAFOAVhIBYAxAYQAkQBdAXyA"
+			(at 267.97 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 267.97 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IN-PI554FCH"
 			(at 267.97 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10596,6 +11410,129 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 256.54 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4230d190-e03b-425a-94cc-eb1560af5ac0")
+		(property "Reference" "D16"
+			(at 263.144 62.484 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 263.144 65.024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4d0af07-54fa-4070-8296-44c868db38c5")
+		)
+		(pin "2"
+			(uuid "7de771a2-a439-4a90-a2db-ce7590c1d6d7")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -10751,6 +11688,84 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47dd8aad-f3f7-48a6-b35a-cd8b9749d415")
+		(property "Reference" "#PWR0103"
+			(at 199.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ef6be2e-de56-4b8c-8244-28430d6dcf94")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -11186,7 +12201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 126.492 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -11197,7 +12212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 128.27 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11209,6 +12224,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 128.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 128.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 128.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 128.27 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11301,7 +12360,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11312,7 +12371,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11323,7 +12382,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11334,7 +12393,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 210.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 210.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 210.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 210.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11427,7 +12530,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 248.92 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11438,7 +12541,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 248.92 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11449,7 +12552,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 248.92 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11460,7 +12563,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 248.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 248.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 248.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 248.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 248.92 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11762,7 +12909,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11773,7 +12920,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11784,7 +12931,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11795,7 +12942,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12002,7 +13193,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
+		(property "Manufacturer_Name" ""
 			(at 217.17 727.94 0)
 			(hide yes)
 			(show_name no)
@@ -12014,7 +13205,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TMUX1308QPWRQ1"
+		(property "Manufacturer_Part_Number" ""
 			(at 217.17 827.94 0)
 			(hide yes)
 			(show_name no)
@@ -12024,6 +13215,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 193.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMUX1308QPWRQ1"
+			(at 193.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -12085,7 +13298,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 245.11 67.31 90)
+		(at 242.57 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12096,7 +13309,7 @@
 		(fields_autoplaced yes)
 		(uuid "659abed0-27ea-480b-825f-c7088776afe9")
 		(property "Reference" "R21"
-			(at 245.11 60.96 90)
+			(at 242.57 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12106,7 +13319,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 245.11 63.5 90)
+			(at 242.57 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12116,7 +13329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 69.088 90)
+			(at 242.57 71.628 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12127,7 +13340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 67.31 0)
+			(at 242.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12138,7 +13351,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 245.11 67.31 0)
+			(at 242.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12253,7 +13466,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 67.31 90)
+		(at 185.42 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12264,7 +13477,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aa3987a-9725-45e1-889a-c0035775597a")
 		(property "Reference" "R20"
-			(at 187.96 60.96 90)
+			(at 185.42 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12274,7 +13487,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 187.96 63.5 90)
+			(at 185.42 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12284,7 +13497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 69.088 90)
+			(at 185.42 71.628 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12295,7 +13508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 67.31 0)
+			(at 185.42 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12306,7 +13519,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 67.31 0)
+			(at 185.42 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12404,6 +13617,129 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 256.54 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d096d41-6a98-478b-9dae-6e12977dd35e")
+		(property "Reference" "D17"
+			(at 263.144 73.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 263.144 75.946 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f62a6b6-cc39-4826-9dfc-bc9d848234d7")
+		)
+		(pin "2"
+			(uuid "96255dfe-0ed2-4def-8c7b-fc9636b42810")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -12792,7 +14128,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "4816-FCM1608KF-601T03CT-ND"
+		(property "Digi PN" ""
 			(at 109.22 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12803,7 +14139,7 @@
 				)
 			)
 		)
-		(property "MFG" "TAI-TECH Advanced Electronics Co., Ltd."
+		(property "MFG" ""
 			(at 109.22 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12814,7 +14150,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "FCM 1608KF-601T03"
+		(property "MFG PN" ""
 			(at 109.22 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12825,7 +14161,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/tai-tech-advanced-electronics-co-ltd/FCM-1608KF-601T03/17835681"
+		(property "Digi URL" ""
+			(at 109.22 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TAI-TECH Advanced Electronics Co., Ltd."
+			(at 109.22 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "FCM 1608KF-601T03"
+			(at 109.22 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "4816-FCM1608KF-601T03CT-ND"
+			(at 109.22 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/tai-tech-advanced-electronics-co-ltd/FCM-1608KF-601T03/17835681"
 			(at 109.22 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -12915,7 +14295,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "108-Y97KT23B5NAFPCT-ND"
+		(property "Digi PN" ""
 			(at 66.04 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12926,7 +14306,7 @@
 				)
 			)
 		)
-		(property "MFG" "C&K"
+		(property "MFG" ""
 			(at 66.04 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12937,7 +14317,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "Y97KT23B5NAFP"
+		(property "MFG PN" ""
 			(at 66.04 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12948,7 +14328,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/c-k/y97kt23b5nafp/9649862"
+		(property "Digi URL" ""
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "Y97KT23B5NAFPY97KT23B5NAFP"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "108-Y97KT23B5NAFPCT-ND"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/c-k/y97kt23b5nafp/9649862"
 			(at 66.04 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12969,6 +14393,84 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7acf759d-ffc7-4fc1-8c01-c0d812745f47")
+		(property "Reference" "#PWR0104"
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 256.54 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e3ffa15-851f-4728-a832-47fe3fa93d2c")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -13085,7 +14587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 79.502 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -13096,7 +14598,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 81.28 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13108,6 +14610,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 81.28 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13166,7 +14712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 279.0952 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13177,7 +14723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21A476MQYNNNE_Spec.pdf"
 			(at 278.13 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13221,7 +14767,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 278.13 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13232,7 +14778,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL21A476MQYNNNE"
 			(at 278.13 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13464,7 +15010,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
 			(at 184.15 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -13477,6 +15023,50 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 186.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1830-1106-1-ND"
+			(at 186.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/inolux/IN-PI554FCH/7604874?s=N4IgTCBcDaIJIDsD2AbArgDwARwHIFoAFOAVhIBYAxAYQAkQBdAXyA"
+			(at 186.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 186.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IN-PI554FCH"
 			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13586,6 +15176,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 76.2 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8671ba07-3775-4eb2-bd66-3abc8f7162c3")
+		(property "Reference" "R1"
+			(at 78.74 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 78.74 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.422 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e762c8c6-5ca6-465e-a05a-1082d3ce8a88")
+		)
+		(pin "1"
+			(uuid "5d9ef335-471b-4593-bb16-c6e3b59181cf")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 91.44 186.69 0)
 		(unit 1)
@@ -13664,8 +15380,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 260.35 36.83 0)
+		(lib_id "Device:D_Schottky")
+		(at 199.39 66.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13673,32 +15389,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89c30c51-e553-42d2-b26a-6e5442354816")
-		(property "Reference" "C50"
-			(at 264.16 35.5599 0)
+		(uuid "8812277d-8db0-4887-b5c0-e553bcf2a7c1")
+		(property "Reference" "D14"
+			(at 205.994 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 264.16 38.0999 0)
+		(property "Value" "SS34"
+			(at 205.994 65.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 261.3152 40.64 0)
+			(at 199.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13709,7 +15422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 36.83 0)
+			(at 199.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13719,8 +15432,52 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 260.35 36.83 0)
+		(property "Description" "Schottky diode"
+			(at 199.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 199.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 199.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 199.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 199.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13731,15 +15488,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "73574952-3839-4047-8b23-b392a152b4da")
+			(uuid "5581e767-a4d4-45f1-98ce-1f4cc1928870")
 		)
 		(pin "2"
-			(uuid "a08e2f0b-75a0-4cd1-9a10-c7de42c4cadc")
+			(uuid "5c2c5a32-f015-4bd7-ad73-6eb0500f491d")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
-					(reference "C50")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -14058,6 +15815,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 256.54 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b5920f-4d56-4015-8fa8-64060647ddf0")
+		(property "Reference" "#PWR0105"
+			(at 256.54 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c92371a-6134-460c-b522-e385691fb8d8")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 125.73 35.56 0)
 		(unit 1)
@@ -14123,7 +15958,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 125.73 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14134,7 +15969,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 125.73 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14145,7 +15980,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 125.73 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14156,7 +15991,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 125.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 125.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 125.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 125.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 125.73 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14225,7 +16104,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
 			(at 224.79 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -14238,6 +16117,50 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 227.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1830-1106-1-ND"
+			(at 227.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/inolux/IN-PI554FCH/7604874?s=N4IgTCBcDaIJIDsD2AbArgDwARwHIFoAFOAVhIBYAxAYQAkQBdAXyA"
+			(at 227.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 227.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IN-PI554FCH"
 			(at 227.33 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14271,7 +16194,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 76.2 0)
+		(at 191.77 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14279,10 +16202,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96626926-c18f-4577-be6f-5ce2ee6ef909")
 		(property "Reference" "C51"
-			(at 198.12 74.9299 0)
+			(at 181.864 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14293,7 +16215,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 198.12 77.4699 0)
+			(at 181.864 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14304,7 +16226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.2752 80.01 0)
+			(at 192.7352 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14315,7 +16237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 76.2 0)
+			(at 191.77 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14326,7 +16248,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 76.2 0)
+			(at 191.77 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14586,7 +16508,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 80.01 0)
+		(at 191.77 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14597,7 +16519,7 @@
 		(fields_autoplaced yes)
 		(uuid "9abee729-e81d-4f2c-aebf-3a1486847654")
 		(property "Reference" "#PWR072"
-			(at 194.31 86.36 0)
+			(at 191.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14608,7 +16530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 85.09 0)
+			(at 191.77 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14618,7 +16540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 80.01 0)
+			(at 191.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14629,7 +16551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 80.01 0)
+			(at 191.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14640,7 +16562,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 80.01 0)
+			(at 191.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14783,7 +16705,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
 			(at 250.19 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -14796,6 +16718,50 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 247.65 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1830-1106-1-ND"
+			(at 247.65 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/inolux/IN-PI554FCH/7604874?s=N4IgTCBcDaIJIDsD2AbArgDwARwHIFoAFOAVhIBYAxAYQAkQBdAXyA"
+			(at 247.65 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 247.65 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IN-PI554FCH"
 			(at 247.65 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14861,7 +16827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 126.492 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -14872,7 +16838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 128.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14884,6 +16850,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 128.27 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 128.27 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 128.27 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 128.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14952,7 +16962,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
 			(at 265.43 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -14965,6 +16975,50 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 267.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1830-1106-1-ND"
+			(at 267.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/inolux/IN-PI554FCH/7604874?s=N4IgTCBcDaIJIDsD2AbArgDwARwHIFoAFOAVhIBYAxAYQAkQBdAXyA"
+			(at 267.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 267.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IN-PI554FCH"
 			(at 267.97 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15148,7 +17202,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 255.27 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15159,7 +17213,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 255.27 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15170,7 +17224,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 255.27 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15181,7 +17235,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 255.27 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15241,7 +17339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 79.502 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -15252,7 +17350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 81.28 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15274,6 +17372,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b01d6fdc-2693-4f4b-b794-962fcdb7b474")
 		)
@@ -15284,6 +17426,84 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 199.39 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b37ccf83-9cca-4382-b0a1-607b1bc0a6ba")
+		(property "Reference" "#PWR0102"
+			(at 199.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 199.39 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 199.39 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91e89555-be03-412b-8fd5-7720dd9ce689")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -15519,7 +17739,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 267.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15530,7 +17750,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 267.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15541,7 +17761,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 267.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15552,7 +17772,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 267.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15611,7 +17875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 274.0152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15622,7 +17886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21A476MQYNNNE_Spec.pdf"
 			(at 273.05 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15666,7 +17930,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 273.05 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15677,7 +17941,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL21A476MQYNNNE"
 			(at 273.05 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15815,7 +18079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -15826,7 +18090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 33.02 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15838,6 +18102,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 33.02 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 33.02 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 33.02 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 33.02 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15927,7 +18235,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-3874-1-ND"
+		(property "Digi PN" ""
 			(at 38.1 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15938,7 +18246,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 38.1 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15949,7 +18257,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603DRNPO9BN6R8"
+		(property "MFG PN" ""
 			(at 38.1 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15960,7 +18268,62 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
+		(property "Digi URL" ""
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-3874-1-ND"
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603DRNPO9BN6R8"
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
 			(at 38.1 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -16254,7 +18617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 79.502 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -16265,7 +18628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 81.28 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16277,6 +18640,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 81.28 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 81.28 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 81.28 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 81.28 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16345,7 +18752,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
 			(at 229.87 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -16358,6 +18765,50 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 227.33 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1830-1106-1-ND"
+			(at 227.33 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/inolux/IN-PI554FCH/7604874?s=N4IgTCBcDaIJIDsD2AbArgDwARwHIFoAFOAVhIBYAxAYQAkQBdAXyA"
+			(at 227.33 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 227.33 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IN-PI554FCH"
 			(at 227.33 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16619,7 +19070,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16630,7 +19081,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16641,7 +19092,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16652,7 +19103,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 217.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 217.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 217.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 217.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16712,7 +19207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -16723,7 +19218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 33.02 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16735,6 +19230,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 33.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 33.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 33.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 33.02 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16826,7 +19365,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "1276-CL10B105KB9VPJCCT-ND"
+		(property "Digi PN" ""
 			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16837,7 +19376,7 @@
 				)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" ""
 			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16848,7 +19387,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CL10B105KB9VPJC"
+		(property "MFG PN" ""
 			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16859,7 +19398,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
+		(property "Digi URL" ""
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1276-CL10B105KB9VPJCCT-ND"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KB9VPJC"
 			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17113,6 +19696,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 199.39 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e93809f1-0a28-4489-ba5a-8128036bda64")
+		(property "Reference" "D15"
+			(at 205.994 73.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 205.994 75.946 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a93651e-835d-4651-a23b-ec43888e5daa")
+		)
+		(pin "2"
+			(uuid "404743d0-b40b-40fc-b573-f599fd92da88")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 50.8 0)
 		(unit 1)
@@ -17257,7 +19963,7 @@
 				)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digi PN" ""
 			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17268,7 +19974,7 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17279,7 +19985,7 @@
 				)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "MFG PN" ""
 			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17290,7 +19996,51 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digi URL" ""
+			(at 236.22 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 236.22 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 236.22 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 236.22 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17444,7 +20194,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
 			(at 204.47 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -17457,6 +20207,50 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 207.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1830-1106-1-ND"
+			(at 207.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/inolux/IN-PI554FCH/7604874?s=N4IgTCBcDaIJIDsD2AbArgDwARwHIFoAFOAVhIBYAxAYQAkQBdAXyA"
+			(at 207.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 207.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IN-PI554FCH"
 			(at 207.01 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17677,7 +20471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -17688,7 +20482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 33.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17700,6 +20494,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 33.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 33.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 33.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 33.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17743,36 +20581,36 @@
 			"27dfa9a5-0cb5-4693-b0b5-73afa74a1df2" "2a3c2dbd-303b-4265-b27f-38dcfaf233b2"
 			"2a41bde6-da6f-44c9-9471-d4df1fba07b6" "2cfd410e-fbe8-4f92-876e-c93e3c6f0de1"
 			"2d59e22c-939a-4466-a418-007ae43b8a61" "2ea2dafc-859c-4219-afc7-7c783e1f7a60"
-			"331389c8-c741-4de8-af00-d5019d15d65b" "3449b54f-2f8a-47dd-8fc2-1852bd46a652"
-			"350587e2-69c8-4ea3-a069-8305132447f7" "3575bdb0-75bc-44c3-bde9-dcc29d9368cd"
-			"370b77a0-bc51-4672-b27e-ea676f5e02fa" "3c1d0a81-0953-402c-82ad-cab76974810a"
-			"4087709c-ddb0-4e47-94c1-3eefc89f2445" "41da329b-6eb4-47da-8cca-c178301c21cc"
-			"4220c64e-1cae-41d5-9af3-05054741eab2" "43cd5a45-99a6-4750-ba40-d704a9ac01b3"
-			"44226a8d-d3a2-449b-b994-4c52fcc38b07" "45cd9cec-fc62-4587-aeb1-207dddbf7806"
-			"47acd1af-bdfd-470e-b62b-8cb8da5d6892" "4974e26c-c691-4b7f-8b5b-4f25b3ca0cb2"
-			"4b434638-565a-424f-b0cb-b02b2d3e2cfd" "4ccfcefb-5518-4078-919f-247dc253d300"
-			"4d87ccb2-189e-45bd-8113-fb36292cefeb" "4ebf57ff-dbd8-4573-87ef-9d6bab81908e"
-			"540ef7f4-8ce9-4801-b092-6058185429bb" "5422aadc-6e8d-4b09-9cb0-60a8cb22d89e"
-			"56cc41ce-1bee-4405-b4e3-0b78bb45f26c" "57e5756e-daa3-47a1-aeea-28f1ac226709"
-			"595799b1-a6fe-4d3c-9fc4-2ff998b39cdf" "5c073b87-942e-4da4-8212-ebb6cacd32e6"
-			"5ca2e45a-4552-4b90-bfd5-e58b45a8b2f7" "5cacac80-e620-41b7-af98-85fa44548f3f"
-			"5ccd2d9e-6763-40c2-b57a-fdd323366974" "5d4a3bdc-e4e9-4e24-9ba6-79ef45499fcb"
-			"5dca6788-e10a-4e48-b467-1202bbb89f90" "5fca9a74-684c-48a9-b4c1-622632ff8ea7"
-			"605d2a8b-a2e6-4cf7-978d-cfd811357819" "62442a20-e1e1-4650-a81b-f26deb15d198"
-			"66beaae3-04bf-45af-b8eb-613572514888" "671a13bf-b9b8-4fe8-a97f-a16b010f8c48"
-			"684367e6-064e-4b9c-9a4d-f9d2933c39f0" "68667e60-1811-4a39-9246-b09381c2e486"
-			"6be88102-52c9-409b-93de-63ea39b63704" "6d999b78-3319-4680-9d17-eecc4116391e"
-			"6d99fd3c-baab-4ab8-94e5-ac245f4dba4b" "6e03f2c7-97b6-4cb4-bfc4-84408d0e6525"
-			"7034a01e-4f06-46e1-bf24-02a4afedf7f4" "70a2870f-a23d-410a-9a62-841eeb08d625"
-			"71cba960-6653-4ab2-9132-0c8274764fc0" "72b654ad-6e14-48a4-a0d9-c595d6d3f4c8"
-			"74accf44-7799-4ab5-aded-60b69416896f" "7598541b-777d-428f-aa4f-8f88b137e870"
-			"79dd53ab-934e-48ac-b62d-c3b00bfd60d2" "79f2ce5f-b35f-41e1-a0b0-40fcc1fa4416"
-			"7a301f40-360c-4327-913d-623ae96c6410" "7bdaa55f-0921-489c-9778-af71c6ae8dcf"
-			"7c3d9b77-930c-4c23-8ce5-f0e807b04425" "7fc6458e-fe9f-492c-aaea-22aad05fa6af"
-			"81c93c46-1508-4ad4-b506-dd5b30c25ebf" "836f3f5d-6936-4b36-b619-8da2673cf3f2"
-			"840412b1-c702-43d6-86b9-3650db90e229" "846c8668-71b5-49ae-865d-e2ce31dde1d8"
-			"85b99d17-35cb-4547-9e7c-3f3927679291" "85f30d82-9182-46f0-a1ed-10da8b57a163"
-			"8635c1b4-7ec6-4412-8243-6eb71d863306" "8981230f-dfdb-4684-82ad-46ded86d5d1b"
+			"3449b54f-2f8a-47dd-8fc2-1852bd46a652" "350587e2-69c8-4ea3-a069-8305132447f7"
+			"3575bdb0-75bc-44c3-bde9-dcc29d9368cd" "370b77a0-bc51-4672-b27e-ea676f5e02fa"
+			"3c1d0a81-0953-402c-82ad-cab76974810a" "4087709c-ddb0-4e47-94c1-3eefc89f2445"
+			"41da329b-6eb4-47da-8cca-c178301c21cc" "4220c64e-1cae-41d5-9af3-05054741eab2"
+			"43cd5a45-99a6-4750-ba40-d704a9ac01b3" "44226a8d-d3a2-449b-b994-4c52fcc38b07"
+			"45cd9cec-fc62-4587-aeb1-207dddbf7806" "47acd1af-bdfd-470e-b62b-8cb8da5d6892"
+			"4974e26c-c691-4b7f-8b5b-4f25b3ca0cb2" "4b434638-565a-424f-b0cb-b02b2d3e2cfd"
+			"4ccfcefb-5518-4078-919f-247dc253d300" "4d87ccb2-189e-45bd-8113-fb36292cefeb"
+			"4ebf57ff-dbd8-4573-87ef-9d6bab81908e" "540ef7f4-8ce9-4801-b092-6058185429bb"
+			"5422aadc-6e8d-4b09-9cb0-60a8cb22d89e" "56cc41ce-1bee-4405-b4e3-0b78bb45f26c"
+			"57e5756e-daa3-47a1-aeea-28f1ac226709" "595799b1-a6fe-4d3c-9fc4-2ff998b39cdf"
+			"5c073b87-942e-4da4-8212-ebb6cacd32e6" "5ca2e45a-4552-4b90-bfd5-e58b45a8b2f7"
+			"5cacac80-e620-41b7-af98-85fa44548f3f" "5ccd2d9e-6763-40c2-b57a-fdd323366974"
+			"5d4a3bdc-e4e9-4e24-9ba6-79ef45499fcb" "5dca6788-e10a-4e48-b467-1202bbb89f90"
+			"5fca9a74-684c-48a9-b4c1-622632ff8ea7" "605d2a8b-a2e6-4cf7-978d-cfd811357819"
+			"62442a20-e1e1-4650-a81b-f26deb15d198" "66beaae3-04bf-45af-b8eb-613572514888"
+			"671a13bf-b9b8-4fe8-a97f-a16b010f8c48" "684367e6-064e-4b9c-9a4d-f9d2933c39f0"
+			"68667e60-1811-4a39-9246-b09381c2e486" "6be88102-52c9-409b-93de-63ea39b63704"
+			"6d999b78-3319-4680-9d17-eecc4116391e" "6d99fd3c-baab-4ab8-94e5-ac245f4dba4b"
+			"6e03f2c7-97b6-4cb4-bfc4-84408d0e6525" "7034a01e-4f06-46e1-bf24-02a4afedf7f4"
+			"70a2870f-a23d-410a-9a62-841eeb08d625" "71cba960-6653-4ab2-9132-0c8274764fc0"
+			"72b654ad-6e14-48a4-a0d9-c595d6d3f4c8" "74accf44-7799-4ab5-aded-60b69416896f"
+			"7598541b-777d-428f-aa4f-8f88b137e870" "79dd53ab-934e-48ac-b62d-c3b00bfd60d2"
+			"79f2ce5f-b35f-41e1-a0b0-40fcc1fa4416" "7a301f40-360c-4327-913d-623ae96c6410"
+			"7bdaa55f-0921-489c-9778-af71c6ae8dcf" "7c3d9b77-930c-4c23-8ce5-f0e807b04425"
+			"7fc6458e-fe9f-492c-aaea-22aad05fa6af" "81c93c46-1508-4ad4-b506-dd5b30c25ebf"
+			"836f3f5d-6936-4b36-b619-8da2673cf3f2" "840412b1-c702-43d6-86b9-3650db90e229"
+			"846c8668-71b5-49ae-865d-e2ce31dde1d8" "85b99d17-35cb-4547-9e7c-3f3927679291"
+			"85f30d82-9182-46f0-a1ed-10da8b57a163" "8635c1b4-7ec6-4412-8243-6eb71d863306"
+			"8671ba07-3775-4eb2-bd66-3abc8f7162c3" "8981230f-dfdb-4684-82ad-46ded86d5d1b"
 			"8af64453-0871-474e-8190-a479ae01c12a" "8b8938c5-29d7-4730-b255-b4ca5afada81"
 			"8c61a1af-66b6-4626-b331-deb3501c2ee1" "93cafa72-0de7-426b-b9d6-d86cb3b95839"
 			"96d72c62-2591-49b3-86d1-34ad9725232a" "979fecdb-288e-46b1-b838-9ecff2f78e0c"
