@@ -511,7 +511,7 @@
     ]
   },
   "meta": {
-    "filename": "tractive-system-status-indicator.kicad_pro",
+    "filename": "fuse-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -567,7 +567,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "tractive-system-status-indicator.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -755,68 +755,14 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFG PN",
-          "name": "MFG PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Digikey Part Number",
-          "name": "Digikey Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Digikey URL",
-          "name": "Digikey URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Digi PN",
-          "name": "Digi PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Digi URL",
-          "name": "Digi URL",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MFG",
-          "name": "MFG",
-          "show": true
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
+      "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Digi URL"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -883,34 +829,38 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "tractive-system-status-indicator.kicad_sch",
-        "name": "tractive-system-status-indicator",
+        "filename": "fuse-board.kicad_sch",
+        "name": "fuse-board",
         "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
-    "used_designators": "J1,R1-12,D1-45",
+    "used_designators": "IC1,C1-52,FB1-2,U1-12,SW1-2,D1-4,#PWR1-91,Y1-2,F1,L1,J1-14,#FLG1-3,R1-30",
     "variants": []
   },
   "sheets": [
     [
       "e994741c-7c7d-4124-9d00-43b883baa61d",
-      "tractive-system-status-indicator"
+      "fuse-board"
     ],
     [
-      "3b632e49-e77b-4b37-a3f6-5449774fb90f",
-      "rules"
+      "da3cc95a-3022-48e6-9404-bc8a8e724fe0",
+      "MCU"
     ],
     [
-      "664b879a-b19a-4ed0-8125-d999bc4b7ebe",
-      "rules2"
+      "d86ad6f9-6ecb-4228-85b7-377c89926190",
+      "Efuses"
+    ],
+    [
+      "5da4b0df-615f-485f-92a7-431466b81491",
+      "Efuses Fans"
     ]
   ],
   "text_variables": {
-    "BOARD_TITLE": "TSSI Board",
+    "BOARD_TITLE": "fuse-board",
     "COMMENT1": "[COMMENT]",
     "COMMENT2": "",
-    "NAMES": "Sultan Sheikh",
-    "REVISION": "1.00"
+    "NAMES": "Karsten Vivian, Suhani Agarwal, Rishabh Roy",
+    "REVISION": "1"
   },
   "tuning_profiles": {
     "meta": {

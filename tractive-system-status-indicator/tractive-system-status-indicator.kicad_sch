@@ -640,6 +640,36 @@
 		)
 		(uuid "2cb22e20-c90a-482d-bf94-7d2cbac2952c")
 	)
+	(text "For red LED resistors:\n2.2V * 4 = 8.8V\n12V - 8.8V = 3.2V\nAlso has a max current draw of 50 mA.\n3.2V / 0.04 amps = 80 ohms\n"
+		(exclude_from_sim no)
+		(at 171.45 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50df4407-da2f-4b58-a151-81adc531fa7c")
+	)
+	(text "For amber LED resistors:\n2.15V * 4 = 8.6V\n12V - 8.6V = 3.4V\nAlso has a max current draw of 50 mA.\n3.4V/0.034 amps = 100 ohms\nI used 0.034 amps instead of 0.04 to get a standard resistor value"
+		(exclude_from_sim no)
+		(at 183.134 141.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70b4dd07-174c-410a-bff1-6aa07cd578af")
+	)
+	(text "Green LED resistor value calculations:\nLED forward voltage = 3.2V\n3.2 * 3 = 9.6V (3 in series)\nUsing Ohm's law,\n12-9.6V = 2.4V\nThe LED's max current draw is 50 mA. Using 80% (for longevity):\n2.4V / 0.04 amps = 60 ohms\n"
+		(exclude_from_sim no)
+		(at 184.15 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97eb4f4c-258e-4a78-b586-5116b2cb3866")
+	)
 	(junction
 		(at 143.51 109.22)
 		(diameter 0)
@@ -1799,7 +1829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1866,6 +1896,17 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
 			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2057,7 +2098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2080,6 +2121,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2394,7 +2446,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 96.52 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2461,6 +2513,17 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 96.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
 			(at 96.52 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2652,7 +2715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 107.95 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2675,6 +2738,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 107.95 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2866,7 +2940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 97.79 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2889,6 +2963,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 97.79 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2957,7 +3042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 107.95 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -2980,6 +3065,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 107.95 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -3048,7 +3144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 97.79 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3071,6 +3167,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 97.79 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3128,7 +3235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0610_1x06-1MP_P3.00mm_Horizontal"
+		(property "Footprint" "formula_slug_footprint_library:1054301106"
 			(at 36.83 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3195,6 +3302,50 @@
 			)
 		)
 		(property "MFG PN" ""
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 36.83 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3275,7 +3426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 120.65 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3342,6 +3493,17 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 120.65 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
 			(at 120.65 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3410,7 +3572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 113.03 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3433,6 +3595,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 113.03 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3501,7 +3674,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 130.81 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3524,6 +3697,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 130.81 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3592,7 +3776,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3659,6 +3843,17 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 107.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
 			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3727,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3794,6 +3989,17 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 107.95 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3862,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 120.65 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -3885,6 +4091,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 120.65 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -3953,7 +4170,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 133.35 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4030,6 +4247,17 @@
 				)
 			)
 		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
+			(at 133.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d125209-8b40-450c-b100-5ae7028a03ae")
 		)
@@ -4088,7 +4316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4111,6 +4339,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4179,7 +4418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 113.03 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4202,6 +4441,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 113.03 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4270,7 +4520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4293,6 +4543,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4484,7 +4745,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 113.03 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4507,6 +4768,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 113.03 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4698,7 +4970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 96.52 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4721,6 +4993,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 96.52 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4789,7 +5072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 96.52 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -4812,6 +5095,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 96.52 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -4880,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 133.35 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4947,6 +5241,28 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 133.35 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
+			(at 133.35 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "                               "
 			(at 133.35 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5015,7 +5331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 120.65 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5038,6 +5354,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 120.65 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5106,7 +5433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5183,6 +5510,17 @@
 				)
 			)
 		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf04f41f-aa0f-405b-a1ff-013774749a64")
 		)
@@ -5241,7 +5579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 134.62 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5264,6 +5602,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 134.62 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5332,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5355,6 +5704,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5423,7 +5783,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 134.62 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5446,6 +5806,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 134.62 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5514,7 +5885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 97.79 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5537,6 +5908,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 97.79 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5851,7 +6233,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 120.65 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5918,6 +6300,17 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 120.65 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
 			(at 120.65 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6109,7 +6502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 120.65 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6132,6 +6525,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 120.65 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6200,7 +6604,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 134.62 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6223,6 +6627,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 134.62 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6291,7 +6706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6358,6 +6773,17 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 120.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
 			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6426,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 134.62 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6449,6 +6875,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 134.62 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6517,7 +6954,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 96.52 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6540,6 +6977,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 96.52 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6608,7 +7056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 107.95 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6675,6 +7123,17 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 107.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
 			(at 107.95 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6866,7 +7325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 129.54 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6889,6 +7348,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 129.54 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6957,7 +7427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5340/QLSP05RD.pdf"
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7034,6 +7504,17 @@
 				)
 			)
 		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/quelighting-corp/QLSP05RD/15848708"
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c780704-67f7-4610-af81-09b12fd06990")
 		)
@@ -7092,7 +7573,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 129.54 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7115,6 +7596,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 129.54 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7183,7 +7675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73130.pdf"
 			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7206,6 +7698,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150141GS73130/13584811"
 			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7274,7 +7777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 120.65 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7297,6 +7800,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
 			(at 120.65 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7365,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/6bb26f5481c5535/original/LA-E6SF.pdf"
 			(at 107.95 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7398,6 +7912,17 @@
 				)
 			)
 		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/ams-osram-ag/LA-E6SF-BBCB-24-1-Z/2205412"
+			(at 107.95 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a84960ce-a774-46f8-bece-75841f7a08ca")
 		)
@@ -7409,6 +7934,98 @@
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "D43")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 68.58)
+		(size 53.34 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3b632e49-e77b-4b37-a3f6-5449774fb90f")
+		(property "Sheetname" "rules"
+			(at 204.47 67.8684 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rules.kicad_sch"
+			(at 204.47 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 132.08)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "664b879a-b19a-4ed0-8125-d999bc4b7ebe")
+		(property "Sheetname" "rules2"
+			(at 228.6 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rules2.kicad_sch"
+			(at 228.6 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tractive-system-status-indicator"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(page "3")
 				)
 			)
 		)
