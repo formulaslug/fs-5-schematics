@@ -1180,36 +1180,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FS_4_Global_Symbol_Library:UCC256612DDBR"
+		(symbol "formula_slug_symbol_library:UCC256612DDBR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at 3.556 14.986 0)
+			(property "Reference" "U"
+				(at 3.556 21.336 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "UCC256612DDBR"
-				(at 3.556 12.446 0)
+				(at 10.922 18.796 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-				(at 0 0 0)
+				(at 0.508 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1220,7 +1218,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc25661.pdf?ts=1754894386115&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUCC25661%252Fpart-details%252FUCC256610DDBR"
-				(at 0 0 0)
+				(at 0.254 34.798 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1231,7 +1229,7 @@
 				)
 			)
 			(property "Description" "LLC Controller/Half-Bridge Gate Driver"
-				(at 0 0 0)
+				(at -20.574 21.336 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1243,19 +1241,18 @@
 			)
 			(symbol "UCC256612DDBR_1_1"
 				(rectangle
-					(start -7.62 11.43)
-					(end 7.62 -11.43)
+					(start -7.62 10.16)
+					(end 7.62 -12.7)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type background)
 					)
 				)
 				(pin input line
-					(at -10.16 8.89 0)
+					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "HV"
 						(effects
@@ -1273,7 +1270,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 3.81 0)
+					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "BLK"
 						(effects
@@ -1291,7 +1288,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 1.27 0)
+					(at -10.16 0 0)
 					(length 2.54)
 					(name "OVP/OTP"
 						(effects
@@ -1309,7 +1306,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -1.27 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -1327,7 +1324,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -3.81 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "LL"
 						(effects
@@ -1345,7 +1342,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -6.35 0)
+					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "TSET"
 						(effects
@@ -1363,7 +1360,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -8.89 0)
+					(at -10.16 -10.16 0)
 					(length 2.54)
 					(name "V5P"
 						(effects
@@ -1381,7 +1378,7 @@
 					)
 				)
 				(pin input line
-					(at 0 13.97 270)
+					(at 0 12.7 270)
 					(length 2.54)
 					(name "VCCP"
 						(effects
@@ -1399,7 +1396,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -6.35 180)
+					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "ISNS"
 						(effects
@@ -1417,7 +1414,7 @@
 					)
 				)
 				(pin input line
-					(at 0 -13.97 90)
+					(at 0 -15.24 90)
 					(length 2.54)
 					(name "GNDP"
 						(effects
@@ -1435,7 +1432,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -3.81 180)
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "LO"
 						(effects
@@ -1453,7 +1450,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 3.81 180)
+					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "HB"
 						(effects
@@ -1471,7 +1468,7 @@
 					)
 				)
 				(pin power_out line
-					(at 10.16 8.89 180)
+					(at 10.16 7.62 180)
 					(length 2.54)
 					(name "HO"
 						(effects
@@ -1489,7 +1486,7 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 6.35 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "HS"
 						(effects
@@ -3555,8 +3552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FS_4_Global_Symbol_Library:UCC256612DDBR")
-		(at 134.62 110.49 0)
+		(lib_id "formula_slug_symbol_library:UCC256612DDBR")
+		(at 134.62 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3566,7 +3563,7 @@
 		(dnp no)
 		(uuid "c43bf1a8-0df7-41c1-9d18-7c2b6bf24313")
 		(property "Reference" "U1"
-			(at 138.176 95.504 0)
+			(at 138.176 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3577,7 +3574,7 @@
 			)
 		)
 		(property "Value" "UCC256612DDBR"
-			(at 138.176 98.044 0)
+			(at 138.176 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3588,7 +3585,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 134.62 110.49 0)
+			(at 135.128 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3599,7 +3596,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc25661.pdf?ts=1754894386115&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUCC25661%252Fpart-details%252FUCC256610DDBR"
-			(at 134.62 110.49 0)
+			(at 134.874 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3610,7 +3607,51 @@
 			)
 		)
 		(property "Description" "LLC Controller/Half-Bridge Gate Driver"
-			(at 134.62 110.49 0)
+			(at 114.046 87.884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

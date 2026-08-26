@@ -160,14 +160,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FS_4_Global_Symbol_Library:UCC24624DR"
+		(symbol "formula_slug_symbol_library:UCC24624DR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 10.922 0)
+				(at 3.556 12.954 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -177,7 +177,7 @@
 				)
 			)
 			(property "Value" "UCC24624DR"
-				(at 0.254 8.89 0)
+				(at 9.144 10.414 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -187,7 +187,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
-				(at 0 0 0)
+				(at 0 27.178 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -198,7 +198,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc24624.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1779739005956&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fucc24624"
-				(at 0 0 0)
+				(at -5.588 32.004 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -208,8 +208,8 @@
 					)
 				)
 			)
-			(property "Description" "IC GATE DRVR LOW-SIDE 8SOIC"
-				(at 0 0 0)
+			(property "Description" "LLC IC Sync Rectifier Gate Driver/Controller"
+				(at 0.762 35.814 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -219,8 +219,8 @@
 					)
 				)
 			)
-			(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC24624DR/10820444"
-				(at 0 0 0)
+			(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC24624DR/10820444"
+				(at -1.524 21.844 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -230,8 +230,8 @@
 					)
 				)
 			)
-			(property "Digi PN" "296-UCC24624DRCT-ND"
-				(at 0 0 0)
+			(property "Digikey PN" "296-UCC24624DRCT-ND"
+				(at 48.514 18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -242,7 +242,7 @@
 				)
 			)
 			(property "MFG" "Texas Instruments"
-				(at 0 0 0)
+				(at 26.416 18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -253,7 +253,7 @@
 				)
 			)
 			(property "MFG PN" "UCC24624DR"
-				(at 0 0 0)
+				(at 9.652 18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -265,19 +265,18 @@
 			)
 			(symbol "UCC24624DR_1_1"
 				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -10.16)
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type background)
 					)
 				)
 				(pin output line
-					(at 8.89 1.27 180)
+					(at 8.89 3.81 180)
 					(length 2.54)
 					(name "VG1"
 						(effects
@@ -295,7 +294,7 @@
 					)
 				)
 				(pin power_out line
-					(at 0 -12.7 90)
+					(at 0 -10.16 90)
 					(length 2.54)
 					(name "PGND"
 						(effects
@@ -313,7 +312,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 -6.35 180)
+					(at 8.89 -3.81 180)
 					(length 2.54)
 					(name "REG"
 						(effects
@@ -331,7 +330,7 @@
 					)
 				)
 				(pin input line
-					(at -8.89 1.27 0)
+					(at -8.89 3.81 0)
 					(length 2.54)
 					(name "VD1"
 						(effects
@@ -349,7 +348,7 @@
 					)
 				)
 				(pin input line
-					(at -8.89 -2.54 0)
+					(at -8.89 0 0)
 					(length 2.54)
 					(name "VSS"
 						(effects
@@ -367,7 +366,7 @@
 					)
 				)
 				(pin input line
-					(at -8.89 -7.62 0)
+					(at -8.89 -5.08 0)
 					(length 2.54)
 					(name "VD2"
 						(effects
@@ -385,7 +384,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 7.62 270)
+					(at 0 10.16 270)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -403,7 +402,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 -2.54 180)
+					(at 8.89 0 180)
 					(length 2.54)
 					(name "VG2"
 						(effects
@@ -881,8 +880,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FS_4_Global_Symbol_Library:UCC24624DR")
-		(at 149.86 93.98 0)
+		(lib_id "formula_slug_symbol_library:UCC24624DR")
+		(at 149.86 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -915,7 +914,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
-			(at 149.86 93.98 0)
+			(at 149.86 69.342 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -926,7 +925,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc24624.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1779739005956&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fucc24624"
-			(at 149.86 93.98 0)
+			(at 144.272 64.516 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -936,8 +935,8 @@
 				)
 			)
 		)
-		(property "Description" "IC GATE DRVR LOW-SIDE 8SOIC"
-			(at 149.86 93.98 0)
+		(property "Description" "LLC IC Sync Rectifier Gate Driver/Controller"
+			(at 150.622 60.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -948,7 +947,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC24624DR/10820444"
-			(at 149.86 93.98 0)
+			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -959,7 +958,7 @@
 			)
 		)
 		(property "Digi PN" "296-UCC24624DRCT-ND"
-			(at 149.86 93.98 0)
+			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -970,7 +969,7 @@
 			)
 		)
 		(property "MFG" "Texas Instruments"
-			(at 149.86 93.98 0)
+			(at 176.276 78.232 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -981,7 +980,62 @@
 			)
 		)
 		(property "MFG PN" "UCC24624DR"
-			(at 149.86 93.98 0)
+			(at 159.512 78.232 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC24624DR/10820444"
+			(at 148.336 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-UCC24624DRCT-ND"
+			(at 198.374 78.232 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
