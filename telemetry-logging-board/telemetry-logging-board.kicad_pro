@@ -265,7 +265,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "R2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -540,6 +540,30 @@
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "name": "CAN_DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 132, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 10
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(132, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 10
       }
     ],
     "meta": {
@@ -547,7 +571,92 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "CAN_DIFF",
+        "pattern": "/CAN Busses/CAN-IF/CAN_H"
+      },
+      {
+        "netclass": "CAN_DIFF",
+        "pattern": "/CAN Busses/CAN-IF/CAN_L"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "/CAN Busses/CAN-IF/ISO_0V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/CAN Busses/CAN-IF/ISO_5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/CAN Busses/CAN-IF/VDD_CAN"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/CAN Busses/CAN-IF/VDD_IO"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/CAN Busses/CAN-IF1/ISO_5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/CAN Busses/CAN-IF1/VDD_CAN"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "/CAN Busses/CAN-IF1/ISO_0V"
+      },
+      {
+        "netclass": "CAN_DIFF",
+        "pattern": "/CAN Busses/CAN-IF1/CAN_L"
+      },
+      {
+        "netclass": "CAN_DIFF",
+        "pattern": "/CAN Busses/CAN-IF1/CAN_H"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/CAN Busses/CAN-IF1/VDD_IO"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/CAN Busses/CAN-IF2/ISO_5V"
+      },
+      {
+        "netclass": "CAN_DIFF",
+        "pattern": "/CAN Busses/CAN-IF2/CAN_H"
+      },
+      {
+        "netclass": "CAN_DIFF",
+        "pattern": "/CAN Busses/CAN-IF2/CAN_L"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "/CAN Busses/CAN-IF2/ISO_0V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GNDPWR"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -701,7 +810,7 @@
         "uuid": "77f08122-c609-410b-9d24-33eebdb4af2b"
       }
     ],
-    "used_designators": "L1-15,SW1,J1-7,#PWR1-18,#PWR26-34,Y1-3,JP1,TP1-5,R1-12,D1,C1-44,U1-11",
+    "used_designators": "GD1-3,C1-46,U1-15,D1-5,R1-56,TP1-5,JP1-2,Y1-4,#PWR1-18,#PWR24-71,J1-14,SW1-4,FB1-3,L1-17,TH1",
     "variants": []
   },
   "sheets": [
@@ -726,12 +835,16 @@
       "Ethernet"
     ],
     [
-      "18da1eb7-08cf-4a34-90f6-75cf64adb6d8",
-      "MCU"
+      "4bc5b97d-c091-4973-bc6a-4d8466f0675e",
+      "CAN-IF1"
     ],
     [
       "ba3e8e8b-55e6-44e1-b038-c38b4f043600",
       "CAN-IF"
+    ],
+    [
+      "4e948406-667c-429f-b403-9c935882f568",
+      "CAN-IF2"
     ]
   ],
   "text_variables": {},
