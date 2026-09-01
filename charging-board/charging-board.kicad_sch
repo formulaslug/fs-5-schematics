@@ -5337,27 +5337,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K1"
-				(at 2.286 -6.858 90)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Relay_SPST_NO"
-				(at -0.254 -12.446 90)
+			(property "Value" "Relay_SPST-NO"
+				(at 11.43 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "formula_slug_footprint_library:RELAY_PR30-12V-450-1A-E"
+			(property "Footprint" ""
 				(at 11.43 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5381,50 +5383,6 @@
 				)
 			)
 			(property "Description" "Relay SPST, normally open, EN50005"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey Part Number" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey URL" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5626,7 +5584,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5644,7 +5602,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6643,18 +6601,6 @@
 		)
 	)
 	(rectangle
-		(start 201.295 13.335)
-		(end 266.7 39.37)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1b3d218c-029e-4dc2-81bf-7f25c2ef73ec")
-	)
-	(rectangle
 		(start 13.97 102.87)
 		(end 91.44 129.54)
 		(stroke
@@ -6737,17 +6683,6 @@
 			(type none)
 		)
 		(uuid "c56c96af-e4b4-4422-8273-c6c259d217c2")
-	)
-	(text "Trace + wire must be\n<150mm to busbars"
-		(exclude_from_sim no)
-		(at 212.09 24.384 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08ff545e-ba27-4ecd-ae5b-faccb775c249")
 	)
 	(text "TSMPs and Shutdown Discharge"
 		(exclude_from_sim no)
@@ -6845,17 +6780,6 @@
 			(justify left)
 		)
 		(uuid "73e87577-005d-41ea-a14f-25a0242d6c6e")
-	)
-	(text "TSMPs"
-		(exclude_from_sim no)
-		(at 202.184 15.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f4bcfcb-a71d-4d70-945f-74b096cedc23")
 	)
 	(text "Charger Box Components"
 		(exclude_from_sim no)
@@ -7591,16 +7515,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 29.21) (xy 236.22 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce50205-895b-48c1-b30a-c330fbe256da")
-	)
-	(wire
-		(pts
 			(xy 62.23 121.92) (xy 74.93 121.92)
 		)
 		(stroke
@@ -7748,16 +7662,6 @@
 			(type default)
 		)
 		(uuid "400a2af1-026f-46f2-bdcb-2b16f6552eb9")
-	)
-	(wire
-		(pts
-			(xy 243.84 19.05) (xy 243.84 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "404f2082-b582-41c9-b24c-1bea112945a0")
 	)
 	(wire
 		(pts
@@ -8631,16 +8535,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 19.05) (xy 243.84 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1d6f7b5-94a2-4b10-87af-3c7d52569bd6")
-	)
-	(wire
-		(pts
 			(xy 212.09 114.3) (xy 226.06 114.3)
 		)
 		(stroke
@@ -8821,16 +8715,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 36.83) (xy 243.84 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c93c837c-9fc2-4c58-9544-c636b83521d8")
-	)
-	(wire
-		(pts
 			(xy 30.48 156.21) (xy 41.91 156.21)
 		)
 		(stroke
@@ -8958,16 +8842,6 @@
 			(type default)
 		)
 		(uuid "d73d12d4-4f14-4604-ab26-aead064a8633")
-	)
-	(wire
-		(pts
-			(xy 243.84 36.83) (xy 243.84 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d76cc5d0-5281-49d3-9cb9-f5a0cebe018f")
 	)
 	(wire
 		(pts
@@ -9228,16 +9102,6 @@
 			(type default)
 		)
 		(uuid "f02b1f5f-cf7b-4c27-82a9-8218b967164b")
-	)
-	(wire
-		(pts
-			(xy 212.09 26.67) (xy 236.22 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f18abd62-a39c-4660-92b6-3c63e211f228")
 	)
 	(wire
 		(pts
@@ -11898,176 +11762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 236.22 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cc29787-ece7-4fde-aae4-fbcb2f2bb34f")
-		(property "Reference" "R6"
-			(at 238.76 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5k"
-			(at 238.76 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal"
-			(at 237.998 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/132/1/res_wh_wn.pdf"
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "WNE5K0FETCT-ND"
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/ohmite/WNE5K0FET/3114565"
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Ohmite"
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "WNE5K0FET"
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa0a6791-3232-441a-bd08-a84884dedf44")
-		)
-		(pin "2"
-			(uuid "c0ea3fee-87ff-44d2-ae4a-ad0ab7658396")
-		)
-		(instances
-			(project "charging-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 64.77 91.44 0)
 		(unit 1)
@@ -12646,7 +12340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "279a6ee2-0b17-4afd-9ec7-34c725a65a66")
-		(property "Reference" "R15"
+		(property "Reference" "R6"
 			(at 152.4 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12798,7 +12492,7 @@
 		(instances
 			(project "charging-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R15")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12877,176 +12571,6 @@
 			(project "charging-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 248.92 26.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ee41bcb-455e-4187-9ff4-f2b1d232b664")
-		(property "Reference" "J7"
-			(at 250.19 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TSMP_to_Banana Jacks"
-			(at 244.094 30.988 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-105300-100-001.pdf"
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "WM16865-ND"
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/molex/1053091102/7693146"
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Molex"
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "1053091102"
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ce54cd5a-8715-4376-a56b-47ef67186ee8")
-		)
-		(pin "1"
-			(uuid "2be8407e-b2dd-45dc-93a9-45b2ef830c9f")
-		)
-		(instances
-			(project "charging-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -16787,7 +16311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aeb9885-d305-4b63-a633-ffbceca1c0c7")
-		(property "Reference" "R14"
+		(property "Reference" "R5"
 			(at 152.4 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16939,7 +16463,7 @@
 		(instances
 			(project "charging-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R14")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -18356,10 +17880,10 @@
 				)
 			)
 		)
-		(pin "8"
+		(pin "14"
 			(uuid "125be3bd-921f-4d81-97a0-ef05261aef25")
 		)
-		(pin "5"
+		(pin "13"
 			(uuid "29c0a509-d6da-4308-b961-d0304b415670")
 		)
 		(pin "A2"
@@ -19546,344 +19070,6 @@
 			(project "charging-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 236.22 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afa5d7e4-4ade-4f42-8bc4-c00ffd011a31")
-		(property "Reference" "R5"
-			(at 238.76 21.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k"
-			(at 238.76 24.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal"
-			(at 234.442 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/132/1/res_wh_wn.pdf"
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "WNE5K0FETCT-ND"
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/ohmite/WNE5K0FET/3114565"
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Ohmite"
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "WNE5K0FET"
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 236.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41c0aeae-5a42-4171-86a2-24d36dcf641c")
-		)
-		(pin "2"
-			(uuid "ac7ce0ec-a861-4413-824c-7ac75ad0c1e6")
-		)
-		(instances
-			(project "charging-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 207.01 29.21 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1211bff-9740-4edd-91fb-687ea0ba263f")
-		(property "Reference" "J6"
-			(at 207.645 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSMP_to_HV"
-			(at 207.645 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-105300-100-001.pdf"
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "WM16865-ND"
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/molex/1053091102/7693146"
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Molex"
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "1053091102"
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 207.01 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "43293bf6-0993-4f15-9729-faa45a4e1e78")
-		)
-		(pin "1"
-			(uuid "3c63dbae-5ca3-4102-9776-432ae21d45c8")
-		)
-		(instances
-			(project "charging-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -22615,7 +21801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.922 177.8 90)
 			(hide yes)
 			(show_name no)
