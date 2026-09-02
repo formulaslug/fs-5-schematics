@@ -510,7 +510,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "formula_slug_footprint_library"
+    ],
     "pinned_symbol_libs": [
       "formula_slug_symbol_library",
       "allwinner-sip-lib"
@@ -655,6 +657,18 @@
       {
         "netclass": "Power",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Ethernet/ETH_AGND"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "/Ethernet/ETH_AGND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Ethernet/ETH_AVDD"
       }
     ]
   },
@@ -810,7 +824,7 @@
         "uuid": "77f08122-c609-410b-9d24-33eebdb4af2b"
       }
     ],
-    "used_designators": "GD1-3,C1-46,U1-15,D1-5,R1-56,TP1-5,JP1-2,Y1-4,#PWR1-18,#PWR24-71,J1-14,SW1-4,FB1-3,L1-17,TH1",
+    "used_designators": "J1-16,TH1,SW1-4,C1-58,U1-15,D1-6,GD1-3,R1-78,JP1-2,TP1-5,#PWR1-18,#PWR24-90,Y1-5,FB1-3,L1-17,TR1-5",
     "variants": []
   },
   "sheets": [
@@ -845,6 +859,18 @@
     [
       "4e948406-667c-429f-b403-9c935882f568",
       "CAN-IF2"
+    ],
+    [
+      "723b13de-22f1-4f71-8a03-5bb9820b74e9",
+      "M12X_TR"
+    ],
+    [
+      "f0883d12-9b0c-412c-b2c8-0ef2d3e6226d",
+      "M12X_TR1"
+    ],
+    [
+      "72be9e1b-ce9b-47da-ad1c-99eb5d9f352d",
+      "M12X_TR2"
     ]
   ],
   "text_variables": {},

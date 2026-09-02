@@ -607,7 +607,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 57.15) (xy 110.49 57.15)
+			(xy 107.95 54.61) (xy 110.49 54.61)
 		)
 		(stroke
 			(width 0)
@@ -857,7 +857,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 135.89) (xy 110.49 135.89)
+			(xy 107.95 133.35) (xy 110.49 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1007,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 96.52) (xy 110.49 96.52)
+			(xy 107.95 93.98) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1158,7 @@
 	)
 	(hierarchical_label "CS_C"
 		(shape input)
-		(at 107.95 135.89 180)
+		(at 107.95 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1257,7 +1257,7 @@
 	)
 	(hierarchical_label "CS_B"
 		(shape input)
-		(at 107.95 96.52 180)
+		(at 107.95 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1268,7 +1268,7 @@
 	)
 	(hierarchical_label "CS_A"
 		(shape input)
-		(at 107.95 57.15 180)
+		(at 107.95 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2067,16 +2067,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO1" bidirectional
-			(at 110.49 93.98 180)
-			(uuid "b553e4f5-3da8-43fa-861a-79a4703e36ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MISO" output
 			(at 110.49 91.44 180)
 			(uuid "28e3e0bc-a433-403c-a6d6-48b09ca6a834")
@@ -2118,28 +2108,8 @@
 			)
 		)
 		(pin "~{CS}" input
-			(at 110.49 96.52 180)
+			(at 110.49 93.98 180)
 			(uuid "2bebd0f6-e042-4bb9-a81b-1c6d4883c7b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT-I}" bidirectional
-			(at 110.49 99.06 180)
-			(uuid "63420a71-efbe-4e60-92a4-e0c30d3128c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT-O}" bidirectional
-			(at 110.49 101.6 180)
-			(uuid "56f609b7-c534-4ecb-b5d1-59d71ebbc1bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,6 +2165,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{INT-0}(TX)" output
+			(at 110.49 99.06 180)
+			(uuid "227e4e6e-f01a-4680-90e6-ce5f0b3c6d48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT-1}(RX)" output
+			(at 110.49 101.6 180)
+			(uuid "3f249ed6-2cd0-41eb-bf6d-0d8419950c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT}" output
+			(at 110.49 96.52 180)
+			(uuid "75204ce2-c8a3-40da-8cfa-c467b625f293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2263,16 +2263,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO1" bidirectional
-			(at 110.49 133.35 180)
-			(uuid "e816f3f9-b521-4489-b30e-ded35d2157a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MISO" output
 			(at 110.49 130.81 180)
 			(uuid "08ec2da3-2437-4f3f-a21b-15eea9fca4dd")
@@ -2314,28 +2304,8 @@
 			)
 		)
 		(pin "~{CS}" input
-			(at 110.49 135.89 180)
+			(at 110.49 133.35 180)
 			(uuid "44fe52bf-97a2-4884-828b-bb56aeda4e7a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT-I}" bidirectional
-			(at 110.49 138.43 180)
-			(uuid "66008de5-99b5-4582-a16f-26d4c5cc465d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT-O}" bidirectional
-			(at 110.49 140.97 180)
-			(uuid "6fb3570b-f807-4f0f-a970-b92366d528bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,6 +2361,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{INT-0}(TX)" output
+			(at 110.49 138.43 180)
+			(uuid "0f0054c9-141f-4fe9-b581-95c5fd0bde12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT-1}(RX)" output
+			(at 110.49 140.97 180)
+			(uuid "6688ec4d-c7fb-436e-a857-b360a5f21edc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT}" output
+			(at 110.49 135.89 180)
+			(uuid "29862910-628c-4cd4-beca-779f5344064e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2459,16 +2459,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO1" bidirectional
-			(at 110.49 54.61 180)
-			(uuid "bd6de58b-90ca-4154-9f71-451656bcaff0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MISO" output
 			(at 110.49 52.07 180)
 			(uuid "4e8edd1f-5767-487b-8b83-3de7cfc8fa18")
@@ -2510,28 +2500,8 @@
 			)
 		)
 		(pin "~{CS}" input
-			(at 110.49 57.15 180)
+			(at 110.49 54.61 180)
 			(uuid "fbe821d7-7d14-4659-b2cc-37f13557a054")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT-I}" bidirectional
-			(at 110.49 59.69 180)
-			(uuid "45fefd6d-d700-4138-8f3e-d6105d722a90")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT-O}" bidirectional
-			(at 110.49 62.23 180)
-			(uuid "b0637748-270e-40fe-8854-06a5e08056bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,6 +2557,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{INT-0}(TX)" output
+			(at 110.49 59.69 180)
+			(uuid "42289c61-e01f-4df6-87d1-35bd438738b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT-1}(RX)" output
+			(at 110.49 62.23 180)
+			(uuid "815b6158-e0fb-48d7-a257-4370f8de47ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT}" output
+			(at 110.49 57.15 180)
+			(uuid "86918e4c-464a-4cab-9380-dab9510db0da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
