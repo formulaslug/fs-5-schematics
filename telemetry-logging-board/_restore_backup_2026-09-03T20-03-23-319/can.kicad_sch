@@ -414,7 +414,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
+		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -439,7 +439,7 @@
 					)
 				)
 			)
-			(property "Value" "VCC"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -471,7 +471,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -493,7 +493,7 @@
 					)
 				)
 			)
-			(symbol "VCC_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -531,7 +531,7 @@
 					)
 				)
 			)
-			(symbol "VCC_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -598,36 +598,12 @@
 		(uuid "09339e18-0904-494f-89a1-e282033a1abc")
 	)
 	(no_connect
-		(at 110.49 101.6)
-		(uuid "50ad9728-80c9-4b79-b6f7-5355bc585745")
-	)
-	(no_connect
 		(at 110.49 64.77)
 		(uuid "63d2ca6b-1684-4f47-9405-929aadbaeb67")
 	)
 	(no_connect
-		(at 110.49 138.43)
-		(uuid "89634444-7b93-4070-adba-81a4b6276ec7")
-	)
-	(no_connect
-		(at 110.49 59.69)
-		(uuid "a25ba708-6c73-4be7-87e5-5f6ff0433b2f")
-	)
-	(no_connect
-		(at 110.49 62.23)
-		(uuid "a77a96a5-8da0-4805-89d9-2e2c861e8bee")
-	)
-	(no_connect
 		(at 110.49 146.05)
 		(uuid "b09e3b07-03b8-43c1-9cfb-d3030a916baa")
-	)
-	(no_connect
-		(at 110.49 99.06)
-		(uuid "c0e0a909-c830-41b4-898f-0978cbe06288")
-	)
-	(no_connect
-		(at 110.49 140.97)
-		(uuid "ea0c1fc6-12c7-435e-9b65-139aa6213f3d")
 	)
 	(wire
 		(pts
@@ -648,26 +624,6 @@
 			(type default)
 		)
 		(uuid "07cfacd3-10f6-4593-8527-96209132f763")
-	)
-	(wire
-		(pts
-			(xy 107.95 135.89) (xy 110.49 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "193cb3c4-8fcf-4771-8f80-18d1ce9a21cb")
-	)
-	(wire
-		(pts
-			(xy 107.95 96.52) (xy 110.49 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5e284d-dcd8-4043-a371-c63d52117451")
 	)
 	(wire
 		(pts
@@ -728,16 +684,6 @@
 			(type default)
 		)
 		(uuid "3b183fd2-9793-44a0-89c8-19ad11109381")
-	)
-	(wire
-		(pts
-			(xy 107.95 57.15) (xy 110.49 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc27bc1-366c-4500-95bc-e17c0d81b6d5")
 	)
 	(wire
 		(pts
@@ -1232,17 +1178,6 @@
 		)
 		(uuid "2cf026b8-2b83-4f49-b666-c14094721dee")
 	)
-	(hierarchical_label "INT_B"
-		(shape output)
-		(at 107.95 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40661180-565e-4ca3-97fa-2ebbbe41a93b")
-	)
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 107.95 88.9 180)
@@ -1309,28 +1244,6 @@
 		)
 		(uuid "d6d60f60-445b-4461-b2d1-1aea7f723b42")
 	)
-	(hierarchical_label "INT_A"
-		(shape output)
-		(at 107.95 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e07a1ec9-7ef6-4230-a727-779a2724b5aa")
-	)
-	(hierarchical_label "INT_C"
-		(shape output)
-		(at 107.95 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1a458ec-311b-484e-8dcd-7256e7050981")
-	)
 	(hierarchical_label "SCK"
 		(shape input)
 		(at 107.95 125.73 180)
@@ -1363,84 +1276,6 @@
 			(justify right)
 		)
 		(uuid "fbd0f0f0-253e-4b7e-8ad9-323abebcf761")
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 104.14 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "015a42ad-f484-4929-bffe-918c6d9f515c")
-		(property "Reference" "#PWR014"
-			(at 104.14 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 104.14 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 104.14 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6eb1a4a5-ee95-4184-817d-43f11c512a3c")
-		)
-		(instances
-			(project "telemetry-logging-board"
-				(path "/77f08122-c609-410b-9d24-33eebdb4af2b/7f3d1692-3ca8-4973-8724-6cc30343bbd5"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1687,85 +1522,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 104.14 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7535e5f4-cbe0-4dcf-97ac-6a887d00940a")
-		(property "Reference" "#PWR063"
-			(at 104.14 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 104.14 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 104.14 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3d957be-94d3-4482-96a7-a44aa6942e21")
-		)
-		(instances
-			(project "telemetry-logging-board"
-				(path "/77f08122-c609-410b-9d24-33eebdb4af2b/7f3d1692-3ca8-4973-8724-6cc30343bbd5"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
+		(lib_id "power:+5V")
 		(at 104.14 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -1775,7 +1532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8fe7ca6a-de29-4c94-8b0b-40149eeb2925")
+		(uuid "4b93afb1-b760-479b-8aba-bedbc2d8c72c")
 		(property "Reference" "#PWR062"
 			(at 104.14 83.82 0)
 			(hide yes)
@@ -1787,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 104.14 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1819,7 +1576,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 104.14 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1831,12 +1588,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8ff29c3-d3dc-48a8-9629-4ddfc1f04895")
+			(uuid "387df4ba-4cb0-477a-8488-27266db285e4")
 		)
 		(instances
 			(project "telemetry-logging-board"
 				(path "/77f08122-c609-410b-9d24-33eebdb4af2b/7f3d1692-3ca8-4973-8724-6cc30343bbd5"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 104.14 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "776bd8ca-3bca-40ca-93c6-6fde7d64915c")
+		(property "Reference" "#PWR014"
+			(at 104.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.14 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e2164a2-1e99-4f17-8668-5540db8adfc1")
+		)
+		(instances
+			(project "telemetry-logging-board"
+				(path "/77f08122-c609-410b-9d24-33eebdb4af2b/7f3d1692-3ca8-4973-8724-6cc30343bbd5"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 104.14 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b43d1a-8c41-4ab8-8166-2c7af08b812a")
+		(property "Reference" "#PWR063"
+			(at 104.14 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.14 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2895b14-2269-412e-8e44-8a692c111ee4")
+		)
+		(instances
+			(project "telemetry-logging-board"
+				(path "/77f08122-c609-410b-9d24-33eebdb4af2b/7f3d1692-3ca8-4973-8724-6cc30343bbd5"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
