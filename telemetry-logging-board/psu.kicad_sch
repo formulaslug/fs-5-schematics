@@ -2499,7 +2499,7 @@
 	)
 	(text "Battery"
 		(exclude_from_sim no)
-		(at 21.844 145.034 0)
+		(at 20.32 135.89 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2615,7 +2615,7 @@
 		(uuid "18eab356-07b6-407b-af7f-ff6f288bd657")
 	)
 	(junction
-		(at 43.18 74.93)
+		(at 48.26 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f8774e6-e85e-42a3-bfde-f75357dbc951")
@@ -2699,7 +2699,7 @@
 		(uuid "9e02049a-ca9f-4482-b031-b390bcec1f37")
 	)
 	(junction
-		(at 83.82 74.93)
+		(at 88.9 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2cec3d2-475a-4203-ae56-e6f2f917ec93")
@@ -2717,7 +2717,7 @@
 		(uuid "b2af3c8f-351b-428e-9ecd-80f1d9079c0f")
 	)
 	(junction
-		(at 121.92 74.93)
+		(at 127 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc21e711-c8d0-40b6-bac5-3b7717ec53cd")
@@ -3126,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 121.92 80.01)
+			(xy 127 74.93) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 74.93) (xy 86.36 74.93)
+			(xy 88.9 74.93) (xy 91.44 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 74.93) (xy 20.32 74.93)
+			(xy 27.94 74.93) (xy 25.4 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 125.73 74.93)
+			(xy 127 74.93) (xy 130.81 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 63.5 74.93)
+			(xy 63.5 74.93) (xy 68.58 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3466,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 74.93) (xy 46.99 74.93)
+			(xy 48.26 74.93) (xy 52.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 74.93) (xy 101.6 74.93)
+			(xy 101.6 74.93) (xy 106.68 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3556,7 +3556,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 74.93) (xy 83.82 80.01)
+			(xy 88.9 74.93) (xy 88.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3736,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 74.93) (xy 43.18 80.01)
+			(xy 48.26 74.93) (xy 48.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3823,6 +3823,61 @@
 			(type default)
 		)
 		(uuid "f4f36c32-e224-43f6-aaaa-7d9cf8223a6d")
+	)
+	(hierarchical_label "CAN_A_EN"
+		(shape input)
+		(at 27.94 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4887d436-e1b1-45fd-8cde-f84b8bae337d")
+	)
+	(hierarchical_label "ETH_EN"
+		(shape input)
+		(at 106.68 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80f25c7e-c12c-4d08-a866-c8ebf7d74d80")
+	)
+	(hierarchical_label "PERIPH_EN"
+		(shape input)
+		(at 68.58 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa0dd17f-b083-4737-88bb-b2241da9c6a6")
+	)
+	(hierarchical_label "BAT_SENS"
+		(shape output)
+		(at 114.3 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8c22238-2fa0-4bd0-b511-deec0d149c80")
+	)
+	(hierarchical_label "CHRG"
+		(shape output)
+		(at 114.3 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe8d6876-8d87-41c6-b804-8ee21d747edd")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -3990,7 +4045,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 85.09 0)
+		(at 38.1 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4001,7 +4056,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a15a193-2b7e-412c-9a72-51ddc38d1ac1")
 		(property "Reference" "#PWR075"
-			(at 33.02 91.44 0)
+			(at 38.1 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4012,7 +4067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 90.17 0)
+			(at 38.1 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4022,7 +4077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 85.09 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4033,7 +4088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 85.09 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4044,7 +4099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 85.09 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4392,7 +4447,7 @@
 	)
 	(symbol
 		(lib_id "Power_Management:TPS22919DCK")
-		(at 111.76 77.47 0)
+		(at 116.84 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4403,7 +4458,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eb4513a-aa3b-4779-a1ff-7e1be534b55c")
 		(property "Reference" "U17"
-			(at 111.76 67.31 0)
+			(at 116.84 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4413,7 +4468,7 @@
 			)
 		)
 		(property "Value" "TPS22919DCK"
-			(at 111.76 69.85 0)
+			(at 116.84 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4423,7 +4478,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 111.76 64.77 0)
+			(at 116.84 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4434,7 +4489,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22919.pdf"
-			(at 113.03 95.25 0)
+			(at 118.11 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,7 +4500,7 @@
 			)
 		)
 		(property "Description" "1.6V to 5.5 V, 1.5 A, 90-mΩ Self-Protected Load Switch with Controlled Rise Time, SC-70-6"
-			(at 111.76 97.282 0)
+			(at 116.84 97.282 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4774,7 @@
 	)
 	(symbol
 		(lib_id "Power_Management:TPS22919DCK")
-		(at 33.02 77.47 0)
+		(at 38.1 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4730,7 +4785,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f9a9e9e-b872-4506-8dd8-96ee9df3836c")
 		(property "Reference" "U10"
-			(at 33.02 67.31 0)
+			(at 38.1 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4740,7 +4795,7 @@
 			)
 		)
 		(property "Value" "TPS22919DCK"
-			(at 33.02 69.85 0)
+			(at 38.1 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4750,7 +4805,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 33.02 64.77 0)
+			(at 38.1 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4761,7 +4816,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22919.pdf"
-			(at 34.29 95.25 0)
+			(at 39.37 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +4827,7 @@
 			)
 		)
 		(property "Description" "1.6V to 5.5 V, 1.5 A, 90-mΩ Self-Protected Load Switch with Controlled Rise Time, SC-70-6"
-			(at 33.02 97.282 0)
+			(at 38.1 97.282 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +4958,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 125.73 74.93 0)
+		(at 130.81 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4914,7 +4969,7 @@
 		(fields_autoplaced yes)
 		(uuid "52323409-2fe2-4485-a583-665689432d63")
 		(property "Reference" "#PWR0116"
-			(at 125.73 78.74 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +4980,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 125.73 69.85 0)
+			(at 130.81 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4935,7 +4990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 74.93 0)
+			(at 130.81 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4946,7 +5001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 74.93 0)
+			(at 130.81 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4957,7 +5012,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 125.73 74.93 0)
+			(at 130.81 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,7 +5036,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 20.32 74.93 0)
+		(at 25.4 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4992,7 +5047,7 @@
 		(fields_autoplaced yes)
 		(uuid "56dc4f5e-6f3e-45b0-9b9c-7d9849672bd8")
 		(property "Reference" "#PWR074"
-			(at 20.32 78.74 0)
+			(at 25.4 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5003,7 +5058,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 20.32 69.85 0)
+			(at 25.4 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5013,7 +5068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 74.93 0)
+			(at 25.4 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,7 +5079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 74.93 0)
+			(at 25.4 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5035,7 +5090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 20.32 74.93 0)
+			(at 25.4 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,7 +5114,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 86.36 74.93 0)
+		(at 91.44 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5070,7 +5125,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e0555d9-7f58-4f56-a7d9-84c8f713168f")
 		(property "Reference" "#PWR0113"
-			(at 86.36 78.74 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,7 +5136,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 86.36 69.85 0)
+			(at 91.44 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5091,7 +5146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 74.93 0)
+			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 74.93 0)
+			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 74.93 0)
+			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5137,7 +5192,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 58.42 74.93 0)
+		(at 63.5 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5147,7 +5202,7 @@
 		(dnp no)
 		(uuid "5e1facb4-b592-437c-9847-217116213b85")
 		(property "Reference" "#PWR0111"
-			(at 58.42 78.74 0)
+			(at 63.5 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +5213,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 58.42 70.612 0)
+			(at 63.5 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5168,7 +5223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 74.93 0)
+			(at 63.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5179,7 +5234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 74.93 0)
+			(at 63.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5190,7 +5245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 58.42 74.93 0)
+			(at 63.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5269,7 @@
 	)
 	(symbol
 		(lib_id "Power_Management:TPS22919DCK")
-		(at 73.66 77.47 0)
+		(at 78.74 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5225,7 +5280,7 @@
 		(fields_autoplaced yes)
 		(uuid "71402610-1c62-45c1-8d1d-c84e0dc29f11")
 		(property "Reference" "U16"
-			(at 73.66 67.31 0)
+			(at 78.74 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5235,7 +5290,7 @@
 			)
 		)
 		(property "Value" "TPS22919DCK"
-			(at 73.66 69.85 0)
+			(at 78.74 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5245,7 +5300,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 73.66 64.77 0)
+			(at 78.74 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5256,7 +5311,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22919.pdf"
-			(at 74.93 95.25 0)
+			(at 80.01 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5267,7 +5322,7 @@
 			)
 		)
 		(property "Description" "1.6V to 5.5 V, 1.5 A, 90-mΩ Self-Protected Load Switch with Controlled Rise Time, SC-70-6"
-			(at 73.66 97.282 0)
+			(at 78.74 97.282 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5306,7 +5361,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 85.09 0)
+		(at 78.74 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5317,7 +5372,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fcbe124-8cb8-436c-9dd6-777e54c29dfa")
 		(property "Reference" "#PWR080"
-			(at 73.66 91.44 0)
+			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5328,7 +5383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 90.17 0)
+			(at 78.74 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5338,7 +5393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 85.09 0)
+			(at 78.74 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,7 +5404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 85.09 0)
+			(at 78.74 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5360,7 +5415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 85.09 0)
+			(at 78.74 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,7 +5840,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 74.93 0)
+		(at 101.6 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5795,7 +5850,7 @@
 		(dnp no)
 		(uuid "95af8f46-6586-4555-b808-bf58b784c1be")
 		(property "Reference" "#PWR0114"
-			(at 96.52 78.74 0)
+			(at 101.6 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5861,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 70.612 0)
+			(at 101.6 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5816,7 +5871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 74.93 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5827,7 +5882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 74.93 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5838,7 +5893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 74.93 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5862,7 +5917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 85.09 0)
+		(at 116.84 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5873,7 +5928,7 @@
 		(fields_autoplaced yes)
 		(uuid "a952770b-fb22-450a-91e0-3c066968c831")
 		(property "Reference" "#PWR0115"
-			(at 111.76 91.44 0)
+			(at 116.84 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,7 +5939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 90.17 0)
+			(at 116.84 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5894,7 +5949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 85.09 0)
+			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5905,7 +5960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 85.09 0)
+			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,7 +5971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 85.09 0)
+			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6899,7 +6954,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 46.99 74.93 0)
+		(at 52.07 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6910,7 +6965,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7d0dc2b-a58e-4444-a83c-255ecaecdc7d")
 		(property "Reference" "#PWR079"
-			(at 46.99 78.74 0)
+			(at 52.07 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6921,7 +6976,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 46.99 69.85 0)
+			(at 52.07 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6931,7 +6986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 74.93 0)
+			(at 52.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6942,7 +6997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 74.93 0)
+			(at 52.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,7 +7008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 46.99 74.93 0)
+			(at 52.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
