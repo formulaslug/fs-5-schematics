@@ -3853,6 +3853,16 @@
 		)
 		(uuid "5466a84e-6820-44b6-81b5-6b06cac59afe")
 	)
+	(text "EN GPIOs open-drain; 10k pullups default eFuses ON at MCU boot."
+		(exclude_from_sim no)
+		(at 71.628 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65318ebf-4f78-4bc2-810a-5636db5775b5")
+	)
 	(text "Current sensing mux and voltage clamps"
 		(exclude_from_sim no)
 		(at 41.656 131.064 0)
@@ -7548,6 +7558,12 @@
 			(uuid "482c31b1-de53-4307-ab0f-f5bdce7ecc0f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -7685,6 +7701,12 @@
 			(uuid "2078a2ed-3307-42e4-bff9-9f7368b47528")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D10")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D10")
@@ -7814,6 +7836,12 @@
 			(uuid "73e98396-2402-49bf-865c-352cacfca7a8")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "Y?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "Y?")
@@ -7898,6 +7926,12 @@
 			(uuid "44455a7b-17e8-4342-958c-6ac648809b16")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR075")
@@ -7975,6 +8009,12 @@
 			(uuid "2390a0ee-f2b9-44e9-9035-278b2c4a13ac")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR068")
@@ -8053,6 +8093,12 @@
 			(uuid "bf1354a6-9d4d-4cfd-82cc-6c7a2728a297")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR095")
@@ -8071,7 +8117,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a2597b2-46fc-4a50-bc4c-ca26c8f7ef4a")
 		(property "Reference" "R31"
 			(at 170.18 63.5 90)
@@ -8083,7 +8128,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "330R"
 			(at 170.18 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8177,6 +8222,12 @@
 			(uuid "2f275662-6e56-4074-afdc-3a235e103444")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R31")
@@ -8449,6 +8500,12 @@
 			(uuid "823ff01a-d03f-4757-941d-cc0f5319b886")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "U?")
@@ -8578,6 +8635,12 @@
 			(uuid "aaa8e549-7d34-4845-9b5d-5aef20bdad05")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D15")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D15")
@@ -8655,6 +8718,12 @@
 			(uuid "5166b48e-1c58-45d6-8907-e989de2c0e48")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -8739,6 +8808,12 @@
 			(uuid "332b722d-e56f-4f4d-b4d7-5014245d16c5")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR092")
@@ -8865,6 +8940,12 @@
 			(uuid "1a63515a-20a5-4b33-b6a6-cd193ef59cce")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "STM32G441KBTx"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "C?")
@@ -8994,6 +9075,12 @@
 			(uuid "88ed636e-3e9a-41b5-a371-ed6d41815137")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D14")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D14")
@@ -9071,6 +9158,12 @@
 			(uuid "e804c4b0-e916-4122-9ce9-6051979cd3ec")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "STM32G441KBTx"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -9247,6 +9340,12 @@
 			(uuid "9b18d44f-d187-415b-9876-484b8ba326cb")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C63")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C63")
@@ -9417,6 +9516,12 @@
 			(uuid "30aa79c0-df3f-402f-8821-2cd9622b4bad")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C58")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C58")
@@ -9495,6 +9600,12 @@
 			(uuid "6dea25d3-3a56-41b4-be6a-ddaf260a15db")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR078")
@@ -9665,6 +9776,12 @@
 			(uuid "8647ade3-a83d-4cb3-8ce1-155cf160da48")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C57")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C57")
@@ -9742,6 +9859,12 @@
 			(uuid "6b2d7754-4e0c-400b-ac0d-18ba3a76ba3f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -9874,6 +9997,12 @@
 			(uuid "a503fbeb-c8da-4d87-898d-3a15d736c6a3")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R30")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R30")
@@ -10102,6 +10231,12 @@
 			(uuid "d9920dc5-58d7-4795-8fcc-950ac6ab4398")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "IC1")
@@ -10180,6 +10315,12 @@
 			(uuid "0c02d58f-87ea-4594-b79d-ccb124273d42")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR0103")
@@ -10311,6 +10452,12 @@
 			(uuid "2ef92b31-96be-4cab-b946-0602a79d1364")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D8")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D8")
@@ -10437,6 +10584,12 @@
 			(uuid "998326e8-e52b-4dcc-908b-2228c2cddc9f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "STM32G441KBTx"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "C?")
@@ -10521,6 +10674,12 @@
 			(uuid "fd7b9bcb-a935-4e2a-b522-0c0a03e947f4")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR0102")
@@ -10599,6 +10758,12 @@
 			(uuid "8189871e-73fc-4521-bb48-579a4504c5a5")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR081")
@@ -10769,6 +10934,12 @@
 			(uuid "bd1c9188-f9cc-4b2f-8677-edddd108152b")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C50")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C50")
@@ -10895,6 +11066,12 @@
 			(uuid "c2ba95c6-2555-4666-a0e9-3c1e8b1292cd")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R28")
@@ -11065,6 +11242,12 @@
 			(uuid "225a19ac-0e32-4fa5-9a67-1b644621084a")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C53")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C53")
@@ -11235,6 +11418,12 @@
 			(uuid "b1dcac5b-1735-4a6d-8826-d764f26c7307")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C61")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C61")
@@ -11313,6 +11502,12 @@
 			(uuid "c6bb670a-a13a-453d-b665-6e1c91c83274")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR082")
@@ -11444,6 +11639,12 @@
 			(uuid "e393948c-87a8-4a8d-aace-1e0de1c47f74")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D5")
@@ -11522,6 +11723,12 @@
 			(uuid "d4f46e5c-e029-4e7f-a9d6-31a7f7b40ddf")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -11687,6 +11894,12 @@
 			(uuid "5ff3bbbe-3b69-4da6-9da6-76d577fbbccd")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "J?")
@@ -11863,6 +12076,12 @@
 			(uuid "616704b5-143c-44a2-ace1-37249370013d")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C60")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C60")
@@ -11987,6 +12206,12 @@
 			(uuid "943fe8db-abbb-4221-a414-c5479039d1d3")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R20")
@@ -12119,6 +12344,12 @@
 			(uuid "63c8d411-81ec-44bd-bae0-323e60742562")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "U13")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "U13")
@@ -12197,6 +12428,12 @@
 			(uuid "dfd50390-bb20-4f3d-8719-88719824ab94")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR076")
@@ -12275,6 +12512,12 @@
 			(uuid "9c8180ee-1ab1-40a6-9c1b-e2cb26a86f62")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -12359,6 +12602,12 @@
 			(uuid "b086bea4-6aa9-47cc-92f9-cf270bd90d64")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR094")
@@ -12437,6 +12686,12 @@
 			(uuid "63ac78a8-5baa-4df9-902d-432d19dcf0cc")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR072")
@@ -12563,6 +12818,12 @@
 			(uuid "8a177841-6255-426a-81a8-41b06fad664e")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R27")
@@ -12688,6 +12949,12 @@
 			(uuid "b97db04e-f8b0-4374-ba1c-710af4db34a5")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C66")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C66")
@@ -12819,6 +13086,12 @@
 			(uuid "818c4cf2-508b-428c-a888-dd8facb29bbc")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D13")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D13")
@@ -12896,6 +13169,12 @@
 			(uuid "5c1dbb48-16d1-461e-974a-d9b0f04390ee")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -13025,6 +13304,12 @@
 			(uuid "4a172b31-5c05-453b-8bb0-6f935424524e")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D16")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D16")
@@ -13103,6 +13388,12 @@
 			(uuid "a4cf2e76-8eb3-4721-9b6b-e42a3af64086")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR071")
@@ -13228,6 +13519,12 @@
 			(uuid "ede64bc6-2d7b-4974-9610-2594f4589364")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "STM32G441KBTx"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "C?")
@@ -13359,6 +13656,12 @@
 			(uuid "4b4cabed-bb5b-4f90-bb68-e1bb560b270e")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "STM32G441KBTx"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "C?")
@@ -13488,6 +13791,12 @@
 			(uuid "df5c71f8-56c1-45e2-9e9e-541084fc57a8")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "C?")
@@ -13618,6 +13927,12 @@
 			(uuid "ff0c9e83-288a-48ae-b9a2-b215b7dfb002")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "C?")
@@ -13747,6 +14062,12 @@
 			(uuid "1c27c97c-7b53-4af1-8f6b-4d682f357d19")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "C?")
@@ -13831,6 +14152,12 @@
 			(uuid "9b9bd073-3ff1-4b6e-b87c-c60b58e3bfeb")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR086")
@@ -13909,6 +14236,12 @@
 			(uuid "1c4a54be-b5cb-4426-8c96-4d3c5b53391d")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR087")
@@ -14040,6 +14373,12 @@
 			(uuid "01187c3f-8998-425f-b3dd-c5fe5f29cd47")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D11")
@@ -14118,6 +14457,12 @@
 			(uuid "de1c9adb-182d-464c-bbe1-2b7a06c2e0a1")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -14202,6 +14547,12 @@
 			(uuid "2cc8a918-48b0-43c8-88cd-3cfce429b29f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR080")
@@ -14333,6 +14684,12 @@
 			(uuid "f6bca019-cd58-41de-b0b7-fe70ea203858")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D7")
@@ -14459,6 +14816,12 @@
 			(uuid "841552a1-55c8-402b-ab87-2ef8437b3e9b")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R29")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R29")
@@ -14590,6 +14953,12 @@
 			(uuid "b01e0554-d04c-48df-a882-ef27c0d3380d")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D9")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D9")
@@ -14668,6 +15037,12 @@
 			(uuid "a6ec92df-bf8d-4bd8-9bcb-74349fa8c27f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR02")
@@ -14752,6 +15127,12 @@
 			(uuid "090c7432-825d-42ec-8811-54d22378b40e")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -14928,6 +15309,12 @@
 			(uuid "90ffd361-4a93-414b-9825-acaf5ee5acb5")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C62")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C62")
@@ -15054,6 +15441,12 @@
 			(uuid "1e133368-049c-45df-963d-b58a4acf5f65")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R25")
@@ -15132,6 +15525,12 @@
 			(uuid "e1c25567-2768-4b42-af86-26f6e9dd1fd9")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR0106")
@@ -15210,6 +15609,12 @@
 			(uuid "e2109c41-1e1e-4b58-9df1-f1d1e908da85")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -15340,6 +15745,12 @@
 			(uuid "96727302-788d-4acf-8bd7-ef199a55bf30")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R21")
@@ -15466,6 +15877,12 @@
 			(uuid "5dfbd608-0d99-4be7-95cc-38dc608008e3")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "R?")
@@ -15642,6 +16059,12 @@
 			(uuid "b9eab947-0503-4039-87fa-c5195979f6f2")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C64")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C64")
@@ -15720,6 +16143,12 @@
 			(uuid "c6bd30c5-3a2f-42da-adcf-fba8c8beaf7f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR0105")
@@ -15845,6 +16274,12 @@
 			(uuid "32b56fff-f1c8-4549-aac1-3f8d440e6133")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C51")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C51")
@@ -15968,6 +16403,12 @@
 			(uuid "ea122595-dfb2-4ce0-be17-67537e9bed16")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "peripheral-mcu"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "SW?")
@@ -16099,6 +16540,12 @@
 			(uuid "6853556b-c28b-4aaf-9f29-2c1c1b05f73a")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C65")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C65")
@@ -16225,6 +16672,12 @@
 			(uuid "a4519675-6c93-4de3-864e-3a51936e55f9")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R24")
@@ -16348,6 +16801,12 @@
 			(uuid "894e3b2f-2d40-463c-b1a2-5eb258da5aca")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D17")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D17")
@@ -16471,6 +16930,12 @@
 			(uuid "6984d8b0-1432-4953-9893-755c58adf5b8")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "FB?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "FB?")
@@ -16555,6 +17020,12 @@
 			(uuid "2e0d778d-1145-43e5-90a3-20bd0dece7cb")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR093")
@@ -16633,6 +17104,12 @@
 			(uuid "9598db6e-e151-4508-a295-1527ea227106")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR070")
@@ -16711,6 +17188,12 @@
 			(uuid "eaac42ff-828b-4e2a-b0ac-f3e75fee0727")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR088")
@@ -16837,6 +17320,12 @@
 			(uuid "9ff6cd6e-96f7-43e9-ade8-616334d9ca4f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R26")
@@ -16968,6 +17457,12 @@
 			(uuid "5c92f99e-9ce8-4b8b-aa6e-4d0f0ed52ac8")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D6")
@@ -17046,6 +17541,12 @@
 			(uuid "8aa508ce-e0ee-4292-abfe-231724a6667b")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -17130,6 +17631,12 @@
 			(uuid "5b3c8152-bbbe-4407-8074-6130d4b2ea0a")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR0101")
@@ -17300,6 +17807,12 @@
 			(uuid "b7ab2bb2-5ed7-4989-a279-ba9f99d86ff8")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C56")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C56")
@@ -17426,6 +17939,12 @@
 			(uuid "91694961-a6cb-4a1e-8d32-5e2b9e91c69f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R22")
@@ -17504,6 +18023,12 @@
 			(uuid "a4509204-da6e-4549-8f93-beeb7c362a24")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR0104")
@@ -17581,6 +18106,12 @@
 			(uuid "5c1870be-78d5-41b0-b5a1-f9c72cbd6422")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "STM32G441KBTx"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -17757,6 +18288,12 @@
 			(uuid "d8d40017-6b21-4d86-ad4a-cad7d0cd969f")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C59")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C59")
@@ -17835,6 +18372,12 @@
 			(uuid "ceda4a77-48fb-4147-b213-9ea7f7655b4d")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "#PWR?")
@@ -17919,6 +18462,12 @@
 			(uuid "a5de8247-8b50-43e9-9f63-10c4d4d5bbed")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR073")
@@ -18044,6 +18593,12 @@
 			(uuid "935ae639-8789-4fa8-8bf7-8fbee629f571")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "C52")
@@ -18175,6 +18730,12 @@
 			(uuid "5d77bb87-8f66-45dc-8f14-856f0c1c1f7a")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "D12")
@@ -18252,6 +18813,12 @@
 			(uuid "d3165500-2ed1-4da1-8943-cf51ca9d5e20")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR096")
@@ -18378,6 +18945,12 @@
 			(uuid "77dd995b-e4f9-4a41-87b0-b7187b17d584")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "R23")
@@ -18456,6 +19029,12 @@
 			(uuid "7a5d64f3-a69b-4bc9-8cda-015ea8c032ae")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
 					(reference "#PWR069")
@@ -18582,6 +19161,12 @@
 			(uuid "bc561668-f0a6-4a9e-93ed-fe7f8cfe2537")
 		)
 		(instances
+			(project "mcu"
+				(path "/5bde6537-9e14-4265-9c05-e89962be12e0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "STM32G441KBTx"
 				(path "/c6f349be-f072-4c68-bea9-9d1d80db7efc"
 					(reference "C?")
@@ -18669,6 +19254,11 @@
 			"f9cbda5f-894d-4249-aa82-a4d0e5cd5234" "fbde6128-d07b-46d4-b1e6-481e251cdee5"
 			"fc6c9010-cedc-4f90-826c-5ecfebee367d" "fe027c68-6b14-44b3-868c-314688499c78"
 			"fe505c88-067c-41ad-bdb1-d4e94283ec8b"
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
