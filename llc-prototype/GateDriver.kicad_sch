@@ -1315,6 +1315,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "HV_Spacer"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -1424,24 +1443,6 @@
 					)
 				)
 				(pin input line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCCP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "ISNS"
@@ -1488,6 +1489,43 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "HV_Spacer"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3178,7 +3216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" ""
 			(at 85.09 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -3590,7 +3628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3949,7 +3987,7 @@
 				)
 			)
 		)
-		(pin "8"
+		(pin "12"
 			(uuid "b11e7343-8ac8-49ae-abbc-9150d8f1b3c7")
 		)
 		(pin "7"
@@ -3990,6 +4028,12 @@
 		)
 		(pin "16"
 			(uuid "f0d2a005-2cf5-40c0-8282-613ef1f67ee4")
+		)
+		(pin "13"
+			(uuid "677d12be-e211-45e2-8aa0-ae26b6f66ec2")
+		)
+		(pin "2"
+			(uuid "6679c819-46e4-4a3b-bdaa-4d311a405e45")
 		)
 		(instances
 			(project "llc-prototype"
@@ -4206,7 +4250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
