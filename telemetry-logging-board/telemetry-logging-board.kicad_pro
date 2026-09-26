@@ -693,6 +693,14 @@
       {
         "netclass": "Power",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power Supply/UNREG_SAFE"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power Supply/BATT"
       }
     ]
   },
@@ -790,6 +798,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -848,7 +874,7 @@
         "uuid": "77f08122-c609-410b-9d24-33eebdb4af2b"
       }
     ],
-    "used_designators": "FB1-3,L1-17,TH1,J1-18,BT1,GD1-3,C1-73,SW1-4,D1-17,U1-20,TR1-5,R1-110,TP1-6,JP1-20,#PWR1-18,#PWR24-135,Y1-6",
+    "used_designators": "FB1-3,L1-17,TH1,J1-18,BT1,GD1-3,C1-75,SW1-7,D1-20,U1-20,TR1-5,R1-113,TP1-7,JP1-26,#PWR1-137,Y1-6",
     "variants": []
   },
   "sheets": [
