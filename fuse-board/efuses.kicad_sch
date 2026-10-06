@@ -4817,8 +4817,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 83.82 180)
+		(lib_id "Device:C")
+		(at 204.47 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4826,9 +4826,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0c363b65-69b6-4846-9667-72934cde3316")
-		(property "Reference" "R15"
-			(at 125.984 85.09 0)
+		(uuid "0b62429a-309f-40b9-aab6-fd6e6489b6f2")
+		(property "Reference" "C87"
+			(at 204.47 24.892 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4837,8 +4837,8 @@
 				)
 			)
 		)
-		(property "Value" "1.91k"
-			(at 125.984 82.55 0)
+		(property "Value" "3.3nF"
+			(at 204.47 27.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4847,8 +4847,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.588 83.82 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 208.28 30.7848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,8 +4858,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 130.81 83.82 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 204.47 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,8 +4869,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 130.81 83.82 0)
+		(property "Description" ""
+			(at 204.47 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4880,8 +4880,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 130.81 83.82 0)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 204.47 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,8 +4891,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 130.81 83.82 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 204.47 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +4903,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 130.81 83.82 0)
+			(at 204.47 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,8 +4913,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 130.81 83.82 0)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 204.47 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4923,17 +4923,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "8ce01583-1afb-419b-b863-223727056f4d")
 		)
 		(pin "2"
-			(uuid "4617e02f-0101-4ba2-adc2-df0890ed4c5c")
+			(uuid "7c996750-4a5a-47ba-91b7-dc2654b06916")
+		)
+		(pin "1"
+			(uuid "d4e6a779-3613-49d9-b4b6-35c19f80f48f")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R15")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -5779,6 +5779,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 199.39 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16014750-f727-46b7-b8cf-3cc335dae0da")
+		(property "Reference" "R47"
+			(at 193.294 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 193.294 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 197.612 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "466c17f4-e52c-481b-a16c-05ebc7950f1d")
+		)
+		(pin "1"
+			(uuid "4d76f8b4-e6d0-4bbe-b08e-faacd3857acf")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 59.69 154.94 90)
 		(unit 1)
@@ -5896,129 +6021,6 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "18e9484d-6af1-41cc-9cca-b905b9aad5ee")
-		(property "Reference" "R16"
-			(at 125.984 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 125.984 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.588 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 130.81 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 130.81 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 130.81 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 130.81 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 130.81 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3fa823de-7073-42a6-a81a-8088ef4c5258")
-		)
-		(pin "2"
-			(uuid "a6fd03b8-e51d-4462-ab81-487b31d87f86")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6221,6 +6223,129 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "250ed95d-872d-4006-83b9-3dc15f2a99dc")
+		(property "Reference" "C81"
+			(at 69.85 127.762 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3nF"
+			(at 69.85 130.302 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 73.66 133.6548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 69.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 69.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 69.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 69.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 69.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "48c5511f-9440-4018-9b26-1ee47e1d01f4")
+		)
+		(pin "1"
+			(uuid "d16f9081-155d-496d-8dc5-079ec621dc46")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -6867,8 +6992,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 199.39 82.55 180)
+		(lib_id "Device:C")
+		(at 205.74 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6876,9 +7001,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "34608ebb-da50-4920-b3b7-3dde9e49d5c9")
-		(property "Reference" "R18"
-			(at 194.564 83.82 0)
+		(uuid "2faa8ab3-6525-4ace-ae9e-8a79a70227e1")
+		(property "Reference" "C88"
+			(at 205.74 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6887,8 +7012,8 @@
 				)
 			)
 		)
-		(property "Value" "1.91k"
-			(at 194.564 81.28 0)
+		(property "Value" "3.3nF"
+			(at 205.74 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6897,8 +7022,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 201.168 82.55 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 209.55 82.8548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,8 +7033,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 199.39 82.55 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6919,8 +7044,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 199.39 82.55 0)
+		(property "Description" ""
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,8 +7055,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 199.39 82.55 0)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6941,8 +7066,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 199.39 82.55 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,7 +7078,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 199.39 82.55 0)
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6963,8 +7088,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 199.39 82.55 0)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,17 +7098,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "91f3f311-16cc-467d-91e0-8f197ad2728d")
 		)
 		(pin "2"
-			(uuid "e2f78367-57bd-47cc-ad48-a96fa8a5d6bf")
+			(uuid "0cb890f0-ae72-42ad-be04-95285da21db4")
+		)
+		(pin "1"
+			(uuid "fe159aa0-0ef8-410c-8a3b-1039b104dc5c")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R18")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -7426,8 +7551,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 137.16 34.29 90)
+		(lib_id "Device:R")
+		(at 63.5 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7435,9 +7560,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "403d54f1-3929-44d3-b185-0c2a585dc0e5")
-		(property "Reference" "C72"
-			(at 139.573 29.845 90)
+		(uuid "3b508f93-a764-460d-b951-48035b833d44")
+		(property "Reference" "R41"
+			(at 57.404 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7447,8 +7572,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15nF"
-			(at 139.573 27.305 90)
+		(property "Value" "10k"
+			(at 57.404 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7458,8 +7583,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 140.97 33.3248 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 61.722 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7469,8 +7594,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 137.16 34.29 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7480,8 +7605,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 34.29 0)
+		(property "Description" "Resistor"
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7491,8 +7616,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 137.16 34.29 0)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7502,8 +7627,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 137.16 34.29 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7514,7 +7639,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 137.16 34.29 0)
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,8 +7649,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 137.16 34.29 0)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7536,23 +7661,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "4f82adb3-dacb-4d69-b1e6-75f932d57f39")
+			(uuid "e011e1d7-de94-43b0-bafa-c72d8e0c2496")
 		)
 		(pin "1"
-			(uuid "729b405d-85e8-4365-a2d4-6376748db90d")
+			(uuid "b9f515d2-c3c7-40c4-8b20-5035b5768ca3")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C72")
+					(reference "R41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 204.47 31.75 90)
+		(lib_id "Device:R")
+		(at 130.81 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7560,9 +7685,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "422d7321-da33-4354-9396-7f66388870cd")
-		(property "Reference" "C78"
-			(at 206.883 27.305 90)
+		(uuid "3ef3d281-fa2d-4b7a-953b-98b8a1dbb0e0")
+		(property "Reference" "R44"
+			(at 124.714 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7572,8 +7697,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15nF"
-			(at 206.883 24.765 90)
+		(property "Value" "10k"
+			(at 124.714 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7583,8 +7708,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 208.28 30.7848 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 129.032 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7594,8 +7719,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 204.47 31.75 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,8 +7730,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 204.47 31.75 0)
+		(property "Description" "Resistor"
+			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7616,8 +7741,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 204.47 31.75 0)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7627,8 +7752,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 204.47 31.75 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7639,7 +7764,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 204.47 31.75 0)
+			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7649,8 +7774,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 204.47 31.75 0)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7661,15 +7786,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc84da34-674f-40d3-92f1-4aaf689df4b3")
+			(uuid "691a9f83-0a59-411b-af2a-bd45a944b6b1")
 		)
 		(pin "1"
-			(uuid "f74924a9-c24f-4613-8a1e-7ae448ee8d7d")
+			(uuid "66246a4f-6c5a-4aa9-b359-3ca6347cf9ee")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C78")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -7793,131 +7918,6 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 135.89 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44a2f10a-ea21-415a-b287-1bbcaf73698a")
-		(property "Reference" "C75"
-			(at 139.573 131.445 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15nF"
-			(at 139.573 128.905 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 140.97 134.9248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 137.16 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 137.16 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 137.16 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 137.16 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 137.16 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "af1c8e24-1c65-4cf6-9a98-787310019db2")
-		)
-		(pin "1"
-			(uuid "8f1bfc73-3fdc-408d-a504-4e1d4fca6fab")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -8309,6 +8309,131 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a717aa7-b00b-4f9f-9d34-d88b6347e03d")
+		(property "Reference" "R42"
+			(at 57.404 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 57.404 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 61.722 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c02253ea-24df-46ae-a6f5-3c08845524c5")
+		)
+		(pin "1"
+			(uuid "96dd2aba-ec24-4804-be1b-564d46902a3e")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -9077,8 +9202,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 198.12 30.48 180)
+		(lib_id "Device:C")
+		(at 252.73 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9086,9 +9211,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5c9e8969-4e09-441f-a004-c7a972627bf1")
-		(property "Reference" "R17"
-			(at 193.294 31.75 0)
+		(uuid "5ada1274-1561-483e-ac99-b49c57e02b87")
+		(property "Reference" "C89"
+			(at 252.73 121.412 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9097,8 +9222,8 @@
 				)
 			)
 		)
-		(property "Value" "1.91k"
-			(at 193.294 29.21 0)
+		(property "Value" "3.3nF"
+			(at 252.73 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9107,8 +9232,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 199.898 30.48 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 256.54 127.3048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9118,8 +9243,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 198.12 30.48 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9129,8 +9254,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 198.12 30.48 0)
+		(property "Description" ""
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9140,8 +9265,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 198.12 30.48 0)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,8 +9276,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 198.12 30.48 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9163,7 +9288,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 198.12 30.48 0)
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9173,8 +9298,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 198.12 30.48 0)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9183,17 +9308,140 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "37a4eebb-cb5b-49cb-acb1-43e2f056e857")
 		)
 		(pin "2"
-			(uuid "e539e033-d6ea-4c2f-996a-8cd2b1d360d2")
+			(uuid "e40f1987-0340-40fe-b3c7-cde7053e3b17")
+		)
+		(pin "1"
+			(uuid "75bc9a83-fcbd-4aae-bfa8-0fa46798a0ca")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R17")
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60910aa4-4112-41b1-b783-eb8cc90bf8f7")
+		(property "Reference" "C86"
+			(at 137.16 27.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3nF"
+			(at 137.16 29.972 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 140.97 33.3248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 137.16 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 137.16 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 137.16 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 137.16 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "995af068-3f3d-4055-9d57-56f2d70fa008")
+		)
+		(pin "1"
+			(uuid "0ff343c0-bf30-4d4a-a33c-596b5dcd4f7e")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -9278,8 +9526,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 83.82 180)
+		(lib_id "Device:C")
+		(at 69.85 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9287,9 +9535,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "66be78f2-a645-4c2d-b2bf-2d42bd38d3de")
-		(property "Reference" "R11"
-			(at 58.674 85.09 0)
+		(uuid "6269a184-c630-46cd-9da9-5d350102fda8")
+		(property "Reference" "C75"
+			(at 69.85 28.702 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9298,8 +9546,8 @@
 				)
 			)
 		)
-		(property "Value" "1.91k"
-			(at 58.674 82.55 0)
+		(property "Value" "3.3nF"
+			(at 69.85 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9308,8 +9556,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 65.278 83.82 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 73.66 34.5948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9319,8 +9567,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 63.5 83.82 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9330,8 +9578,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 63.5 83.82 0)
+		(property "Description" ""
+			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,8 +9589,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 63.5 83.82 0)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9352,8 +9600,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 63.5 83.82 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9364,7 +9612,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 63.5 83.82 0)
+			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9374,8 +9622,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 63.5 83.82 0)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9384,17 +9632,140 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "3a073089-44ba-4e67-a764-860ff234d65e")
 		)
 		(pin "2"
-			(uuid "7718cbf2-caca-460d-9388-62474a26ffa7")
+			(uuid "e729f468-32b5-4237-9205-90a547181da2")
+		)
+		(pin "1"
+			(uuid "1a4497ed-a0c9-4530-8bd4-07d25a925b30")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R11")
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c674d6d-4306-4a03-ab85-45a6884dd186")
+		(property "Reference" "C85"
+			(at 137.16 78.232 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3nF"
+			(at 137.16 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 140.97 84.1248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 137.16 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 137.16 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 137.16 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 137.16 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f11530f-c8b1-47c0-9b42-5109eb6c3d3a")
+		)
+		(pin "1"
+			(uuid "b2160157-324b-4db0-be73-2796eac29592")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -9761,131 +10132,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 35.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7d486587-72bb-4dcf-bca4-916ab3a6c1ef")
-		(property "Reference" "C85"
-			(at 72.263 31.115 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15nF"
-			(at 72.263 28.575 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 73.66 34.5948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5ccacb0-57a3-4738-8512-5b52e2ad34f1")
-		)
-		(pin "1"
-			(uuid "68d8477f-fad5-4b4d-b4ae-43c4120a3e5b")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 127 154.94 90)
 		(unit 1)
 		(body_style 1)
@@ -10125,131 +10371,6 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 85.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a540a2e-ab07-456a-b892-931c65c06baf")
-		(property "Reference" "C87"
-			(at 139.573 80.645 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15nF"
-			(at 139.573 78.105 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 140.97 84.1248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 137.16 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 137.16 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 137.16 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 137.16 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 137.16 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "549f73ef-42b4-4173-afcc-d705a533f88a")
-		)
-		(pin "1"
-			(uuid "9dbe4a88-3062-4b09-8899-db2a3024c9f6")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -10610,6 +10731,131 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "911e88d4-b299-4798-831a-efad94797f0e")
+		(property "Reference" "R46"
+			(at 192.024 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 192.024 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.342 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7b9da00d-ee80-4b7f-84c2-475e379ad32f")
+		)
+		(pin "1"
+			(uuid "b2fd3711-b540-4f5b-aff9-95d190c4cb28")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11018,8 +11264,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 69.85 85.09 90)
+		(lib_id "Device:R")
+		(at 130.81 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11027,9 +11273,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a428fade-c114-4bad-a12a-9eb0f6cb5037")
-		(property "Reference" "C66"
-			(at 72.263 80.645 90)
+		(uuid "a3dd81d2-5d47-4b92-ac2e-ad9fdb534581")
+		(property "Reference" "R43"
+			(at 124.714 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11039,8 +11285,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15nF"
-			(at 72.263 78.105 90)
+		(property "Value" "10k"
+			(at 124.714 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11050,8 +11296,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 73.66 84.1248 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 129.032 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11061,8 +11307,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 69.85 85.09 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 130.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11072,8 +11318,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 69.85 85.09 0)
+		(property "Description" "Resistor"
+			(at 130.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,8 +11329,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 69.85 85.09 0)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 130.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11094,8 +11340,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 69.85 85.09 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 130.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11106,7 +11352,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 69.85 85.09 0)
+			(at 130.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11116,8 +11362,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 69.85 85.09 0)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 130.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11128,15 +11374,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "95cf9c0b-8936-42a0-bf47-1402ed4f9352")
+			(uuid "cea1c00a-912c-4e05-b24f-f43a6ec3a0d5")
 		)
 		(pin "1"
-			(uuid "0f98e249-e9c1-4bef-bbbf-2f93198496ee")
+			(uuid "56e3bc9f-69a6-40b4-9854-930773cb86c1")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C66")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -11503,252 +11749,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3b866ea-de78-4b16-9157-4d0761cadb3e")
-		(property "Reference" "R13"
-			(at 58.674 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 58.674 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 65.278 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60021ac2-87d3-4a52-8ed2-66573b985063")
-		)
-		(pin "2"
-			(uuid "2424fcb9-455c-4e7a-b906-7dfbc4d7b77b")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3c10fa3-6f52-4563-ad99-060e0013a5da")
-		(property "Reference" "R14"
-			(at 125.984 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 125.984 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.588 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 130.81 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 130.81 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 130.81 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 130.81 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 130.81 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e03fb88-5d89-4546-b388-3a1d98c048ab")
-		)
-		(pin "2"
-			(uuid "aeae4e5d-7d6d-47b9-8acd-616285cfcf1e")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 203.2 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -11872,7 +11872,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 205.74 83.82 90)
+		(at 137.16 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11880,31 +11880,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b714e5ed-f870-41a3-8217-097eb3669f97")
-		(property "Reference" "C81"
-			(at 208.153 79.375 90)
+		(uuid "b6e3b8f6-257a-499a-91ec-224939ef24e9")
+		(property "Reference" "C84"
+			(at 137.16 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "15nF"
-			(at 208.153 76.835 90)
+		(property "Value" "3.3nF"
+			(at 137.16 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 209.55 82.8548 0)
+			(at 140.97 134.9248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11915,7 +11913,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 205.74 83.82 0)
+			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11925,8 +11923,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 83.82 0)
+		(property "Description" ""
+			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11936,8 +11934,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 205.74 83.82 0)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11947,8 +11945,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 205.74 83.82 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11959,7 +11957,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 205.74 83.82 0)
+			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11969,8 +11967,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 205.74 83.82 0)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11981,15 +11979,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "75b949b6-3d22-4c00-b647-25dc6e131468")
+			(uuid "27a77032-0904-41ba-ae13-c2fa2cd76d68")
 		)
 		(pin "1"
-			(uuid "17e68be0-d130-41cf-924d-d0a215c2c90f")
+			(uuid "911c649d-abf5-4f76-9848-162556348bcb")
 		)
 		(instances
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C81")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -12243,6 +12241,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 130.81 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bdae9dee-a515-43c0-8c1b-b4e388647999")
+		(property "Reference" "R45"
+			(at 124.714 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.714 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 129.032 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 130.81 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 130.81 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 130.81 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 130.81 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 130.81 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "430814fc-b99e-4ac1-8a88-5a6a4ee91a4e")
+		)
+		(pin "1"
+			(uuid "970c09a6-f93c-4b4f-9fcf-914cb4ee8e30")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 160.02 33.02 0)
 		(unit 1)
@@ -12472,6 +12595,131 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5221307-81b9-4934-9068-2b888ef0e0a4")
+		(property "Reference" "R40"
+			(at 57.404 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 57.404 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 61.722 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "00adc3e6-a74f-4ec4-9da3-f49212a9278a")
+		)
+		(pin "1"
+			(uuid "8852473c-e10b-41b4-904e-f6d3efc75032")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -12726,129 +12974,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0bb5b9c-05b0-46ff-8327-01894c25ca50")
-		(property "Reference" "R12"
-			(at 58.674 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 58.674 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 65.278 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 63.5 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 63.5 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 63.5 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 63.5 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 63.5 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ccdf00fb-3f29-4cd5-833d-de518973c9e0")
-		)
-		(pin "2"
-			(uuid "3154cd1f-ed79-49b5-b033-15c7cfc5f3b3")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 30.48 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -12966,256 +13091,6 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 69.85 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d3354ad5-c48c-419b-bdee-c2a9995fa4a3")
-		(property "Reference" "C86"
-			(at 72.263 130.175 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15nF"
-			(at 72.263 127.635 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 73.66 133.6548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 69.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 69.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 69.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 69.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 69.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 69.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f25b6ca4-2c5d-43e1-bdc1-4449d70b3de6")
-		)
-		(pin "1"
-			(uuid "b76aaa9b-354a-4189-be64-ed1c752a4abb")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 252.73 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d3d8a6bd-8a0c-47ef-9b20-1252b3e0f228")
-		(property "Reference" "C84"
-			(at 255.143 123.825 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15nF"
-			(at 255.143 121.285 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 256.54 127.3048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 252.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 252.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 252.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 252.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 252.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 252.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cb867002-24b0-40c2-bc18-09530cc55515")
-		)
-		(pin "1"
-			(uuid "5a6cf208-02c1-4e74-a99e-25662b5e48ef")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -14065,129 +13940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 246.38 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3910e55-a04d-46fa-b846-1270636ca744")
-		(property "Reference" "R19"
-			(at 241.554 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 241.554 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 248.158 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "13-AC0603FR-071K91LCT-ND"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071K91L/5895875"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-071K91L"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0cc03f5-cef6-425f-9952-48989c3c5524")
-		)
-		(pin "2"
-			(uuid "8f475fdd-6471-49ee-82f4-f00a196899e0")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 25.4 170.18 0)
 		(unit 1)
@@ -15008,6 +14760,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 69.85 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f55f6c7d-d11f-4d14-ac30-c9e4e0c03c03")
+		(property "Reference" "C78"
+			(at 69.85 78.232 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3nF"
+			(at 69.85 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 73.66 84.1248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 69.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1082-1-ND"
+			(at 69.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB332/302816?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNgDMIuHD79qAD1HjJAX0XsYUANogAwlrgA2OCIDSAJQAaAdhNIAQjZABdRUA"
+			(at 69.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 69.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB332"
+			(at 69.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3d4a38d5-2797-4b73-ae99-21884845311b")
+		)
+		(pin "1"
+			(uuid "f0ff6e60-db3e-4440-8a28-b50559686059")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 67.31 148.59 90)
 		(unit 1)
@@ -15406,6 +15281,131 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 246.38 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fee85d8d-00ed-4fc1-aa77-06911b697ab2")
+		(property "Reference" "R48"
+			(at 240.284 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 240.284 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 244.602 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e74385b-4762-4543-b8e2-6cccb4093c49")
+		)
+		(pin "1"
+			(uuid "d02fe1c2-68db-4b7c-bc73-36e3dd0ac1a1")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
+					(reference "R48")
 					(unit 1)
 				)
 			)
