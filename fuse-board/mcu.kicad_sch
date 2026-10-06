@@ -734,6 +734,28 @@
 					)
 				)
 			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(show_name no)
@@ -818,18 +840,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
@@ -885,9 +895,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -923,7 +933,8 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "4"
+					(hide yes)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3195,6 +3206,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 20.32 128.27)
@@ -3334,6 +3460,12 @@
 		(uuid "186a5650-ec8e-4890-bbaf-3e41dba7c74a")
 	)
 	(junction
+		(at 49.53 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22dd0b70-f595-48e2-b41c-513caa93ea32")
+	)
+	(junction
 		(at 179.07 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3344,6 +3476,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4814f893-64e3-4b9e-8ca8-5a65eafdfc6a")
+	)
+	(junction
+		(at 113.03 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4d0b01-7cfa-4f49-86bd-0fde81dfeb13")
 	)
 	(junction
 		(at 97.79 39.37)
@@ -3368,12 +3506,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bc2dd7c-a749-48d7-a42b-c78f9a72269c")
-	)
-	(junction
-		(at 49.53 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6281ef1b-2d68-45ad-916d-0154dda5a5a8")
 	)
 	(junction
 		(at 90.17 39.37)
@@ -3466,6 +3598,12 @@
 		(uuid "c1da7f94-4ebe-4b50-9edd-3d96aca294f9")
 	)
 	(junction
+		(at 49.53 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c709bf47-dd01-4b3f-9ab9-ce5a512f2448")
+	)
+	(junction
 		(at 243.84 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3488,12 +3626,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5c679a3-8d7d-4c93-bc35-b0d9fa67bffb")
-	)
-	(junction
-		(at 49.53 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbc79a3b-11ff-4a8c-9d64-d8647ad5d160")
 	)
 	(junction
 		(at 54.61 177.8)
@@ -3592,16 +3724,6 @@
 			(type default)
 		)
 		(uuid "0c34b91a-9af6-4190-a211-916076e84d91")
-	)
-	(wire
-		(pts
-			(xy 34.29 72.39) (xy 44.45 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe31ecd-3014-4f45-a79b-a5ba3c5c5cd9")
 	)
 	(wire
 		(pts
@@ -3815,16 +3937,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 68.58) (xy 49.53 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a44d6eb-8253-4c24-91d9-116f6247cbfd")
-	)
-	(wire
-		(pts
 			(xy 82.55 39.37) (xy 90.17 39.37)
 		)
 		(stroke
@@ -3855,7 +3967,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 80.01) (xy 49.53 80.01)
+			(xy 41.91 80.01) (xy 49.53 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3945,26 +4057,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 80.01) (xy 49.53 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53029bb8-4176-4dc7-9d35-6690b3a7cdc3")
-	)
-	(wire
-		(pts
-			(xy 54.61 72.39) (xy 57.15 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "535ad1fc-d81a-4ea1-8aef-cdedaa3bfa90")
-	)
-	(wire
-		(pts
 			(xy 111.76 90.17) (xy 114.3 90.17)
 		)
 		(stroke
@@ -4012,6 +4104,16 @@
 			(type default)
 		)
 		(uuid "5f451f06-b424-48af-916c-2d4cba2a3686")
+	)
+	(wire
+		(pts
+			(xy 49.53 76.2) (xy 49.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608780ad-6535-48da-a9ab-6b4cb32711dd")
 	)
 	(wire
 		(pts
@@ -4365,6 +4467,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 66.04) (xy 59.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45490f4-16c0-4ce9-96c7-8acea4b53e2b")
+	)
+	(wire
+		(pts
 			(xy 71.12 172.72) (xy 82.55 172.72)
 		)
 		(stroke
@@ -4442,6 +4554,16 @@
 			(type default)
 		)
 		(uuid "b4741c5b-09af-4afc-b69a-45d8ecf115d5")
+	)
+	(wire
+		(pts
+			(xy 49.53 80.01) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ea8663-4784-47b0-a367-a71e69c3067c")
 	)
 	(wire
 		(pts
@@ -4555,26 +4677,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 66.04) (xy 59.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d15d03dc-a2b1-4922-9c89-838fa5441ab5")
-	)
-	(wire
-		(pts
-			(xy 49.53 76.2) (xy 49.53 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1e240d2-610f-4a48-b286-2026a49898eb")
-	)
-	(wire
-		(pts
 			(xy 82.55 130.81) (xy 82.55 132.08)
 		)
 		(stroke
@@ -4665,6 +4767,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 66.04) (xy 49.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd22f51c-aa79-43a1-be92-05562fe40284")
+	)
+	(wire
+		(pts
 			(xy 41.91 66.04) (xy 49.53 66.04)
 		)
 		(stroke
@@ -4742,6 +4854,16 @@
 			(type default)
 		)
 		(uuid "f5bbecf2-6b8d-4859-b735-e3895208f987")
+	)
+	(wire
+		(pts
+			(xy 54.61 72.39) (xy 57.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d1a9a8-4ef0-41c8-a5d3-5473d5311389")
 	)
 	(wire
 		(pts
@@ -6241,6 +6363,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "XC3063CT-ND"
+			(at 49.53 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/ecs-inc/ECS-240-8-37B-CKY-TR/9838850"
+			(at 49.53 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECS Inc."
+			(at 49.53 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ECS-240-8-37B-CKY-TR"
+			(at 49.53 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d014eda3-2140-409d-87cc-55a6c094373a")
 		)
@@ -6469,7 +6635,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "497-STM32G441KBT6-ND"
 			(at 99.06 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6480,7 +6646,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32G441KBT6/10326712?s=N4IgTCBcDaIMoBUCyBmMBxALJgjAaQCEEA2EAXQF8g"
 			(at 99.06 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6491,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 99.06 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6502,7 +6668,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "STM32G441KBT6"
 			(at 99.06 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6971,6 +7137,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a2bd1880-5bdc-4830-892e-e4da9fe77fb2")
 		)
@@ -7217,6 +7427,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 113.03 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30f55627-0826-4978-9533-00c62af4b550")
+		(property "Reference" "#FLG05"
+			(at 113.03 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 113.03 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 113.03 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb5f57b4-f0f0-4ac1-899e-91c92fcd9a97")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/da3cc95a-3022-48e6-9404-bc8a8e724fe0"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 179.07 151.13 0)
 		(unit 1)
@@ -7412,7 +7700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 246.38 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7706,6 +7994,50 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KO8NQNC/10479038"
+			(at 90.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1276-CL10A106KO8NQNCCT-ND"
+			(at 90.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KO8NQNC/10479038"
+			(at 90.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 90.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A106KO8NQNC"
 			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8110,7 +8442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 246.38 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,6 +8823,50 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/samtec-inc/FTSH-107-01-F-DV-K-P-TR/6693677"
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "SAM13170CT-ND"
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samtec-inc/FTSH-107-01-F-DV-K-P-TR/6693677?s=N4IgTCBcDaIGIBUDKAJAtARgAwHY1YzTjQBEA1NAaTQAU0EAlEAXQF8g"
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "FTSH-107-01-F-DV-K-P-TR"
 			(at 48.26 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8974,7 +9350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 213.36 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,6 +9949,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "1276-1860-1-ND"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A105KB8NNNC"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1cf8524a-7e82-4504-82ba-ee7e03e8f68d")
 		)
@@ -9710,6 +10130,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 125.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 125.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 125.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 125.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63e7dc55-6003-4614-83fa-513898d5917b")
 		)
@@ -9835,6 +10299,50 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-3874-1-ND"
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594?s=N4IgTCBcDaIMJwAwDZEGYAiAlAcgBQHkBOAIR2SwA4QBdAXyA"
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603DRNPO9BN6R8"
 			(at 38.1 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -9981,6 +10489,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 66.04 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 66.04 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 66.04 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 66.04 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8804ee22-6642-471a-a7f6-19a97a8c299d")
 		)
@@ -10106,6 +10658,50 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-3874-1-ND"
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594?s=N4IgTCBcDaIMJwAwDZEGYAiAlAcgBQHkBOAIR2SwA4QBdAXyA"
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603DRNPO9BN6R8"
 			(at 38.1 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -10508,7 +11104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 246.38 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10820,7 +11416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 213.36 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11260,6 +11856,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "311-10KLDCT-ND"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "978f01d6-e106-4d8c-a4f6-28e52b8f4035")
 		)
@@ -11610,6 +12250,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "108-PTS647SK38SMTR2LFSCT-ND"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/c-k/PTS647SK38SMTR2-LFS/9649862?s=N4IgTCBcDaIJoE4DsBpAKmAzAIQKwDkBBAMQAUQBdAXyA"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PTS647SK38SMTR2 LFS"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f97527f8-577d-4078-8211-2956cdf42898")
 		)
@@ -11660,7 +12344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 181.61 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12006,6 +12690,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "4816-FCM1608KF-601T03CT-ND"
+			(at 109.22 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/tai-tech-advanced-electronics-co-ltd/FCM-1608KF-601T03/17835681?s=N4IgTCBcDaIGIGECyACAjANgAwA4DScAtNmgCpYDMIAugL5A"
+			(at 109.22 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TAI-TECH Advanced Electronics Co., Ltd."
+			(at 109.22 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "FCM 1608KF-601T03"
+			(at 109.22 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "572e4b5a-7500-401b-bb91-c3c0916e7559")
 		)
@@ -12224,7 +12952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 213.36 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12446,7 +13174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 181.61 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12855,6 +13583,50 @@
 				(justify left top)
 			)
 		)
+		(property "Digikey Part Number" "296-TMUX1308QPWRQ1CT-ND"
+			(at 82.55 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/TMUX1308QPWRQ1/13237249?s=N4IgTCBcDaICoFkCqANAjAZgAwA4CKACgOoBKeaIAugL5A"
+			(at 82.55 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 82.55 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMUX1308QPWRQ1"
+			(at 82.55 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "73fed091-0d32-4cec-8996-9e882928192f")
 		)
@@ -13240,7 +14012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 181.61 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13460,6 +14232,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 105.41 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 105.41 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 105.41 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 105.41 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d20f038-ebd6-44c8-89bf-9caf1d443362")
 		)
@@ -13494,72 +14310,71 @@
 			"03c06288-0b7a-4f4d-9105-608b29616b0b" "03c8a27d-9e92-4098-9518-b4093756fa8b"
 			"03e44820-22b0-4dfe-9e65-9edef73f823e" "07c810aa-9340-4375-a39e-997f43f767ad"
 			"0a651d18-9d38-4bac-bc34-dea5ed5d6d9b" "0b27bb2f-4ff4-40a9-b243-bcd8b63a3b39"
-			"0ba35696-97ba-4e31-a87d-805a6fbf3859" "0fe31ecd-3014-4f45-a79b-a5ba3c5c5cd9"
-			"17353d7e-b3df-4d63-b4ab-1005a3828fbe" "186a5650-ec8e-4890-bbaf-3e41dba7c74a"
-			"1b10168f-629b-4c51-bedf-a93d7bf97e18" "1bfc269d-9790-4a02-ab67-92ff3ba14e2b"
-			"1d0cc53d-6b15-4d1c-bb39-985d9e731f93" "2182e509-1e45-437e-8992-3fe5723dd7e4"
-			"22af60d1-d706-45d7-b37a-5e8025ebe35c" "23ef32ac-aeed-48b0-bb73-631f3e2f9d32"
+			"0ba35696-97ba-4e31-a87d-805a6fbf3859" "17353d7e-b3df-4d63-b4ab-1005a3828fbe"
+			"186a5650-ec8e-4890-bbaf-3e41dba7c74a" "1b10168f-629b-4c51-bedf-a93d7bf97e18"
+			"1bfc269d-9790-4a02-ab67-92ff3ba14e2b" "1d0cc53d-6b15-4d1c-bb39-985d9e731f93"
+			"2182e509-1e45-437e-8992-3fe5723dd7e4" "22af60d1-d706-45d7-b37a-5e8025ebe35c"
+			"22dd0b70-f595-48e2-b41c-513caa93ea32" "23ef32ac-aeed-48b0-bb73-631f3e2f9d32"
 			"26d7625d-6a3d-4214-8bd8-c3770e71c2c5" "27111def-7860-4371-8ec9-17722f6ee02e"
 			"2a4ae74b-000e-4061-95d1-5425a9624574" "2cea7af0-150c-495b-9133-e82836d910eb"
 			"2da281ce-fd04-46ea-b588-b4303fd247f0" "2ec8351a-dddd-4053-a63e-0d80880ebca3"
 			"33651a86-e2e0-41f2-b787-b43b63258a57" "343beb78-ec26-4cd7-a0d9-2912f59ecae7"
 			"34843f73-2c1e-40a0-921c-520cf35f0ace" "3491a8f7-e613-4a37-8772-2e9e9d30ad40"
 			"3879b367-6b83-439d-a15f-45c8b9b73c32" "39cd7397-f5e5-4c31-8b69-c829d64ab8bb"
-			"3a44d6eb-8253-4c24-91d9-116f6247cbfd" "3a6551a0-9f35-41b1-9a2a-2b42badfd6f8"
-			"3fdb4da6-2562-41e8-9509-421906f84984" "40f5c1aa-77c7-4b15-83fe-3f8b039e4a1d"
-			"438fc8eb-f7eb-4e8b-80c0-50a5a793d95b" "4814f893-64e3-4b9e-8ca8-5a65eafdfc6a"
-			"4bb86886-c7e7-4e14-a62c-f41b57eb6b07" "51ec73e9-26cf-462f-afa5-0ac8bd9655c3"
-			"53029bb8-4176-4dc7-9d35-6690b3a7cdc3" "535ad1fc-d81a-4ea1-8aef-cdedaa3bfa90"
-			"5466a84e-6820-44b6-81b5-6b06cac59afe" "5805ac45-560d-40f3-93a6-91a61a19ea4c"
-			"58855376-81f1-4d2e-8f82-3cd98318f6ed" "5ab66c1e-7e29-4910-b9c9-315069c7263d"
-			"5bb2b6de-2f20-496f-af42-348940f5846a" "5bc2dd7c-a749-48d7-a42b-c78f9a72269c"
-			"5d872bb6-c3cd-4324-9605-98ae9a84d95b" "5f451f06-b424-48af-916c-2d4cba2a3686"
-			"60306181-cf49-4045-a508-0faef1f6d06d" "60d8100b-91fa-4420-bed7-4e52457e3b2e"
-			"6281ef1b-2d68-45ad-916d-0154dda5a5a8" "62c9d0c2-74a6-47e1-a424-d9ee7c3e9989"
-			"6347fe30-25c4-41e2-a9c7-debd7e4e991e" "65804db8-3259-49a5-bdff-87444c3646fe"
-			"6c3ab4a8-0955-4382-834f-6bfcf338ff3e" "6efd86e6-1fc6-4b7d-a535-487b53490ed3"
-			"6f781399-b9b7-4bb6-8d47-f11813eb9e29" "70756e34-f5ff-4e28-8270-fa61ca7469a9"
-			"70814930-94b3-4c9d-bc15-45f8157441ad" "7139706a-3fb1-4c97-aee7-4f458afad636"
-			"72b938ab-be25-40d8-9efe-f2be5dbeb5de" "75411357-4445-45c7-9ea3-45a6b1e2e3a0"
-			"780783ab-92f5-4639-a28e-37b7c396507e" "782be230-0eb3-43b1-8ed2-61bc3c3673a9"
-			"79a3aafe-1979-4064-a331-3a5a230a6ca7" "7c525271-f11b-4077-bd9a-904e020bd5e3"
-			"828b874e-27b4-4364-bb16-0eec6789acf8" "835b478e-54ea-4cef-a256-62fd0f38f86a"
-			"8403a9c7-c5f2-4957-bbbc-76fed484c2b2" "8731e9e0-cac9-47c4-9b00-e1d8a08653ff"
-			"886a2143-c313-43ef-8ef4-89f9837a3a50" "8fe93c84-77ec-486e-acdf-6311cb432858"
-			"902147d6-9079-4e3f-8425-928f98eda0f9" "90e16aa2-50b1-4a6a-a7d8-7a146cfe73f3"
-			"91353cb2-e303-4a20-bf24-b0e5c59a06aa" "914b9df5-031d-4039-8895-980db9624f5e"
-			"91ece110-c73b-42fc-aa29-73ac2d3bd28d" "92738151-066f-4f54-99a4-ec8d4ceb4deb"
-			"935682e6-45f9-45b4-a964-41f1a57ba15a" "95acf161-56f7-4a7a-bcb1-2a2d96fd0b9c"
-			"977a0f06-f45b-4279-a341-fb7c64553e42" "984bac62-be05-4433-95cc-ecc9699a289f"
-			"985da198-3a9c-46b6-bc9c-bd7c6de5b3d3" "989e64f9-dcbf-43fb-b7a8-ee161bb89abc"
-			"9ebb2b4c-39b0-4172-8836-55b1b212596e" "a11d9737-4ce8-4c30-842f-9c91c5ece140"
-			"a19dd9f6-6934-476f-9f24-b1a957870e6b" "a3b04b4b-0ef2-4800-a373-0eda015e1d9c"
+			"3a6551a0-9f35-41b1-9a2a-2b42badfd6f8" "3fdb4da6-2562-41e8-9509-421906f84984"
+			"40f5c1aa-77c7-4b15-83fe-3f8b039e4a1d" "438fc8eb-f7eb-4e8b-80c0-50a5a793d95b"
+			"4814f893-64e3-4b9e-8ca8-5a65eafdfc6a" "4bb86886-c7e7-4e14-a62c-f41b57eb6b07"
+			"51ec73e9-26cf-462f-afa5-0ac8bd9655c3" "5466a84e-6820-44b6-81b5-6b06cac59afe"
+			"5805ac45-560d-40f3-93a6-91a61a19ea4c" "58855376-81f1-4d2e-8f82-3cd98318f6ed"
+			"5ab66c1e-7e29-4910-b9c9-315069c7263d" "5bb2b6de-2f20-496f-af42-348940f5846a"
+			"5bc2dd7c-a749-48d7-a42b-c78f9a72269c" "5d872bb6-c3cd-4324-9605-98ae9a84d95b"
+			"5f451f06-b424-48af-916c-2d4cba2a3686" "60306181-cf49-4045-a508-0faef1f6d06d"
+			"608780ad-6535-48da-a9ab-6b4cb32711dd" "60d8100b-91fa-4420-bed7-4e52457e3b2e"
+			"62c9d0c2-74a6-47e1-a424-d9ee7c3e9989" "6347fe30-25c4-41e2-a9c7-debd7e4e991e"
+			"65804db8-3259-49a5-bdff-87444c3646fe" "6c3ab4a8-0955-4382-834f-6bfcf338ff3e"
+			"6efd86e6-1fc6-4b7d-a535-487b53490ed3" "6f781399-b9b7-4bb6-8d47-f11813eb9e29"
+			"70756e34-f5ff-4e28-8270-fa61ca7469a9" "70814930-94b3-4c9d-bc15-45f8157441ad"
+			"7139706a-3fb1-4c97-aee7-4f458afad636" "72b938ab-be25-40d8-9efe-f2be5dbeb5de"
+			"75411357-4445-45c7-9ea3-45a6b1e2e3a0" "780783ab-92f5-4639-a28e-37b7c396507e"
+			"782be230-0eb3-43b1-8ed2-61bc3c3673a9" "79a3aafe-1979-4064-a331-3a5a230a6ca7"
+			"7c525271-f11b-4077-bd9a-904e020bd5e3" "828b874e-27b4-4364-bb16-0eec6789acf8"
+			"835b478e-54ea-4cef-a256-62fd0f38f86a" "8403a9c7-c5f2-4957-bbbc-76fed484c2b2"
+			"8731e9e0-cac9-47c4-9b00-e1d8a08653ff" "886a2143-c313-43ef-8ef4-89f9837a3a50"
+			"8fe93c84-77ec-486e-acdf-6311cb432858" "902147d6-9079-4e3f-8425-928f98eda0f9"
+			"90e16aa2-50b1-4a6a-a7d8-7a146cfe73f3" "91353cb2-e303-4a20-bf24-b0e5c59a06aa"
+			"914b9df5-031d-4039-8895-980db9624f5e" "91ece110-c73b-42fc-aa29-73ac2d3bd28d"
+			"92738151-066f-4f54-99a4-ec8d4ceb4deb" "935682e6-45f9-45b4-a964-41f1a57ba15a"
+			"95acf161-56f7-4a7a-bcb1-2a2d96fd0b9c" "977a0f06-f45b-4279-a341-fb7c64553e42"
+			"984bac62-be05-4433-95cc-ecc9699a289f" "985da198-3a9c-46b6-bc9c-bd7c6de5b3d3"
+			"989e64f9-dcbf-43fb-b7a8-ee161bb89abc" "9ebb2b4c-39b0-4172-8836-55b1b212596e"
+			"a11d9737-4ce8-4c30-842f-9c91c5ece140" "a19dd9f6-6934-476f-9f24-b1a957870e6b"
+			"a3b04b4b-0ef2-4800-a373-0eda015e1d9c" "a45490f4-16c0-4ce9-96c7-8acea4b53e2b"
 			"a7a6ca6e-a421-4606-8a99-add4e7b8e4dd" "a9116dd2-9110-4724-a6dd-de5ba70b947e"
 			"a9af11c5-308e-4013-ab9b-ef1caf22bd16" "abe69980-c8ff-4b7c-a3e9-7bf160541e93"
 			"acdd6c86-9601-4b7e-980b-76d46d609a48" "aecbd7e0-35ef-4db6-85f4-fdfcd2f4b604"
 			"aefb51f6-0dd0-4fcd-afa4-81d839f5d44f" "b27e88b5-9b26-4c06-abcf-7125e45837ea"
 			"b2b61525-4d55-4796-9817-383210e0c17c" "b46cc284-e4f2-4e48-a657-69c5765c9dc3"
-			"b4741c5b-09af-4afc-b69a-45d8ecf115d5" "b542eda0-2ff3-4415-94c8-25ce442d76da"
-			"b943de76-b900-4f1f-8804-e360150df72b" "ba750593-1632-4176-aa41-8b74e83e4a7b"
-			"bac85af0-56f5-4e3f-87db-3514b8dc08ff" "bd13abd3-187d-4813-8fc3-861a5146715b"
-			"bd7b3148-58e3-410c-9c0d-db2b38d8d526" "c1da7f94-4ebe-4b50-9edd-3d96aca294f9"
-			"c5cb4397-1179-41e5-8988-7df53d9a950f" "c5dc9762-3dd9-435c-8e44-8da6bef64c53"
+			"b4741c5b-09af-4afc-b69a-45d8ecf115d5" "b4ea8663-4784-47b0-a367-a71e69c3067c"
+			"b542eda0-2ff3-4415-94c8-25ce442d76da" "b943de76-b900-4f1f-8804-e360150df72b"
+			"ba750593-1632-4176-aa41-8b74e83e4a7b" "bac85af0-56f5-4e3f-87db-3514b8dc08ff"
+			"bd13abd3-187d-4813-8fc3-861a5146715b" "bd7b3148-58e3-410c-9c0d-db2b38d8d526"
+			"c1da7f94-4ebe-4b50-9edd-3d96aca294f9" "c5cb4397-1179-41e5-8988-7df53d9a950f"
+			"c5dc9762-3dd9-435c-8e44-8da6bef64c53" "c709bf47-dd01-4b3f-9ab9-ce5a512f2448"
 			"cac20b50-4893-4400-b219-555ead65d514" "cac2ad79-62a0-47df-b916-a5558baf66df"
 			"cf90603e-3617-4630-b066-a699a31d759a" "d1311904-3fda-4516-8ce0-058abe9c3689"
-			"d15d03dc-a2b1-4922-9c89-838fa5441ab5" "d1a523e4-dcff-4eb0-ac8e-a7d43de4bce8"
-			"d1e240d2-610f-4a48-b286-2026a49898eb" "d26a7175-ff8d-4a8d-b5dd-868584ff1cf9"
+			"d1a523e4-dcff-4eb0-ac8e-a7d43de4bce8" "d26a7175-ff8d-4a8d-b5dd-868584ff1cf9"
 			"d3b27b76-cddd-40b0-9a9b-94aacc60f97a" "d3bf4b64-26ed-439a-b30b-5dc1db4a8988"
 			"d5c679a3-8d7d-4c93-bc35-b0d9fa67bffb" "d8ce1593-5253-4375-9b02-8d18102611ef"
 			"da514951-dc75-4050-ac3a-f1fd192b65ba" "daf5e44c-32b2-42b9-9a9c-39b4b3d53921"
-			"dbc79a3b-11ff-4a8c-9d64-d8647ad5d160" "dfa4de0a-296f-4282-ab27-3fa40cc75fc9"
+			"dd22f51c-aa79-43a1-be92-05562fe40284" "dfa4de0a-296f-4282-ab27-3fa40cc75fc9"
 			"e003128b-89e5-4958-8d66-d859e0f1fd9f" "e3937a35-5239-4a73-aa5a-3f3c53f0dae7"
 			"e65953db-3ed2-4d2a-81fb-0f9f98546873" "ea0d6880-6370-4be3-b233-440003224e3f"
 			"ea9e9426-2fa4-44ec-824f-2766b6eaa0e6" "eaf39ad5-bde5-41d6-adb9-5628e97e4636"
 			"ebf92b9d-4fc4-4e08-bd93-ed1a14cbe050" "ed6f4381-3aa2-414b-b232-981175995851"
 			"f08abfbb-bfca-48c2-b1b2-b6560d3416bc" "f5bbecf2-6b8d-4859-b735-e3895208f987"
-			"f9cbda5f-894d-4249-aa82-a4d0e5cd5234" "fbde6128-d07b-46d4-b1e6-481e251cdee5"
-			"fc6c9010-cedc-4f90-826c-5ecfebee367d" "fe027c68-6b14-44b3-868c-314688499c78"
-			"fe505c88-067c-41ad-bdb1-d4e94283ec8b"
+			"f5d1a9a8-4ef0-41c8-a5d3-5473d5311389" "f9cbda5f-894d-4249-aa82-a4d0e5cd5234"
+			"fbde6128-d07b-46d4-b1e6-481e251cdee5" "fc6c9010-cedc-4f90-826c-5ecfebee367d"
+			"fe027c68-6b14-44b3-868c-314688499c78" "fe505c88-067c-41ad-bdb1-d4e94283ec8b"
 		)
 	)
 	(sheet_instances
