@@ -743,12 +743,6 @@
 		(uuid "091393ad-6760-4107-9125-6bd9244bc24a")
 	)
 	(junction
-		(at 130.81 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15386848-31cc-4edd-a217-efbe09af4e43")
-	)
-	(junction
 		(at 92.71 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1187,12 +1181,6 @@
 		(uuid "ee7d68e8-6e84-4726-9680-70a86922d35c")
 	)
 	(junction
-		(at 140.97 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f672e507-07d1-4154-809a-42319ab22774")
-	)
-	(junction
 		(at 92.71 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1496,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 109.22) (xy 140.97 116.84)
+			(xy 140.97 97.79) (xy 140.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3226,16 +3214,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 133.35 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47e2b9e-31c8-4dd9-afb8-39b6a9637c75")
-	)
-	(wire
-		(pts
 			(xy 63.5 74.93) (xy 67.31 74.93)
 		)
 		(stroke
@@ -3373,16 +3351,6 @@
 			(type default)
 		)
 		(uuid "b063a94a-fb87-4b51-893b-c711c2885d81")
-	)
-	(wire
-		(pts
-			(xy 133.35 101.6) (xy 133.35 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06a995b-8b05-43d9-99c1-7e2ccd85b86e")
 	)
 	(wire
 		(pts
@@ -3993,16 +3961,6 @@
 			(type default)
 		)
 		(uuid "daebebd1-fc0a-4e58-a010-6be6ecc615ff")
-	)
-	(wire
-		(pts
-			(xy 140.97 97.79) (xy 140.97 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf7d630-f63b-4458-8b53-0de9c47dd1bd")
 	)
 	(wire
 		(pts
@@ -7462,131 +7420,6 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c0dd67c-3e26-4665-9e36-4d103bac8356")
-		(property "Reference" "C69"
-			(at 139.573 104.775 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15nF"
-			(at 139.573 102.235 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 140.97 108.2548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 137.16 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1430-1-ND"
-			(at 137.16 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB153/2833595?s=N4IgjCBcoEwAwBYCcVQAcAuUQFUB2AlhgPIBmAsgKYCGAzgK4BOlIANCPdmgGJsgC2BPNjABWOBL79qADxHjJAX0XsYUANogAwlrgA2OAGYA0gCUAGgHZTSAEK2QAXUVA"
-			(at 137.16 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 137.16 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603KRX7R9BB153"
-			(at 137.16 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b58390e2-017e-4cc3-bfd1-57cccdbf3cbb")
-		)
-		(pin "1"
-			(uuid "36344ac0-bc8a-4833-9fc1-7a96e8d5e272")
-		)
-		(instances
-			(project "fuse-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/d86ad6f9-6ecb-4228-85b7-377c89926190"
-					(reference "C69")
 					(unit 1)
 				)
 			)
