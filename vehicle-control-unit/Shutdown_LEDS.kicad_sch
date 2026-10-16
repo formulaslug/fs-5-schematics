@@ -3607,6 +3607,12 @@
 		(uuid "1f3c5df9-8131-49f8-adf1-3f0596139d70")
 	)
 	(junction
+		(at 45.72 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24fc519d-e9cf-4941-903f-8a534cf3a7e8")
+	)
+	(junction
 		(at 144.78 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3713,6 +3719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b3cfcc9-bb5e-4b84-a290-74444dacb3c6")
+	)
+	(junction
+		(at 49.53 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "917fa039-c96a-48eb-85c5-70aa73cd96a8")
 	)
 	(junction
 		(at 162.56 52.07)
@@ -4026,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 198.12) (xy 52.07 198.12)
+			(xy 39.37 198.12) (xy 45.72 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4356,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 248.92) (xy 52.07 248.92)
+			(xy 46.99 248.92) (xy 49.53 248.92)
 		)
 		(stroke
 			(width 0)
@@ -4816,6 +4828,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 248.92) (xy 52.07 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923b4e7d-3d1c-45bb-8520-ae91ee9de365")
+	)
+	(wire
+		(pts
 			(xy 279.4 80.01) (xy 275.59 80.01)
 		)
 		(stroke
@@ -4983,6 +5005,16 @@
 			(type default)
 		)
 		(uuid "a8a3b000-05e4-4b29-a0b0-e435f9f27400")
+	)
+	(wire
+		(pts
+			(xy 45.72 190.5) (xy 45.72 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a6d962-0909-4a6e-8ba5-de4289d2be6a")
 	)
 	(wire
 		(pts
@@ -5326,6 +5358,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 198.12) (xy 52.07 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7736e1-3f4f-45df-8abb-c21aabf058c2")
+	)
+	(wire
+		(pts
 			(xy 365.76 50.8) (xy 340.36 50.8)
 		)
 		(stroke
@@ -5393,6 +5435,16 @@
 			(type default)
 		)
 		(uuid "e644db8f-662e-4864-b689-d08dafd9ff8d")
+	)
+	(wire
+		(pts
+			(xy 49.53 238.76) (xy 49.53 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94e4f6a-08a7-4eb9-94a5-af0817823928")
 	)
 	(wire
 		(pts
@@ -5727,7 +5779,7 @@
 	)
 	(hierarchical_label "Hard_Braking_High_Current"
 		(shape input)
-		(at 48.26 248.92 180)
+		(at 46.99 248.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21754,6 +21806,161 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8abee71-c20f-4bbc-8f63-d74ccff20a56")
+		(property "Reference" "TP20"
+			(at 46.482 186.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSDP_Fault"
+			(at 46.482 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 50.8 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP PN" ""
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4111a1f-439c-47a3-8a15-6ed5374bf7d6")
+		)
+		(instances
+			(project "vehicle-control-unit"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461/564244f1-f8d9-476a-81a1-26e3f2ae69eb"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 321.31 95.25 0)
 		(unit 1)
@@ -22313,6 +22520,161 @@
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461/564244f1-f8d9-476a-81a1-26e3f2ae69eb"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c24d147e-c351-4c12-914f-e796e38e85f9")
+		(property "Reference" "TP10"
+			(at 50.292 234.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hard_Braking_High_Current"
+			(at 50.292 236.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 54.61 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 49.53 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 49.53 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 49.53 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP PN" ""
+			(at 49.53 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 49.53 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 49.53 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfd8ed34-7d81-4f2d-bac1-6bbc46d8a2cb")
+		)
+		(instances
+			(project "vehicle-control-unit"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461/564244f1-f8d9-476a-81a1-26e3f2ae69eb"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
