@@ -5,161 +5,6 @@
 	(uuid "c6fbb000-5b9b-45fe-b868-911cafca656f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -695,16 +540,26 @@
 		)
 	)
 	(junction
-		(at 149.86 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3600d518-7075-4f0a-89b7-806e20a4b3b3")
-	)
-	(junction
 		(at 149.86 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "740e6d2e-f2d4-4de4-a911-ebbcac078e02")
+	)
+	(junction
+		(at 149.86 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a59f8aa2-2720-445d-9274-805f73c7524a")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 162.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038be6de-cd78-495b-9313-aac66f2e4038")
 	)
 	(wire
 		(pts
@@ -718,7 +573,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 107.95) (xy 149.86 107.95)
+			(xy 129.54 107.95) (xy 149.86 107.95)
 		)
 		(stroke
 			(width 0)
@@ -728,13 +583,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 74.93) (xy 149.86 81.28)
+			(xy 149.86 74.93) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20c54fa8-dc3f-4c79-bc9e-2f9b4eceeae3")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389d2f8f-77b4-4f59-85f8-415038cdf24e")
 	)
 	(wire
 		(pts
@@ -758,7 +623,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 139.7 107.95)
+			(xy 129.54 96.52) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -775,6 +640,26 @@
 			(type default)
 		)
 		(uuid "52ecaa13-a962-464f-a008-45b439e32b5a")
+	)
+	(wire
+		(pts
+			(xy 162.56 100.33) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef75eea-cdb9-4047-9da1-3b8b9fdbca3f")
+	)
+	(wire
+		(pts
+			(xy 149.86 77.47) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ff8eaa-5665-489d-986c-af67374f7d41")
 	)
 	(wire
 		(pts
@@ -798,7 +683,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 149.86 81.28)
+			(xy 139.7 77.47) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
@@ -808,17 +693,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 149.86 86.36)
+			(xy 139.7 85.09) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdeaf8a5-0ce8-4189-b610-3cbf53c64b66")
+		(uuid "b989ad85-3484-4440-b7b9-eba796fb9625")
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 139.7 96.52)
+			(xy 140.97 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -902,8 +787,8 @@
 		(uuid "f0212a4c-c502-486f-8528-58847f7c4ffb")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 162.56 104.14 0)
+		(lib_id "Device:C_Small")
+		(at 139.7 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -911,32 +796,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4126b4ab-adc7-45ea-9e32-74dc7d8b37b5")
-		(property "Reference" "C5"
-			(at 166.37 102.8699 0)
+		(uuid "6a4ac1f1-d53f-441e-a757-0df3f715f871")
+		(property "Reference" "C33"
+			(at 144.272 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 166.37 105.4099 0)
+			(at 145.034 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 163.5252 107.95 0)
+			(at 139.7 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -946,8 +828,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 104.14 0)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=GRT188R61H225KE13D"
+			(at 139.7 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -957,8 +839,52 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 162.56 104.14 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-12332-1-ND"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT188R61H225KE13D"
+			(at 139.7 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -969,15 +895,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a1fccc56-00e2-4337-ad4c-4969a0c3d077")
+			(uuid "34dd5942-fa25-4315-8dc2-60a8ac56b207")
 		)
 		(pin "1"
-			(uuid "a050a1f8-38f0-4f4d-8bc8-6ff8e90e5640")
+			(uuid "448a791d-95d4-47e0-b70f-0a068c8c082c")
 		)
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
-					(reference "C5")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -985,7 +911,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 86.36 0)
+		(at 139.7 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -995,8 +921,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e4cab0-64c9-4292-b0ea-1cd463144237")
-		(property "Reference" "#PWR021"
-			(at 139.7 92.71 0)
+		(property "Reference" "#PWR018"
+			(at 139.7 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1007,7 +933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 91.44 0)
+			(at 139.7 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1017,7 +943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 86.36 0)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1028,7 +954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 86.36 0)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1039,7 +965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 86.36 0)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1055,7 +981,130 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
-					(reference "#PWR021")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "834b4edc-830d-4a1f-8f2f-e0423a996544")
+		(property "Reference" "C32"
+			(at 167.132 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 167.894 105.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 162.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=GRT188R61H225KE13D"
+			(at 162.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-12332-1-ND"
+			(at 162.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 162.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 162.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT188R61H225KE13D"
+			(at 162.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a247d4d4-c690-49d0-8d76-0bc0beb4e61a")
+		)
+		(pin "1"
+			(uuid "ba2e0dc8-9060-49d4-b2fe-4e67b2eff97d")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -1073,7 +1122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "872c7e3b-7344-484e-b804-c2841dbf9980")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 149.86 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1133,7 +1182,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -1151,7 +1200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1bca5d5-c49c-434b-95e2-0b33cbee6c15")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 152.0033 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1206,51 +1255,7 @@
 				)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC24624DR/10820444"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "296-UCC24624DRCT-ND"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Texas Instruments"
-			(at 176.276 78.232 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "UCC24624DR"
-			(at 159.512 78.232 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "296-UCC24624DRCT-ND"
 			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1272,7 +1277,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Texas Instruments"
 			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1283,19 +1288,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "UCC24624DR"
 			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey PN" "296-UCC24624DRCT-ND"
-			(at 198.374 78.232 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1332,133 +1326,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 139.7 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc7cb3ca-d2e2-446f-91f1-30bfe6d911f8")
-		(property "Reference" "C29"
-			(at 142.24 82.5562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5uF"
-			(at 142.24 85.0962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f733f1fc-4606-4c54-b7ac-9a97df73fe5c")
-		)
-		(pin "1"
-			(uuid "718f0846-ab58-4d94-8353-fb3ed198f60e")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
-					(reference "C29")
+					(reference "U4")
 					(unit 1)
 				)
 			)

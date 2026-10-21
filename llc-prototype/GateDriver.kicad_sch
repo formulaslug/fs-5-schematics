@@ -1770,26 +1770,6 @@
 		)
 		(uuid "5e1cc7df-0b2d-48a3-af78-e9fe78b711c2")
 	)
-	(text "Vbrkdown = 13V\n"
-		(exclude_from_sim no)
-		(at 101.092 163.068 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6b276c71-8da4-4701-9f42-cd7714e6039d")
-	)
-	(text "OVP Trip: VCCP > 3.5V\nOTP Trip: NTC pulls pin down below 0.8V"
-		(exclude_from_sim no)
-		(at 67.564 142.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "741737fc-fe3e-47b9-9e94-9813759d4fc5")
-	)
 	(text "Light Load Entry is determined if FBReplica equals HFBurstEntry"
 		(exclude_from_sim no)
 		(at 160.782 38.862 0)
@@ -1799,16 +1779,6 @@
 			)
 		)
 		(uuid "ad25d483-9a23-430d-b8e2-d1f847d66f44")
-	)
-	(text "Low ESR ceramic 2.2uF Decoupling Cap\n"
-		(exclude_from_sim no)
-		(at 127.508 127.254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bf4b1edf-3ddc-47e4-b12c-43846968c95a")
 	)
 	(text "BLK, LL, TSET\nMin V: -0.55V\nMax V: 5.5V\n"
 		(exclude_from_sim no)
@@ -1840,16 +1810,6 @@
 		)
 		(uuid "f6007b06-fc80-41c3-b33e-944d53333fb3")
 	)
-	(text "Cboot\nMin 0.1uF\nCalculate as described in Section 8.3.2\n"
-		(exclude_from_sim no)
-		(at 205.232 92.964 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f7cd40bb-81b5-4124-b3dc-280060a32e1f")
-	)
 	(text "HV/HB \nMin V: -0.3V \nMax V: 700V"
 		(exclude_from_sim no)
 		(at 58.928 29.972 0)
@@ -1861,64 +1821,22 @@
 		(uuid "fb9f5119-4225-4864-a002-0cd53382fc9b")
 	)
 	(junction
+		(at 170.18 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "030c8c4c-38ff-4e07-854a-4d46fbf736cd")
+	)
+	(junction
 		(at 101.6 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "378369e3-238f-4ac7-a1cb-62bba9c85953")
 	)
 	(junction
-		(at 102.87 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f64ea2c-dabd-42c7-8694-ae6077d97956")
-	)
-	(junction
-		(at 170.18 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "555f7a72-5f45-42d3-84a9-1b22bc133581")
-	)
-	(junction
-		(at 71.12 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b61363e-818d-4d19-8c68-04b7614d3c53")
-	)
-	(junction
 		(at 35.56 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "621e8054-711a-4ac9-b928-90b5cb36214e")
-	)
-	(junction
-		(at 90.17 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77c12d57-330b-4f1e-8373-df80e2485930")
-	)
-	(junction
-		(at 147.32 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80c4e459-3180-4a42-bfae-a28bdbc0e29c")
-	)
-	(junction
-		(at 156.21 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88f20e25-2fe1-408f-939c-6dfb84923554")
-	)
-	(junction
-		(at 26.67 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9821379d-15fb-44ed-a3a6-4279f04ee972")
-	)
-	(junction
-		(at 35.56 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f5dfb90-c04b-4127-b2e6-b8cdc697017f")
 	)
 	(junction
 		(at 123.19 107.95)
@@ -1931,12 +1849,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aaed6bb9-8edc-4618-9543-d0cd9ac72007")
-	)
-	(junction
-		(at 62.23 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aecb99c1-0249-4e73-8a64-821dc053a967")
 	)
 	(junction
 		(at 135.89 115.57)
@@ -1957,10 +1869,10 @@
 		(uuid "beaa4282-98d3-4c1a-9d91-e8b9d275c8a7")
 	)
 	(junction
-		(at 170.18 90.17)
+		(at 170.18 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bffe7c3f-7eb1-4938-82c3-52bbea60ffae")
+		(uuid "bf2f9caf-63ff-42ab-b558-d7b25b61a5ce")
 	)
 	(junction
 		(at 101.6 168.91)
@@ -1968,15 +1880,9 @@
 		(color 0 0 0 0)
 		(uuid "dc7b0c5a-b18d-4bac-b82f-42bf3b80b003")
 	)
-	(junction
-		(at 147.32 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3680508-f344-4c25-abf1-14d5e670adcd")
-	)
 	(wire
 		(pts
-			(xy 157.48 92.71) (xy 146.05 92.71)
+			(xy 148.59 92.71) (xy 146.05 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1986,23 +1892,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 71.12 168.91)
+			(xy 58.42 168.91) (xy 71.12 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0385653b-471e-4147-b5a5-94625600975a")
-	)
-	(wire
-		(pts
-			(xy 26.67 168.91) (xy 26.67 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08a0c00e-65ec-4248-a7a9-438c369b5373")
 	)
 	(wire
 		(pts
@@ -2016,26 +1912,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 105.41) (xy 157.48 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a7876f5-3260-474e-ba0b-169818458b8f")
-	)
-	(wire
-		(pts
-			(xy 102.87 102.87) (xy 102.87 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cbdb33c-3c2e-41b6-8a18-59aca35d1b13")
-	)
-	(wire
-		(pts
 			(xy 129.54 80.01) (xy 129.54 81.28)
 		)
 		(stroke
@@ -2043,16 +1919,6 @@
 			(type default)
 		)
 		(uuid "0defa08a-7610-42ee-abf1-a39e23ca3546")
-	)
-	(wire
-		(pts
-			(xy 147.32 105.41) (xy 147.32 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9455b0-fb19-4083-8f58-04dd5d5c3585")
 	)
 	(wire
 		(pts
@@ -2076,26 +1942,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 113.03) (xy 156.21 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d64a131-f3c4-4258-bf63-84c3d071f8c0")
-	)
-	(wire
-		(pts
-			(xy 90.17 168.91) (xy 90.17 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23deb591-4556-4725-804d-ffdb1e434cbc")
-	)
-	(wire
-		(pts
 			(xy 135.89 73.66) (xy 139.7 73.66)
 		)
 		(stroke
@@ -2116,23 +1962,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 177.8) (xy 26.67 181.61)
+			(xy 170.18 90.17) (xy 176.53 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35540850-dbb8-490e-978c-7ab6188aaef1")
-	)
-	(wire
-		(pts
-			(xy 156.21 105.41) (xy 156.21 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3721a5cd-0cdc-48ff-a5bd-7973028f51fa")
+		(uuid "2ed33d8f-d693-4cb2-9a8c-4cd1e9296e6a")
 	)
 	(wire
 		(pts
@@ -2146,17 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 96.52) (xy 102.87 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "394f0db6-2a8d-4907-b20b-97027366a2ca")
-	)
-	(wire
-		(pts
-			(xy 102.87 95.25) (xy 125.73 95.25)
+			(xy 100.33 95.25) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2176,6 +2002,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 146.05) (xy 111.76 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44285b2e-f491-4930-b9f1-90e5f768805b")
+	)
+	(wire
+		(pts
 			(xy 135.89 68.58) (xy 135.89 73.66)
 		)
 		(stroke
@@ -2183,26 +2019,6 @@
 			(type default)
 		)
 		(uuid "4b7cd50e-419b-4ef5-9b3d-73e0d517fb69")
-	)
-	(wire
-		(pts
-			(xy 170.18 90.17) (xy 176.53 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cbf1d89-6539-474b-9d38-d2e219fabcb9")
-	)
-	(wire
-		(pts
-			(xy 26.67 181.61) (xy 35.56 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514d8125-19a8-48da-b6b3-22eac83c870f")
 	)
 	(wire
 		(pts
@@ -2226,27 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 115.57) (xy 147.32 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac7496f-d629-4057-97b1-40f708e6e524")
-	)
-	(wire
-		(pts
-			(xy 58.42 168.91) (xy 62.23 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9aff85-20b5-4f02-add5-754a46e1d0c9")
-	)
-	(wire
-		(pts
-			(xy 26.67 168.91) (xy 35.56 168.91)
+			(xy 22.86 168.91) (xy 35.56 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2283,16 +2079,6 @@
 			(type default)
 		)
 		(uuid "69cb64f3-c6a0-4b30-b310-46c63160c83c")
-	)
-	(wire
-		(pts
-			(xy 90.17 179.07) (xy 90.17 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c630f79-ed76-4472-a77f-3f4d9e7874fa")
 	)
 	(wire
 		(pts
@@ -2346,33 +2132,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 181.61) (xy 71.12 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a34ffb3-7213-4f9a-bb25-e9a9753a458f")
-	)
-	(wire
-		(pts
-			(xy 90.17 168.91) (xy 101.6 168.91)
+			(xy 88.9 168.91) (xy 101.6 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ffd18fd-032f-4114-99ac-4c5cbc061fe1")
-	)
-	(wire
-		(pts
-			(xy 90.17 181.61) (xy 101.6 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80cce0f5-0234-4947-b4d4-64af473edd2a")
 	)
 	(wire
 		(pts
@@ -2396,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 157.48 102.87)
+			(xy 146.05 102.87) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2423,36 +2189,6 @@
 			(type default)
 		)
 		(uuid "909aee17-4929-4814-a683-8089ed683de8")
-	)
-	(wire
-		(pts
-			(xy 88.9 168.91) (xy 90.17 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9837fe09-5142-45db-8aff-7136a4fdc92f")
-	)
-	(wire
-		(pts
-			(xy 100.33 95.25) (xy 102.87 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98b3f210-f608-4158-a76e-dc308a141f9b")
-	)
-	(wire
-		(pts
-			(xy 111.76 156.21) (xy 111.76 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fce1d36-4ab8-483d-b3f9-4bb87b2e9678")
 	)
 	(wire
 		(pts
@@ -2516,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 147.32 105.41)
+			(xy 146.05 105.41) (xy 148.59 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2566,16 +2302,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 168.91) (xy 26.67 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c848f72b-c2d9-41b5-bbb7-d207830c39c5")
-	)
-	(wire
-		(pts
 			(xy 111.76 179.07) (xy 111.76 181.61)
 		)
 		(stroke
@@ -2606,16 +2332,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 177.8) (xy 62.23 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa076d6-334a-4b1d-8f39-b950562253b6")
-	)
-	(wire
-		(pts
 			(xy 101.6 179.07) (xy 101.6 181.61)
 		)
 		(stroke
@@ -2643,46 +2359,6 @@
 			(type default)
 		)
 		(uuid "df0f05b0-3dc7-4004-bd73-11057c40fbfa")
-	)
-	(wire
-		(pts
-			(xy 147.32 113.03) (xy 147.32 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12e6516-8481-4c62-ba70-20dd31afd4e0")
-	)
-	(wire
-		(pts
-			(xy 135.89 115.57) (xy 147.32 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f8b01d-fa44-48d8-b6ac-8bf5fdc4fbba")
-	)
-	(wire
-		(pts
-			(xy 147.32 105.41) (xy 156.21 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4addde-62c3-43b2-b8e9-893230db3658")
-	)
-	(wire
-		(pts
-			(xy 62.23 168.91) (xy 62.23 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed91a72a-b653-431e-b624-7c38c3b5884b")
 	)
 	(wire
 		(pts
@@ -2898,7 +2574,7 @@
 	)
 	(global_label "VCCP"
 		(shape passive)
-		(at 111.76 156.21 90)
+		(at 111.76 146.05 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2908,7 +2584,7 @@
 		)
 		(uuid "c2f61d05-1d1c-40ed-ac95-e96721495b5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 149.4375 90)
+			(at 111.76 139.2775 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,7 +2670,7 @@
 	)
 	(hierarchical_label "ISNS"
 		(shape input)
-		(at 157.48 105.41 0)
+		(at 148.59 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3015,8 +2691,8 @@
 		(uuid "2811bb48-13ac-4cf3-a373-56fe265a1baf")
 	)
 	(hierarchical_label "HI Driver"
-		(shape output)
-		(at 157.48 92.71 0)
+		(shape bidirectional)
+		(at 148.59 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3027,7 +2703,7 @@
 	)
 	(hierarchical_label "LO Driver"
 		(shape output)
-		(at 157.48 102.87 0)
+		(at 148.59 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3081,83 +2757,6 @@
 		(uuid "fb905312-0239-4db2-b5d0-760abdd68b4e")
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 102.87 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0205a173-1d91-4385-bf64-23f3fed0b40d")
-		(property "Reference" "#PWR018"
-			(at 102.87 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 102.743 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 102.87 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f342c888-b887-46aa-a612-bc77a42ebab9")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 35.56 175.26 0)
 		(unit 1)
@@ -3169,7 +2768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f078b02-a2a8-4436-9d70-c0a441178cc7")
-		(property "Reference" "R4"
+		(property "Reference" "R20"
 			(at 38.1 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3244,7 +2843,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R4")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3262,7 +2861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2352655e-f3cc-4aae-bcbb-2c401e6e3f10")
-		(property "Reference" "R1"
+		(property "Reference" "R22"
 			(at 73.66 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3337,7 +2936,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R1")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3355,7 +2954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d55cff5-a9d5-4c1b-b301-efd2602db572")
-		(property "Reference" "R2"
+		(property "Reference" "R21"
 			(at 73.66 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3430,133 +3029,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 62.23 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "393ca25a-c99c-4a9d-ae82-aa75606665e5")
-		(property "Reference" "C14"
-			(at 64.77 173.9962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220pF"
-			(at 64.77 176.5362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 62.23 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 62.23 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 62.23 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 62.23 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 62.23 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 62.23 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b077ffe6-3eb8-426e-a4d0-874bf31643da")
-		)
-		(pin "1"
-			(uuid "1df3beec-567e-4a42-b8fa-2f5096a4ee99")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "C14")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3584,7 +3057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTCS0402E3104JHT"
+		(property "Value" ""
 			(at 114.3 176.8474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,7 +3079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/29003/ntcs0402e3t.pdf"
+		(property "Datasheet" ""
 			(at 111.76 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -3628,7 +3101,51 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/NTCS0402E3104JHT/1245355"
+		(property "DigiKey URL" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 111.76 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -3666,7 +3183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9e538a-82ac-4b68-a5cf-8adf8fba5e0b")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 109.22 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +3300,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3800,7 +3317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44653a5e-01ce-4f08-8c01-fa5f4df03ce8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR015"
 			(at 101.6 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -3860,7 +3377,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "#PWR07")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3878,7 +3395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4689a303-c81b-4a33-8a02-9b60a6c9f255")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 118.11 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,7 +3512,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4012,7 +3529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "529c5e4e-8b95-49b6-8628-342ba5b6d99a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4072,7 +3589,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "#PWR04")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4090,7 +3607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6f6000-6664-47ef-910d-87aefdaf2424")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 172.72 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4167,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "1N5819HW-FDICT-ND"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4178,7 +3695,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4189,7 +3706,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4200,7 +3717,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "1N5819HW-7-F"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4220,7 +3737,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4315,7 +3832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "837da897-685d-4c7a-b360-357929b8a60d")
-		(property "Reference" "R11"
+		(property "Reference" "R23"
 			(at 104.14 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4326,7 +3843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "29.4k"
+		(property "Value" ""
 			(at 104.14 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4370,7 +3887,51 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT29K4/1761329?_gl=1*1uwch5s*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+		(property "DigiKey URL" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +3951,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R11")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4407,7 +3968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87b72149-da10-40b4-9e09-a75b87847a05")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 71.12 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -4467,134 +4028,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 170.18 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "905df8e7-85ec-4bcf-9e59-93e2f8f02dbd")
-		(property "Reference" "C1"
-			(at 172.72 91.4462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5uF"
-			(at 172.72 93.9862 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 170.18 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 170.18 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 170.18 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 170.18 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 170.18 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "207cbb4c-cfda-4ac2-a05a-c1c3cc20c92f")
-		)
-		(pin "1"
-			(uuid "41715f05-76ae-41d3-80fc-c3df31f1cb95")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "C1")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4611,7 +4045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97a42649-be08-4436-866e-2a0b9594ae5e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 35.56 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -4671,7 +4105,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4688,7 +4122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bceb6d01-db4c-4e64-a5b6-bed2a136aacd")
-		(property "Reference" "C10"
+		(property "Reference" "C28"
 			(at 117.602 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4155,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?productCategoryId=ceramicCapacitorSMD&partNum=GRM188R61E475KE11%23"
 			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4743,7 +4177,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "490-7203-1-ND"
 			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4754,7 +4188,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465"
 			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4765,7 +4199,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4776,7 +4210,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM188R61E475KE11D"
 			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4796,7 +4230,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "C10")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -4813,7 +4247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c43bf1a8-0df7-41c1-9d18-7c2b6bf24313")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 139.446 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4868,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "296-UCC256612DDBRCT-ND"
 			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4879,7 +4313,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/ucc256612ddbr/26769276"
 			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4890,7 +4324,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Texas Instruments"
 			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4901,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "UCC256612DDBR"
 			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4957,15 +4391,15 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 147.32 110.49 0)
+		(lib_id "Device:C_Small")
+		(at 170.18 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4973,32 +4407,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5870430-6d94-4ffc-9850-36c309c97b0b")
-		(property "Reference" "R5"
-			(at 149.86 109.2199 0)
+		(uuid "c9cd6a95-d99b-4ac6-9e2c-d9b26a622c95")
+		(property "Reference" "C30"
+			(at 174.244 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "510"
-			(at 149.86 111.7599 0)
+		(property "Value" "2.2uF"
+			(at 174.752 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 147.32 110.49 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5008,8 +4439,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 147.32 110.49 0)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=GRT188R61H225KE13D"
+			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,8 +4450,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 147.32 110.49 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,8 +4461,41 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-3GEYJ511V/104634?_gl=1*1llcpcq*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
-			(at 147.32 110.49 0)
+		(property "Digikey Part Number" "490-12332-1-ND"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT188R61H225KE13D"
+			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5042,15 +4506,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5a944b34-4d64-4f53-98aa-73401a2c5d4e")
+			(uuid "72cb2d35-75de-4ba4-a4ad-afea69251fe6")
 		)
 		(pin "1"
-			(uuid "76d4a692-7287-4d7f-99a0-713b4eea9d77")
+			(uuid "d7d9470d-5f8f-4861-8d4d-eb63f71b3af0")
 		)
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R5")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -5068,7 +4532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1184898-0da7-4f64-ab4e-3dc3a3c1511e")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 114.3 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +4543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "14V"
 			(at 114.3 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +4554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 111.76 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5101,7 +4565,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/1n5221b-d.pdf"
 			(at 111.76 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5123,7 +4587,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "1N5244B-ND"
 			(at 111.76 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5134,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/onsemi/1N5244B/977602"
 			(at 111.76 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5145,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "onsemi"
 			(at 111.76 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5156,7 +4620,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "1N5244B"
 			(at 111.76 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5176,7 +4640,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5193,7 +4657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d40a5653-ff68-4b95-9d9b-bd97ddf72747")
-		(property "Reference" "C3"
+		(property "Reference" "C29"
 			(at 124.968 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5224,7 +4688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=GRT188R61H225KE13D"
 			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5236,6 +4700,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-12332-1-ND"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT188R61H225KE13D"
 			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5255,385 +4763,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 90.17 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d862167a-0e56-4bd5-b3ed-6d89b37ed231")
-		(property "Reference" "C15"
-			(at 92.71 175.2662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100pF"
-			(at 92.71 177.8062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 90.17 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 90.17 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 90.17 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 90.17 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 90.17 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 90.17 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a385d609-42e5-4074-9587-d53dc82db055")
-		)
-		(pin "1"
-			(uuid "21c55aa4-58b5-46d8-a06c-7c0dc7cb5650")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 156.21 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd242d4d-44b2-47b9-9649-86cafc732d4c")
-		(property "Reference" "C11"
-			(at 158.75 109.2262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100pF"
-			(at 158.75 111.7662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "42640ccf-df1c-4dc0-b88c-c3cce037bd49")
-		)
-		(pin "1"
-			(uuid "86148bff-1fed-4992-8cab-06ca216e39f4")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 26.67 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dffd2653-25f2-4ce6-9ecb-d50686d35123")
-		(property "Reference" "C13"
-			(at 29.21 173.9962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330pF"
-			(at 29.21 176.5362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1c16e8f-cfeb-41d4-9b47-1563437d1de1")
-		)
-		(pin "1"
-			(uuid "294dbbff-d709-4f83-b0d9-5f681cd5dbdb")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "C13")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -5651,7 +4781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0032ef-98d3-4aa5-a22e-5eb520da4b0f")
-		(property "Reference" "R3"
+		(property "Reference" "R19"
 			(at 38.1 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5726,132 +4856,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 102.87 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f58ef58e-b283-4319-82d3-a8f95d5137bc")
-		(property "Reference" "C12"
-			(at 97.028 98.552 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 95.758 100.838 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 102.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 102.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 102.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 102.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 102.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "54cd18ee-5322-4fc0-b105-cd33c3d5e417")
-		)
-		(pin "1"
-			(uuid "ad64bf8c-c288-4788-8e2a-04e5b4508dbe")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "C12")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5869,7 +4874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff182842-7485-4a5a-80ba-b34c679f9222")
-		(property "Reference" "R6"
+		(property "Reference" "R26"
 			(at 172.72 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5880,7 +4885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" ""
 			(at 172.72 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5988,7 +4993,7 @@
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R6")
+					(reference "R26")
 					(unit 1)
 				)
 			)
