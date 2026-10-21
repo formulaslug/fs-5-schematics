@@ -5,11 +5,11 @@
 	(uuid "e994741c-7c7d-4124-9d00-43b883baa61d")
 	(paper "B")
 	(title_block
-		(title "${BOARD_TITLE}")
+		(title "Tractive Battery Board")
 		(date "${CURRENT_DATE}")
 		(rev "${REVISION}")
 		(company "Formula Slug")
-		(comment 1 "${NAMES}")
+		(comment 1 "Kaylee Kramer")
 		(comment 2 "${COMMENT1}")
 		(comment 3 "${COMMENT2}")
 	)
@@ -19936,9 +19936,11 @@
 		)
 		(pin "56"
 			(uuid "ad5d6e0e-2728-4fcf-82ad-d4d439bb25e9")
+			(alternate "SYS_JTDO-SWO")
 		)
 		(pin "57"
 			(uuid "3bc5e145-2f48-484f-86c4-ccddb1570e34")
+			(alternate "SPI1_MISO")
 		)
 		(pin "33"
 			(uuid "6c0103d0-96fb-47ae-b393-5644aff63dc6")
@@ -19948,6 +19950,7 @@
 		)
 		(pin "62"
 			(uuid "9ea8e81e-c6cf-42a5-bdcf-ef28fb686921")
+			(alternate "FDCAN1_TX")
 		)
 		(pin "58"
 			(uuid "0570a8b3-ef44-4d7b-9a9c-3ac75c75db6d")
@@ -19966,15 +19969,18 @@
 		)
 		(pin "35"
 			(uuid "ee34f4af-0351-4fe0-bc2c-eff848716db9")
+			(alternate "FDCAN2_TX")
 		)
 		(pin "27"
 			(uuid "cc3252ef-fca1-4ae3-ad60-fa4bb9b9cb3f")
 		)
 		(pin "61"
 			(uuid "2c926634-b85d-4cc6-9997-2f4972bb2523")
+			(alternate "FDCAN1_RX")
 		)
 		(pin "34"
 			(uuid "3674a39a-07e9-4385-8cee-e006421b6cae")
+			(alternate "FDCAN2_RX")
 		)
 		(pin "40"
 			(uuid "9354452a-523f-4841-ac79-03dfe94ce025")
@@ -20005,9 +20011,11 @@
 		)
 		(pin "6"
 			(uuid "d5cd79cb-86d5-4ed9-a410-d4f509d50349")
+			(alternate "RCC_OSC_OUT")
 		)
 		(pin "5"
 			(uuid "89112308-202e-439e-b9f7-0f2cde92cb04")
+			(alternate "RCC_OSC_IN")
 		)
 		(pin "11"
 			(uuid "3df49b2a-403c-4f62-bd66-149afdd16b33")
@@ -20038,6 +20046,7 @@
 		)
 		(pin "21"
 			(uuid "e3029bf6-d560-4a22-9280-846e06d26667")
+			(alternate "SPI1_MOSI")
 		)
 		(pin "22"
 			(uuid "0ad437c8-aee7-4254-ac6c-9ac50e31ed67")
@@ -20050,21 +20059,25 @@
 		)
 		(pin "49"
 			(uuid "fd22774e-4ae9-4e2b-a756-804eefa8e78d")
+			(alternate "SYS_JTMS-SWDIO")
 		)
 		(pin "50"
 			(uuid "e0a53ab4-3087-42e3-b9b2-4fe8ec83e51e")
+			(alternate "SYS_JTCK-SWCLK")
 		)
 		(pin "36"
 			(uuid "3ca8c344-cbcd-446f-86f2-19b45cf87894")
 		)
 		(pin "52"
 			(uuid "4d175e3b-edbd-4fdb-bf76-a66f4571b51b")
+			(alternate "SPI3_SCK")
 		)
 		(pin "51"
 			(uuid "9923405e-cf37-48a2-82d2-fa34681e6389")
 		)
 		(pin "14"
 			(uuid "5e79183f-51be-4553-bbc3-c26bba085406")
+			(alternate "USART2_TX")
 		)
 		(pin "64"
 			(uuid "e5ae2ff6-712a-4d3a-8a8e-fb75169dad39")
@@ -20074,12 +20087,14 @@
 		)
 		(pin "17"
 			(uuid "00bdf39e-b19a-4990-bbe3-f7b1d88cb83a")
+			(alternate "USART2_RX")
 		)
 		(pin "15"
 			(uuid "a6da65c7-b1e4-4842-b068-e9996fcdda9e")
 		)
 		(pin "20"
 			(uuid "bc052712-18bf-47ce-9f5c-9ecb79685423")
+			(alternate "SPI1_MISO")
 		)
 		(pin "13"
 			(uuid "49fdc224-71fe-4b33-9b14-0e35e18c238d")
