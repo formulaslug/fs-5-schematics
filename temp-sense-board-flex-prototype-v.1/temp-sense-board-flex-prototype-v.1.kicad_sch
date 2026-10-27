@@ -1510,131 +1510,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "cable footprints on left"
-		(exclude_from_sim no)
-		(at 182.88 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "44be580e-be45-4df1-a7df-60b73e91e0ee")
 	)
 	(text "2 layer board"
 		(exclude_from_sim no)
@@ -1646,51 +1521,17 @@
 		)
 		(uuid "cca212ae-9440-4537-90aa-27d3ca649485")
 	)
-	(text "connector footprints on right"
-		(exclude_from_sim no)
-		(at 57.15 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ed8bd7d7-7c0c-4fbc-a692-f884ae7ac362")
-	)
 	(junction
-		(at 144.78 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00952ae1-b741-4f46-8fdc-6de994d57246")
-	)
-	(junction
-		(at 82.55 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "012dcec6-0f19-4c21-9261-fd2ff219514a")
-	)
-	(junction
-		(at 170.18 120.65)
+		(at 173.99 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07eaea74-c73c-4d42-90b0-45a710576186")
-	)
-	(junction
-		(at 88.9 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "164a1312-8cfb-42c5-999d-565be1e836fc")
 	)
 	(junction
 		(at 138.43 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c136798-2e49-473b-9e38-f6edfbfa072e")
-	)
-	(junction
-		(at 95.25 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d36b98c-80f3-46ec-8f04-5f7e3f6b35ef")
 	)
 	(junction
 		(at 130.81 63.5)
@@ -1705,7 +1546,7 @@
 		(uuid "2225e17c-fdd6-4f63-aa35-fc94963fc9b6")
 	)
 	(junction
-		(at 171.45 74.93)
+		(at 175.26 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25f7e950-2624-4519-8f4e-27fde6d21344")
@@ -1717,58 +1558,16 @@
 		(uuid "2875e7b8-6308-458f-b58f-51f08ebf7f75")
 	)
 	(junction
-		(at 82.55 41.91)
+		(at 92.71 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29d13272-6b23-4aec-8e2a-167e986c26c7")
 	)
 	(junction
-		(at 82.55 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a926053-225f-4a74-bb7c-4a33aef93bd7")
-	)
-	(junction
-		(at 146.05 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cb63f83-9b86-455c-ac79-e48f7fb04a33")
-	)
-	(junction
-		(at 161.29 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32144e9e-4c25-4c2a-b681-e5b3e209ff76")
-	)
-	(junction
-		(at 171.45 91.44)
+		(at 175.26 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3535d2b3-e5c5-4cdb-b6db-d3f0e16a70b2")
-	)
-	(junction
-		(at 147.32 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37ff2486-e683-4b7b-98d5-80181d42537a")
-	)
-	(junction
-		(at 138.43 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b02f5d6-fef9-49b0-b380-5a2d5dcc0cc7")
-	)
-	(junction
-		(at 88.9 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b93aa0d-b6d5-4112-865b-88191427ded6")
-	)
-	(junction
-		(at 72.39 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c967879-395c-4a77-a9c0-9f662061db8c")
 	)
 	(junction
 		(at 130.81 55.88)
@@ -1777,22 +1576,16 @@
 		(uuid "40b56c0a-f4d0-4422-91b1-26e985e470ed")
 	)
 	(junction
-		(at 179.07 91.44)
+		(at 165.1 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4abbd75e-fcb8-4347-a19d-d433763a3f7e")
+	)
+	(junction
+		(at 182.88 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50faed79-a00f-4d64-bc96-34c845cf7737")
-	)
-	(junction
-		(at 82.55 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5199e675-0008-4058-a355-f48af5ae0cf4")
-	)
-	(junction
-		(at 146.05 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52385a6d-46c5-4af9-a29c-0bb80d33525c")
 	)
 	(junction
 		(at 138.43 120.65)
@@ -1807,28 +1600,22 @@
 		(uuid "5b499959-a241-4f84-9b92-d9ddf87907e6")
 	)
 	(junction
-		(at 170.18 115.57)
+		(at 173.99 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c56f83d-38ba-428e-958d-dc0e4bdbeb03")
 	)
 	(junction
-		(at 120.65 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e6bd972-7d56-4eb1-b40b-becda507cf6c")
-	)
-	(junction
-		(at 160.02 105.41)
+		(at 163.83 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60481beb-5c7c-4118-ad01-9f6a595a5de6")
 	)
 	(junction
-		(at 88.9 57.15)
+		(at 120.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69497cd2-cf1a-4442-b1e3-dc884bd046b1")
+		(uuid "6f2008c0-3eb4-4d88-adfc-f84c4d42c021")
 	)
 	(junction
 		(at 130.81 105.41)
@@ -1837,52 +1624,16 @@
 		(uuid "7d2fdd01-21e3-4ff3-8db8-c2956e4db743")
 	)
 	(junction
-		(at 95.25 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f0df240-45f6-4f8d-9855-8a37b8c1eace")
-	)
-	(junction
-		(at 95.25 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81776548-9699-414e-81f9-61b79504a845")
-	)
-	(junction
-		(at 82.55 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8746c771-89fc-4f39-a31f-1a83116bf8cd")
-	)
-	(junction
 		(at 120.65 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88fe5582-4be5-4fef-826b-00d71fec5e56")
 	)
 	(junction
-		(at 144.78 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "894df2e6-1568-4e8b-b99e-4cbcfc285387")
-	)
-	(junction
-		(at 95.25 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90cda89c-37c2-41d8-8780-6da6cdc6d2ce")
-	)
-	(junction
-		(at 177.8 63.5)
+		(at 181.61 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "926192cd-c08b-4e0a-b1e1-9899b8471f13")
-	)
-	(junction
-		(at 88.9 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97a472a1-42fd-458c-902f-185721a6e3fa")
 	)
 	(junction
 		(at 130.81 110.49)
@@ -1891,40 +1642,16 @@
 		(uuid "a1f01f0a-4cfc-4ee4-b8cd-a3d966d84c18")
 	)
 	(junction
-		(at 95.25 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5a4d9de-6a4d-4af7-a1c3-49388daaa519")
-	)
-	(junction
-		(at 88.9 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7b81142-07ae-48d9-9dd5-940cc95c09a2")
-	)
-	(junction
-		(at 95.25 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bacb7749-08b4-45f9-aaab-3bebd0b14a9e")
-	)
-	(junction
 		(at 130.81 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd2075fe-2f10-422c-bfee-ff9a36d22297")
 	)
 	(junction
-		(at 171.45 85.09)
+		(at 175.26 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea54973-9153-4739-8666-f4b8a5e7f17b")
-	)
-	(junction
-		(at 82.55 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfc51191-07cb-422b-bf42-ad6c92ca30e7")
 	)
 	(junction
 		(at 138.43 63.5)
@@ -1933,7 +1660,7 @@
 		(uuid "c4c9edee-969e-4ee9-9ee3-9ec9de544b46")
 	)
 	(junction
-		(at 171.45 58.42)
+		(at 175.26 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8742018-8b39-44ea-9bf2-2bbac600887f")
@@ -1945,64 +1672,34 @@
 		(uuid "caf6725b-e8c2-4024-b1d7-f5bd4d8d37fd")
 	)
 	(junction
-		(at 88.9 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd5fa73b-acc5-44a4-b737-00f969891998")
-	)
-	(junction
-		(at 171.45 55.88)
+		(at 175.26 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d24c173b-222d-4a2a-85bd-60ae9f417948")
 	)
 	(junction
-		(at 78.74 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2dc76ce-d5b1-4740-9c9a-c7c281e2934b")
-	)
-	(junction
-		(at 161.29 74.93)
+		(at 165.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc553e25-51bb-41f0-8df6-8b2664cf3168")
 	)
 	(junction
-		(at 82.55 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddf23bb8-1e31-4b71-a33c-0c2a9df72bbe")
-	)
-	(junction
-		(at 171.45 63.5)
+		(at 175.26 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0942277-d323-4a84-9131-d87815c21a7c")
 	)
 	(junction
-		(at 177.8 120.65)
+		(at 181.61 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0f058c1-95eb-4f1a-8f56-429ef16111fe")
 	)
 	(junction
-		(at 147.32 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebde5ff8-e3ec-4756-b32d-d1c4a7ef23c3")
-	)
-	(junction
-		(at 170.18 105.41)
+		(at 173.99 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edf93efd-a62c-41a2-bf98-2c60adf11c50")
-	)
-	(junction
-		(at 95.25 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee7e38e1-06e8-491b-9058-da5ccada7e20")
 	)
 	(junction
 		(at 130.81 91.44)
@@ -2011,24 +1708,14 @@
 		(uuid "f4ffe095-d2c1-433f-8d63-f97283386b45")
 	)
 	(junction
-		(at 88.9 41.91)
+		(at 99.06 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc036cf3-965e-436d-b8c9-82a44e78fe7b")
 	)
 	(wire
 		(pts
-			(xy 88.9 124.46) (xy 88.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006f65d1-d390-4061-9d70-50668ee138fc")
-	)
-	(wire
-		(pts
-			(xy 177.8 105.41) (xy 177.8 110.49)
+			(xy 181.61 105.41) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2038,17 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 53.34) (xy 144.78 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0279b2df-b6c2-4e94-ab05-23958a9725d3")
-	)
-	(wire
-		(pts
-			(xy 161.29 74.93) (xy 171.45 74.93)
+			(xy 165.1 74.93) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2058,17 +1735,37 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 146.05 129.54)
+			(xy 44.45 119.38) (xy 52.07 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bd99e17-abec-44a8-ae30-0182762e3f1f")
+		(uuid "056a7c53-d9a8-40bc-8eb9-0018a189e2d4")
 	)
 	(wire
 		(pts
-			(xy 171.45 85.09) (xy 171.45 91.44)
+			(xy 106.68 31.75) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b22c50-2f9f-48de-91bb-b2d01f050da6")
+	)
+	(wire
+		(pts
+			(xy 149.86 85.09) (xy 154.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0628ec-f6b9-4dec-be3d-2754c7247d81")
+	)
+	(wire
+		(pts
+			(xy 175.26 85.09) (xy 175.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2078,13 +1775,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 85.09) (xy 82.55 86.36)
+			(xy 149.86 58.42) (xy 154.94 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e32639f-cc28-4042-b5c7-95f47a4121df")
+		(uuid "0e875a4d-be39-47a6-b781-f2ea3fb87113")
 	)
 	(wire
 		(pts
@@ -2098,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 63.5) (xy 177.8 66.04)
+			(xy 181.61 63.5) (xy 181.61 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2108,37 +1805,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 41.91) (xy 177.8 41.91)
+			(xy 104.14 110.49) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11b5fabe-997d-484d-8ef7-8b87b04ad3fe")
+		(uuid "0f3d282e-051e-43cf-9fc0-d3d188cdee57")
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 149.86 113.03)
+			(xy 49.53 44.45) (xy 53.34 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1624f94e-c493-40ac-b96e-58408d3e2d8c")
+		(uuid "14778274-2787-4cd4-9ae6-33edbabd8ba0")
 	)
 	(wire
 		(pts
-			(xy 95.25 53.34) (xy 95.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "169fbcd6-6b5f-4e18-8b27-2b0406d71818")
-	)
-	(wire
-		(pts
-			(xy 161.29 63.5) (xy 171.45 63.5)
+			(xy 165.1 63.5) (xy 175.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2148,33 +1835,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 41.91) (xy 177.8 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a07b895-17eb-44fc-8014-1f051910e8e0")
-	)
-	(wire
-		(pts
-			(xy 171.45 53.34) (xy 171.45 55.88)
+			(xy 175.26 53.34) (xy 175.26 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c23a068-b390-48c2-94e7-4765b88e20b6")
-	)
-	(wire
-		(pts
-			(xy 147.32 85.09) (xy 147.32 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d95a9e2-d493-4989-9d6f-283a855e1b56")
 	)
 	(wire
 		(pts
@@ -2188,16 +1855,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 82.55 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2491cfbb-8e5c-4e6d-aefd-508b96bf72ca")
-	)
-	(wire
-		(pts
 			(xy 130.81 91.44) (xy 138.43 91.44)
 		)
 		(stroke
@@ -2208,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 177.8 120.65)
+			(xy 181.61 118.11) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2218,27 +1875,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 90.17) (xy 88.9 90.17)
+			(xy 44.45 124.46) (xy 52.07 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2750145b-e7ad-41a2-8d6e-e850c6bd7dd1")
+		(uuid "28215d3e-fb16-49fc-a1db-d68f6dd453ac")
 	)
 	(wire
 		(pts
-			(xy 95.25 121.92) (xy 95.25 127)
+			(xy 49.53 46.99) (xy 53.34 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2757dbef-9e2d-49f4-9d5c-d6cc9d5ba626")
+		(uuid "296d39ac-08e8-4fc5-8faa-52c579049336")
 	)
 	(wire
 		(pts
-			(xy 170.18 120.65) (xy 177.8 120.65)
+			(xy 173.99 120.65) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2248,13 +1905,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 41.91) (xy 138.43 52.07)
+			(xy 148.59 115.57) (xy 153.67 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d0e4158-17d4-4ef5-8f89-13aa7f0f5d41")
+		(uuid "2f6d6c6c-02a1-45e7-bbc4-da2044777ae4")
 	)
 	(wire
 		(pts
@@ -2268,23 +1925,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 110.49 81.28)
+			(xy 109.22 177.8) (xy 114.3 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "345fb77e-e346-44c1-a3d4-246b596ae096")
+		(uuid "3193f3c7-cf20-472b-bce5-3147a8ea8b7a")
 	)
 	(wire
 		(pts
-			(xy 49.53 57.15) (xy 88.9 57.15)
+			(xy 149.86 80.01) (xy 154.94 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3490b4fc-53a2-4900-b1ee-fcbd5260d8b3")
+		(uuid "3a0309a1-c928-4171-b119-e65cdbc0dcb2")
 	)
 	(wire
 		(pts
@@ -2298,27 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 119.38) (xy 82.55 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af775a6-3b4c-44f9-825e-3b9514768b80")
-	)
-	(wire
-		(pts
-			(xy 82.55 58.42) (xy 110.49 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ea9ffbf-3cc1-4e10-9aa7-e6d57ca40dbb")
-	)
-	(wire
-		(pts
-			(xy 82.55 41.91) (xy 88.9 41.91)
+			(xy 92.71 22.86) (xy 99.06 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 74.93) (xy 179.07 74.93)
+			(xy 175.26 74.93) (xy 182.88 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2348,17 +1985,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 53.34) (xy 110.49 53.34)
+			(xy 107.95 163.83) (xy 113.03 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41894e6c-ac71-46f1-82d2-dd21dacc00b6")
+		(uuid "415f8095-7da0-4ab4-83c4-72d7b5fabbb2")
 	)
 	(wire
 		(pts
-			(xy 170.18 105.41) (xy 177.8 105.41)
+			(xy 173.99 105.41) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2368,23 +2005,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 48.26) (xy 161.29 41.91)
+			(xy 49.53 41.91) (xy 53.34 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "434bfc15-730d-48b4-99ad-79c7c64411e7")
-	)
-	(wire
-		(pts
-			(xy 88.9 55.88) (xy 110.49 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "452ab943-e749-4106-88ea-19b46da29c7e")
+		(uuid "45b8a0ac-ea98-4544-80b9-f13edbe32c89")
 	)
 	(wire
 		(pts
@@ -2418,16 +2045,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 57.15) (xy 88.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48ecfcbf-b0bb-4b57-8ffa-5ed2acf76f31")
-	)
-	(wire
-		(pts
 			(xy 64.77 81.28) (xy 64.77 82.55)
 		)
 		(stroke
@@ -2438,17 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 149.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49c67561-bfd0-4bfc-b7ad-00c9a8b780c1")
-	)
-	(wire
-		(pts
-			(xy 161.29 90.17) (xy 161.29 91.44)
+			(xy 165.1 90.17) (xy 165.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2458,27 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 147.32 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d32e677-b9d9-43d3-9888-79fa2e5b9f2d")
-	)
-	(wire
-		(pts
-			(xy 44.45 124.46) (xy 88.9 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "528ffa21-c064-4ec3-8dc9-4e188a3fe3a4")
-	)
-	(wire
-		(pts
-			(xy 44.45 127) (xy 60.96 127)
+			(xy 44.45 127) (xy 53.34 127)
 		)
 		(stroke
 			(width 0)
@@ -2488,27 +2075,47 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 110.49) (xy 144.78 127)
+			(xy 49.53 57.15) (xy 57.15 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ef1b9ad-6b3a-4ba6-8352-f8e59b7a38dd")
+		(uuid "57f7ca4a-12a9-4bfa-915b-5ce89a98496d")
 	)
 	(wire
 		(pts
-			(xy 82.55 132.08) (xy 147.32 132.08)
+			(xy 104.14 58.42) (xy 110.49 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6299cd94-92e7-45f0-b8dc-ffff2aea8cac")
+		(uuid "581d62ce-3743-4109-befd-8168faf200cd")
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 177.8 63.5)
+			(xy 49.53 39.37) (xy 53.34 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e188c7a-6d68-4b69-8280-8484102521e8")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616d057c-e36e-49c3-819f-020f9e5ee3c9")
+	)
+	(wire
+		(pts
+			(xy 175.26 63.5) (xy 181.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2518,23 +2125,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 121.92) (xy 95.25 121.92)
+			(xy 148.59 113.03) (xy 153.67 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66f7f216-16fc-4f9d-8135-3f6bf83d3d2c")
-	)
-	(wire
-		(pts
-			(xy 88.9 113.03) (xy 110.49 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6800692c-b05a-45f2-a359-30073aa459ef")
+		(uuid "6749de89-4d95-4182-a95e-d8f04ad1aa4b")
 	)
 	(wire
 		(pts
@@ -2548,23 +2145,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 83.82) (xy 110.49 83.82)
+			(xy 104.14 81.28) (xy 110.49 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a3a5c6d-d4b6-4ec0-b776-06e24f18af37")
+		(uuid "69237586-8f7f-448d-9b83-f1bd23fd849b")
 	)
 	(wire
 		(pts
-			(xy 49.53 54.61) (xy 95.25 54.61)
+			(xy 104.14 55.88) (xy 110.49 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7011ad97-e8ab-47c5-9fa2-d8bd53d017b8")
+		(uuid "6e6e3410-15be-43c2-a4a4-16cd18ddb2d1")
 	)
 	(wire
 		(pts
@@ -2578,43 +2175,33 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 151.13 85.09)
+			(xy 104.14 113.03) (xy 110.49 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "736175f1-9b3e-4d80-8492-ed8f6013ac16")
+		(uuid "720d1867-1e2d-4b26-80eb-87917fb7301c")
 	)
 	(wire
 		(pts
-			(xy 82.55 58.42) (xy 82.55 52.07)
+			(xy 149.86 82.55) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "762a9f7c-b20c-4318-b29c-247ee33d7619")
+		(uuid "76a4906a-2fda-49eb-93c6-841727bd59e5")
 	)
 	(wire
 		(pts
-			(xy 177.8 59.69) (xy 177.8 63.5)
+			(xy 181.61 59.69) (xy 181.61 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77797b0f-c02c-4fa3-ae2f-cfe01d5ddbb3")
-	)
-	(wire
-		(pts
-			(xy 82.55 115.57) (xy 110.49 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78aa299b-4d95-4270-aaf6-dda40c69d3d9")
 	)
 	(wire
 		(pts
@@ -2638,13 +2225,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 55.88) (xy 146.05 82.55)
+			(xy 44.45 90.17) (xy 50.8 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e8c49a6-7c5e-4b79-a024-154d6cbe808b")
+		(uuid "807ede4d-34cc-4b6d-8000-1cdd80745728")
 	)
 	(wire
 		(pts
@@ -2658,16 +2245,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 55.88) (xy 151.13 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ac1512-9dca-42e2-bee1-a1cfca6dae4f")
-	)
-	(wire
-		(pts
 			(xy 130.81 76.2) (xy 138.43 76.2)
 		)
 		(stroke
@@ -2678,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 113.03) (xy 71.12 116.84)
+			(xy 67.31 113.03) (xy 67.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2688,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 41.91) (xy 88.9 43.18)
+			(xy 99.06 22.86) (xy 99.06 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2698,33 +2275,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 80.01) (xy 144.78 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c34ed9b-ec29-4cc5-a1bf-33549e1f371e")
-	)
-	(wire
-		(pts
-			(xy 49.53 59.69) (xy 78.74 59.69)
+			(xy 49.53 59.69) (xy 69.85 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8df165c8-8e59-401f-8d49-bc4e57f21e04")
-	)
-	(wire
-		(pts
-			(xy 82.55 50.8) (xy 82.55 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e1bcc3c-201d-4a59-af1b-83bf9598d2d8")
 	)
 	(wire
 		(pts
@@ -2738,17 +2295,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 80.01) (xy 151.13 80.01)
+			(xy 148.59 110.49) (xy 153.67 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95459947-8ddd-4c6b-8bc8-5413ac8c3f62")
+		(uuid "9184128f-0ca5-4ed3-802b-a87245aa9c5f")
 	)
 	(wire
 		(pts
-			(xy 88.9 41.91) (xy 95.25 41.91)
+			(xy 99.06 22.86) (xy 106.68 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2768,37 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 146.05 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b865680-24a7-48f3-8cc1-deff71314c81")
-	)
-	(wire
-		(pts
-			(xy 88.9 113.03) (xy 88.9 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c74680a-cc57-497a-ad37-995000e36b47")
-	)
-	(wire
-		(pts
-			(xy 95.25 87.63) (xy 95.25 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e42b3a4-99e0-4adc-ab72-81e5e2403d1f")
-	)
-	(wire
-		(pts
-			(xy 160.02 105.41) (xy 170.18 105.41)
+			(xy 163.83 105.41) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 113.03) (xy 170.18 115.57)
+			(xy 173.99 113.03) (xy 173.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2828,17 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 110.49) (xy 110.49 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0dfc3ef-b9c4-4756-aa2a-a136d68e15a9")
-	)
-	(wire
-		(pts
-			(xy 44.45 116.84) (xy 71.12 116.84)
+			(xy 44.45 116.84) (xy 67.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2858,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 91.44) (xy 179.07 95.25)
+			(xy 182.88 91.44) (xy 182.88 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2868,17 +2385,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 110.49) (xy 95.25 121.92)
+			(xy 44.45 85.09) (xy 50.8 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a68f0e89-a0a6-4445-a35a-d2d119325ee3")
+		(uuid "a61715af-611d-45c5-a54b-f25b3ed384fb")
 	)
 	(wire
 		(pts
-			(xy 171.45 55.88) (xy 171.45 58.42)
+			(xy 175.26 55.88) (xy 175.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 120.65) (xy 170.18 120.65)
+			(xy 163.83 120.65) (xy 173.99 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2898,17 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 41.91) (xy 120.65 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb7042b-f298-42ff-a922-22dc09bbe8eb")
-	)
-	(wire
-		(pts
-			(xy 170.18 105.41) (xy 170.18 110.49)
+			(xy 173.99 105.41) (xy 173.99 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2918,37 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 115.57) (xy 82.55 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf5cb8c-ab1c-4a37-a397-e775c6be8f6f")
-	)
-	(wire
-		(pts
-			(xy 82.55 86.36) (xy 82.55 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd67b90-4e9b-411b-b647-04c5efce2787")
-	)
-	(wire
-		(pts
-			(xy 138.43 41.91) (xy 161.29 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2b0908b-3013-4b6e-b953-5f947d17a811")
-	)
-	(wire
-		(pts
-			(xy 177.8 120.65) (xy 177.8 124.46)
+			(xy 181.61 120.65) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2958,17 +2435,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 86.36) (xy 110.49 86.36)
+			(xy 81.28 177.8) (xy 88.9 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4913232-3caf-4780-80e9-7b4e7c8095ac")
+		(uuid "b5467d24-12da-4db7-aef6-411a8472686f")
 	)
 	(wire
 		(pts
-			(xy 179.07 74.93) (xy 179.07 81.28)
+			(xy 182.88 74.93) (xy 182.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2978,7 +2455,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 91.44) (xy 171.45 91.44)
+			(xy 165.1 91.44) (xy 175.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2988,27 +2465,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 41.91) (xy 120.65 48.26)
+			(xy 104.14 53.34) (xy 110.49 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba3a29bf-beeb-492f-b683-c6d2cdd0c37f")
+		(uuid "bd0f88c0-b2d1-48d1-8b42-897100fbeb42")
 	)
 	(wire
 		(pts
-			(xy 95.25 127) (xy 144.78 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1052d8-62ca-43af-bdf9-756329238e2b")
-	)
-	(wire
-		(pts
-			(xy 72.39 49.53) (xy 72.39 41.91)
+			(xy 72.39 49.53) (xy 72.39 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3018,33 +2485,43 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 151.13 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef0f7a0-b3b3-4a71-b2bd-a2ca094ea5bc")
-	)
-	(wire
-		(pts
-			(xy 49.53 52.07) (xy 82.55 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf39c942-a630-4a90-bfca-c10294897184")
-	)
-	(wire
-		(pts
-			(xy 95.25 41.91) (xy 95.25 43.18)
+			(xy 106.68 22.86) (xy 106.68 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c0b7ca85-e3d7-4d82-9272-b6c253c1c36b")
+	)
+	(wire
+		(pts
+			(xy 138.43 48.26) (xy 120.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34dec78-e28a-48b0-ab7a-a50f25a77a98")
+	)
+	(wire
+		(pts
+			(xy 68.58 163.83) (xy 73.66 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ddead5-7d53-4658-8091-f3a70809d24c")
+	)
+	(wire
+		(pts
+			(xy 181.61 52.07) (xy 181.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53dcfca-07f7-40f7-a76c-e1ada56ae0af")
 	)
 	(wire
 		(pts
@@ -3058,16 +2535,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 58.42) (xy 82.55 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7636b92-31f3-4d8d-9af6-79d5079fee76")
-	)
-	(wire
-		(pts
 			(xy 130.81 53.34) (xy 130.81 55.88)
 		)
 		(stroke
@@ -3075,6 +2542,16 @@
 			(type default)
 		)
 		(uuid "c7c0d8c6-6923-479d-9ed4-a1fe262efb85")
+	)
+	(wire
+		(pts
+			(xy 138.43 52.07) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8280a36-46cc-4ed1-a668-04f6b47b6c7a")
 	)
 	(wire
 		(pts
@@ -3088,17 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 147.32 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92be239-83af-413f-b7a7-60a355c3fae1")
-	)
-	(wire
-		(pts
-			(xy 171.45 82.55) (xy 171.45 85.09)
+			(xy 175.26 82.55) (xy 175.26 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3108,13 +2575,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 95.25 53.34)
+			(xy 181.61 48.26) (xy 165.1 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce7effc1-28cf-46de-b8d0-a88866fa8943")
+		(uuid "ccde00d7-1899-4f8d-9291-d516c4e38d60")
+	)
+	(wire
+		(pts
+			(xy 149.86 53.34) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce626546-ec60-497e-a1b5-207d62e32047")
 	)
 	(wire
 		(pts
@@ -3128,13 +2605,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 88.9 57.15)
+			(xy 49.53 52.07) (xy 57.15 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cec159b3-4adf-46b4-96f3-ebdcf677cced")
+		(uuid "cf255208-8f52-4153-825f-c80c8d394d3a")
 	)
 	(wire
 		(pts
@@ -3148,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 41.91) (xy 82.55 43.18)
+			(xy 92.71 22.86) (xy 92.71 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3158,17 +2635,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 83.82) (xy 88.9 90.17)
+			(xy 49.53 54.61) (xy 57.15 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d406f66b-bf7b-4708-aa89-004e98ba47a4")
+		(uuid "d0439192-f0e9-4d56-92d8-6b08fa0573fc")
 	)
 	(wire
 		(pts
-			(xy 171.45 58.42) (xy 171.45 63.5)
+			(xy 44.45 121.92) (xy 52.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a139b5-73ad-45ce-9b3a-be9c45a9b7fd")
+	)
+	(wire
+		(pts
+			(xy 175.26 58.42) (xy 175.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3178,23 +2665,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 95.25 87.63)
+			(xy 44.45 87.63) (xy 50.8 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9ccc29f-7f8a-4c39-8317-082da0f7a948")
+		(uuid "d9bc6823-382f-41fa-8c23-b0b95beba466")
 	)
 	(wire
 		(pts
-			(xy 44.45 87.63) (xy 95.25 87.63)
+			(xy 92.71 31.75) (xy 92.71 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd9bbc0c-5fc2-4927-b6e6-b62f37067f1f")
+		(uuid "dc928292-a5d6-4531-ad7d-a7bade43973a")
 	)
 	(wire
 		(pts
@@ -3208,33 +2695,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 53.34) (xy 151.13 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15ea3e3-7205-43f2-bb01-549e449578c9")
-	)
-	(wire
-		(pts
-			(xy 146.05 113.03) (xy 146.05 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a5c1e8-e3a2-40a8-ad45-95e553119b51")
-	)
-	(wire
-		(pts
-			(xy 179.07 88.9) (xy 179.07 91.44)
+			(xy 182.88 88.9) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea5b1fab-8dbe-451d-9a42-eaeee8828f0f")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6c2ece-644c-4e3d-b21e-4cce1fc7a390")
 	)
 	(wire
 		(pts
@@ -3248,33 +2725,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 151.13 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed3d4b6b-a535-4219-b8cc-80f6f1f7fdc3")
-	)
-	(wire
-		(pts
-			(xy 171.45 74.93) (xy 171.45 80.01)
+			(xy 175.26 74.93) (xy 175.26 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "edb2d709-cdfd-491e-ac1f-af046838745d")
-	)
-	(wire
-		(pts
-			(xy 88.9 90.17) (xy 88.9 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebc9e1f-26e3-426b-b3ba-604f657321c8")
 	)
 	(wire
 		(pts
@@ -3288,27 +2745,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 110.49) (xy 149.86 110.49)
+			(xy 99.06 31.75) (xy 99.06 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f07913fc-b612-4630-8b55-fd31f3bb8f48")
+		(uuid "f3b0dacf-a604-4728-bfcc-691611462feb")
 	)
 	(wire
 		(pts
-			(xy 88.9 50.8) (xy 88.9 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c75a0c-cd20-46cf-a99b-07fc9c67fc3b")
-	)
-	(wire
-		(pts
-			(xy 170.18 115.57) (xy 170.18 120.65)
+			(xy 173.99 115.57) (xy 173.99 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3318,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 91.44) (xy 179.07 91.44)
+			(xy 175.26 91.44) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3328,13 +2775,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 54.61) (xy 95.25 81.28)
+			(xy 104.14 83.82) (xy 110.49 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f719a4ec-a8f6-45ce-ab14-bfea3eca895e")
+		(uuid "f7e6662d-c094-49e2-8d18-d416c2bb6461")
 	)
 	(wire
 		(pts
@@ -3348,43 +2795,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 41.91) (xy 138.43 41.91)
+			(xy 113.03 163.83) (xy 113.03 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9ae79e0-d665-412c-a4a0-7fb31ea20e24")
+		(uuid "f9b86e45-a20e-4c80-854c-89d08b0cc87f")
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 78.74 59.69)
+			(xy 104.14 115.57) (xy 110.49 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb9b98c7-a503-487d-90df-9ba60bbd85fe")
+		(uuid "fa56f9e0-850c-467e-b172-d1bae58cbf23")
 	)
 	(wire
 		(pts
-			(xy 44.45 92.71) (xy 71.12 92.71)
+			(xy 44.45 92.71) (xy 54.61 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc849c29-70aa-4958-9af2-e76b840fbc82")
-	)
-	(wire
-		(pts
-			(xy 44.45 119.38) (xy 82.55 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcfe444e-5405-4752-aaf8-3cac65171141")
 	)
 	(wire
 		(pts
@@ -3397,128 +2834,388 @@
 		(uuid "fe670ec3-1862-4617-9340-3e1010f90f38")
 	)
 	(label "ALERT"
-		(at 72.39 52.07 0)
+		(at 57.15 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02422821-11f0-4366-8422-26fe2e5f53fc")
+	)
+	(label "v3"
+		(at 53.34 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "02422821-11f0-4366-8422-26fe2e5f53fc")
+		(uuid "032cc153-bbd7-468e-8ac1-87d24f18816c")
 	)
-	(label "ALERT"
-		(at 110.49 115.57 180)
+	(label "v0"
+		(at 53.34 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "0f02b955-1352-4b7b-909f-f0f7c0a43bbc")
+	)
+	(label "ALERT"
+		(at 104.14 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "15ac2d92-1f5f-4bc8-b0fa-d3dc874ff91d")
 	)
 	(label "SDA"
-		(at 110.49 110.49 180)
+		(at 104.14 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25b153aa-c2b8-4056-a392-8cc86dcaba66")
+	)
+	(label "v2"
+		(at 81.28 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29e10785-17fe-42c1-aff6-886ae130b828")
+	)
+	(label "v1"
+		(at 68.58 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34a00de9-be3b-4d92-9087-8620a77b406d")
+	)
+	(label "v2"
+		(at 53.34 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "497e2bcd-6256-4641-bb92-351f2d9672c8")
+	)
+	(label "ALERT"
+		(at 106.68 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "25b153aa-c2b8-4056-a392-8cc86dcaba66")
+		(uuid "4a665359-a487-46e3-8a32-8711c771b889")
 	)
-	(label "SDA"
-		(at 72.39 54.61 0)
+	(label "ALERT"
+		(at 149.86 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "4b79ce95-95e1-40aa-ba5d-f400712421c3")
+	)
+	(label "SCL"
+		(at 99.06 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c9cdaea-6db1-4ff3-9ac4-04239685cdc3")
+	)
+	(label "SDA"
+		(at 57.15 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "4dabb4af-8a08-40df-aecd-1a146d4595b1")
 	)
 	(label "SDA"
-		(at 110.49 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7377ee23-2cf8-4249-bb1e-d1b79e1b5a1f")
-	)
-	(label "ALERT"
-		(at 110.49 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7535f59-bc6c-4ff3-b96a-971a69bdec57")
-	)
-	(label "SCL"
-		(at 110.49 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abf5a07b-79b7-4375-9884-f642fcbb0206")
-	)
-	(label "SDA"
-		(at 109.22 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b5e480dc-bb5d-473d-b370-4428d4b81c86")
-	)
-	(label "SCL"
-		(at 110.49 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0c0fd1d-ccb5-49f0-962c-b1c54a4e367b")
-	)
-	(label "ALERT"
-		(at 110.49 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e588ca58-7e14-41fe-8753-b17f49558fa9")
-	)
-	(label "SCL"
-		(at 72.39 57.15 0)
+		(at 149.86 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e6b22f57-57cd-4f0b-a4c7-8af1688abb4d")
+		(uuid "53176783-d703-4181-9317-62b72c69bd7b")
 	)
 	(label "SCL"
-		(at 110.49 83.82 180)
+		(at 52.07 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "5405ae5d-1b6d-4f2a-956a-23810c30d8ae")
+	)
+	(label "SDA"
+		(at 92.71 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "582b79d5-863e-4fe7-84c6-48b339d738f4")
+	)
+	(label "ALERT"
+		(at 148.59 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59806ef1-4ea4-463a-8488-66b9a861d08d")
+	)
+	(label "SCL"
+		(at 148.59 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70aee353-26dd-43a7-a4af-1b87cebfe380")
+	)
+	(label "SDA"
+		(at 104.14 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7377ee23-2cf8-4249-bb1e-d1b79e1b5a1f")
+	)
+	(label "SDA"
+		(at 148.59 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76144fab-29e6-4f6b-a9de-f35ea3bd28ff")
+	)
+	(label "SDA"
+		(at 149.86 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "772640dd-17e4-48da-bf94-66fcb0745cc0")
+	)
+	(label "v0"
+		(at 114.3 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7abdd22d-3543-4ba4-858c-c886a2c11363")
+	)
+	(label "ALERT"
+		(at 50.8 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8588285c-a55c-4771-b1df-24d5b2be913d")
+	)
+	(label "ALERT"
+		(at 52.07 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a1329ed-05ca-41f1-885d-59c95b1e13bf")
+	)
+	(label "SDA"
+		(at 50.8 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cea0fd1-b54b-4a71-8600-ca2a753efa6c")
+	)
+	(label "v1"
+		(at 53.34 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91a46cfb-c2d2-4c02-b4b8-1a08f6d533c5")
+	)
+	(label "ALERT"
+		(at 104.14 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7535f59-bc6c-4ff3-b96a-971a69bdec57")
+	)
+	(label "SCL"
+		(at 104.14 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf5a07b-79b7-4375-9884-f642fcbb0206")
+	)
+	(label "SCL"
+		(at 149.86 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae685a3f-c62f-4aa8-856e-ae4e36efb8c8")
+	)
+	(label "SCL"
+		(at 50.8 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afdbd5f6-0669-40ba-9499-87359cb4ff14")
+	)
+	(label "SDA"
+		(at 104.14 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5e480dc-bb5d-473d-b370-4428d4b81c86")
+	)
+	(label "SCL"
+		(at 104.14 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0c0fd1d-ccb5-49f0-962c-b1c54a4e367b")
+	)
+	(label "ALERT"
+		(at 149.86 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4b5624b-910f-4b14-9b1e-f259fee5f63f")
+	)
+	(label "SCL"
+		(at 149.86 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5b8975d-caee-472a-b194-1d735fb32b20")
+	)
+	(label "SDA"
+		(at 52.07 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc71493e-b66a-4f80-866f-240c32ead1ee")
+	)
+	(label "v3"
+		(at 113.03 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddc42353-687b-4afc-84f5-307bf7aa4fbd")
+	)
+	(label "ALERT"
+		(at 104.14 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e588ca58-7e14-41fe-8753-b17f49558fa9")
+	)
+	(label "SCL"
+		(at 57.15 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6b22f57-57cd-4f0b-a4c7-8af1688abb4d")
+	)
+	(label "SCL"
+		(at 104.14 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "f9818e40-a06c-4ae0-a0b0-da7bedfab4e7")
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 71.12 92.71 0)
+		(at 54.61 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3529,7 +3226,7 @@
 		(fields_autoplaced yes)
 		(uuid "000b03a2-ea3c-4aa2-9e10-26dde479c7ea")
 		(property "Reference" "#PWR0105"
-			(at 71.12 99.06 0)
+			(at 54.61 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,7 +3237,7 @@
 			)
 		)
 		(property "Value" "V-"
-			(at 71.12 96.52 0)
+			(at 54.61 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3550,7 +3247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 92.71 0)
+			(at 54.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3561,7 +3258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 92.71 0)
+			(at 54.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,7 +3269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 71.12 92.71 0)
+			(at 54.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,130 +3292,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0073539d-3036-4ce8-b0bb-5e4cc85fea74")
-		(property "Reference" "TP54"
-			(at 196.85 105.4101 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac6ab685-aae7-4084-904b-f21f29446357")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 177.8 114.3 0)
+		(at 181.61 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3730,7 +3305,7 @@
 		(fields_autoplaced yes)
 		(uuid "016c92dc-33bd-4513-ae26-3b9c8c90d704")
 		(property "Reference" "C6"
-			(at 170.18 114.3 90)
+			(at 173.99 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3741,7 +3316,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 181.61 114.2999 0)
+			(at 185.42 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3752,7 +3327,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 176.8348 118.11 0)
+			(at 180.6448 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3763,7 +3338,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
-			(at 177.8 114.3 0)
+			(at 181.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3774,7 +3349,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 114.3 0)
+			(at 181.61 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3785,7 +3360,7 @@
 			)
 		)
 		(property "Digi PN" "311-1445-1-ND"
-			(at 177.8 114.3 90)
+			(at 181.61 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3796,7 +3371,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R8BB105/2833610"
-			(at 177.8 114.3 90)
+			(at 181.61 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3807,7 +3382,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 177.8 114.3 90)
+			(at 181.61 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,7 +3393,7 @@
 			)
 		)
 		(property "MFG PN" "CC0603KRX5R8BB105"
-			(at 177.8 114.3 90)
+			(at 181.61 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +3542,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 55.88 0)
+		(at 181.61 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3979,7 +3554,7 @@
 		(fields_autoplaced yes)
 		(uuid "053f8b98-f858-4dd0-a6fd-35e311ac8b9b")
 		(property "Reference" "C4"
-			(at 170.18 55.88 90)
+			(at 173.99 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +3565,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 181.61 55.8799 0)
+			(at 185.42 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4001,7 +3576,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 176.8348 59.69 0)
+			(at 180.6448 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4012,7 +3587,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
-			(at 177.8 55.88 0)
+			(at 181.61 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4023,7 +3598,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 55.88 0)
+			(at 181.61 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +3609,7 @@
 			)
 		)
 		(property "Digi PN" "311-1445-1-ND"
-			(at 177.8 55.88 90)
+			(at 181.61 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4045,7 +3620,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R8BB105/2833610"
-			(at 177.8 55.88 90)
+			(at 181.61 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,7 +3631,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 177.8 55.88 90)
+			(at 181.61 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4067,7 +3642,7 @@
 			)
 		)
 		(property "MFG PN" "CC0603KRX5R8BB105"
-			(at 177.8 55.88 90)
+			(at 181.61 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,372 +3662,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "05d56d52-a3b7-4d33-96e5-faa592422156")
-		(property "Reference" "TP40"
-			(at 196.85 115.5701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 115.57 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31823588-c110-433b-9d0f-31dba78fcbba")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 60.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "05f0600d-f10e-4e38-8e40-6051c146ac4e")
-		(property "Reference" "TP51"
-			(at 196.85 62.2301 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6a6175e-6e0b-48cc-a143-9e5150a7f28d")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 31.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "060755f3-55ec-49c0-b883-eef3c69a0a10")
-		(property "Reference" "TP43"
-			(at 196.85 33.0201 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3b78066-b2f6-42c6-9667-5ec92d15317e")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP43")
 					(unit 1)
 				)
 			)
@@ -4537,374 +3746,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "09c5aced-302a-4ea6-a11f-93e30a2e7e03")
-		(property "Reference" "TP50"
-			(at 196.85 64.7701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70a4939f-5d0d-4256-b174-e23a6811ba9d")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c1ad4b4-59dd-4805-a645-d54c94129b92")
-		(property "Reference" "TP32"
-			(at 196.85 80.0101 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5e0b8b4-2594-4ddc-858b-ab4b4afd37d8")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "11d33f72-c571-490f-8834-fcaeb4907f13")
-		(property "Reference" "TP33"
-			(at 196.85 77.4701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8dabaece-f090-4675-9430-4dfc5400b040")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
-		(at 179.07 95.25 0)
+		(at 182.88 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4915,7 +3758,7 @@
 		(fields_autoplaced yes)
 		(uuid "15d8c35e-4c72-4e1f-a9c4-b937b9c8309a")
 		(property "Reference" "#PWR0106"
-			(at 179.07 101.6 0)
+			(at 182.88 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +3769,7 @@
 			)
 		)
 		(property "Value" "V-"
-			(at 179.07 99.06 0)
+			(at 182.88 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4936,7 +3779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 95.25 0)
+			(at 182.88 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4947,7 +3790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 95.25 0)
+			(at 182.88 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,7 +3801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 179.07 95.25 0)
+			(at 182.88 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,8 +3824,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 72.39 41.91 90)
+		(lib_id "power:+5V")
+		(at 120.65 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4990,9 +3833,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1c010c15-e8c2-4cee-83ee-26892773d2b4")
-		(property "Reference" "#FLG03"
-			(at 70.485 41.91 0)
+		(fields_autoplaced yes)
+		(uuid "16b5b496-5707-442c-9de7-ce033fad9214")
+		(property "Reference" "#PWR034"
+			(at 120.65 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5002,19 +3846,18 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 69.85 44.45 90)
+		(property "Value" "+5V"
+			(at 120.65 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 41.91 0)
+			(at 120.65 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,7 +3868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 41.91 0)
+			(at 120.65 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5035,8 +3878,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 72.39 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 120.65 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5047,12 +3890,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "84104438-d708-431e-890f-712057b883cd")
+			(uuid "b8a3fa15-0833-4bcc-a499-120025c5a8fc")
 		)
 		(instances
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#FLG03")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5181,130 +4024,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d699011-b4ab-48e5-ad9a-a1af88e67ed9")
-		(property "Reference" "TP31"
-			(at 196.85 82.5501 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "423a5cd7-498c-40b7-9c06-96a82c0b960e")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
-		(at 177.8 124.46 0)
+		(at 181.61 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5315,7 +4036,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f6ea40b-9075-4cc4-90cc-c468165358e7")
 		(property "Reference" "#PWR0108"
-			(at 177.8 130.81 0)
+			(at 181.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5326,7 +4047,7 @@
 			)
 		)
 		(property "Value" "V-"
-			(at 177.8 128.27 0)
+			(at 181.61 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5336,7 +4057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 124.46 0)
+			(at 181.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +4068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 124.46 0)
+			(at 181.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,7 +4079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 177.8 124.46 0)
+			(at 181.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,250 +4096,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2478181a-f95c-4fd9-907b-180b9b495935")
-		(property "Reference" "TP37"
-			(at 196.85 123.1901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f1ca95f-812d-4e4c-8dd0-008081c4592c")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27169e1c-c27a-43ec-bfba-255782e94a2f")
-		(property "Reference" "TP26"
-			(at 196.85 40.6401 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b3e30ff-fad1-46ba-87d1-0e1412dc66ff")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -5826,7 +4303,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 72.39 41.91 0)
+		(at 72.39 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5837,7 +4314,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a018a98-5de7-47d7-bd8f-9afb4ee531f3")
 		(property "Reference" "#PWR011"
-			(at 72.39 45.72 0)
+			(at 72.39 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5848,7 +4325,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 72.39 36.83 0)
+			(at 72.39 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5858,7 +4335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 41.91 0)
+			(at 72.39 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5869,7 +4346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 41.91 0)
+			(at 72.39 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5880,7 +4357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 41.91 0)
+			(at 72.39 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,7 +4381,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
-		(at 207.01 109.22 0)
+		(at 39.37 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5914,7 +4391,7 @@
 		(dnp no)
 		(uuid "30a19556-42e4-42ee-b42e-a4d0e743c633")
 		(property "Reference" "J7"
-			(at 213.36 111.76 0)
+			(at 33.02 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5924,7 +4401,7 @@
 			)
 		)
 		(property "Value" "1-84953-2"
-			(at 214.63 109.22 0)
+			(at 31.75 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5934,7 +4411,7 @@
 			)
 		)
 		(property "Footprint" "formula_slug_footprint_library:FPC-12PIN-CABLE-1mm-0.71mm"
-			(at 207.01 109.22 0)
+			(at 39.37 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5945,7 +4422,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773440-6&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=1-84952-2"
-			(at 207.01 109.22 0)
+			(at 39.37 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,7 +4433,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 207.01 109.22 0)
+			(at 39.37 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5967,7 +4444,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 207.01 109.22 0)
+			(at 39.37 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,7 +4455,7 @@
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-84953-2/1122179?s=N4IgjCBcoBw1oDGUBmBDANgZwKYBoQB7KAbRBgAYBmGKkAXQIAcAXKEAZRYCcBLAOwDmIAL4iCAJlLkALAE4ArHXoigA"
-			(at 207.01 109.22 0)
+			(at 39.37 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5989,7 +4466,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 207.01 109.22 0)
+			(at 39.37 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6000,7 +4477,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 207.01 109.22 0)
+			(at 39.37 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,128 +4527,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 49.53 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "324261c7-0b16-44da-ab8b-90c77edd9e56")
-		(property "Reference" "TP5"
-			(at 54.61 40.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 58.42 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 49.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 49.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 49.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 49.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 49.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33d12330-bf06-401f-8980-50f2691efb25")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6304,161 +4659,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x12")
-		(at 39.37 114.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "349f73b9-0f16-4c77-99b1-df52ad1cf591")
-		(property "Reference" "J4"
-			(at 33.02 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-84953-2"
-			(at 31.75 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "formula_slug_footprint_library:TE_84952-5"
-			(at 39.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773440-6&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=1-84952-2"
-			(at 39.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 39.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-84953-2/1122179?s=N4IgjCBcoBw1oDGUBmBDANgZwKYBoQB7KAbRBgAYBmGKkAXQIAcAXKEAZRYCcBLAOwDmIAL4iCAJlLkALAE4ArHXoigA"
-			(at 39.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 39.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 39.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "b54d86c2-750d-4d79-a94c-3def59cf480a")
-		)
-		(pin "12"
-			(uuid "2dfdbb8e-74d9-4081-8da1-8b37e868d2cc")
-		)
-		(pin "4"
-			(uuid "3c30d274-e951-4241-aed2-57ef9f59af77")
-		)
-		(pin "6"
-			(uuid "7f8055c4-a455-4365-9f6e-233b0024f151")
-		)
-		(pin "1"
-			(uuid "6500b136-575c-4aae-b52e-25cb35c55172")
-		)
-		(pin "8"
-			(uuid "7f42e07f-d069-48be-a186-5ca26890c19b")
-		)
-		(pin "7"
-			(uuid "ed1cd746-e7ad-4882-9c33-ba2a26d96b5e")
-		)
-		(pin "9"
-			(uuid "96cf10d7-effa-42f0-a8a8-f9c1b5afc392")
-		)
-		(pin "2"
-			(uuid "88bc61ad-1cb2-41d9-9f6b-bdc71c0edcee")
-		)
-		(pin "3"
-			(uuid "60370d22-d6e7-4003-91b5-65f996863c93")
-		)
-		(pin "10"
-			(uuid "5daf04e2-364e-4ff3-9261-a2cca5d6d7c7")
-		)
-		(pin "11"
-			(uuid "0ee1a231-8f66-4113-9d8a-6d6b1c73df96")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 71.12 113.03 0)
+		(at 165.1 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6466,9 +4668,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3738ca8b-6416-4349-8a51-28824ce0e117")
-		(property "Reference" "#PWR016"
-			(at 71.12 116.84 0)
+		(fields_autoplaced yes)
+		(uuid "326794fb-87f4-492a-83a7-cedf3d5320c0")
+		(property "Reference" "#PWR033"
+			(at 165.1 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +4682,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 110.49 0)
+			(at 165.1 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6489,7 +4692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 113.03 0)
+			(at 165.1 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6500,7 +4703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 113.03 0)
+			(at 165.1 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6511,7 +4714,84 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 113.03 0)
+			(at 165.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f306400-f23d-44f6-b316-57008213e4e7")
+		)
+		(instances
+			(project "temp-sense-board-flex-prototype-v.1"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 67.31 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3738ca8b-6416-4349-8a51-28824ce0e117")
+		(property "Reference" "#PWR016"
+			(at 67.31 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.85 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 67.31 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +4815,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 46.99 0)
+		(at 92.71 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6546,7 +4826,7 @@
 		(fields_autoplaced yes)
 		(uuid "38ea6bba-e124-41e7-89c5-e8e7f7a19646")
 		(property "Reference" "R1"
-			(at 85.09 45.7199 0)
+			(at 95.25 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6557,7 +4837,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 85.09 48.2599 0)
+			(at 95.25 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6568,7 +4848,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 80.772 46.99 90)
+			(at 90.932 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +4859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 46.99 0)
+			(at 92.71 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +4870,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 46.99 0)
+			(at 92.71 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,891 +4890,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39807a02-d26d-428e-923e-0aa6e903925a")
-		(property "Reference" "TP35"
-			(at 196.85 72.3901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2683438f-5199-4761-825d-f13bdc15780f")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39a9b606-c120-4097-bf00-51d1ab74927f")
-		(property "Reference" "TP36"
-			(at 196.85 125.7301 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c3fad87-5a51-4f86-a9fe-1a6f50e5c983")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x12")
-		(at 39.37 80.01 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39ba7f51-5d92-4b8a-b36d-13a7f648355a")
-		(property "Reference" "J3"
-			(at 31.75 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FH12-12S-1SH(55)"
-			(at 25.4 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "formula_slug_footprint_library:FH12-12S-1SH_55_"
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5148307.pdf"
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/FH12-12S-1SH-55/3873256"
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7483e1cc-46df-43d1-8615-10a3489f1b2e")
-		)
-		(pin "4"
-			(uuid "eb2ff85c-fef8-409e-bbed-3cf4febd3330")
-		)
-		(pin "9"
-			(uuid "be6d2aff-2b0c-43c4-9670-65c8f9a1786e")
-		)
-		(pin "12"
-			(uuid "9df18414-128b-4d07-8c2a-6a1e70f91aad")
-		)
-		(pin "3"
-			(uuid "30d9104b-6f15-468f-9562-eb60d4c7f79a")
-		)
-		(pin "11"
-			(uuid "aa143491-7a56-43a4-bf33-e521c49ec64e")
-		)
-		(pin "2"
-			(uuid "2efdf16e-87cc-449f-a2a8-33c26855fb18")
-		)
-		(pin "5"
-			(uuid "63da91b6-6297-4166-a6f4-f7a6ea1ec845")
-		)
-		(pin "6"
-			(uuid "d202423d-679f-4014-b9b9-e1c527b47fca")
-		)
-		(pin "7"
-			(uuid "a4cda399-d2ca-408c-8e6c-a63ff7925dca")
-		)
-		(pin "8"
-			(uuid "c5a51b80-1e59-44fc-90a7-e649ef832ed4")
-		)
-		(pin "10"
-			(uuid "c907dd4f-6572-49d5-b633-f35fd54c48fe")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 99.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3f033cc6-7530-47e8-8823-f14c2eaf880a")
-		(property "Reference" "TP56"
-			(at 196.85 100.3301 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "063acbbe-5ca7-401f-8c29-f5c316ef052c")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3f72304c-ae53-4275-af71-249799202c0d")
-		(property "Reference" "TP48"
-			(at 196.85 69.8501 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b665d457-9636-4a00-923f-b0ceb4cad4c6")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3feda738-3699-4719-9b38-2cb07ee6f5c5")
-		(property "Reference" "TP25"
-			(at 196.85 43.1801 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72a08d61-16a1-4d24-bb74-b8c486928b74")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 46.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "400075be-4fc5-42cd-80b1-866bcbd0cd5d")
-		(property "Reference" "TP23"
-			(at 196.85 48.2601 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eaac716d-04dc-42b3-b673-9bcd6ed00ec7")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -7623,130 +5018,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 49.53 46.99 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49e3962e-96bf-48fc-9b72-2a027f9fd36d")
-		(property "Reference" "TP7"
-			(at 54.61 45.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 58.42 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 49.53 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d163a3b-e88e-4916-8099-623d2658504d")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
-		(at 207.01 71.12 0)
+		(at 39.37 80.01 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7756,7 +5029,7 @@
 		(dnp no)
 		(uuid "4aeecd1b-76ab-4ecd-a614-5cc7c0681995")
 		(property "Reference" "J6"
-			(at 214.63 72.39 0)
+			(at 31.75 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7766,7 +5039,7 @@
 			)
 		)
 		(property "Value" "FH12-12S-1SH(55)"
-			(at 220.98 68.58 0)
+			(at 25.4 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7776,7 +5049,7 @@
 			)
 		)
 		(property "Footprint" "formula_slug_footprint_library:FPC-12PIN-CABLE-1mm-0.65mm"
-			(at 207.01 71.12 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +5060,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5148307.pdf"
-			(at 207.01 71.12 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7798,7 +5071,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 207.01 71.12 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7809,7 +5082,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 207.01 71.12 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7820,7 +5093,7 @@
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/FH12-12S-1SH-55/3873256"
-			(at 207.01 71.12 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7831,7 +5104,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 207.01 71.12 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +5115,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 207.01 71.12 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7898,130 +5171,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 21.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4eff1fde-4474-42f1-ad28-b1b062c49a4d")
-		(property "Reference" "TP47"
-			(at 196.85 22.8601 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 22.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "292cbfcd-0e28-494c-ab42-c800ec2600d3")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 82.55 41.91 0)
+		(at 92.71 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8032,7 +5183,7 @@
 		(fields_autoplaced yes)
 		(uuid "5043cb39-31d6-48f5-a0e3-fa481af5931e")
 		(property "Reference" "#PWR012"
-			(at 82.55 45.72 0)
+			(at 92.71 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8043,7 +5194,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 82.55 36.83 0)
+			(at 92.71 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8053,7 +5204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 41.91 0)
+			(at 92.71 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +5215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 41.91 0)
+			(at 92.71 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +5226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 41.91 0)
+			(at 92.71 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,18 +5249,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 73.66 90)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "513e6126-737e-48fd-a1c6-5e8c8421bfdf")
-		(property "Reference" "TP34"
-			(at 196.85 74.9301 90)
+		(fields_autoplaced yes)
+		(uuid "50ebf0e1-33e0-4820-9ee4-f9b3f92b366b")
+		(property "Reference" "H4"
+			(at 111.76 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8119,8 +5271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 191.77 74.93 90)
+		(property "Value" "MountingHole_Pad"
+			(at 111.76 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8130,8 +5282,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 68.58 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 109.22 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8142,7 +5294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 68.58 0)
+			(at 109.22 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8152,52 +5304,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 73.66 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,12 +5316,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "980e1f6a-f73c-4f83-8c97-a390c3a83c83")
+			(uuid "e9a06ef5-a09d-43a1-908e-a75ad5bf5b13")
 		)
 		(instances
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP34")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8221,7 +5329,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
-		(at 207.01 34.29 0)
+		(at 44.45 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8231,7 +5339,7 @@
 		(dnp no)
 		(uuid "515e3bad-6ebc-445f-91b4-738fc0a90ea0")
 		(property "Reference" "J5"
-			(at 212.09 35.56 0)
+			(at 39.37 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8241,7 +5349,7 @@
 			)
 		)
 		(property "Value" "FH34SRJ-12S-0.5SH(50)"
-			(at 220.98 33.02 0)
+			(at 30.48 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8251,7 +5359,7 @@
 			)
 		)
 		(property "Footprint" "formula_slug_footprint_library:FPC_12-CABLE-0.5mm-0.3mm"
-			(at 207.01 34.29 0)
+			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8262,7 +5370,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1253-0-99&productname=FH34SRJ-12S-0.5SH(99)&series=FH34SRJ&documenttype=SpecSheet&lang=en&documentid=0000414526"
-			(at 207.01 34.29 0)
+			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8273,7 +5381,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 207.01 34.29 0)
+			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8284,7 +5392,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 207.01 34.29 0)
+			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,7 +5403,7 @@
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/FH34SRJ-12S-0-5SH-50/5132518"
-			(at 207.01 34.29 0)
+			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8306,7 +5414,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 207.01 34.29 0)
+			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8317,7 +5425,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 207.01 34.29 0)
+			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8367,128 +5475,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 34.29 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5271763b-ea56-445b-a230-0ff39be3980d")
-		(property "Reference" "TP28"
-			(at 196.85 35.5601 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "917b3719-ca7a-40b6-b308-48cc78f87ca6")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -8882,128 +5868,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 49.53 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a7440eb-2a61-4d75-ae73-410ebc1ea8e5")
-		(property "Reference" "TP4"
-			(at 54.61 38.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 58.42 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 49.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 49.53 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 49.53 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 49.53 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 49.53 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 49.53 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b4bc6d3-14f3-4e41-81f0-00053e500089")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 44.45 106.68 270)
 		(unit 1)
 		(body_style 1)
@@ -9119,281 +5983,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x12")
-		(at 44.45 46.99 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5cf10212-219a-4953-9d2e-435cbb5d4c33")
-		(property "Reference" "J2"
-			(at 39.37 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FH34SRJ-12S-0.5SH(50)"
-			(at 30.48 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "formula_slug_footprint_library:CONN12x1_FH34SRJ-12S-0.5SH50_HIR"
-			(at 44.45 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1253-0-99&productname=FH34SRJ-12S-0.5SH(99)&series=FH34SRJ&documenttype=SpecSheet&lang=en&documentid=0000414526"
-			(at 44.45 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 44.45 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/FH34SRJ-12S-0-5SH-50/5132518"
-			(at 44.45 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 44.45 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 44.45 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4f3c8ba-17d3-4b1b-bd96-4790f02af431")
-		)
-		(pin "4"
-			(uuid "46d7e37a-2d9b-47ea-9fa8-c192177e5e63")
-		)
-		(pin "9"
-			(uuid "c497d0ae-aefd-4795-8e8c-5da1f548f41a")
-		)
-		(pin "12"
-			(uuid "d497e3a7-967a-4abb-a9cc-57debaff7a28")
-		)
-		(pin "3"
-			(uuid "23033556-9561-4114-96df-efb6983edf9f")
-		)
-		(pin "11"
-			(uuid "5436f1e0-16ee-4892-bc48-7fd5634cb2e9")
-		)
-		(pin "2"
-			(uuid "18d749ab-edf8-44f3-90d9-7869e94e2682")
-		)
-		(pin "5"
-			(uuid "7c3b0b50-82d4-4918-9aaf-22270460efcd")
-		)
-		(pin "6"
-			(uuid "f40e697a-df9c-4db3-a9b7-81df5dc39c21")
-		)
-		(pin "7"
-			(uuid "d6f9e93e-4e26-4ca5-96b4-48c3596d4bb5")
-		)
-		(pin "8"
-			(uuid "de0388e0-0f35-4d0f-8829-01494310842f")
-		)
-		(pin "10"
-			(uuid "54064864-ae85-4dae-b488-7d9f19538589")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68743f1d-c10b-4140-b9c6-4454ed8830d1")
-		(property "Reference" "TP52"
-			(at 196.85 59.6901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5d8cef1-c0b5-4efb-a3f6-24e5243017f9")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -9522,130 +6111,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b2f60c7-f4a3-423e-a875-5d20b09e2715")
-		(property "Reference" "TP49"
-			(at 196.85 67.3101 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d99272fc-68df-43e3-b976-80b7a54c0fcb")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 160.02 105.41 0)
+		(at 163.83 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9656,7 +6123,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d6a0c6d-1918-40f1-b214-1b799f75d426")
 		(property "Reference" "#PWR032"
-			(at 160.02 109.22 0)
+			(at 163.83 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9667,7 +6134,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.02 100.33 0)
+			(at 163.83 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9677,7 +6144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 105.41 0)
+			(at 163.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9688,7 +6155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 105.41 0)
+			(at 163.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9699,7 +6166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 160.02 105.41 0)
+			(at 163.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,7 +6190,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 177.8 66.04 0)
+		(at 181.61 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9734,7 +6201,7 @@
 		(fields_autoplaced yes)
 		(uuid "723ffca4-24fc-47f0-8a5e-a6cc1b101530")
 		(property "Reference" "#PWR0104"
-			(at 177.8 72.39 0)
+			(at 181.61 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9745,7 +6212,7 @@
 			)
 		)
 		(property "Value" "V-"
-			(at 177.8 69.85 0)
+			(at 181.61 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9755,7 +6222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 66.04 0)
+			(at 181.61 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9766,7 +6233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 66.04 0)
+			(at 181.61 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9777,7 +6244,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 177.8 66.04 0)
+			(at 181.61 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9923,7 +6390,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 85.09 0)
+		(at 182.88 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9932,10 +6399,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "76eed6d9-ceed-4639-a8ae-ad4d016726f7")
 		(property "Reference" "C5"
-			(at 171.45 85.09 90)
+			(at 175.26 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,7 +6412,8 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 182.88 85.0899 0)
+			(at 196.85 85.0899 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9957,7 +6424,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 178.1048 88.9 0)
+			(at 181.9148 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,7 +6435,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
-			(at 179.07 85.09 0)
+			(at 182.88 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9979,7 +6446,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 85.09 0)
+			(at 182.88 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9990,7 +6457,7 @@
 			)
 		)
 		(property "Digi PN" "311-1445-1-ND"
-			(at 179.07 85.09 90)
+			(at 182.88 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,7 +6468,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R8BB105/2833610"
-			(at 179.07 85.09 90)
+			(at 182.88 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10012,7 +6479,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 179.07 85.09 90)
+			(at 182.88 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10023,7 +6490,7 @@
 			)
 		)
 		(property "MFG PN" "CC0603KRX5R8BB105"
-			(at 179.07 85.09 90)
+			(at 182.88 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,128 +6510,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "772267b9-4911-4eee-8ff0-af6e5addce7c")
-		(property "Reference" "TP55"
-			(at 196.85 102.8701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e180709-e2ae-4901-b3d4-e8fc9c60f138")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP55")
 					(unit 1)
 				)
 			)
@@ -10376,18 +6721,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 26.67 90)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 107.95 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "838358e5-bd11-40b4-994b-9716fe38f7ab")
-		(property "Reference" "TP45"
-			(at 196.85 27.9401 90)
+		(fields_autoplaced yes)
+		(uuid "865aa9ed-afa6-493f-a840-d60df2bde8b3")
+		(property "Reference" "H2"
+			(at 110.49 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10397,8 +6743,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 191.77 27.94 90)
+		(property "Value" "MountingHole_Pad"
+			(at 110.49 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10408,8 +6754,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 21.59 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 107.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +6766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 21.59 0)
+			(at 107.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10430,52 +6776,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 201.93 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 26.67 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 107.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10486,12 +6788,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f447771-c262-4ea2-a704-768f26dde6ba")
+			(uuid "f448e5cf-5661-4e9a-8e03-fa3a449ec9ee")
 		)
 		(instances
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP45")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10621,7 +6923,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 161.29 74.93 0)
+		(at 165.1 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10632,7 +6934,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aacf7e8-ed01-4671-8813-3ac02c434518")
 		(property "Reference" "#PWR031"
-			(at 161.29 78.74 0)
+			(at 165.1 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10643,7 +6945,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 161.29 69.85 0)
+			(at 165.1 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10653,7 +6955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 74.93 0)
+			(at 165.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,7 +6966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 74.93 0)
+			(at 165.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,7 +6977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 161.29 74.93 0)
+			(at 165.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10699,7 +7001,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 78.74 63.5 0)
+		(at 69.85 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10709,7 +7011,7 @@
 		(dnp no)
 		(uuid "8c2ba40f-bc5c-4a85-a96d-0b680a0b7101")
 		(property "Reference" "#PWR0103"
-			(at 78.74 69.85 0)
+			(at 69.85 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10720,7 +7022,7 @@
 			)
 		)
 		(property "Value" "V-"
-			(at 77.724 67.31 0)
+			(at 68.834 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10730,7 +7032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 63.5 0)
+			(at 69.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10741,7 +7043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 63.5 0)
+			(at 69.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10752,7 +7054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 78.74 63.5 0)
+			(at 69.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10853,7 +7155,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:TMP1075D")
-		(at 161.29 55.88 0)
+		(at 165.1 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10864,7 +7166,7 @@
 		(dnp no)
 		(uuid "8f72c0fa-9b4b-4fce-ad08-4b4001e4f53e")
 		(property "Reference" "U4"
-			(at 162.56 47.498 0)
+			(at 166.37 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10874,7 +7176,7 @@
 			)
 		)
 		(property "Value" "TMP1075D"
-			(at 166.37 49.53 0)
+			(at 170.18 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10884,7 +7186,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 161.29 62.23 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10895,7 +7197,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tmp1075"
-			(at 161.29 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10906,7 +7208,7 @@
 			)
 		)
 		(property "Description" "I2C-bus digital temperature sensor and thermal watchdog, SO-8"
-			(at 161.29 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10917,7 +7219,7 @@
 			)
 		)
 		(property "Digi PN" "296-51833-1-ND"
-			(at 161.29 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10928,7 +7230,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/TMP1075DR/9685283"
-			(at 161.29 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10939,7 +7241,7 @@
 			)
 		)
 		(property "MFG" "TI"
-			(at 161.29 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +7252,7 @@
 			)
 		)
 		(property "MFG PN" "TMP1075DR"
-			(at 161.29 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11340,6 +7642,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 88.9 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e3c935-a693-4501-9d03-259fee597171")
+		(property "Reference" "H3"
+			(at 91.44 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 91.44 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64924531-2270-49f8-9986-300613c326b0")
+		)
+		(instances
+			(project "temp-sense-board-flex-prototype-v.1"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 44.45 101.6 270)
 		(unit 1)
@@ -11462,252 +7843,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9850b274-7db9-4281-8cbb-02bab206a186")
-		(property "Reference" "TP24"
-			(at 196.85 45.7201 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a625959-f481-4dc1-82f8-486271252ff5")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 49.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a1a9959-6d7f-433f-9ab3-f0f753f0b16d")
-		(property "Reference" "TP22"
-			(at 196.85 50.8001 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f58f02bc-e32f-42ea-a07e-c69867af4c24")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Temperature:TMP1075D")
-		(at 160.02 113.03 0)
+		(at 163.83 113.03 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11718,7 +7855,7 @@
 		(dnp no)
 		(uuid "9bb0a81f-e0b5-46b2-a14f-7b4e198136e8")
 		(property "Reference" "U6"
-			(at 161.29 104.648 0)
+			(at 165.1 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11728,7 +7865,7 @@
 			)
 		)
 		(property "Value" "TMP1075D"
-			(at 165.1 106.68 0)
+			(at 168.91 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11738,7 +7875,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 160.02 119.38 0)
+			(at 163.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11749,7 +7886,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tmp1075"
-			(at 160.02 113.03 0)
+			(at 163.83 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11760,7 +7897,7 @@
 			)
 		)
 		(property "Description" "I2C-bus digital temperature sensor and thermal watchdog, SO-8"
-			(at 160.02 113.03 0)
+			(at 163.83 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11771,7 +7908,7 @@
 			)
 		)
 		(property "Digi PN" "296-51833-1-ND"
-			(at 160.02 113.03 0)
+			(at 163.83 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11782,7 +7919,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/TMP1075DR/9685283"
-			(at 160.02 113.03 0)
+			(at 163.83 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11793,7 +7930,7 @@
 			)
 		)
 		(property "MFG" "TI"
-			(at 160.02 113.03 0)
+			(at 163.83 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11804,7 +7941,7 @@
 			)
 		)
 		(property "MFG PN" "TMP1075DR"
-			(at 160.02 113.03 0)
+			(at 163.83 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11848,252 +7985,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c77e874-b64b-460d-b883-a4c9f37670a7")
-		(property "Reference" "TP30"
-			(at 196.85 85.0901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af9c4d9f-d9c8-4d24-bb52-3efdc846627c")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d8d26c0-2263-4b32-bd8b-5882a0b2961f")
-		(property "Reference" "TP42"
-			(at 196.85 110.4901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89e34c71-d7f5-479d-8b6a-a02414f4046f")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Temperature:TMP1075D")
-		(at 161.29 82.55 0)
+		(at 165.1 82.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12104,7 +7997,7 @@
 		(dnp no)
 		(uuid "9f137759-3938-4cfe-944b-8368dac2ad60")
 		(property "Reference" "U5"
-			(at 162.56 74.168 0)
+			(at 166.37 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12114,7 +8007,7 @@
 			)
 		)
 		(property "Value" "TMP1075D"
-			(at 166.37 76.2 0)
+			(at 170.18 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12124,7 +8017,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 161.29 88.9 0)
+			(at 165.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12135,7 +8028,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tmp1075"
-			(at 161.29 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12146,7 +8039,7 @@
 			)
 		)
 		(property "Description" "I2C-bus digital temperature sensor and thermal watchdog, SO-8"
-			(at 161.29 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12157,7 +8050,7 @@
 			)
 		)
 		(property "Digi PN" "296-51833-1-ND"
-			(at 161.29 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12168,7 +8061,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/TMP1075DR/9685283"
-			(at 161.29 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12179,7 +8072,7 @@
 			)
 		)
 		(property "MFG" "TI"
-			(at 161.29 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12190,7 +8083,7 @@
 			)
 		)
 		(property "MFG PN" "TMP1075DR"
-			(at 161.29 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12235,7 +8128,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 46.99 0)
+		(at 99.06 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12246,7 +8139,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fa3fbf2-1054-47c3-a31d-00cfe6a1e4d8")
 		(property "Reference" "R2"
-			(at 91.44 45.7199 0)
+			(at 101.6 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12257,7 +8150,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 91.44 48.2599 0)
+			(at 101.6 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12268,7 +8161,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 87.122 46.99 90)
+			(at 97.282 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12279,7 +8172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 46.99 0)
+			(at 99.06 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,7 +8183,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 46.99 0)
+			(at 99.06 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12316,252 +8209,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9ff5e32e-7280-4e32-b264-e9be1992a329")
-		(property "Reference" "TP38"
-			(at 196.85 120.6501 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b393a01d-cb22-418a-b3b6-406ea68f9456")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 49.53 44.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a69230e7-2c37-491f-a865-0475c72f1cc9")
-		(property "Reference" "TP6"
-			(at 54.61 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 58.42 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 49.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 49.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 49.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 49.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 49.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 49.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb39c9fd-a730-4635-a02d-698c799260a5")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 95.25 46.99 0)
+		(at 106.68 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12572,7 +8221,7 @@
 		(fields_autoplaced yes)
 		(uuid "a817c26c-7596-4fd3-9960-c13f671d3d62")
 		(property "Reference" "R3"
-			(at 97.79 45.7199 0)
+			(at 109.22 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12583,7 +8232,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 97.79 48.2599 0)
+			(at 109.22 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12594,7 +8243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 93.472 46.99 90)
+			(at 104.902 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12605,7 +8254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 46.99 0)
+			(at 106.68 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12616,7 +8265,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 46.99 0)
+			(at 106.68 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12643,7 +8292,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 60.96 127 0)
+		(at 53.34 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12654,7 +8303,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8351e13-035a-43e3-abea-37fa98b5c3bf")
 		(property "Reference" "#PWR0107"
-			(at 60.96 133.35 0)
+			(at 53.34 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12665,7 +8314,7 @@
 			)
 		)
 		(property "Value" "V-"
-			(at 60.96 130.81 0)
+			(at 53.34 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12675,7 +8324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 127 0)
+			(at 53.34 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12686,7 +8335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 127 0)
+			(at 53.34 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12697,7 +8346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 60.96 127 0)
+			(at 53.34 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12836,250 +8485,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 106.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af668032-607e-4334-a7c2-ccbff89cea81")
-		(property "Reference" "TP53"
-			(at 196.85 107.9501 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "907d747b-26f1-478c-83d5-3a5d22c0dd27")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 116.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afd654b1-bb92-405b-8dc5-83079994dbb3")
-		(property "Reference" "TP39"
-			(at 196.85 118.1101 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af6c54c5-2bc5-4a25-b665-dad330ec14ff")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -13408,128 +8813,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d5f59046-85db-47fa-a034-bc97a1974104")
-		(property "Reference" "TP27"
-			(at 196.85 38.1001 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8a66b9e-e4f3-4249-8013-aa85f46bda6c")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 64.77 81.28 0)
 		(unit 1)
@@ -13730,128 +9013,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dfc77311-010f-45f3-ac7c-677c7fb9b85a")
-		(property "Reference" "TP41"
-			(at 196.85 113.0301 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75856558-dc2c-485b-94e8-ae4b84f52b73")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 44.45 67.31 270)
 		(unit 1)
 		(body_style 1)
@@ -13974,128 +9135,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0fdaa04-6625-4070-89bc-34bd04910dbf")
-		(property "Reference" "TP29"
-			(at 196.85 87.6301 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "461603fe-99b8-45a2-8691-a42f1d4694b5")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 44.45 69.85 270)
 		(unit 1)
 		(body_style 1)
@@ -14211,83 +9250,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 78.74 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f41d565a-c0bd-41f3-b942-737df7560068")
-		(property "Reference" "#FLG04"
-			(at 76.835 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 71.12 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 78.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c336f62-5a16-4126-99b7-958c0aa9534e")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -14430,372 +9392,6 @@
 			(project "temp-sense-board-flex-prototype-v.1"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 24.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f87c39c8-c30b-4109-910e-aacd8c80360a")
-		(property "Reference" "TP46"
-			(at 196.85 25.4001 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 25.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "304d261b-63bd-4b6e-b928-872e2040a62b")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 29.21 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc869ee8-ad25-4e0c-9064-e617da98ca75")
-		(property "Reference" "TP44"
-			(at 196.85 30.4801 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "676bf0e9-621d-42d2-ae72-0b7080f05e53")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff70cbac-2c48-4cf0-80ce-c6968460cdc0")
-		(property "Reference" "TP57"
-			(at 196.85 97.7901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 201.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 201.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 201.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45cad09e-3cd6-436e-bc6c-ee52e3b85759")
-		)
-		(instances
-			(project "temp-sense-board-flex-prototype-v.1"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP57")
 					(unit 1)
 				)
 			)
