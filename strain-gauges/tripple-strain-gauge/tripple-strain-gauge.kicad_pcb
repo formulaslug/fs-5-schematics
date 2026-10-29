@@ -51658,6 +51658,18 @@
 		(layer "F.Fab")
 		(uuid "286d4a05-5936-4c3b-9e36-b0a009df6732")
 	)
+	(gr_text "3M tessa8854 Stiffener Area"
+		(at 212.06 27.97 0)
+		(layer "User.1")
+		(uuid "55a21f82-5893-4d62-ba2b-011a17e7e858")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 219.9075 42.427382)
 		(end 219.9075 43.221382)
@@ -54849,6 +54861,37 @@
 		(layer "B.Cu")
 		(net "SPI_CS")
 		(uuid "bcc7afbe-37e0-4e32-8739-097031660076")
+	)
+	(zone
+		(layer "User.1")
+		(uuid "33f3ddc6-d23e-49ed-92c1-aa25e8f9ab73")
+		(name "3M tessa8854 Stiffener Area")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 212.06 27.97) (xy 240.06 27.97) (xy 240.06 52.97) (xy 212.06 52.97)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(embedded_files
