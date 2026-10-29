@@ -41,3 +41,9 @@ Pick a few to try based on research for ease of use, cost, protection and find v
 - Design a strain relief boot for the ATS connectors
 - Try making maintanence loops
 - Source better harness tape which is non-stretchy, sticks well, and does not leave residue after thermal cycles
+
+## Helpful Links
+- https://www.amphenol-sine.com/ats-series
+- https://www.rbracing-rsr.com/wiring_ecu.html
+- https://grassrootsmotorsports.com/forum/build-projects-and-project-cars/recommend-a-tape-for-wrapping-wiring-harness/147248/page1/ 
+
