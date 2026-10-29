@@ -1360,6 +1360,18 @@
 		)
 		(uuid "5ce46e14-1c20-46fa-9c22-6dfd64726180")
 	)
+	(rectangle
+		(start 15.24 19.304)
+		(end 154.686 67.818)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "75fc84f4-1d5a-4a0e-a750-bba54e8669d4")
+	)
 	(text "3V3 Filter"
 		(exclude_from_sim no)
 		(at 168.656 19.05 0)
@@ -1472,16 +1484,6 @@
 		)
 		(uuid "3a8ccffb-44ec-41bc-b99d-d3b27406793c")
 	)
-	(polyline
-		(pts
-			(xy 155.702 77.724) (xy 155.702 19.812)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a939079-7af0-47a9-8c49-4e26c80a88e1")
-	)
 	(wire
 		(pts
 			(xy 132.08 36.83) (xy 135.89 36.83)
@@ -1521,16 +1523,6 @@
 			(type default)
 		)
 		(uuid "51008c5e-0066-4fdc-a769-ade82a6b628a")
-	)
-	(polyline
-		(pts
-			(xy 155.702 19.304) (xy 15.24 19.304)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "562410b0-8b6b-4d96-81ac-883e29bd4171")
 	)
 	(wire
 		(pts
@@ -1572,16 +1564,6 @@
 		)
 		(uuid "79df4094-2d0b-4749-89d7-1668253cc5b3")
 	)
-	(polyline
-		(pts
-			(xy 15.24 19.304) (xy 15.24 77.216)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3781fb-d781-40da-b088-59900f1dd562")
-	)
 	(wire
 		(pts
 			(xy 189.23 40.64) (xy 172.72 40.64)
@@ -1591,16 +1573,6 @@
 			(type default)
 		)
 		(uuid "7f3b09c8-5dc9-4b19-8232-86215f6dd411")
-	)
-	(polyline
-		(pts
-			(xy 15.24 77.216) (xy 155.702 77.216)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8490385d-6317-4c0a-8a52-9030072697d6")
 	)
 	(wire
 		(pts
@@ -1966,7 +1938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "002a3298-1ec3-4a19-a0eb-6a52e65f4f83")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 193.04 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,7 +2002,7 @@
 		(instances
 			(project "tripple-strain-gauge"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2117,6 +2089,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 135.89 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "297b05f8-e996-48a6-af98-76894bc611f7")
+		(property "Reference" "#PWR038"
+			(at 135.89 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 135.89 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
+			(at 135.89 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 135.89 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb35e3df-e21f-466d-aeb6-c1053fb9b6cb")
+		)
+		(instances
+			(project "tripple-strain-gauge"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 172.72 41.91 0)
 		(mirror y)
@@ -2128,7 +2178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b07c0b1-b308-4d77-96d0-a1d24546945e")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR030"
 			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2188,7 +2238,7 @@
 		(instances
 			(project "tripple-strain-gauge"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "#PWR033")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2342,7 +2392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "558051b9-4f0c-4004-b783-df4170cab78d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 142.24 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2402,7 +2452,7 @@
 		(instances
 			(project "tripple-strain-gauge"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2420,7 +2470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a54eefa-5e4a-4c3d-a353-eec4f1d4ba9b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR025"
 			(at 54.61 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2431,7 +2481,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3_A"
 			(at 54.61 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2480,7 +2530,7 @@
 		(instances
 			(project "tripple-strain-gauge"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "#PWR034")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b02e6cf0-246b-4daa-8e5d-2c386cf8f7e9")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 204.47 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2766,7 +2816,7 @@
 		(instances
 			(project "tripple-strain-gauge"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2785,7 +2835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c56f80-3c4c-40e1-99ce-cf31b408d82d")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2796,7 +2846,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3_A"
 			(at 214.63 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2845,86 +2895,7 @@
 		(instances
 			(project "tripple-strain-gauge"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 135.89 34.29 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "caa841cf-23de-4f8c-8cbc-7db2f2db4dd1")
-		(property "Reference" "#PWR028"
-			(at 135.89 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 135.89 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TSSOP20_ST_MCH"
-			(at 135.89 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 135.89 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ae74b2b-f2f8-4cef-93b2-3926371cb31e")
-		)
-		(instances
-			(project "tripple-strain-gauge"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2941,7 +2912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f19935cc-30d1-487f-90cb-5465aeb76387")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR026"
 			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3001,7 +2972,7 @@
 		(instances
 			(project "tripple-strain-gauge"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "#PWR031")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3019,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbbc0873-ef63-4249-95bf-d117ca855349")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR029"
 			(at 172.72 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3079,7 +3050,7 @@
 		(instances
 			(project "tripple-strain-gauge"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9081ec08-249e-44b2-aa2e-ebca62a73fcf"
-					(reference "#PWR08")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
