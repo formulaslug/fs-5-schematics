@@ -1,0 +1,7 @@
+ - Mechanical said the chain guard (the thing the brake light is attached to) will not change much, so measure that, choose some red LED's, and get started on an FPC to take the place of those messy LED strips. - Luca's comment
+ - FSAE relevant rules:
+ - - T.3.4 Brake Light Section
+ - - T.3.4.1 The vehicle must must have a brake light that is clearly visible from the rear in very bright sunlight.
+  - - T.3.4.2 The brake light must be: red in color on a black background; rectangular, triangular or near round shape with a minimum shining surface of 15cm^2; mounted between the wheel centerline and driver's shoulder level vertically and approximately on vehicle centerline laterally
+  - - T.3.4.3 When LED lights are used without a diffuser, they must not be more than 20 mm apart.
+  - - If a single line of LEDs is used, the minimum length is 150 mm.
