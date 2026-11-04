@@ -39,9 +39,9 @@
         "other_text_thickness": 0.1524,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
+          "drill": 0.0,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -146,21 +146,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.0762,
         "min_connection": 0.127,
         "min_copper_edge_clearance": 0.254,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
+        "min_microvia_diameter": 0.55,
+        "min_microvia_drill": 0.3,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.016,
-        "min_text_thickness": 0.1524,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.254,
+        "min_track_width": 0.0762,
+        "min_via_annular_width": 0.0,
         "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -249,6 +249,10 @@
         {
           "diameter": 0.508,
           "drill": 0.254
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -511,7 +515,7 @@
     ]
   },
   "meta": {
-    "filename": "AmpliferBoard.kicad_pro",
+    "filename": "strain-gauge-triple.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -564,7 +568,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -829,18 +833,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "AmpliferBoard.kicad_sch",
-        "name": "AmpliferBoard",
+        "filename": "strain-gauge-triple.kicad_sch",
+        "name": "strain-gauge-triple",
         "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
-    "used_designators": "J1-2,#FLG1-2,R1-6,U1,#PWR1-2,#PWR13-20,C1,TP1-7,FB1",
+    "used_designators": "U1-4,#FLG1,S1-4,J1-2,FB1,#PWR1-38,C1-11,R1-14,JP1-9,IC1",
     "variants": []
   },
   "sheets": [
     [
       "e994741c-7c7d-4124-9d00-43b883baa61d",
-      "Amplifer Board"
+      "strain-gauge-triple"
+    ],
+    [
+      "9081ec08-249e-44b2-aa2e-ebca62a73fcf",
+      "adc-chip"
     ]
   ],
   "text_variables": {
