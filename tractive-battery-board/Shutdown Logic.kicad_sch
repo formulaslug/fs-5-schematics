@@ -6721,6 +6721,16 @@
 		)
 		(uuid "2b37eaac-07af-472c-b0c6-baf77e474add")
 	)
+	(text "Get rid of relay"
+		(exclude_from_sim no)
+		(at 135.89 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a338b97-3539-4e2a-acea-2b0d7297f7de")
+	)
 	(text "15.2 Startup Second Delay\n"
 		(exclude_from_sim no)
 		(at 163.576 179.324 0)
@@ -6740,6 +6750,26 @@
 			)
 		)
 		(uuid "72752990-f6e3-492b-b773-e241904e8b38")
+	)
+	(text "Review Later(maybe rc ciruit)"
+		(exclude_from_sim no)
+		(at 264.16 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "760451bd-60a1-481a-9265-dcdc915ed334")
+	)
+	(text "Can maybe be removed and replaced with mosfet"
+		(exclude_from_sim no)
+		(at 288.29 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "781036b7-a0e3-4acf-a21a-ce8e81de95f7")
 	)
 	(text "BMS STARTUP Delay\n"
 		(exclude_from_sim no)
@@ -6763,7 +6793,7 @@
 	)
 	(text "BMS NO Relay\n\n"
 		(exclude_from_sim no)
-		(at 169.672 17.018 0)
+		(at 170.18 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6838,12 +6868,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4580a210-6d0c-48fc-8325-ff323f15da17")
-	)
-	(junction
-		(at 177.8 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ad3b218-8cea-42ef-949e-d8c138c4a90b")
 	)
 	(junction
 		(at 241.3 152.4)
@@ -6952,6 +6976,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f191ce07-fef9-4a9c-8fe1-df37c335e97f")
+	)
+	(junction
+		(at 177.8 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f91845de-3d45-49b6-8a09-3d1272e268d0")
 	)
 	(no_connect
 		(at 157.48 60.96)
@@ -10026,6 +10056,246 @@
 		)
 	)
 	(symbol
+		(lib_id "FS_4_Global_Symbol_Library:G6DN-1A")
+		(at 171.45 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52104adb-2238-4065-8fa5-86c52ce0c9f8")
+		(property "Reference" "K2"
+			(at 170.18 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6DN-1A"
+			(at 170.18 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "formula_slug_footprint_library:RELAY_G6DN-1A"
+			(at 171.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5789/G6DN-CF%20Datasheet_EN.pdf"
+			(at 171.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPST NO Relay"
+			(at 171.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Omron Electronics Inc-EMC Div"
+			(at 171.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "G6DN-1A DC12"
+			(at 171.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "Z5440-ND"
+			(at 171.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/G6DN-1A-DC12/5864614"
+			(at 171.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP PN" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 171.45 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3091daa-b847-4248-bfa1-de0d4de892cc")
+		)
+		(pin "8"
+			(uuid "74342f4d-50c6-46aa-a658-593f7e51d3d9")
+		)
+		(pin "2"
+			(uuid "b2d4ff0c-5a7f-4f99-8cd9-3f374aa8c898")
+		)
+		(pin "5"
+			(uuid "b0a508eb-a067-448d-87aa-2f7b6763c30a")
+		)
+		(instances
+			(project "tractive-battery-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/a244660b-f017-46ea-b4bd-a884ba195722"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 241.3 152.4 180)
 		(unit 1)
@@ -10560,246 +10830,6 @@
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/a244660b-f017-46ea-b4bd-a884ba195722"
 					(reference "U15")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FS_4_Global_Symbol_Library:G6DN-1A")
-		(at 171.45 31.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b0d3557-efb8-4d41-8994-0ba0aec52084")
-		(property "Reference" "K2"
-			(at 170.18 19.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G6DN-1A"
-			(at 170.18 21.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FS_4_Global_Footprint_Library:RELAY_G6DN-1A"
-			(at 171.45 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5789/G6DN-CF%20Datasheet_EN.pdf"
-			(at 171.45 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPST NO Relay"
-			(at 171.45 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Omron Electronics Inc-EMC Div"
-			(at 171.45 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "G6DN-1A DC12"
-			(at 171.45 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "Z5440-ND"
-			(at 171.45 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/G6DN-1A-DC12/5864614"
-			(at 171.45 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Link" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP PN" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 171.45 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59e3670d-c87d-40a6-96bf-19f05c8478c9")
-		)
-		(pin "2"
-			(uuid "315746c8-2786-4dc7-b1f2-d929402eb4f7")
-		)
-		(pin "8"
-			(uuid "485e0abb-d91d-4e18-a0f8-0b7ef6594691")
-		)
-		(pin "5"
-			(uuid "5a57640c-4d74-43f5-8b76-3024933c1f37")
-		)
-		(instances
-			(project "tractive-battery-board"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/a244660b-f017-46ea-b4bd-a884ba195722"
-					(reference "K2")
-					(unit 1)
 				)
 			)
 		)
@@ -14427,7 +14457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cd341fb-7b5e-475b-923f-50d18bedf3c5")
-		(property "Reference" "U?"
+		(property "Reference" "U19"
 			(at 266.7 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14447,7 +14477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 266.7 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14575,7 +14605,7 @@
 		(instances
 			(project "tractive-battery-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/a244660b-f017-46ea-b4bd-a884ba195722"
-					(reference "U?")
+					(reference "U19")
 					(unit 2)
 				)
 			)
@@ -17578,7 +17608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1e24063-7884-4945-ae99-62619943aad1")
-		(property "Reference" "D?"
+		(property "Reference" "D13"
 			(at 308.61 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17816,7 +17846,7 @@
 		(instances
 			(project "tractive-battery-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/a244660b-f017-46ea-b4bd-a884ba195722"
-					(reference "D?")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -17854,7 +17884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_4_Global_Footprint_Library:RELAY_G6DN-1A"
+		(property "Footprint" "formula_slug_footprint_library:RELAY_G6DN-1A"
 			(at 308.61 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18096,7 +18126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FS_4_Global_Footprint_Library:1054311202 - 2-Pin Molex Nano-fit"
+		(property "Footprint" "formula_slug_footprint_library:1054311202 - 2-Pin Molex Nano-fit"
 			(at 355.6 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18624,7 +18654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f269afd4-2c5f-45c8-89ec-8dc6fdf8665d")
-		(property "Reference" "K?"
+		(property "Reference" "K3"
 			(at 308.61 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18644,7 +18674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_4_Global_Footprint_Library:RELAY_G6DN-1A"
+		(property "Footprint" "formula_slug_footprint_library:RELAY_G6DN-1A"
 			(at 309.88 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18868,7 +18898,7 @@
 		(instances
 			(project "tractive-battery-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/a244660b-f017-46ea-b4bd-a884ba195722"
-					(reference "K?")
+					(reference "K3")
 					(unit 1)
 				)
 			)
