@@ -8890,7 +8890,7 @@
 	)
 	(text "add buffer to ts ready"
 		(exclude_from_sim no)
-		(at 60.96 171.45 0)
+		(at 57.15 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9176,12 +9176,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00639f62-ff5a-4c61-8f9d-a64aff59b05d")
-	)
-	(junction
-		(at 118.11 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "066a86a0-f3a0-471e-aae9-5c984a4f5526")
 	)
 	(junction
 		(at 172.72 190.5)
@@ -9735,6 +9729,12 @@
 		(color 0 0 0 0)
 		(uuid "fdc4ee11-69a7-4d27-a7f3-8136d1444401")
 	)
+	(junction
+		(at 130.81 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fef062f0-f2ad-42a5-86a7-e42e6d4732ab")
+	)
 	(no_connect
 		(at 97.79 68.58)
 		(uuid "0c04a89d-3a46-4af2-aec7-682d046b69de")
@@ -9826,18 +9826,6 @@
 	(no_connect
 		(at 77.47 152.4)
 		(uuid "d23eabd3-f253-4a3d-8771-fc5c35fae91e")
-	)
-	(no_connect
-		(at 113.03 210.82)
-		(uuid "d908be16-6c26-4059-a5d9-22ffb824c003")
-	)
-	(no_connect
-		(at 113.03 208.28)
-		(uuid "d9304ad9-a4df-454e-8e6b-d2ca412d3ad5")
-	)
-	(no_connect
-		(at 77.47 170.18)
-		(uuid "e0c21b3d-32ac-454a-874f-a71f53610a43")
 	)
 	(no_connect
 		(at 97.79 86.36)
@@ -10373,16 +10361,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 205.74) (xy 119.38 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2c4547-9103-42b0-9772-f864741e00ca")
-	)
-	(wire
-		(pts
 			(xy 63.5 102.87) (xy 66.04 102.87)
 		)
 		(stroke
@@ -10453,6 +10431,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 205.74) (xy 133.35 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c94f74-fd93-4436-aece-6bef9f652074")
+	)
+	(wire
+		(pts
 			(xy 346.71 191.77) (xy 353.06 191.77)
 		)
 		(stroke
@@ -10483,7 +10471,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 205.74) (xy 118.11 205.74)
+			(xy 113.03 205.74) (xy 130.81 205.74)
 		)
 		(stroke
 			(width 0)
@@ -13663,7 +13651,7 @@
 	)
 	(global_label "SPI_BMS_CS"
 		(shape output)
-		(at 119.38 205.74 0)
+		(at 133.35 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13673,7 +13661,7 @@
 		)
 		(uuid "1af3e1fe-11b7-4dd3-8f0d-d899ff34ecdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.7951 205.74 0)
+			(at 147.7651 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18973,6 +18961,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 208.28 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eac71a0-3c4c-4083-8f4a-bf2d037fec76")
+		(property "Reference" "TP29"
+			(at 130.048 208.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PA9_TP"
+			(at 122.428 208.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 113.03 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1445b3ff-f5ff-422d-85fb-983f80aba4b0")
+		)
+		(instances
+			(project "tractive-battery-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 339.09 135.89 0)
 		(unit 1)
@@ -22212,7 +22277,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 205.74 0)
+		(at 130.81 205.74 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -22223,7 +22288,7 @@
 		(dnp no)
 		(uuid "3fb17744-209c-40ca-8d8a-314d0b88e791")
 		(property "Reference" "TP4"
-			(at 121.412 213.614 0)
+			(at 134.112 213.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22234,7 +22299,7 @@
 			)
 		)
 		(property "Value" "CK_TP"
-			(at 121.412 211.074 0)
+			(at 134.112 211.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22245,7 +22310,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 123.19 205.74 0)
+			(at 135.89 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22256,7 +22321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 205.74 0)
+			(at 135.89 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22267,7 +22332,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22278,7 +22343,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22289,7 +22354,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22300,7 +22365,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22311,7 +22376,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22322,7 +22387,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22333,7 +22398,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22344,7 +22409,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22355,7 +22420,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22366,7 +22431,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22377,7 +22442,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 118.11 205.74 0)
+			(at 130.81 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28327,6 +28392,82 @@
 			(project "tractive-battery-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a420177-9305-4be5-b9b4-6526c91aceab")
+		(property "Reference" "TP28"
+			(at 60.452 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC4_TP"
+			(at 68.072 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 77.47 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "992b0e21-6e7f-4842-9394-f19c0a8ff028")
+		)
+		(instances
+			(project "tractive-battery-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP28")
 					(unit 1)
 				)
 			)
