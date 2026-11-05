@@ -6579,7 +6579,7 @@
 		)
 		(uuid "16d79791-3a25-4d53-bf36-584eb52259f2")
 	)
-	(text "Gain: 20\nMax Voltage Output (analog): 2.596 V\nMax Dif Output: 1.929 V"
+	(text "Gain: 20\nMax Voltage Output (analog): 2.587 V\nMax Dif Output: 1.736 V"
 		(exclude_from_sim no)
 		(at 123.444 143.002 0)
 		(effects
@@ -6589,7 +6589,7 @@
 		)
 		(uuid "170a81d6-dbf6-45ac-bbdd-856c4f63e20c")
 	)
-	(text "Power: 5000 W\nNominal Voltage: 108 V\nNominal Current: 46.296 A"
+	(text "Power: 4500 W\nNominal Voltage: 108 V\nNominal Current: 41.667 A"
 		(exclude_from_sim no)
 		(at 154.686 143.256 0)
 		(effects
@@ -6649,9 +6649,9 @@
 		)
 		(uuid "4dfece25-b808-42dc-b07c-9ad607a836e6")
 	)
-	(text "5 * (12k/(12k + 19.1k) \n= 1.929 V\n"
+	(text "5 * (10k/(10k + 18.8k) \n= 1.736 V\n"
 		(exclude_from_sim no)
-		(at 111.506 170.688 0)
+		(at 109.474 169.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6739,7 +6739,7 @@
 		)
 		(uuid "bd43231d-14b1-40f8-aa22-5ff72a81a8a3")
 	)
-	(text "2.5 + 0.625(46.296/300) \n= 2.59645 V Analog\n"
+	(text "2.5 + 0.625(41.667/300) \n= 2.58681 V Analog\n"
 		(exclude_from_sim no)
 		(at 122.936 149.352 0)
 		(effects
@@ -6910,12 +6910,6 @@
 		(uuid "5ec2c8b3-6cf7-412a-bbfd-f002bc3270df")
 	)
 	(junction
-		(at 88.9 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ef91e4f-edaa-478f-984d-8139fadfd436")
-	)
-	(junction
 		(at 379.73 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7054,12 +7048,6 @@
 		(uuid "bccc6ed9-5486-4960-bcb3-00e8eae612a0")
 	)
 	(junction
-		(at 88.9 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2c8ec23-32f9-4f47-a9df-263e514741b3")
-	)
-	(junction
 		(at 240.03 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7094,12 +7082,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9c9b6ee-ebc6-44fe-8be3-ae89ddc4460e")
-	)
-	(junction
-		(at 99.06 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1a7be47-341c-4fbf-979a-b56fa0d9936a")
 	)
 	(junction
 		(at 295.91 259.08)
@@ -7155,17 +7137,15 @@
 		(color 0 0 0 0)
 		(uuid "fa6b4e49-30e9-4c7b-a025-703e58015b0c")
 	)
+	(junction
+		(at 95.25 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc5e1d2c-8424-49bd-8d67-769b3f843c5b")
+	)
 	(no_connect
 		(at 302.26 121.92)
 		(uuid "04b85583-77db-4c18-9ff0-ed57297fde9e")
-	)
-	(no_connect
-		(at 323.85 121.92)
-		(uuid "08d33a77-4385-4d03-8b19-be1f0f1582f6")
-	)
-	(no_connect
-		(at 308.61 124.46)
-		(uuid "18f9ddd6-2956-44dc-b96c-917a880a60e5")
 	)
 	(no_connect
 		(at 364.49 121.92)
@@ -7186,10 +7166,6 @@
 	(no_connect
 		(at 287.02 119.38)
 		(uuid "6815d796-d225-451b-ab88-cf8ac58b16e7")
-	)
-	(no_connect
-		(at 308.61 119.38)
-		(uuid "715b8063-cf92-41c8-854d-fecc25795edc")
 	)
 	(no_connect
 		(at 30.48 55.88)
@@ -7330,16 +7306,6 @@
 			(type default)
 		)
 		(uuid "0a6af61b-6da4-4d03-a415-614b24d3ae0b")
-	)
-	(wire
-		(pts
-			(xy 91.44 153.67) (xy 88.9 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b051397-9244-4bcb-b88e-7f230ba6bcee")
 	)
 	(wire
 		(pts
@@ -7783,16 +7749,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 152.4) (xy 88.9 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d304dba-c90b-401e-89bd-1905fa5ec270")
-	)
-	(wire
-		(pts
 			(xy 308.61 50.8) (xy 330.2 50.8)
 		)
 		(stroke
@@ -7933,7 +7889,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 165.1) (xy 88.9 167.64)
+			(xy 95.25 154.94) (xy 95.25 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8190,16 +8146,6 @@
 			(type default)
 		)
 		(uuid "5f7ca58f-1db6-4462-8b87-5df6d9a334a9")
-	)
-	(wire
-		(pts
-			(xy 99.06 161.29) (xy 99.06 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "601ab62e-1867-4cd1-ac8e-7881e657826d")
 	)
 	(wire
 		(pts
@@ -8613,7 +8559,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 153.67) (xy 48.26 153.67)
+			(xy 44.45 153.67) (xy 48.26 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8853,23 +8799,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 158.75) (xy 48.26 158.75)
+			(xy 46.99 158.75) (xy 48.26 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d04e8e1-ad3d-4850-8379-b263c36024e2")
-	)
-	(wire
-		(pts
-			(xy 88.9 153.67) (xy 88.9 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d8bda07-021f-4a3e-b65b-55d26dc1bbc5")
 	)
 	(wire
 		(pts
@@ -9033,6 +8969,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 161.29) (xy 100.33 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cb7d05-5add-4a41-ac84-9dfd62173ab5")
+	)
+	(wire
+		(pts
 			(xy 33.02 106.68) (xy 36.83 106.68)
 		)
 		(stroke
@@ -9060,16 +9006,6 @@
 			(type default)
 		)
 		(uuid "be446cda-223f-4e24-bf47-4aa6f041d86f")
-	)
-	(wire
-		(pts
-			(xy 88.9 167.64) (xy 88.9 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf9e4ac1-f1ee-4acb-b16f-4d7417ef9cfa")
 	)
 	(wire
 		(pts
@@ -9183,16 +9119,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 153.67) (xy 99.06 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caa26505-13e2-4c66-99b6-f7acae387353")
-	)
-	(wire
-		(pts
 			(xy 254 232.41) (xy 254 241.3)
 		)
 		(stroke
@@ -9200,16 +9126,6 @@
 			(type default)
 		)
 		(uuid "cafb7102-0b76-4978-bf22-ae2b25bbaeec")
-	)
-	(wire
-		(pts
-			(xy 99.06 161.29) (xy 100.33 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc325a0b-05ff-479b-a665-c71814a840f2")
 	)
 	(wire
 		(pts
@@ -9453,16 +9369,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 167.64) (xy 88.9 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38cb091-ee4a-48c0-8d6f-05b42ba8a7f0")
-	)
-	(wire
-		(pts
 			(xy 308.61 48.26) (xy 330.2 48.26)
 		)
 		(stroke
@@ -9560,16 +9466,6 @@
 			(type default)
 		)
 		(uuid "f227e629-b063-4682-a264-754018209367")
-	)
-	(wire
-		(pts
-			(xy 92.71 161.29) (xy 99.06 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2627b14-7d22-4e19-891e-5aff2fca33f2")
 	)
 	(wire
 		(pts
@@ -9693,6 +9589,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 161.29) (xy 95.25 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb451aa7-f16d-421b-8ee7-ac549bb54767")
+	)
+	(wire
+		(pts
 			(xy 308.61 45.72) (xy 330.2 45.72)
 		)
 		(stroke
@@ -9732,7 +9638,7 @@
 		(uuid "ff9d9b1c-1cf7-45d6-a8f8-08ab7fa5cc29")
 	)
 	(label "High_Current_Threshold"
-		(at 99.06 166.37 0)
+		(at 95.25 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10531,7 +10437,7 @@
 	)
 	(global_label "Current_Analog_Buff_Filtered"
 		(shape input)
-		(at 45.72 158.75 180)
+		(at 46.99 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10541,7 +10447,7 @@
 		)
 		(uuid "c4ce83db-589e-43cf-8ed7-b77c04975b18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.4604 158.75 0)
+			(at 16.7304 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10579,7 +10485,7 @@
 	)
 	(global_label "Current_Vref_Buff_Filtered"
 		(shape input)
-		(at 41.91 153.67 180)
+		(at 44.45 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10588,7 +10494,7 @@
 		)
 		(uuid "da66043d-cff3-4f62-9ec7-d323577a21da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.3111 153.67 0)
+			(at 16.8511 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15924,243 +15830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS32")
-		(at 316.23 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "439699c4-dd21-40e4-a136-030deec3badd")
-		(property "Reference" "U12"
-			(at 316.23 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74HCS32DR"
-			(at 316.23 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs32.pdf"
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "296-SN74HCS32DRCT-ND"
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HCS32DR/12342980"
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "TI"
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "SN74HCS32DR"
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Link" ""
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP PN" ""
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" ""
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 316.23 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa702d76-e68f-44e2-bbaa-3809898663bd")
-		)
-		(pin "2"
-			(uuid "fac7bc73-9bd3-492c-b386-84e057d5b15e")
-		)
-		(pin "3"
-			(uuid "db0bbe06-6ba1-4506-b599-8cd4525840d0")
-		)
-		(pin "4"
-			(uuid "44461e9f-ac96-4092-9982-199c4c500627")
-		)
-		(pin "5"
-			(uuid "517a10e2-7ba6-4f34-a50a-64ade78d1009")
-		)
-		(pin "6"
-			(uuid "373b559c-3c2f-45ef-b4da-1599daaaa65d")
-		)
-		(pin "9"
-			(uuid "078acb3e-d3c5-46e4-aa33-76aca39ec31b")
-		)
-		(pin "10"
-			(uuid "d1cd5d3c-4040-4944-a2a4-23cc0e30272a")
-		)
-		(pin "8"
-			(uuid "c262ce8d-9897-4f01-9a2d-eb8f2ad74566")
-		)
-		(pin "12"
-			(uuid "ebb667f7-2cf5-4661-8520-93c5182ffe79")
-		)
-		(pin "13"
-			(uuid "c6464646-0bba-4fde-8c0b-db39161a43cb")
-		)
-		(pin "11"
-			(uuid "03424485-21a0-4de8-b743-852c956bf864")
-		)
-		(pin "14"
-			(uuid "9f95ca94-e852-41a7-aa5e-c201efc81185")
-		)
-		(pin "7"
-			(uuid "0d74ee92-af8f-4075-9e45-0b0880fb312c")
-		)
-		(instances
-			(project "vehicle-control-unit"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 148.59 91.44 0)
 		(unit 1)
@@ -18317,7 +17986,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 148.59 180)
+		(at 95.25 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18327,7 +17996,7 @@
 		(dnp no)
 		(uuid "62996747-bee2-43a8-859c-989b381b9f21")
 		(property "Reference" "R13"
-			(at 82.042 147.574 0)
+			(at 88.392 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18337,8 +18006,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "191k"
-			(at 82.042 150.114 0)
+		(property "Value" "188k"
+			(at 88.392 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18349,7 +18018,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 90.678 148.59 90)
+			(at 97.028 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18360,7 +18029,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18371,7 +18040,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18382,7 +18051,7 @@
 			)
 		)
 		(property "Digi PN" "13-AC0603FR-07191KLCT-ND"
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18393,7 +18062,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-07191KL/5895840"
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18404,7 +18073,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18415,7 +18084,7 @@
 			)
 		)
 		(property "MFG PN" "AC0603FR-07191KL"
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18426,7 +18095,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18437,7 +18106,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18448,7 +18117,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18459,7 +18128,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18470,7 +18139,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18481,7 +18150,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18492,7 +18161,40 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 95.25 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 95.25 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19940,223 +19642,6 @@
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 88.9 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86eb0c47-1582-4a2b-ae48-5a16702f34a4")
-		(property "Reference" "RV4"
-			(at 86.36 160.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3296W_20K"
-			(at 86.36 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/3296.pdf"
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "3296W-103LF-ND"
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Bourns"
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "3296W-1-103LF"
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/bourns-inc/3296W-1-103LF/1088045"
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Link" ""
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP PN" ""
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" ""
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 88.9 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f94869e8-e622-450f-bd3d-83c5aba1f505")
-		)
-		(pin "3"
-			(uuid "6999ad2b-c6e6-4f4b-9349-297f718c588f")
-		)
-		(pin "2"
-			(uuid "444cc2cc-f750-4439-b0f3-ff71666c5f40")
-		)
-		(instances
-			(project "vehicle-control-unit"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
-					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -24215,7 +23700,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 144.78 0)
+		(at 95.25 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24226,7 +23711,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4ae3694-9554-448c-8f2f-287d22a730c1")
 		(property "Reference" "#PWR041"
-			(at 88.9 148.59 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24237,7 +23722,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 88.9 139.7 0)
+			(at 95.25 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24247,7 +23732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 144.78 0)
+			(at 95.25 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24258,7 +23743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 144.78 0)
+			(at 95.25 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24269,7 +23754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 144.78 0)
+			(at 95.25 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25229,239 +24714,6 @@
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 167.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "c394b028-cdd9-46b7-ac0c-d1b82cdba1c3")
-		(property "Reference" "R94"
-			(at 95.25 170.942 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 95.25 172.974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 95.25 165.862 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "13-AC0603FR-07191KLCT-ND"
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-07191KL/5895840"
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "AC0603FR-07191KL"
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Link" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP PN" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 95.25 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee956723-fe37-4306-88b4-df3b568637ba")
-		)
-		(pin "2"
-			(uuid "571413ce-3466-4548-b47b-68447f97476c")
-		)
-		(instances
-			(project "vehicle-control-unit"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
-					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -26851,239 +26103,6 @@
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 153.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "dcdec491-f993-4869-96d8-444b46f3fdaf")
-		(property "Reference" "R93"
-			(at 95.758 148.336 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 96.012 150.368 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 95.25 151.892 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi PN" "13-AC0603FR-07191KLCT-ND"
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-07191KL/5895840"
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG PN" "AC0603FR-07191KL"
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Link" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP PN" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 95.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61eb7828-af91-40ca-8796-38b771d1dda7")
-		)
-		(pin "2"
-			(uuid "f839b2a6-384f-4ce6-b297-e4cce1c40206")
-		)
-		(instances
-			(project "vehicle-control-unit"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
-					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -29051,7 +28070,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 172.72 180)
+		(at 95.25 170.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29061,7 +28080,7 @@
 		(dnp no)
 		(uuid "ef9cc06c-6757-49c7-b730-e63e8776b116")
 		(property "Reference" "R14"
-			(at 82.042 171.45 0)
+			(at 88.392 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29071,8 +28090,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "120k"
-			(at 82.042 173.99 0)
+		(property "Value" "100k"
+			(at 88.392 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29083,7 +28102,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 90.678 172.72 90)
+			(at 97.028 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29094,7 +28113,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29105,7 +28124,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29116,7 +28135,7 @@
 			)
 		)
 		(property "Digi PN" "YAG3562CT-ND"
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29127,7 +28146,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-07120KL/5895760"
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29138,7 +28157,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29149,7 +28168,7 @@
 			)
 		)
 		(property "MFG PN" "AC0603FR-07120KL"
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29160,7 +28179,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29171,7 +28190,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29182,7 +28201,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29193,7 +28212,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29204,7 +28223,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29215,7 +28234,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29226,7 +28245,40 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 88.9 172.72 0)
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30633,7 +29685,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 176.53 0)
+		(at 95.25 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30643,7 +29695,7 @@
 		(dnp no)
 		(uuid "f7d8180d-85a6-46c7-b51d-c72792b4fb82")
 		(property "Reference" "#PWR042"
-			(at 88.9 182.88 0)
+			(at 95.25 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30654,7 +29706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 180.594 0)
+			(at 95.25 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30664,7 +29716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 176.53 0)
+			(at 95.25 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30675,7 +29727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 176.53 0)
+			(at 95.25 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30686,7 +29738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 176.53 0)
+			(at 95.25 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
