@@ -4950,16 +4950,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 208.28) (xy 93.98 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aa5aa58-b52a-43fa-b29e-10a67611e4ae")
-	)
-	(wire
-		(pts
 			(xy 313.69 160.02) (xy 313.69 158.75)
 		)
 		(stroke
@@ -5410,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 210.82) (xy 95.25 210.82)
+			(xy 92.71 210.82) (xy 96.52 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5880,7 +5870,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 208.28) (xy 93.98 208.28)
+			(xy 92.71 208.28) (xy 96.52 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6260,16 +6250,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 208.28) (xy 121.92 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d77ce737-a600-4b0b-a37b-5de6acc5ddda")
-	)
-	(wire
-		(pts
 			(xy 133.35 146.05) (xy 147.32 146.05)
 		)
 		(stroke
@@ -6297,16 +6277,6 @@
 			(type default)
 		)
 		(uuid "dcfa2d37-8a1b-4a06-ae2c-c67b005ff474")
-	)
-	(wire
-		(pts
-			(xy 93.98 205.74) (xy 121.92 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de8ace40-0e25-4280-a632-74e3487bc8dc")
 	)
 	(wire
 		(pts
@@ -6480,16 +6450,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 210.82) (xy 95.25 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5880c33-e055-45c2-a8c5-2c1e5fbad826")
-	)
-	(wire
-		(pts
 			(xy 86.36 81.28) (xy 67.31 81.28)
 		)
 		(stroke
@@ -6607,6 +6567,16 @@
 			(justify left bottom)
 		)
 		(uuid "095a5205-2a7d-48c6-aebc-9e1ada478ddc")
+	)
+	(label "CAN_SWB_H"
+		(at 114.3 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d0248e2-59ae-4d18-9681-563800d8fe7b")
 	)
 	(label "CAN_Powertrain_H"
 		(at 92.71 110.49 0)
@@ -6778,16 +6748,6 @@
 		)
 		(uuid "67baa428-27ee-45cd-a681-9eaab4ae24d7")
 	)
-	(label "Dash_Launch"
-		(at 123.19 198.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6bc03cf5-96df-48b8-88a5-4353cd132515")
-	)
 	(label "APPS_2_Raw"
 		(at 260.35 154.94 0)
 		(effects
@@ -6878,6 +6838,16 @@
 		)
 		(uuid "a5779b53-de4d-4d47-9b34-b2999a65701d")
 	)
+	(label "CAN_SWB_L"
+		(at 114.3 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac1f3c69-11e2-4914-b3ff-48788acbb38c")
+	)
 	(label "Solenoid_12V"
 		(at 260.35 173.99 0)
 		(effects
@@ -6947,16 +6917,6 @@
 			(justify left bottom)
 		)
 		(uuid "d16baf86-28d5-4168-8767-e23d6cb109f7")
-	)
-	(label "Dash_Lap"
-		(at 123.19 200.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d822dc81-3643-47f2-a0b2-a57ceacf7807")
 	)
 	(label "E_Stop_Pos"
 		(at 260.35 118.11 0)
@@ -9197,7 +9157,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 208.28 0)
+		(at 96.52 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9207,7 +9167,7 @@
 		(dnp no)
 		(uuid "7e9691ac-8f31-4870-9023-429375329833")
 		(property "Reference" "#PWR09"
-			(at 121.92 214.63 0)
+			(at 96.52 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9218,7 +9178,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.476 209.804 0)
+			(at 100.076 212.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9228,7 +9188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 208.28 0)
+			(at 96.52 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9239,7 +9199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 208.28 0)
+			(at 96.52 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9250,7 +9210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 208.28 0)
+			(at 96.52 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,7 +11107,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 121.92 205.74 0)
+		(at 96.52 208.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11157,7 +11117,7 @@
 		(dnp no)
 		(uuid "b1d8e5fb-918b-4ff0-9a51-0d33739f84e9")
 		(property "Reference" "#PWR08"
-			(at 121.92 209.55 0)
+			(at 96.52 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11168,7 +11128,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 125.222 203.962 0)
+			(at 99.822 206.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11178,7 +11138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 205.74 0)
+			(at 96.52 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,7 +11149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 205.74 0)
+			(at 96.52 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11200,7 +11160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 121.92 205.74 0)
+			(at 96.52 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12362,7 +12322,7 @@
 				(justify left)
 			)
 		)
-		(pin "Dash_Launch" input
+		(pin "CAN_SWB_H" input
 			(at 147.32 198.12 180)
 			(uuid "e936f3ef-9fff-4dd5-8675-a4481f6072c7")
 			(effects
@@ -12382,7 +12342,7 @@
 				(justify left)
 			)
 		)
-		(pin "Dash_Lap" input
+		(pin "CAN_SWB_L" input
 			(at 147.32 200.66 180)
 			(uuid "6f3926ba-edab-4075-855f-ad06cd1940d4")
 			(effects
