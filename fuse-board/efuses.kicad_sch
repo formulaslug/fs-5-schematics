@@ -713,9 +713,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Do Not Populate Capacitors: Leave NC (NOT grounded), \nand only add cap if we need to set ITIMER higher"
+	(text "C_ITIMER: 15 nF, DNP by default.\nPopulate only if nuisance trips occur; \nt_ITIMER is approximately 7 ms when populated.\n\n"
 		(exclude_from_sim no)
-		(at 239.776 106.68 0)
+		(at 240.03 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
