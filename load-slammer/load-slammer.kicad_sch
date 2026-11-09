@@ -12,201 +12,6 @@
 		(comment 1 "Hadi Mirza")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA365xxDBV"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "OPA365xxDBV"
-				(at -1.27 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at -2.54 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa365.pdf"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "50-MHz, Zero-Crossover, Low-Distortion, High CMRR, RRI/O, Single-Supply, SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "single opamp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA365xxDBV_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA365xxDBV_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -1511,6 +1316,212 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Driver_FET:UCC27511ADBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UCC27511ADBV"
+				(at 8.89 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 -12.065 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc27511a.pdf"
+				(at 0 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-Channel High-Speed Low-Side Gate Driver With 4-A Peak Source and 8-A Peak Sink, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single channel low side gate drive dual input split output"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UCC27511ADBV_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "UCC27511ADBV_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3147,8 +3158,8 @@
 		(uuid "7591366f-dd1b-42bd-b9d0-fbf08f090d0b")
 	)
 	(rectangle
-		(start 73.025 71.12)
-		(end 147.955 138.43)
+		(start 71.755 71.12)
+		(end 146.685 138.43)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3159,7 +3170,7 @@
 		(uuid "7a077520-238e-41b4-aef8-870603925713")
 	)
 	(rectangle
-		(start 154.94 93.98)
+		(start 156.21 93.98)
 		(end 200.025 137.16)
 		(stroke
 			(width 0)
@@ -3170,16 +3181,27 @@
 		)
 		(uuid "b15fa6ae-6efe-4ff6-a98e-0f8b6665bf5b")
 	)
-	(text "I_LOAD = V_TRIG / 5 mOhm = 200 A per volt"
+	(text "PWR_IN: 11-14 V from DUT (12 V nominal)\nPulsed load: ~12 A per step (~143 W at 12 V; ~14 A, ~195 W at 14 V)\nPulses 1 ms or less"
 		(exclude_from_sim no)
-		(at 81.026 73.66 0)
+		(at 185.42 66.04 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.0668 1.0668)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "75c25670-20c3-439b-82b0-51f32c4d5d10")
+		(uuid "3a887048-dab5-4028-834b-b668bff6303e")
+	)
+	(text "R14 = 1 Ω sets the 25% load step: 25% x 50 A = 12.5 A\nR_total = 12 V / 12.5 A = 0.96 Ω\nR14 = 0.96 Ω - Q1 (1.7 mΩ) - R13 (5 mΩ) = 0.953 Ω -> 1 Ω (nearest standard)\nI = 12 V / 1.007 Ω = 11.9 A  (10.9 A at 11 V, 13.9 A at 14 V)\nP_R14 = 11.9² x 1 Ω = 142 W during a pulse"
+		(exclude_from_sim no)
+		(at 185.42 80.01 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "564928c5-061f-48d1-9bae-f5f66afeaa95")
 	)
 	(text "Switch & Sense"
 		(exclude_from_sim no)
@@ -3211,31 +3233,6 @@
 		)
 		(uuid "a5b91b87-bb76-4fea-8734-e88c9c0521a2")
 	)
-	(text "C3 = DNP: DO NOT FIT\nuntil bench testing\nshows ringing on J3"
-		(exclude_from_sim no)
-		(at 16.002 196.088 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 200 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "c7043494-9396-4916-81bf-840970969cb3")
-	)
-	(text "Feedback loop: SENSE_NODE (R13 sense) -> R6 -> FB -> U1 pin 4 (-)"
-		(exclude_from_sim no)
-		(at 116.84 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf251a96-9751-4f20-a32c-2785cf966149")
-	)
 	(text "Gate Control"
 		(exclude_from_sim no)
 		(at 86.106 136.906 0)
@@ -3247,16 +3244,16 @@
 		(uuid "e22c09df-7a33-45f9-8682-023f92e673be")
 	)
 	(junction
+		(at 132.08 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48617829-ea0f-490f-95cd-c7468c03f44d")
+	)
+	(junction
 		(at 165.1 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f2e6e12-45e6-4711-9674-5fd92bf6e54f")
-	)
-	(junction
-		(at 101.6 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "697b01ce-94d1-4350-8641-26b478fb6439")
 	)
 	(junction
 		(at 170.18 121.92)
@@ -3275,12 +3272,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8492155b-fc2b-47c3-b9a4-1235204f8793")
-	)
-	(junction
-		(at 177.8 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93513164-c5f2-40d2-88cd-46eebb601074")
 	)
 	(junction
 		(at 116.84 78.74)
@@ -3307,16 +3298,10 @@
 		(uuid "bde770e2-b8af-43df-9562-1dd1b047c6a4")
 	)
 	(junction
-		(at 114.3 124.46)
+		(at 101.6 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd2bb3f9-b5e8-4030-bf4d-8423fe0b212b")
-	)
-	(junction
-		(at 134.62 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa12ce51-af83-4b4a-b255-9d1fa641f833")
+		(uuid "fa018877-1858-410a-bd4e-ea2231a18074")
 	)
 	(wire
 		(pts
@@ -3330,33 +3315,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 134.62) (xy 114.3 124.46)
+			(xy 111.76 101.6) (xy 111.76 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ad06663-7b99-4b6f-8ca5-eb56aa7903ac")
-	)
-	(wire
-		(pts
-			(xy 121.92 106.68) (xy 121.92 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1039e69c-ff86-438a-8a3b-816ff4a994a8")
-	)
-	(wire
-		(pts
-			(xy 130.81 134.62) (xy 114.3 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25080038-3b98-4bd5-a01c-b3186b902040")
+		(uuid "0f50c831-7135-41a8-bbda-a03c9db1f543")
 	)
 	(wire
 		(pts
@@ -3380,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 109.22) (xy 180.34 109.22)
+			(xy 167.64 109.22) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3410,26 +3375,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 124.46) (xy 134.62 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de14463-c924-415e-99d6-3c1c80215c86")
-	)
-	(wire
-		(pts
-			(xy 167.64 109.22) (xy 177.8 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3edc9fc6-228d-426b-9838-f402c45f1666")
-	)
-	(wire
-		(pts
 			(xy 167.64 114.3) (xy 170.18 114.3)
 		)
 		(stroke
@@ -3437,6 +3382,16 @@
 			(type default)
 		)
 		(uuid "472e09f9-5300-4860-9895-bea836fbb3d2")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47871048-4460-4cb0-be01-b3e763a8974e")
 	)
 	(wire
 		(pts
@@ -3480,36 +3435,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 124.46) (xy 134.62 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54344aed-2865-4178-bff6-0f1160a29935")
-	)
-	(wire
-		(pts
-			(xy 132.08 99.06) (xy 134.62 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72bd8552-66a5-4333-adb3-f11263a0e904")
-	)
-	(wire
-		(pts
-			(xy 114.3 101.6) (xy 116.84 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7327499e-2788-4cda-a25e-243fe9e638c4")
-	)
-	(wire
-		(pts
 			(xy 165.1 91.44) (xy 165.1 93.98)
 		)
 		(stroke
@@ -3530,13 +3455,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 152.4 99.06)
+			(xy 147.32 99.06) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8974b3c4-ef7a-42a7-8aa9-608ac39975ad")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad6354a-9d2a-4ffb-b9ef-48298393da9c")
 	)
 	(wire
 		(pts
@@ -3557,36 +3492,6 @@
 			(type default)
 		)
 		(uuid "917e975f-7c08-4bb4-8ae1-15220e187ab6")
-	)
-	(wire
-		(pts
-			(xy 134.62 99.06) (xy 140.97 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a60507-8766-416d-9082-8010a1f078bc")
-	)
-	(wire
-		(pts
-			(xy 114.3 124.46) (xy 120.65 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f885544-e93d-4246-bd9a-c49e360de638")
-	)
-	(wire
-		(pts
-			(xy 177.8 109.22) (xy 177.8 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a20bbfb2-19c5-494b-a46c-434b30f2a098")
 	)
 	(wire
 		(pts
@@ -3620,13 +3525,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 116.84 96.52)
+			(xy 132.08 99.06) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc97b943-d8f2-4210-b5f4-ac43272aef11")
+		(uuid "c3608101-e921-4081-b12c-86857a755e1f")
 	)
 	(wire
 		(pts
@@ -3650,6 +3555,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 99.06) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78b7ddc-8922-4790-93d8-ed6aa14ebe25")
+	)
+	(wire
+		(pts
 			(xy 96.52 96.52) (xy 101.6 96.52)
 		)
 		(stroke
@@ -3657,16 +3572,6 @@
 			(type default)
 		)
 		(uuid "ea496f55-9b42-431c-8a46-dd9259ad22e2")
-	)
-	(wire
-		(pts
-			(xy 177.8 134.62) (xy 138.43 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd926d4-2036-4493-99e5-bd9f27bef7c3")
 	)
 	(wire
 		(pts
@@ -3680,6 +3585,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 96.52) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef19ecee-83f2-4aba-8ef3-8f4be2575115")
+	)
+	(wire
+		(pts
 			(xy 152.4 107.95) (xy 152.4 110.49)
 		)
 		(stroke
@@ -3690,16 +3605,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8236936-f3d9-41f8-885c-d6a4245d48d8")
-	)
-	(wire
-		(pts
 			(xy 165.1 91.44) (xy 167.64 91.44)
 		)
 		(stroke
@@ -3707,16 +3612,6 @@
 			(type default)
 		)
 		(uuid "ff5d85d5-12da-4456-b0e8-d4c2e8134956")
-	)
-	(label "SENSE_NODE"
-		(at 142.24 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19438d6f-68fd-41ab-b8a1-dd2706b0751f")
 	)
 	(label "Q1_DRAIN"
 		(at 167.64 91.44 0)
@@ -3729,7 +3624,7 @@
 		(uuid "1f31228a-9e2b-482c-9cec-61ef6767f20f")
 	)
 	(label "Q1_GATE"
-		(at 149.86 99.06 0)
+		(at 147.32 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3739,7 +3634,7 @@
 		(uuid "2fd1e66f-951e-4292-9ebe-e8e6ce947ddb")
 	)
 	(label "DRV_OUT"
-		(at 133.35 99.06 0)
+		(at 132.08 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3749,7 +3644,7 @@
 		(uuid "8df9d51f-47f3-4d39-8335-3c1a24687660")
 	)
 	(label "TRIG_IN"
-		(at 104.14 96.52 0)
+		(at 101.6 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3757,16 +3652,6 @@
 			(justify left bottom)
 		)
 		(uuid "9451fb89-9580-4bfe-aa6a-5f534c44e318")
-	)
-	(label "FB"
-		(at 116.84 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d54fcba4-5f43-4e7e-bdfc-28f15d380d73")
 	)
 	(global_label "PWR_IN"
 		(shape output)
@@ -3889,6 +3774,100 @@
 			(project "load-slammer"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:UCC27511ADBV")
+		(at 121.92 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dc47950-b9b5-47c9-8ae6-293bbe09351d")
+		(property "Reference" "U1"
+			(at 124.0633 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UCC27511ADBV"
+			(at 124.0633 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 121.92 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc27511a.pdf"
+			(at 121.92 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-Channel High-Speed Low-Side Gate Driver With 4-A Peak Source and 8-A Peak Sink, SOT-23-6"
+			(at 121.92 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "292a771e-52f2-40a6-b216-bd210f7c91b8")
+		)
+		(pin "5"
+			(uuid "e9c29a49-ed5e-4ffc-abd1-e3600f258217")
+		)
+		(pin "3"
+			(uuid "d9b76449-4594-48a9-9271-612a0d1b1628")
+		)
+		(pin "2"
+			(uuid "dfaf0bd8-7ee2-4742-8371-dea6bced9832")
+		)
+		(pin "1"
+			(uuid "cdd742b8-c5c7-4963-b9a5-cf1b70800f3b")
+		)
+		(pin "6"
+			(uuid "beefaaf9-50d0-42fe-bf74-e751f02b3e67")
+		)
+		(instances
+			(project "load-slammer"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5037,7 +5016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200mΩ"
+		(property "Value" "1Ω"
 			(at 167.64 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +5049,7 @@
 				)
 			)
 		)
-		(property "Description" "Load resistor, 0.2 Ohm 5%, 100 W thick film, TO-247 vertical (bolts to heatsink)"
+		(property "Description" "Load resistor, 1 Ohm 5%, 100 W thick film, TO-247 vertical (bolts to heatsink). Sets the 12.5 A (25%) step: 12 V / 1.007 Ohm = 11.9 A"
 			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5081,7 +5060,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "2485-TEH100MR200JE-ND"
+		(property "Digikey Part Number" ""
 			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5092,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/ohmite/TEH100MR200JE/16838077"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/ohmite/TEH100M1R00JE/2202836"
 			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5114,7 +5093,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "TEH100MR200JE"
+		(property "Manufacturer Part Number" "TEH100M1R00JE"
 			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5262,129 +5241,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 124.46 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "90277e54-2f9e-483a-85d8-147a03ca61ee")
-		(property "Reference" "C3"
-			(at 124.46 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 124.46 130.175 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 124.46 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H102JA01D/586943"
-			(at 124.46 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DNP - compensation capacitor, 1 nF 50 V C0G 5%, 0603. Do not fit until bench testing shows ringing on J3"
-			(at 124.46 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "490-1451-1-ND"
-			(at 124.46 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H102JA01D/586943"
-			(at 124.46 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 124.46 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM1885C1H102JA01D"
-			(at 124.46 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9e00b6f-e889-4a84-bc72-41759db61bfe")
-		)
-		(pin "2"
-			(uuid "071dd451-01a8-415b-957a-6b5d2ca19bae")
-		)
-		(instances
-			(project "load-slammer"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 116.84 86.36 0)
 		(unit 1)
@@ -5457,140 +5313,6 @@
 			(project "load-slammer"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA365xxDBV")
-		(at 124.46 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0b5982f-eb18-4658-b668-1de56d162e0c")
-		(property "Reference" "U1"
-			(at 127 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA994IDBVR"
-			(at 127 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 124.46 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa994.pdf"
-			(at 124.46 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Op amp, 32 V, 24 MHz, 35 V/us, RRIO, unlimited capacitive load drive, 125 mA, SOT-23-5"
-			(at 124.46 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "296-OPA994IDBVRCT-ND"
-			(at 124.46 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/OPA994IDBVR/25649472"
-			(at 124.46 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 124.46 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "OPA994IDBVR"
-			(at 124.46 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "462c244b-7c32-4cc8-bf4f-b6f8a512d53a")
-		)
-		(pin "1"
-			(uuid "783f425a-7ede-4bff-8f1d-19669dc51e59")
-		)
-		(pin "4"
-			(uuid "554e5291-ee60-4486-b398-d4f8983d30d5")
-		)
-		(pin "5"
-			(uuid "35a51e8e-68a9-4b7e-9514-b69d131f6e78")
-		)
-		(pin "3"
-			(uuid "5456df7b-53d1-43c6-bef3-fba0bfed724b")
-		)
-		(instances
-			(project "load-slammer"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6048,130 +5770,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da97a3d1-59e7-47f3-89c1-7957cc5072c0")
-		(property "Reference" "R6"
-			(at 134.62 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 134.62 132.715 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 134.62 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF1001V/196032"
-			(at 134.62 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Compensation series resistor, 1 kOhm 1%, 0603. FITTED. With C3 not fitted it has no effect (U1 input draws ~nA)"
-			(at 134.62 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "P1.00KHCT-ND"
-			(at 134.62 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF1001V/196032"
-			(at 134.62 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 134.62 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "ERJ-3EKF1001V"
-			(at 134.62 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "084a0031-a804-4b0c-bd24-5209a3c51f9d")
-		)
-		(pin "2"
-			(uuid "20010e2a-4b50-4e9c-9d99-717a7a72181a")
-		)
-		(instances
-			(project "load-slammer"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 99.06 90)
+		(at 143.51 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6182,7 +5781,7 @@
 		(fields_autoplaced yes)
 		(uuid "daa65981-3235-4057-8c00-53cd42b289c3")
 		(property "Reference" "R2"
-			(at 144.78 92.71 90)
+			(at 143.51 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6191,8 +5790,8 @@
 				)
 			)
 		)
-		(property "Value" "22Ω"
-			(at 144.78 95.25 90)
+		(property "Value" "0Ω"
+			(at 143.51 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6202,7 +5801,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 144.78 100.838 90)
+			(at 143.51 100.838 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6213,7 +5812,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF22R0V/1746340"
-			(at 144.78 99.06 0)
+			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6224,7 +5823,7 @@
 			)
 		)
 		(property "Description" "Gate resistor, 22 Ohm 1%, 0.1 W, 0603"
-			(at 144.78 99.06 0)
+			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6235,7 +5834,7 @@
 			)
 		)
 		(property "Digikey Part Number" "P22.0HCT-ND"
-			(at 144.78 99.06 0)
+			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +5845,7 @@
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF22R0V/1746340"
-			(at 144.78 99.06 0)
+			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,7 +5856,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 144.78 99.06 0)
+			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6268,7 +5867,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJ-3EKF22R0V"
-			(at 144.78 99.06 0)
+			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6901,6 +6500,84 @@
 			(project "load-slammer"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fce40cba-deba-4e4e-8013-219386bb01a2")
+		(property "Reference" "#PWR011"
+			(at 111.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1684971a-902c-4c47-a379-2a84f5379dec")
+		)
+		(instances
+			(project "load-slammer"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
