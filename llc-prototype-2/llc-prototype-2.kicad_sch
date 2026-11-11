@@ -4278,6 +4278,16 @@
 		)
 		(uuid "8d2bcd8b-7f17-4a62-a125-9afe20e05832")
 	)
+	(text "Resonant Tank Values\nLr = 1.8uH\nLm = 7uH\nCr = 0.7uF"
+		(exclude_from_sim no)
+		(at 157.734 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11a04b15-077e-4444-b65e-ddffa2d6c752")
+	)
 	(text "Power Stage"
 		(exclude_from_sim no)
 		(at 29.718 19.558 0)
@@ -4298,15 +4308,35 @@
 		)
 		(uuid "261b0ba0-72bb-41e0-a79c-59c16f8e9250")
 	)
+	(text "75 - 126Vin"
+		(exclude_from_sim no)
+		(at 27.94 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3539b950-2ef9-4dc7-b900-d913326b3cad")
+	)
 	(text "Resonant Caps picked after transformer is winded"
 		(exclude_from_sim no)
-		(at 149.352 -4.064 0)
+		(at 130.556 13.716 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "45d8fc28-700c-4a01-97f0-62c6956040f0")
+	)
+	(text "5A Diode, 500nS > Reverse Recovery"
+		(exclude_from_sim no)
+		(at 73.914 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b9293e9-606a-4e33-9d8d-a323f4878b08")
 	)
 	(text "Feedback Compensation"
 		(exclude_from_sim no)
@@ -4358,9 +4388,19 @@
 		)
 		(uuid "8ab99377-5719-4df3-ae8d-971db9d88797")
 	)
-	(text "3 * 4.21 + 4.8 * 3 = 27.03ARms\n"
+	(text "Vo = (1+44.2/10)*2.5\nVo = 13.55V"
 		(exclude_from_sim no)
-		(at 221.488 62.23 0)
+		(at 251.714 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95e38b78-8810-4600-be05-2c029f6deeeb")
+	)
+	(text "3 * 4.21 + 4.8 * 3 = 27.03Arms\n6 10mOhm parallel = 1.667mOhm\n5 ceramics @ 300kHz ~ 10mOhm\nTotal: 1.4285mOhm"
+		(exclude_from_sim no)
+		(at 221.234 64.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4467,7 +4507,13 @@
 		(uuid "1bb8b6f1-84e1-4156-831e-62a371afaf18")
 	)
 	(junction
-		(at 241.3 143.51)
+		(at 77.47 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bbb4637-a9ce-45b3-a2f9-2da64fff1449")
+	)
+	(junction
+		(at 234.95 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25fcc760-e525-4351-a2b4-c41bd95b1295")
@@ -4483,12 +4529,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28945f86-c068-4591-b66a-fd2939b7abea")
-	)
-	(junction
-		(at 77.47 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28c4488c-b1c0-465d-9204-d8d97e84a307")
 	)
 	(junction
 		(at 87.63 101.6)
@@ -4519,12 +4559,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b3af80c-c36a-4065-8e78-ab07abedafef")
-	)
-	(junction
-		(at 241.3 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40ee48f4-acaa-4cf7-8656-26966430c611")
 	)
 	(junction
 		(at 234.95 52.07)
@@ -4567,6 +4601,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "509a81a0-99bd-4a11-9e17-6c4c3dd69a0b")
+	)
+	(junction
+		(at 99.06 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5144b24b-92eb-4de7-a82f-f43df7b60aad")
 	)
 	(junction
 		(at 113.03 53.34)
@@ -4629,12 +4669,6 @@
 		(uuid "76f08e47-cc40-45aa-a483-b82cf8f01658")
 	)
 	(junction
-		(at 99.06 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bf78333-6f87-4102-8402-cef5092a21a8")
-	)
-	(junction
 		(at 204.47 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4659,13 +4693,7 @@
 		(uuid "81302bff-d6d8-4ad1-a714-921141b109ea")
 	)
 	(junction
-		(at 99.06 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86da17d1-22d2-43d4-a3a2-a7351a76c574")
-	)
-	(junction
-		(at 217.17 132.08)
+		(at 210.82 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87e6e215-7ee6-437e-acb9-560fc3e7fe15")
@@ -4689,6 +4717,12 @@
 		(uuid "966e9700-162a-4c35-b2ca-aac04da9a323")
 	)
 	(junction
+		(at 77.47 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96738e0c-7996-43cb-ac78-cb5414e4e318")
+	)
+	(junction
 		(at 234.95 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4705,6 +4739,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f4c83bf-42f4-4f20-95d3-24bcdac1ee18")
+	)
+	(junction
+		(at 99.06 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe1d3f7-ee72-4ba5-b7fe-6b3f16929fe8")
 	)
 	(junction
 		(at 214.63 40.64)
@@ -4743,7 +4783,7 @@
 		(uuid "aae975e5-817e-45b9-971b-80fd38bf6322")
 	)
 	(junction
-		(at 237.49 132.08)
+		(at 231.14 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3c3aea1-117d-454a-9746-f82c3be5f9fd")
@@ -4791,19 +4831,13 @@
 		(uuid "d5594eff-af36-4a75-8406-70274652b97b")
 	)
 	(junction
-		(at 77.47 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d737ba59-4b21-48ba-af7d-2b6ff3b0a4aa")
-	)
-	(junction
 		(at 133.35 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4796f01-fde5-4683-b885-b59df53079ea")
 	)
 	(junction
-		(at 237.49 143.51)
+		(at 231.14 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e50e001b-f6a9-493c-ba1d-9b7b9e7dcfd4")
@@ -4875,6 +4909,12 @@
 		(uuid "f2c91306-d4f9-47db-8d65-58a7d6057222")
 	)
 	(junction
+		(at 234.95 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4cdb1f5-1ba7-4f2c-85ec-7677fe3807a5")
+	)
+	(junction
 		(at 52.07 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4887,12 +4927,12 @@
 		(uuid "ffaecdd6-ce25-476e-bbb6-7f5504fc2766")
 	)
 	(no_connect
-		(at 167.64 36.83)
+		(at 167.64 27.94)
 		(uuid "681ecfe3-0588-4fed-99bd-098ccaf75600")
 	)
 	(wire
 		(pts
-			(xy 241.3 142.24) (xy 241.3 143.51)
+			(xy 234.95 140.97) (xy 234.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4922,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 127) (xy 237.49 127)
+			(xy 224.79 125.73) (xy 231.14 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4962,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 39.37) (xy 167.64 39.37)
+			(xy 171.45 30.48) (xy 167.64 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5002,7 +5042,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 114.3) (xy 241.3 114.3)
+			(xy 224.79 114.3) (xy 234.95 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5202,16 +5242,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 130.81) (xy 203.2 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195aa619-009a-4b1d-879a-95a4cea0d2c7")
-	)
-	(wire
-		(pts
 			(xy 57.15 182.88) (xy 57.15 184.15)
 		)
 		(stroke
@@ -5232,7 +5262,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 132.08) (xy 237.49 143.51)
+			(xy 231.14 130.81) (xy 231.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5259,6 +5289,16 @@
 			(type default)
 		)
 		(uuid "1e308401-04be-41c2-adfe-b280cef0dfda")
+	)
+	(wire
+		(pts
+			(xy 234.95 114.3) (xy 250.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212895ff-466e-482c-9083-baaa35155454")
 	)
 	(wire
 		(pts
@@ -5292,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 132.08) (xy 228.6 132.08)
+			(xy 219.71 130.81) (xy 222.25 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5332,7 +5372,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 127) (xy 237.49 132.08)
+			(xy 231.14 125.73) (xy 231.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5582,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 143.51) (xy 241.3 144.78)
+			(xy 234.95 142.24) (xy 234.95 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5772,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 143.51) (xy 237.49 143.51)
+			(xy 213.36 142.24) (xy 231.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5782,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 33.02) (xy 144.78 34.29)
+			(xy 144.78 24.13) (xy 144.78 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5832,7 +5872,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 60.96) (xy 137.16 54.61)
+			(xy 137.16 59.69) (xy 137.16 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5882,7 +5922,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 99.06 66.04)
+			(xy 97.79 66.04) (xy 99.06 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5902,7 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 217.17 132.08)
+			(xy 203.2 130.81) (xy 210.82 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5942,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 34.29) (xy 147.32 34.29)
+			(xy 144.78 25.4) (xy 147.32 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5962,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 143.51) (xy 241.3 143.51)
+			(xy 231.14 142.24) (xy 234.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6039,6 +6079,16 @@
 			(type default)
 		)
 		(uuid "628aa095-8639-4613-a47e-bd9a5aed8e66")
+	)
+	(wire
+		(pts
+			(xy 97.79 43.18) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62da6ac1-bd7b-40b4-bb44-82fde2607a64")
 	)
 	(wire
 		(pts
@@ -6172,16 +6222,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 99.06 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea5c925-7ec2-4099-a70b-ed5cf418b8cd")
-	)
-	(wire
-		(pts
 			(xy 74.93 43.18) (xy 77.47 43.18)
 		)
 		(stroke
@@ -6232,7 +6272,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 99.06 46.99)
+			(xy 97.79 46.99) (xy 99.06 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6312,7 +6352,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 33.02) (xy 171.45 34.29)
+			(xy 171.45 24.13) (xy 171.45 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6352,7 +6392,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 132.08) (xy 218.44 132.08)
+			(xy 210.82 130.81) (xy 212.09 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6372,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 88.9 66.04)
+			(xy 86.36 66.04) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6442,7 +6482,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 146.05) (xy 217.17 153.67)
+			(xy 210.82 144.78) (xy 210.82 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6512,7 +6552,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 40.64) (xy 171.45 39.37)
+			(xy 171.45 31.75) (xy 171.45 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6552,16 +6592,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 43.18) (xy 99.06 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a32288e4-025c-4990-88b3-281d0e45ea75")
-	)
-	(wire
-		(pts
 			(xy 27.94 29.21) (xy 39.37 29.21)
 		)
 		(stroke
@@ -6572,7 +6602,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 60.96) (xy 139.7 60.96)
+			(xy 137.16 59.69) (xy 138.43 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6592,7 +6622,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 88.9 62.23)
+			(xy 77.47 62.23) (xy 90.17 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6632,7 +6662,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 46.99) (xy 88.9 46.99)
+			(xy 86.36 46.99) (xy 90.17 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6699,16 +6729,6 @@
 			(type default)
 		)
 		(uuid "b6bf9b49-eee2-4bb0-a0d4-0ad8ec648797")
-	)
-	(wire
-		(pts
-			(xy 250.19 114.3) (xy 241.3 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b1c56e-bb12-4ea7-9d2e-d026266e08b2")
 	)
 	(wire
 		(pts
@@ -6852,7 +6872,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 43.18) (xy 88.9 43.18)
+			(xy 77.47 43.18) (xy 90.17 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6862,7 +6882,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 152.4) (xy 241.3 153.67)
+			(xy 234.95 151.13) (xy 234.95 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6882,7 +6902,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 39.37) (xy 147.32 39.37)
+			(xy 97.79 62.23) (xy 99.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3b8e62-930e-4c33-9a3f-8096278da0e1")
+	)
+	(wire
+		(pts
+			(xy 144.78 30.48) (xy 147.32 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6972,7 +7002,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 132.08) (xy 237.49 132.08)
+			(xy 229.87 130.81) (xy 231.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7152,7 +7182,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 40.64) (xy 144.78 39.37)
+			(xy 144.78 31.75) (xy 144.78 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7162,7 +7192,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 132.08) (xy 217.17 140.97)
+			(xy 210.82 130.81) (xy 210.82 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7192,7 +7222,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 127) (xy 217.17 127)
+			(xy 217.17 125.73) (xy 210.82 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7262,7 +7292,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 127) (xy 217.17 132.08)
+			(xy 210.82 125.73) (xy 210.82 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7282,7 +7312,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 114.3) (xy 241.3 134.62)
+			(xy 234.95 114.3) (xy 234.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7362,7 +7392,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 34.29) (xy 167.64 34.29)
+			(xy 171.45 25.4) (xy 167.64 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7855,7 +7885,7 @@
 	)
 	(global_label "ISNS"
 		(shape output)
-		(at 139.7 60.96 0)
+		(at 138.43 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7865,7 +7895,7 @@
 		)
 		(uuid "e5769bfa-009c-4150-aaef-ec01823b349f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.0395 60.96 0)
+			(at 145.7695 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8380,7 +8410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875075561005.pdf"
 			(at 199.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8402,7 +8432,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "732-6499-1-ND"
 			(at 199.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8413,7 +8443,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075561005/5147663"
 			(at 199.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8424,7 +8454,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 199.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8435,7 +8465,51 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "875075561005"
+			(at 199.39 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-6499-1-ND"
+			(at 199.39 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075561005/5147663"
+			(at 199.39 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 199.39 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "875075561005"
 			(at 199.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8835,7 +8909,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 171.45 33.02 0)
+		(at 171.45 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8846,7 +8920,7 @@
 		(fields_autoplaced yes)
 		(uuid "15a0823c-ca63-467f-a7ea-d8c351112512")
 		(property "Reference" "#PWR023"
-			(at 171.45 36.83 0)
+			(at 171.45 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8857,7 +8931,7 @@
 			)
 		)
 		(property "Value" "+13.5V"
-			(at 171.45 27.94 0)
+			(at 171.45 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8867,7 +8941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 33.02 0)
+			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8878,7 +8952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 33.02 0)
+			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,7 +8963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 171.45 33.02 0)
+			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8900,7 +8974,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 171.45 33.02 0)
+			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,7 +8985,7 @@
 			)
 		)
 		(property "Digikey URL" ""
-			(at 171.45 33.02 0)
+			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +8996,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 171.45 33.02 0)
+			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +9007,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 171.45 33.02 0)
+			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8987,7 +9061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 233.9848 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8998,7 +9072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 234.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9020,7 +9094,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "399-C0805C394K3RACTUCT-ND"
 			(at 234.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9031,7 +9105,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.ca/en/products/detail/kemet/C0805C394K3RACTU/2212736"
 			(at 234.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9042,7 +9116,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 234.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9053,7 +9127,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0805C394K3RACTU"
 			(at 234.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9081,7 +9155,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 138.43 0)
+		(at 234.95 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9092,7 +9166,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cee49d6-3a91-419f-94c6-7784ce7de75a")
 		(property "Reference" "R14"
-			(at 243.84 137.1599 0)
+			(at 237.49 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9102,8 +9176,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 243.84 139.6999 0)
+		(property "Value" "44.2k"
+			(at 237.49 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9114,7 +9188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 239.522 138.43 90)
+			(at 233.172 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9125,7 +9199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 138.43 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9136,7 +9210,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 138.43 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +9221,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 241.3 138.43 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9232,7 @@
 			)
 		)
 		(property "Digikey URL" ""
-			(at 241.3 138.43 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9169,7 +9243,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 241.3 138.43 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9180,7 +9254,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 241.3 138.43 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9912,7 +9986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 225.7552 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9923,7 +9997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1078_X7R_FT-CAP_AUTO_SMD"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9945,7 +10019,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "399-C0805X225K3RACAUTOCT-ND"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9956,7 +10030,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0805X225K3RACAUTO/13681298"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9967,7 +10041,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9978,7 +10052,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0805X225K3RACAUTO"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10290,7 +10364,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 46.99 270)
+		(at 93.98 46.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10300,7 +10374,7 @@
 		(dnp no)
 		(uuid "348601b6-0e1f-42d7-8e15-574d8493bcf4")
 		(property "Reference" "R8"
-			(at 92.71 52.07 90)
+			(at 93.98 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10310,7 +10384,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 92.71 49.53 90)
+			(at 93.98 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10319,8 +10393,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 45.212 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.98 45.212 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10330,8 +10404,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 92.71 46.99 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+			(at 93.98 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10342,7 +10416,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 46.99 0)
+			(at 93.98 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10352,8 +10426,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
-			(at 92.71 46.99 0)
+		(property "Digikey Part Number" "P19268CT-ND"
+			(at 93.98 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10363,8 +10437,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
-			(at 92.71 46.99 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-6DQF1R0V/6004351"
+			(at 93.98 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10374,8 +10448,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 92.71 46.99 0)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 93.98 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10385,8 +10459,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 92.71 46.99 0)
+		(property "Manufacturer Part Number" "ERJ-6DQF1R0V"
+			(at 93.98 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10413,7 +10487,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 153.67 0)
+		(at 210.82 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10424,7 +10498,7 @@
 		(fields_autoplaced yes)
 		(uuid "34e3a1d9-685e-44ca-ad83-d6237539302b")
 		(property "Reference" "#PWR019"
-			(at 217.17 160.02 0)
+			(at 210.82 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10435,7 +10509,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 158.75 0)
+			(at 210.82 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10445,7 +10519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 153.67 0)
+			(at 210.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10456,7 +10530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 153.67 0)
+			(at 210.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10467,7 +10541,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 153.67 0)
+			(at 210.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10635,7 +10709,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG6010ELRX"
+		(property "Value" "CMS05(TE12L,Q,M)"
 			(at 82.55 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10645,7 +10719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10656,7 +10730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG6010ELRX/5395789"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CMS05_datasheet_en_20190409.pdf?did=3136&prodName=CMS05"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10667,7 +10741,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "DIODE SCHOTTKY 30V 5A MFLAT"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10678,7 +10752,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "1727-2297-1-ND"
+		(property "Digikey Part Number" "CMS05QMCT-ND"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10689,7 +10763,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG6010ELRX/5395789"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/CMS05-TE12L-Q-M/825029"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10700,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Nexperia USA Inc."
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10711,7 +10785,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "PMEG6010ELRX"
+		(property "Manufacturer Part Number" "CMS05(TE12L,Q,M)"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10904,7 +10978,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875075555001.pdf"
 			(at 209.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10926,7 +11000,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "732-6495-1-ND"
 			(at 209.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10937,7 +11011,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075555001/5147659"
 			(at 209.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10948,7 +11022,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 209.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10960,6 +11034,50 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 209.55 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-6495-1-ND"
+			(at 209.55 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075555001/5147659"
+			(at 209.55 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 209.55 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "875075555001"
 			(at 209.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11230,7 +11348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7461096.pdf"
 			(at 22.86 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11263,7 +11381,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7461096/2682505"
 			(at 22.86 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11286,6 +11404,50 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-3214-ND"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7461096/2682505"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "7461096"
 			(at 22.86 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11339,7 +11501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 228.9048 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11350,7 +11512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11372,7 +11534,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "399-C0805C105K3RACTUCT-ND"
 			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11383,7 +11545,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0805C105K3RACTU/2211765"
 			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11394,7 +11556,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11405,7 +11567,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0805C105K3RACTU"
 			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11433,7 +11595,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 144.78 40.64 0)
+		(at 144.78 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11444,7 +11606,7 @@
 		(fields_autoplaced yes)
 		(uuid "5157b6d4-bfa5-4b49-a115-6cdc62feec08")
 		(property "Reference" "#PWR025"
-			(at 144.78 46.99 0)
+			(at 144.78 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11455,7 +11617,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 144.78 44.45 0)
+			(at 144.78 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11465,7 +11627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 40.64 0)
+			(at 144.78 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11476,7 +11638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 40.64 0)
+			(at 144.78 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11487,7 +11649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 144.78 40.64 0)
+			(at 144.78 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11589,7 +11751,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 144.78 33.02 0)
+		(at 144.78 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11600,7 +11762,7 @@
 		(fields_autoplaced yes)
 		(uuid "52fc8c11-5a0a-4aee-9901-a48339caad4e")
 		(property "Reference" "#PWR026"
-			(at 144.78 36.83 0)
+			(at 144.78 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11611,7 +11773,7 @@
 			)
 		)
 		(property "Value" "+15V_HV"
-			(at 144.78 27.94 0)
+			(at 144.78 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11621,7 +11783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 33.02 0)
+			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11632,7 +11794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 33.02 0)
+			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,7 +11805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 144.78 33.02 0)
+			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11654,7 +11816,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 144.78 33.02 0)
+			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11665,7 +11827,7 @@
 			)
 		)
 		(property "Digikey URL" ""
-			(at 144.78 33.02 0)
+			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11676,7 +11838,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 144.78 33.02 0)
+			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11687,7 +11849,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 144.78 33.02 0)
+			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +11913,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875075561005.pdf"
 			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11773,7 +11935,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "732-6499-1-ND"
 			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11784,7 +11946,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075561005/5147663"
 			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11795,7 +11957,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11806,7 +11968,51 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "875075561005"
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-6499-1-ND"
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075561005/5147663"
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "875075561005"
 			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -12151,7 +12357,7 @@
 	)
 	(symbol
 		(lib_id "Reference_Voltage:TL431DBZ")
-		(at 217.17 143.51 270)
+		(at 210.82 142.24 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12162,7 +12368,7 @@
 		(dnp no)
 		(uuid "5cc50fd5-3ce0-4c70-954c-0d4c78d508f7")
 		(property "Reference" "U3"
-			(at 214.63 142.2399 90)
+			(at 208.28 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12172,8 +12378,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL431DBZ"
-			(at 214.63 144.7799 90)
+		(property "Value" "ATL432BQDBZR"
+			(at 208.28 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12183,8 +12389,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 212.344 143.51 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 205.994 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12195,8 +12401,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 208.026 141.732 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/atl431.pdf?ts=1794292202845"
+			(at 201.676 140.462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12208,7 +12414,51 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SOT-23"
-			(at 210.058 143.51 0)
+			(at 203.708 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "296-43017-1-ND"
+			(at 210.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/ATL432BQDBZR/5452308"
+			(at 210.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 210.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ATL432BQDBZR"
+			(at 210.82 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12355,129 +12605,6 @@
 			(project "llc-prototype-2"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "626c2fe7-812b-46d4-82f9-b0c65149c969")
-		(property "Reference" "R23"
-			(at 108.204 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5k"
-			(at 108.204 66.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.362 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "54c44bcc-77a7-443a-913f-c6896bed688d")
-		)
-		(pin "2"
-			(uuid "a760aadb-e92f-4c5a-9a98-607670b1fd9d")
-		)
-		(instances
-			(project "llc-prototype-2"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -13060,7 +13187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7461096.pdf"
 			(at 261.62 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13072,6 +13199,61 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-3214-ND"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7461096/2682505"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7461096/2682505"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "7461096"
 			(at 261.62 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13096,7 +13278,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 220.98 114.3 90)
+		(at 104.14 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13104,9 +13286,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7a0a6d87-5b5c-427a-a5be-b56b028a188d")
-		(property "Reference" "R16"
-			(at 220.98 119.126 90)
+		(uuid "789091ee-741f-4dd5-bd44-106d6fbcd1fe")
+		(property "Reference" "R23"
+			(at 108.204 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13115,8 +13297,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 220.98 116.586 90)
+		(property "Value" "5k"
+			(at 108.204 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13125,8 +13307,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.98 116.078 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 102.362 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13136,7 +13318,130 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 104.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "13-RT0603BRE075KLCT-ND"
+			(at 104.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/RT0603BRE075KL/7708365"
+			(at 104.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 104.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RT0603BRE075KL"
+			(at 104.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "266f0825-f296-4252-8b93-bbb213a1a6b3")
+		)
+		(pin "2"
+			(uuid "68300d6f-dfa9-44cb-9f44-6a8bcc7953d0")
+		)
+		(instances
+			(project "llc-prototype-2"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a0a6d87-5b5c-427a-a5be-b56b028a188d")
+		(property "Reference" "R16"
+			(at 220.98 108.712 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.65k"
+			(at 220.98 111.252 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 220.98 112.522 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
 			(at 220.98 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13148,6 +13453,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 220.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "2019-RN73R1JTTD9651B25CT-ND"
+			(at 220.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RN73R1JTTD9651B25/10022829"
+			(at 220.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer Electronics, Inc."
+			(at 220.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RN73R1JTTD9651B25"
 			(at 220.98 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13253,7 +13602,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 222.25 132.08 90)
+		(at 215.9 130.81 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13264,7 +13613,7 @@
 		(dnp no)
 		(uuid "7e42243a-e620-4f7e-b23f-562fc5ab691e")
 		(property "Reference" "C13"
-			(at 222.25 139.7 90)
+			(at 215.9 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13274,7 +13623,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 222.25 137.16 90)
+			(at 215.9 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13284,7 +13633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 133.0452 0)
+			(at 219.71 131.7752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13295,7 +13644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 132.08 0)
+			(at 215.9 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13306,7 +13655,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 222.25 132.08 0)
+			(at 215.9 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13333,7 +13682,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.33 127 90)
+		(at 220.98 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13343,7 +13692,7 @@
 		(dnp no)
 		(uuid "80be3e25-db89-4b56-845d-53a8df466e1b")
 		(property "Reference" "C14"
-			(at 227.33 120.904 90)
+			(at 220.98 119.634 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13353,7 +13702,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 227.33 123.444 90)
+			(at 220.98 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13363,7 +13712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 126.0348 0)
+			(at 224.79 124.7648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13374,7 +13723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 127 0)
+			(at 220.98 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13385,7 +13734,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 227.33 127 0)
+			(at 220.98 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13442,7 +13791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 240.9952 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13453,7 +13802,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 240.03 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13475,7 +13824,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "399-6947-1-ND"
 			(at 240.03 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13486,7 +13835,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0805C224K3RACAUTO/3314939"
 			(at 240.03 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13497,7 +13846,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 240.03 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13508,7 +13857,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0805C224K3RACAUTO"
 			(at 240.03 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13529,6 +13878,253 @@
 			(project "llc-prototype-2"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 82.55 66.04 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88c1bd54-13d6-4bab-9a23-f3dcf0537ff5")
+		(property "Reference" "D4"
+			(at 82.55 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CMS05(TE12L,Q,M)"
+			(at 82.55 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CMS05_datasheet_en_20190409.pdf?did=3136&prodName=CMS05"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 30V 5A MFLAT"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CMS05QMCT-ND"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/CMS05-TE12L-Q-M/825029"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CMS05(TE12L,Q,M)"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29e8e1bd-e776-4fb2-8fb6-94047e6005d0")
+		)
+		(pin "2"
+			(uuid "14ebc595-e15e-4ce3-8408-f4728c0adf32")
+		)
+		(instances
+			(project "llc-prototype-2"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a13598b-7916-4e46-b127-99b18b8cfcbf")
+		(property "Reference" "R25"
+			(at 93.98 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1"
+			(at 93.98 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.98 64.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "2019-RK73B2ATTD5R1JCT-ND"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD5R1J/10236575"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer Electronics, Inc."
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RK73B2ATTD5R1J"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33c21f0e-7320-4ae5-b45e-fcf0e19ea87e")
+		)
+		(pin "2"
+			(uuid "41fd64cb-8fc5-4334-97e4-94f173edbcc1")
+		)
+		(instances
+			(project "llc-prototype-2"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -13740,7 +14336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 40.64 0)
+		(at 171.45 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13751,7 +14347,7 @@
 		(fields_autoplaced yes)
 		(uuid "90616b41-cac3-45ec-b04d-90281b48a855")
 		(property "Reference" "#PWR024"
-			(at 171.45 46.99 0)
+			(at 171.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13762,7 +14358,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 45.72 0)
+			(at 171.45 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13772,7 +14368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 40.64 0)
+			(at 171.45 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13783,7 +14379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 40.64 0)
+			(at 171.45 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13794,7 +14390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 40.64 0)
+			(at 171.45 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13858,7 +14454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875075555001.pdf"
 			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13880,7 +14476,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "732-6495-1-ND"
 			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13891,7 +14487,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075555001/5147659"
 			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13902,7 +14498,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13914,6 +14510,50 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 219.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-6495-1-ND"
+			(at 219.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075555001/5147659"
+			(at 219.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 219.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "875075555001"
 			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13981,7 +14621,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875075555001.pdf"
 			(at 214.63 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14003,7 +14643,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "732-6495-1-ND"
 			(at 214.63 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14014,7 +14654,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075555001/5147659"
 			(at 214.63 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14025,7 +14665,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 214.63 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14037,6 +14677,50 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 214.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-6495-1-ND"
+			(at 214.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075555001/5147659"
+			(at 214.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 214.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "875075555001"
 			(at 214.63 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14190,129 +14874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 92.71 66.04 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9bbce599-9c6f-4e4b-9155-1551473f6920")
-		(property "Reference" "R26"
-			(at 92.71 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 92.71 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 64.262 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 92.71 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 92.71 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 92.71 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 92.71 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a706ed2-4454-47b2-934e-d1c51cfbc467")
-		)
-		(pin "2"
-			(uuid "3e6a7c25-c785-40e9-bb09-5a07d928bf27")
-		)
-		(instances
-			(project "llc-prototype-2"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 87.63 142.24 0)
 		(unit 1)
@@ -14392,7 +14953,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 148.59 0)
+		(at 234.95 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14403,7 +14964,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cf659d3-c6d2-4eb6-a00f-f40f393f3206")
 		(property "Reference" "R15"
-			(at 243.84 147.3199 0)
+			(at 237.49 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14413,8 +14974,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.52k"
-			(at 243.84 149.8599 0)
+		(property "Value" "10k"
+			(at 237.49 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14425,7 +14986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 239.522 148.59 90)
+			(at 233.172 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14436,7 +14997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 148.59 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14447,7 +15008,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 148.59 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14458,7 +15019,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 241.3 148.59 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14469,7 +15030,7 @@
 			)
 		)
 		(property "Digikey URL" ""
-			(at 241.3 148.59 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14480,7 +15041,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 241.3 148.59 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14491,7 +15052,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 241.3 148.59 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14852,7 +15413,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7461096.pdf"
 			(at 22.86 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14864,6 +15425,94 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7461096/2682505"
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "74651173R"
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-3214-ND"
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7461096/2682505"
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "7461096"
 			(at 22.86 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14888,130 +15537,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3c8385f-6ac6-422a-b0bd-e6f4239f31c6")
-		(property "Reference" "R25"
-			(at 92.71 56.896 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15"
-			(at 92.71 59.436 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 64.008 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 92.71 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 92.71 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 92.71 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 92.71 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e07433cd-7083-4aa7-81c6-86d54db05c25")
-		)
-		(pin "2"
-			(uuid "ffc61171-d849-499c-a3e9-92890a4c010f")
-		)
-		(instances
-			(project "llc-prototype-2"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 232.41 132.08 90)
+		(at 226.06 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15021,7 +15547,7 @@
 		(dnp no)
 		(uuid "b639cef1-c921-41af-aebe-619bf7b7e426")
 		(property "Reference" "R17"
-			(at 232.41 138.43 90)
+			(at 226.06 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15031,7 +15557,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 232.41 135.89 90)
+			(at 226.06 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15041,7 +15567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 133.858 90)
+			(at 226.06 132.588 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15052,7 +15578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 132.08 0)
+			(at 226.06 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15063,7 +15589,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 232.41 132.08 0)
+			(at 226.06 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15464,7 +15990,7 @@
 		(dnp no)
 		(uuid "c541ff63-a046-4ccd-accf-0f38ad7274dd")
 		(property "Reference" "T1"
-			(at 157.48 48.26 0)
+			(at 157.48 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15473,8 +15999,8 @@
 				)
 			)
 		)
-		(property "Value" "Transformer_1P_SS"
-			(at 157.48 50.8 0)
+		(property "Value" "7uH"
+			(at 157.48 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15483,7 +16009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "formula_slug_footprint_library:B66364B1016T001_TDK"
 			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15494,7 +16020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/80/db/fer/etd_39_20_13.pdf"
 			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15506,6 +16032,50 @@
 			)
 		)
 		(property "Description" "Transformer, single primary, split secondary"
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "495-5473-ND"
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/tdk/B66364W1016T001/3914823"
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B66364W1016T001"
 			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15861,7 +16431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 102.362 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -15872,7 +16442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15894,7 +16464,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "13-RT0603BRE075KLCT-ND"
 			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15905,7 +16475,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/RT0603BRE075KL/7708365"
 			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15916,7 +16486,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15927,7 +16497,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RT0603BRE075KL"
 			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16197,7 +16767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7461096.pdf"
 			(at 261.62 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16230,7 +16800,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7461096/2682505"
 			(at 261.62 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16263,6 +16833,50 @@
 				)
 			)
 		)
+		(property "Digi PN" "732-3214-ND"
+			(at 261.62 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7461096/2682505"
+			(at 261.62 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 261.62 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "7461096"
+			(at 261.62 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3846fa8-1599-49d5-a32d-947e045c2bdc")
 		)
@@ -16270,6 +16884,129 @@
 			(project "llc-prototype-2"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d55f9fbe-2e91-4c13-9bd1-8f64eeb29d8b")
+		(property "Reference" "R26"
+			(at 93.98 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 93.98 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.98 64.262 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "P19268CT-ND"
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-6DQF1R0V/6004351"
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-6DQF1R0V"
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c130f49-bd20-4099-8536-be5f91fcd4e5")
+		)
+		(pin "2"
+			(uuid "51d66f9c-da10-4c54-9922-ea6a66fbf0f7")
+		)
+		(instances
+			(project "llc-prototype-2"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -16403,130 +17140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 82.55 66.04 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d92c3b29-9cca-4d25-a559-3bc2491ff939")
-		(property "Reference" "D4"
-			(at 82.55 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG6010ELRX"
-			(at 82.55 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG6010ELRX/5395789"
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "1727-2297-1-ND"
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG6010ELRX/5395789"
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia USA Inc."
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "PMEG6010ELRX"
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55c9726e-a5b3-4b1c-8f58-c4ad30ec5989")
-		)
-		(pin "2"
-			(uuid "a84952e1-be39-413f-93ee-a82da9f571b7")
-		)
-		(instances
-			(project "llc-prototype-2"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 194.31 46.99 0)
 		(unit 1)
@@ -16568,7 +17181,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/875075561005.pdf"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -16590,7 +17203,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "732-6499-1-ND"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -16601,7 +17214,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075561005/5147663"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -16612,7 +17225,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -16623,7 +17236,51 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "875075561005"
+			(at 194.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "732-6499-1-ND"
+			(at 194.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875075561005/5147663"
+			(at 194.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 194.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "875075561005"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -16729,7 +17386,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 43.18 90)
+		(at 93.98 43.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16739,7 +17396,7 @@
 		(dnp no)
 		(uuid "e967a39c-fbcd-49c8-b12f-c3eb82aa1eca")
 		(property "Reference" "R24"
-			(at 92.71 38.1 90)
+			(at 93.98 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16748,8 +17405,8 @@
 				)
 			)
 		)
-		(property "Value" "15"
-			(at 92.71 40.64 90)
+		(property "Value" "5.1"
+			(at 93.98 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16758,8 +17415,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 44.958 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.98 44.958 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16769,8 +17426,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 92.71 43.18 0)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
+			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16781,7 +17438,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 43.18 0)
+			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16791,8 +17448,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
-			(at 92.71 43.18 0)
+		(property "Digikey Part Number" "2019-RK73B2ATTD5R1JCT-ND"
+			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16802,8 +17459,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
-			(at 92.71 43.18 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD5R1J/10236575"
+			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16813,8 +17470,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 92.71 43.18 0)
+		(property "Manufacturer" "KOA Speer Electronics, Inc."
+			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16824,8 +17481,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 92.71 43.18 0)
+		(property "Manufacturer Part Number" "RK73B2ATTD5R1J"
+			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16882,7 +17539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "formula_slug_footprint_library:IHLP6767GZER1R8M01"
 			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17346,7 +18003,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC_Isolated:TEC2-1210WI")
-		(at 157.48 36.83 0)
+		(at 157.48 27.94 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17357,7 +18014,7 @@
 		(dnp no)
 		(uuid "efbb9253-66bc-4223-b041-56045a965996")
 		(property "Reference" "U5"
-			(at 157.48 26.67 0)
+			(at 157.48 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17367,7 +18024,7 @@
 			)
 		)
 		(property "Value" "SPBW03F-15"
-			(at 157.48 29.21 0)
+			(at 157.48 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17377,7 +18034,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TEC2-12xxWI_24xxWI_48xxWI_THT"
-			(at 157.48 43.434 0)
+			(at 157.48 34.544 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17388,7 +18045,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2538/SPBW03%2CDPBW03_Series_Ds.pdf"
-			(at 157.48 45.72 0)
+			(at 157.48 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17399,7 +18056,7 @@
 			)
 		)
 		(property "Description" "DC DC CONVERTER 15V 3W"
-			(at 157.48 36.83 0)
+			(at 157.48 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17410,7 +18067,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1866-4804-ND"
-			(at 157.48 36.83 0)
+			(at 157.48 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17421,7 +18078,7 @@
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.ca/en/products/detail/mean-well-usa-inc/SPBW03F-15/7707005"
-			(at 157.48 36.83 0)
+			(at 157.48 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17432,7 +18089,7 @@
 			)
 		)
 		(property "Manufacturer" "MEAN WELL USA Inc."
-			(at 157.48 36.83 0)
+			(at 157.48 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17443,7 +18100,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SPBW03F-15"
-			(at 157.48 36.83 0)
+			(at 157.48 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17659,7 +18316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.0752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17670,7 +18327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 245.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17692,7 +18349,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "399-6927-1-ND"
 			(at 245.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17703,7 +18360,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0805C104K3RACAUTO/3314921"
 			(at 245.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17714,7 +18371,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 245.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17725,7 +18382,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0805C104K3RACAUTO"
 			(at 245.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17880,7 +18537,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 153.67 0)
+		(at 234.95 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17891,7 +18548,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9d45af9-8ae8-4194-a0eb-2cad0eb22758")
 		(property "Reference" "#PWR02"
-			(at 241.3 160.02 0)
+			(at 234.95 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17902,7 +18559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 158.75 0)
+			(at 234.95 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17912,7 +18569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 153.67 0)
+			(at 234.95 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17923,7 +18580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 153.67 0)
+			(at 234.95 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17934,7 +18591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 153.67 0)
+			(at 234.95 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
