@@ -5124,6 +5124,16 @@
 		)
 		(uuid "aa33bca7-8df2-44ba-8a8d-21afae805cba")
 	)
+	(text "Figure out fans and inverter continuous draw \n(if higher than ~3A per channel, need to change diodes)"
+		(exclude_from_sim no)
+		(at 107.442 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae33ede4-8493-425f-b61a-03c39c99f227")
+	)
 	(text "10A ATM"
 		(exclude_from_sim no)
 		(at 104.14 128.27 0)
@@ -5237,10 +5247,22 @@
 		(uuid "1c16ff77-ddf9-451b-a05a-ba79505f4e1d")
 	)
 	(junction
+		(at 191.77 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce7ae55-ecbd-4f23-a792-10022aaa2a45")
+	)
+	(junction
 		(at 191.77 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e885d43-a6ba-4f16-8548-5aab5e09cf53")
+	)
+	(junction
+		(at 227.33 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a51e6c-1045-49d4-828d-6bda4ba80d23")
 	)
 	(junction
 		(at 218.44 33.02)
@@ -5283,6 +5305,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48a7e657-b17b-44d0-98d1-8ab4eab7c449")
+	)
+	(junction
+		(at 262.89 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ac1b7f4-807a-4440-8a00-5d83a00ff0e9")
 	)
 	(junction
 		(at 237.49 110.49)
@@ -5417,6 +5445,12 @@
 		(uuid "a362c237-c909-4e70-b722-a94a49a3a911")
 	)
 	(junction
+		(at 121.92 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5808307-2c65-4207-a2a5-e6efb70c9b0f")
+	)
+	(junction
 		(at 242.57 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5547,6 +5581,16 @@
 			(type default)
 		)
 		(uuid "03a1fb59-36e0-4d86-9f37-6c08a66f0560")
+	)
+	(wire
+		(pts
+			(xy 227.33 161.29) (xy 227.33 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e9cb51-e465-4b7c-ba66-2bb31a81b88f")
 	)
 	(wire
 		(pts
@@ -6360,6 +6404,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 127) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619055d0-318c-4214-9650-7e06c7515610")
+	)
+	(wire
+		(pts
 			(xy 24.13 168.91) (xy 24.13 134.62)
 		)
 		(stroke
@@ -6650,6 +6704,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 127) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c251bff-a4ff-4f26-aede-84be8317af81")
+	)
+	(wire
+		(pts
 			(xy 157.48 67.31) (xy 157.48 68.58)
 		)
 		(stroke
@@ -6667,6 +6731,16 @@
 			(type default)
 		)
 		(uuid "7e48b110-4133-427b-8b01-5319b270ffab")
+	)
+	(wire
+		(pts
+			(xy 262.89 161.29) (xy 262.89 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81535cfa-323c-49a4-a1f7-c9ccc7190c41")
 	)
 	(wire
 		(pts
@@ -6897,6 +6971,16 @@
 			(type default)
 		)
 		(uuid "98b8b00c-fe12-4c06-876e-8eee704bb777")
+	)
+	(wire
+		(pts
+			(xy 191.77 161.29) (xy 191.77 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993dd6eb-869b-418d-ad80-23e14cc6f0c2")
 	)
 	(wire
 		(pts
@@ -8970,6 +9054,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 137.16 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a906957-7014-48b0-b8a6-4610e295e4a3")
+		(property "Reference" "#PWR068"
+			(at 137.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "188b346d-14a2-4658-8df6-60e268744143")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 168.91 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -9526,6 +9688,84 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a6eaabd-11ee-4d65-8ef5-9d4192b8d61b")
+		(property "Reference" "#PWR054"
+			(at 227.33 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54540c12-7d78-48f0-85cd-2b11d1b9648b")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10310,6 +10550,84 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29c3f3d0-5007-499f-8c8e-1f072d0792f2")
+		(property "Reference" "#PWR055"
+			(at 262.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bdaceb2-0459-4418-9aa1-81f5048f9f09")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11230,6 +11548,129 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 130.81 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "445f3cf7-31f7-4e2a-8815-f87904c4bb4c")
+		(property "Reference" "D6"
+			(at 125.73 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 125.73 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ss39-d.pdf"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "SS34FSCT-ND"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/onsemi/SS34/1052384"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SS34"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b3a3f4b-ba46-4966-9d01-1f6677bb56d5")
+		)
+		(pin "2"
+			(uuid "c6c7f23c-7108-43cc-b735-5a1535b693cd")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -14478,6 +14919,84 @@
 			(project "fuse-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a06890b6-6521-4f65-8902-74e8540052ea")
+		(property "Reference" "#PWR053"
+			(at 191.77 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ac5a64c-b76d-4c73-a1c7-9155c6224bfa")
+		)
+		(instances
+			(project "fuse-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
