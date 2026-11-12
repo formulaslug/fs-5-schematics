@@ -1,0 +1,96 @@
+(footprint "ATS668LSMTN-T"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Connector for Hall Effect Wheel Speed Sensor pins")
+	(property "Reference" "REF**"
+		(at 0 -3.937 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9790eb36-bcfd-4687-b67f-2876f2bb7123")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ATS668LSMTN-T"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "49ab182d-9f63-4690-95ae-4102f023ddbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.allegromicro.com/~/media/Files/Datasheets/ATS668-Datasheet.ashx"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b854965b-2fc8-4471-8f20-a86979dc62b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Connector for Hall Effect pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fb0e3c1-3d26-44e8-83b3-9cf8a7a454c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f62c4d2b-301a-4eb0-bf92-2085d00d45ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.8 0)
+		(size 4 1)
+		(drill oval 3.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2615134-7e17-4386-be61-cef1fef8bd2d")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 4 1)
+		(drill oval 3.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e0b9e8c-1a2c-4ab3-8367-2a034c95ae0a")
+	)
+	(pad "3" thru_hole oval
+		(at 4.8 0)
+		(size 4 1)
+		(drill oval 3.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14c0faed-65e2-4a4e-bea9-f3d932600650")
+	)
+	(embedded_fonts no)
+)
