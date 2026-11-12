@@ -2351,9 +2351,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "formula_slug_symbol_library:IPB017N10N5LF"
+		(symbol "Transistor_FET:STB15N80K5"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2372,7 +2371,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IPB017N10N5LF"
+			(property "Value" "STB15N80K5"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2383,8 +2382,21 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin4"
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stb15n80k5.pdf"
+				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2392,9 +2404,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipb017n10n5lf-datasheet-en.pdf"
+			(property "Description" "14A Id, 800V Vds, N-Channel MOSFET, 375mOhm Ron, D2PAK"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2405,7 +2418,7 @@
 					)
 				)
 			)
-			(property "Description" "N-MOSFET, Infineon OptiMOS 5 Linear FET, 100 V, D2PAK-7 (pin 1 G; pins 2,3,5,6,7 S stacked; pin 4/tab D)"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2416,7 +2429,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_fp_filters" "TO?263*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2427,7 +2440,7 @@
 					)
 				)
 			)
-			(symbol "IPB017N10N5LF_0_1"
+			(symbol "STB15N80K5_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2571,7 +2584,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -2594,8 +2607,8 @@
 					)
 				)
 			)
-			(symbol "IPB017N10N5LF_1_1"
-				(pin input line
+			(symbol "STB15N80K5_1_1"
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
@@ -2614,9 +2627,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2634,7 +2647,6 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -2643,81 +2655,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3345,7 +3282,7 @@
 	)
 	(text "Switch & Sense"
 		(exclude_from_sim no)
-		(at 182.118 96.52 0)
+		(at 165.608 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3625,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 111.76) (xy 180.34 116.84)
+			(xy 185.42 114.3) (xy 185.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3792,6 +3729,16 @@
 			(justify left bottom)
 		)
 		(uuid "9451fb89-9580-4bfe-aa6a-5f534c44e318")
+	)
+	(label "I_SENSE"
+		(at 172.72 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "adb4e480-ef79-44b4-9849-9c480f1533aa")
 	)
 	(global_label "PWR_IN"
 		(shape output)
@@ -3986,6 +3933,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 121.92 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC27511ADBVR/9371276"
+			(at 121.92 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 121.92 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "UCC27511ADBVR"
+			(at 121.92 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "292a771e-52f2-40a6-b216-bd210f7c91b8")
 		)
@@ -4091,7 +4082,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/molex/1054301102/9959376"
 			(at 91.44 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4461,7 +4452,7 @@
 		)
 	)
 	(symbol
-		(lib_id "formula_slug_symbol_library:IPB017N10N5LF")
+		(lib_id "Transistor_FET:STB15N80K5")
 		(at 162.56 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -4483,7 +4474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPB017N10N5LF"
+		(property "Value" "CSD19536KTT"
 			(at 168.91 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4494,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin4"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4505,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipb017n10n5lf-datasheet-en.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/CSD19536KTT"
 			(at 162.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4516,7 +4507,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET, OptiMOS 5 Linear FET (wide SOA), 100 V, 180 A, 1.7 mOhm, D2PAK-7"
+		(property "Description" "Load switch MOSFET, TI CSD19536KTT, 100 V N-channel, 2.4 mOhm max at 10 V, D2PAK (TO-263): pin 1 G, pin 2/tab D, pin 3 S"
 			(at 162.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4527,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "IPB017N10N5LFATMA1CT-ND"
+		(property "Digikey Part Number" ""
 			(at 162.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4538,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/infineon-technologies/IPB017N10N5LFATMA1/7323992"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/CSD19536KTT/5215835"
 			(at 162.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4549,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Infineon Technologies"
+		(property "Manufacturer" "Texas Instruments"
 			(at 162.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4560,7 +4551,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "IPB017N10N5LFATMA1"
+		(property "Manufacturer Part Number" "CSD19536KTT"
 			(at 162.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4572,25 +4563,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f226732-d255-44aa-8c21-9c32aa1855c6")
+			(uuid "444874fb-0d77-4ad4-a9c4-820f972d7eb9")
 		)
 		(pin "2"
-			(uuid "aa4e25bb-78ae-4fc6-840f-fda489b82d59")
+			(uuid "154cdabf-9b78-4f69-9354-736c0d143fda")
 		)
 		(pin "3"
-			(uuid "788cadc4-4cc5-4c6a-9dc4-82e723184058")
-		)
-		(pin "4"
-			(uuid "edaf52c6-c823-4291-bbab-c2571f8f0479")
-		)
-		(pin "5"
-			(uuid "13c25ce1-3117-45e5-a1da-fcf36981f8a1")
-		)
-		(pin "6"
-			(uuid "17bca66e-e02b-462d-8775-b98bddf965a5")
-		)
-		(pin "7"
-			(uuid "4f228c66-c805-4272-beb2-f9fb3b95cb78")
+			(uuid "79b36923-908e-480a-9009-a80fb7e5fe58")
 		)
 		(instances
 			(project "load-slammer"
@@ -4746,7 +4725,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "541-49.9AFCT-ND"
+		(property "Digikey Part Number" "541-10.0KAFCT-ND"
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4757,7 +4736,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW251249R9FKEG/1173550"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW251210K0FKEG/1178803"
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4779,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW251249R9FKEG"
+		(property "Manufacturer Part Number" "CRCW251210K0FKEG"
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5285,7 +5264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-2_Vertical"
+		(property "Footprint" "load_slammer:TO-247-2_Vertical_P10.16mm"
 			(at 163.322 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -6091,7 +6070,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "P22.0HCT-ND"
+		(property "Digikey Part Number" "P0.0GCT-ND"
 			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6102,7 +6081,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF22R0V/1746340"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-3GEY0R00V/134711"
 			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6124,7 +6103,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "ERJ-3EKF22R0V"
+		(property "Manufacturer Part Number" "ERJ-3GEY0R00V"
 			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6229,7 +6208,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 116.84 0)
+		(at 185.42 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6240,7 +6219,7 @@
 		(fields_autoplaced yes)
 		(uuid "deed586e-d64b-40dd-8f47-0c9ea8e9e7da")
 		(property "Reference" "#PWR04"
-			(at 180.34 123.19 0)
+			(at 185.42 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6251,7 +6230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 121.92 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6262,7 +6241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 116.84 0)
+			(at 185.42 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6273,7 +6252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 116.84 0)
+			(at 185.42 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6284,7 +6263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 116.84 0)
+			(at 185.42 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6431,7 +6410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 185.42 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -6452,7 +6431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1054301102"
+		(property "Value" "1-1478204-0"
 			(at 187.96 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6463,7 +6442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "formula_slug_footprint_library:CONN_SD-105430-001_02_MOL"
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical"
 			(at 185.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6474,7 +6453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/usa-en/product-1-1478204-0.html"
 			(at 185.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6485,7 +6464,7 @@
 				)
 			)
 		)
-		(property "Description" "Current monitor to scope, Molex Nano-Fit 2-pos: pin 1 = R13 sense (5 mV/A), pin 2 = GND"
+		(property "Description" "Current monitor to scope, BNC jack (50 ohm, vertical PCB mount): center = R13 sense (5 mV/A), shell = GND"
 			(at 185.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6507,7 +6486,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-1478204-0/1890766"
 			(at 185.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6518,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "TE Connectivity"
 			(at 185.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6529,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "1054301102"
+		(property "Manufacturer Part Number" "1-1478204-0"
 			(at 185.42 109.22 0)
 			(hide yes)
 			(show_name no)
