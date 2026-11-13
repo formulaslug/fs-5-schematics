@@ -323,6 +323,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -446,359 +635,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FS_4_Global_Symbol_Library:ABS07-120-32.768KHZ-T"
-			(body_styles demorgan)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "XTAL"
-				(at 5.08 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ABS07-120-32.768KHZ-T"
-				(at 5.08 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "FS_4_Global_Footprint_Library:XTAL_ABS07-120_ABR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://abracon.com/Resonators/ABS07.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digi URL" "https://www.digikey.com/en/products/detail/abracon-llc/ABS07-32-768KHZ-T/1236858"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digi PN" "535-9542-1-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFG" "Abracon"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFG PN" "ABS07-32.768KHZ-T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ABS07-120-32.768KHZ-T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "XTAL_ABS07-120_ABR XTAL_ABS07-120_ABR-M XTAL_ABS07-120_ABR-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ABS07-120-32.768KHZ-T_1_1"
-				(polyline
-					(pts
-						(xy 2.54 -1.905) (xy 2.54 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 6.35 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 6.35 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.905) (xy 7.62 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ABS07-120-32.768KHZ-T_1_2"
-				(polyline
-					(pts
-						(xy -2.54 6.35) (xy 2.54 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 7.62) (xy -1.905 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 2.54) (xy -1.905 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 6.35) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2070,12 +1906,6 @@
 		(uuid "c1c42cd6-383b-4da7-8a3f-ae043a54e904")
 	)
 	(junction
-		(at 266.7 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "082456bd-04a5-4552-89e0-e2699a33c1bb")
-	)
-	(junction
 		(at 208.28 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2130,6 +1960,12 @@
 		(uuid "9292a21f-06b5-444c-8c3e-aa5a4f8b5792")
 	)
 	(junction
+		(at 266.7 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c96463-2961-4b44-b9b1-ac249bce28cb")
+	)
+	(junction
 		(at 241.3 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2148,6 +1984,12 @@
 		(uuid "d22f5b02-45aa-4f2e-8c0f-37bd1955050f")
 	)
 	(junction
+		(at 278.13 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3d9774d-7c71-415e-a4ae-c40672a1e426")
+	)
+	(junction
 		(at 203.2 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2164,12 +2006,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2d9d363-65c2-4481-999f-f89d7842b203")
-	)
-	(junction
-		(at 278.13 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffe919f3-af6a-4ad0-ac4d-1da2a58d5b70")
 	)
 	(no_connect
 		(at 241.3 111.76)
@@ -2421,6 +2257,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 114.3) (xy 266.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a96028-d501-41b5-8bef-93b4e8b17d23")
+	)
+	(wire
+		(pts
 			(xy 168.91 175.26) (xy 190.5 175.26)
 		)
 		(stroke
@@ -2448,16 +2294,6 @@
 			(type default)
 		)
 		(uuid "b53cd554-9f43-4836-ab67-50310ee128fb")
-	)
-	(wire
-		(pts
-			(xy 276.86 114.3) (xy 278.13 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75dee14-055e-4671-8b2c-5d16522b0922")
 	)
 	(wire
 		(pts
@@ -2551,6 +2387,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 114.3) (xy 278.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98feebd-379d-4a01-8cf5-366b5e97c584")
+	)
+	(wire
+		(pts
 			(xy 160.02 104.14) (xy 189.23 104.14)
 		)
 		(stroke
@@ -2600,28 +2446,6 @@
 		)
 		(uuid "1a86b68f-7dfe-4914-a5e3-aefe820407ab")
 	)
-	(hierarchical_label "SPI2_MOSI"
-		(shape input)
-		(at 167.64 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b0c50eb-7674-4194-9b05-b48b86bcc10e")
-	)
-	(hierarchical_label "SPI2_NSS"
-		(shape input)
-		(at 160.02 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41305f14-4e15-4049-86fc-4e06700b7780")
-	)
 	(hierarchical_label "BME_NSS"
 		(shape input)
 		(at 181.61 185.42 180)
@@ -2644,6 +2468,17 @@
 		)
 		(uuid "8d726cf1-2b65-4eb9-84ba-91b212be81ae")
 	)
+	(hierarchical_label "SPI3_MOSI"
+		(shape input)
+		(at 167.64 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fc8437b-3fe4-4737-a484-da4382ae8d44")
+	)
 	(hierarchical_label "BNO_NRST"
 		(shape input)
 		(at 160.02 111.76 180)
@@ -2655,18 +2490,7 @@
 		)
 		(uuid "a189313b-c531-44e1-a2d2-2b8a29506727")
 	)
-	(hierarchical_label "SPI2_SCK"
-		(shape input)
-		(at 151.13 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6193a51-8ee2-405c-8124-e608845c4d94")
-	)
-	(hierarchical_label "SPI2_MISO"
+	(hierarchical_label "SPI3_MISO"
 		(shape output)
 		(at 181.61 134.62 180)
 		(effects
@@ -2675,7 +2499,18 @@
 			)
 			(justify right)
 		)
-		(uuid "db64e69b-ecf4-48ae-b4c5-788e3d7a4677")
+		(uuid "c035506c-658b-41f0-ad16-c60ac4f58202")
+	)
+	(hierarchical_label "SPI3_NSS"
+		(shape input)
+		(at 160.02 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3710f62-e293-4aff-97a2-68e193883440")
 	)
 	(hierarchical_label "INT1_3V3"
 		(shape output)
@@ -2687,6 +2522,17 @@
 			(justify left)
 		)
 		(uuid "ec585766-b771-4279-91b4-b349ef2fb97c")
+	)
+	(hierarchical_label "SPI3_SCK"
+		(shape input)
+		(at 151.13 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed6d56bd-1e53-43dd-af39-ed8c31ec5659")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2891,8 +2737,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FS_4_Global_Symbol_Library:ABS07-120-32.768KHZ-T")
-		(at 266.7 114.3 0)
+		(lib_id "Device:Crystal")
+		(at 271.78 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2902,7 +2748,7 @@
 		(dnp no)
 		(uuid "1585ab67-f39f-4cef-94b7-86db53662d11")
 		(property "Reference" "XTAL1"
-			(at 257.81 107.95 0)
+			(at 261.62 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2912,7 +2758,7 @@
 			)
 		)
 		(property "Value" "ABS07-120-32.768KHZ-T"
-			(at 257.81 110.49 0)
+			(at 261.62 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2922,31 +2768,29 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm_HandSoldering"
-			(at 266.7 114.3 0)
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
 		(property "Datasheet" "https://abracon.com/Resonators/ABS07.pdf"
-			(at 266.7 114.3 0)
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 266.7 114.3 0)
+		(property "Description" "Two pin crystal"
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +2801,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/abracon-llc/ABS07-32-768KHZ-T/1236858"
-			(at 266.7 114.3 0)
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +2812,7 @@
 			)
 		)
 		(property "Digi PN" "535-9542-1-ND"
-			(at 266.7 114.3 0)
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +2823,7 @@
 			)
 		)
 		(property "MFG" "Abracon"
-			(at 266.7 114.3 0)
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,7 +2834,7 @@
 			)
 		)
 		(property "MFG PN" "ABS07-32.768KHZ-T"
-			(at 266.7 114.3 0)
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +2845,51 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 266.7 114.3 0)
+			(at 271.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 271.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 271.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 271.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3058,7 +2946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "formula_slug_footprint_library:BNO086_LGA-28_5.2x3.8mm_P0.5mm"
+		(property "Footprint" "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm"
 			(at 189.23 104.14 0)
 			(hide yes)
 			(show_name no)
