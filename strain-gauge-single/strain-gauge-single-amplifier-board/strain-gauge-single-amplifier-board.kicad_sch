@@ -1361,6 +1361,383 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "formula_slug_symbol_library:LDK320AM33R"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LDK320AM33R"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT23-5L_STM"
+				(at -20.32 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ldk320.pdf"
+				(at -20.32 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at -20.32 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LDK320AM33R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT23-5L_STM SOT23-5L_STM-M SOT23-5L_STM-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LDK320AM33R_0_1"
+				(polyline
+					(pts
+						(xy -12.7 6.35) (xy -12.7 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -8.89) (xy 12.7 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 6.35) (xy -12.7 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -8.89) (xy 12.7 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -20.32 1.27 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -20.32 -1.27 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -3.81 180)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 20.32 -1.27 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 1.27 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1616,6 +1993,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Voltage Regulator\n"
+		(exclude_from_sim no)
+		(at 151.13 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a4ac254-0549-47c6-b30e-d0076a3d6448")
+	)
 	(text "3V3 Filter\n"
 		(exclude_from_sim no)
 		(at 143.002 19.558 0)
@@ -1625,6 +2012,16 @@
 			)
 		)
 		(uuid "83670f22-46f1-4f16-8d16-15c77936d3a7")
+	)
+	(text "+3V3 Regulator"
+		(exclude_from_sim no)
+		(at 188.722 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aca51a36-91df-40d3-9ba7-52cb37f9a209")
 	)
 	(text "MCP3564R ADC\n"
 		(exclude_from_sim no)
@@ -1643,7 +2040,7 @@
 		(uuid "0057bddb-74cd-4a19-8793-156f284e7619")
 	)
 	(junction
-		(at 156.21 25.4)
+		(at 161.29 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "078883af-b201-4584-9295-e43f49051d72")
@@ -1667,10 +2064,16 @@
 		(uuid "39f83a09-9b2c-4dd8-9b05-7ec91955c8fe")
 	)
 	(junction
-		(at 165.1 25.4)
+		(at 168.91 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e3838e6-834d-47b2-a1ce-27ca33c20de5")
+	)
+	(junction
+		(at 154.94 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657f8acd-aebb-4fd7-87ab-27f58a31f9dc")
 	)
 	(junction
 		(at 231.14 31.75)
@@ -1691,7 +2094,7 @@
 		(uuid "7fde120b-b633-4e0d-9b9d-4df8ae0c170d")
 	)
 	(junction
-		(at 156.21 33.02)
+		(at 161.29 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "907be80b-975a-42c3-8acd-a4c9094e3e61")
@@ -1701,6 +2104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b77da5d4-a874-456f-b7db-e6bba15b6009")
+	)
+	(junction
+		(at 162.56 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba22125d-aaae-426d-b753-5ffbc1b98eca")
 	)
 	(junction
 		(at 231.14 44.45)
@@ -1714,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 33.02) (xy 165.1 33.02)
+			(xy 144.78 33.02) (xy 168.91 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1752,6 +2161,16 @@
 		)
 		(uuid "05b8dcd4-25cf-4f58-b107-815266caf350")
 	)
+	(wire
+		(pts
+			(xy 209.55 138.43) (xy 209.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dac1585-9017-43b5-8dfa-6e793cdd7643")
+	)
 	(polyline
 		(pts
 			(xy 199.39 16.51) (xy 135.89 16.51)
@@ -1762,15 +2181,25 @@
 		)
 		(uuid "12b7167d-7af9-488f-b8bb-3310315f4148")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 165.1 25.4) (xy 172.72 25.4)
+			(xy 139.7 114.3) (xy 139.7 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27e0d242-b723-46f4-b6c3-75651af87ba6")
+		(uuid "16c8846b-6171-4bfb-9ba9-3ba07b6beddc")
+	)
+	(polyline
+		(pts
+			(xy 139.7 165.1) (xy 241.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23891e4b-492e-45e7-a002-7563243eb0c1")
 	)
 	(wire
 		(pts
@@ -1781,6 +2210,16 @@
 			(type default)
 		)
 		(uuid "2824d64d-27af-401b-8e47-8da8a105601f")
+	)
+	(polyline
+		(pts
+			(xy 241.3 165.1) (xy 241.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2877345a-7b64-4854-ad9e-29687e77fdb8")
 	)
 	(wire
 		(pts
@@ -1824,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 25.4) (xy 165.1 25.4)
+			(xy 156.21 25.4) (xy 176.53 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1862,6 +2301,16 @@
 		)
 		(uuid "3bf29332-9ed1-4004-b39b-0ab1ffa07311")
 	)
+	(polyline
+		(pts
+			(xy 139.7 114.3) (xy 241.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c3737d-d7b9-4194-bcb0-ce34fca81a37")
+	)
 	(wire
 		(pts
 			(xy 161.29 76.2) (xy 161.29 73.66)
@@ -1871,6 +2320,16 @@
 			(type default)
 		)
 		(uuid "4f5110fe-1966-460b-bd77-a2f857a26f07")
+	)
+	(wire
+		(pts
+			(xy 162.56 148.59) (xy 162.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542a97e7-c3ec-41a5-a367-d5123976ad79")
 	)
 	(wire
 		(pts
@@ -1904,6 +2363,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 133.35) (xy 154.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ac8ec6-ab40-44fd-93b5-e70a819d46b5")
+	)
+	(wire
+		(pts
 			(xy 207.01 41.91) (xy 231.14 41.91)
 		)
 		(stroke
@@ -1931,6 +2400,16 @@
 			(type default)
 		)
 		(uuid "6ca8a7de-25c8-4c3c-b47b-61c91167d0ea")
+	)
+	(wire
+		(pts
+			(xy 209.55 148.59) (xy 162.56 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725cc967-564e-4b73-99c9-6e656d7eac60")
 	)
 	(wire
 		(pts
@@ -2074,6 +2553,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 133.35) (xy 162.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f74ff3-f5bf-4665-abec-109ad045c708")
+	)
+	(wire
+		(pts
+			(xy 162.56 133.35) (xy 168.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caae2349-98a7-44f9-800d-abda644dd0a9")
+	)
+	(wire
+		(pts
 			(xy 144.78 25.4) (xy 148.59 25.4)
 		)
 		(stroke
@@ -2141,6 +2640,26 @@
 			(type default)
 		)
 		(uuid "e8f5b234-c10d-4767-8498-6e51b101cca6")
+	)
+	(wire
+		(pts
+			(xy 168.91 135.89) (xy 168.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb354d2a-1814-4368-8b1e-df7a299faab6")
+	)
+	(wire
+		(pts
+			(xy 215.9 133.35) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69d3525-728b-4648-89f3-350af3bd21fb")
 	)
 	(polyline
 		(pts
@@ -2777,8 +3296,99 @@
 		)
 	)
 	(symbol
+		(lib_id "formula_slug_symbol_library:LDK320AM33R")
+		(at 189.23 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0221dbc7-a831-4a2b-b5e2-5af92d1f8b88")
+		(property "Reference" "U2"
+			(at 189.23 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LDK320AM33R"
+			(at 189.23 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "formula_slug_footprint_library:LDK320AM33R-SOT23-5"
+			(at 168.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ldk320.pdf"
+			(at 168.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "dbc427e3-6eee-478e-ab4c-073a46af2923")
+		)
+		(pin "4"
+			(uuid "a57586da-6d96-436b-acf3-422854a06761")
+		)
+		(pin "1"
+			(uuid "890d063b-7056-4269-b819-4d1016db4c94")
+		)
+		(pin "2"
+			(uuid "b8e2c064-e48b-46a0-8e5b-3176a9fcfe1f")
+		)
+		(pin "5"
+			(uuid "66ce2cc8-d9db-4236-87d2-23c156684f32")
+		)
+		(instances
+			(project "strain-gauge-single-amplifier-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 172.72 25.4 0)
+		(at 176.53 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2788,7 +3398,7 @@
 		(dnp no)
 		(uuid "044ef562-6e3b-48e3-8f88-a13ad8aa7cb0")
 		(property "Reference" "#PWR022"
-			(at 172.72 29.21 0)
+			(at 176.53 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2799,7 +3409,7 @@
 			)
 		)
 		(property "Value" "+3V3_A"
-			(at 172.72 20.828 0)
+			(at 176.53 20.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2809,7 +3419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 25.4 0)
+			(at 176.53 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +3430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 25.4 0)
+			(at 176.53 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2831,7 +3441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 25.4 0)
+			(at 176.53 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2940,8 +3550,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 29.21 0)
+		(lib_id "power:+3V3")
+		(at 215.9 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2949,31 +3559,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1717f1e8-70d4-416c-b49e-494ffa397ead")
-		(property "Reference" "C2"
-			(at 156.21 36.322 0)
+		(uuid "16b7d36b-b3f6-41b3-8db5-db859872f184")
+		(property "Reference" "#PWR019"
+			(at 215.9 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 156.21 38.354 0)
+		(property "Value" "+3V3"
+			(at 211.836 131.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 157.1752 33.02 0)
+		(property "Footprint" ""
+			(at 215.9 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2984,7 +3593,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 29.21 0)
+			(at 215.9 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 215.9 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7890f14b-4a6f-4ece-b632-572d5a20414b")
+		)
+		(instances
+			(project "strain-gauge-single-amplifier-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 161.29 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1717f1e8-70d4-416c-b49e-494ffa397ead")
+		(property "Reference" "C2"
+			(at 161.29 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 161.29 38.354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.2552 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2995,7 +3682,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 29.21 0)
+			(at 161.29 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3092,6 +3779,83 @@
 			(project "strain-gauge-single-amplifier-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dda2861-5b09-4b05-bdff-15d16322ce19")
+		(property "Reference" "#PWR010"
+			(at 154.94 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 145.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cddb6b60-30f5-48de-a39e-407d3facf6c5")
+		)
+		(instances
+			(project "strain-gauge-single-amplifier-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3330,7 +4094,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 29.21 0)
+		(at 168.91 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3340,7 +4104,7 @@
 		(dnp no)
 		(uuid "3517cb49-9655-4872-9989-1980a9175019")
 		(property "Reference" "C3"
-			(at 165.1 36.322 0)
+			(at 168.91 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3351,7 +4115,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 165.354 38.1 0)
+			(at 169.164 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3362,7 +4126,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 166.0652 33.02 0)
+			(at 169.8752 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3373,7 +4137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 29.21 0)
+			(at 168.91 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3384,7 +4148,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 165.1 29.21 0)
+			(at 168.91 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3410,8 +4174,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 207.01 41.91 0)
+		(lib_id "power:+12V")
+		(at 151.13 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3419,9 +4183,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3e486433-23f1-47f9-8868-d89ac54af079")
-		(property "Reference" "#PWR019"
-			(at 207.01 45.72 0)
+		(fields_autoplaced yes)
+		(uuid "4bbeeeb5-5d60-412b-b17e-8fad0a604b77")
+		(property "Reference" "#PWR08"
+			(at 151.13 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,8 +4196,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 203.2 40.132 0)
+		(property "Value" "+12V"
+			(at 151.13 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3441,8 +4206,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 207.01 41.91 0)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT"
+			(at 151.13 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3453,7 +4218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 41.91 0)
+			(at 151.13 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3463,8 +4228,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 207.01 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 151.13 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3475,12 +4240,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d9b6262-4d78-4472-a762-afdff802c59a")
+			(uuid "fe5a8733-f690-4724-85f6-02604020f97a")
 		)
 		(instances
 			(project "strain-gauge-single-amplifier-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR019")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3635,6 +4400,84 @@
 			(project "strain-gauge-single-amplifier-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 207.01 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75d19067-7d95-418c-818e-88db21043c29")
+		(property "Reference" "#PWR07"
+			(at 207.01 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 207.01 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hahn_HS-400xx_THT"
+			(at 207.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 207.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29bfd4a5-da11-40a0-82dd-c0dcaed76350")
+		)
+		(instances
+			(project "strain-gauge-single-amplifier-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4124,6 +4967,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a84ecae0-5a81-439b-a6fe-adfd831c5c6b")
+		(property "Reference" "#PWR013"
+			(at 168.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 145.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05993200-0db0-4385-8d83-6ab70a788c21")
+		)
+		(instances
+			(project "strain-gauge-single-amplifier-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 149.86 71.12 0)
 		(unit 1)
@@ -4426,6 +5346,86 @@
 			(project "strain-gauge-single-amplifier-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 137.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbc3e76e-76f3-442a-9f1e-7a8b1ff9fac0")
+		(property "Reference" "C5"
+			(at 147.574 138.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 147.574 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 153.9748 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "32b00957-38e8-42dd-8052-5074514e1f9b")
+		)
+		(pin "1"
+			(uuid "d7e1dd03-7beb-4e93-b093-c66c49189f79")
+		)
+		(instances
+			(project "strain-gauge-single-amplifier-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4973,7 +5973,7 @@
 		(dnp no)
 		(uuid "f81edf1a-4476-4de3-86e8-5c06f355e21e")
 		(property "Reference" "FB1"
-			(at 156.21 19.812 90)
+			(at 156.21 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4983,7 +5983,7 @@
 			)
 		)
 		(property "Value" "FCM 1608KF-601T03"
-			(at 159.512 22.098 90)
+			(at 157.988 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
