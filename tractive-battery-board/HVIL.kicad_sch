@@ -1693,16 +1693,6 @@
 		)
 		(uuid "15f1d3b4-bdb0-44f3-a90f-b153d0133c0e")
 	)
-	(text "Opamp chudded, use comparater "
-		(exclude_from_sim no)
-		(at 177.8 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "290644d1-c925-47f1-a46a-956720ce1f04")
-	)
 	(text "2V"
 		(exclude_from_sim no)
 		(at 141.732 79.248 0)
@@ -1754,10 +1744,22 @@
 		(uuid "7cdad052-f4b8-4942-a069-8f7064dded95")
 	)
 	(junction
+		(at 165.1 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eafe21f-747c-4c80-a53d-4fec13037b86")
+	)
+	(junction
 		(at 185.42 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af2502b4-1e53-4fb0-9d77-38bf0b2b17a5")
+	)
+	(junction
+		(at 184.15 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5933c6b-5632-44e2-ad34-aa40436a1150")
 	)
 	(no_connect
 		(at 91.44 73.66)
@@ -1770,6 +1772,16 @@
 	(no_connect
 		(at 91.44 60.96)
 		(uuid "e3cbfb59-f2da-46a5-93fe-9939d47fc595")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b76ef73-7e34-429a-b132-1a80c5ee79dc")
 	)
 	(wire
 		(pts
@@ -1803,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 77.47) (xy 198.12 77.47)
+			(xy 181.61 77.47) (xy 184.15 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1853,6 +1865,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 87.63) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551243b5-b1ba-4749-8f37-11b9f684bce8")
+	)
+	(wire
+		(pts
 			(xy 185.42 55.88) (xy 189.23 55.88)
 		)
 		(stroke
@@ -1873,6 +1895,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 80.01) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618f8f58-c923-4559-84bd-c801be0c189c")
+	)
+	(wire
+		(pts
 			(xy 139.7 73.66) (xy 139.7 80.01)
 		)
 		(stroke
@@ -1880,6 +1912,26 @@
 			(type default)
 		)
 		(uuid "75e85501-e87b-46a1-9d3f-504796459a11")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775ad4d4-adb4-4ed5-8775-edb1dc316857")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0eff6c-3cd8-4bc1-bc12-b4ffc6cddbeb")
 	)
 	(wire
 		(pts
@@ -1913,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 80.01) (xy 166.37 80.01)
+			(xy 139.7 80.01) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1933,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 91.44 66.04)
+			(xy 87.63 66.04) (xy 91.44 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2032,7 +2084,7 @@
 		(uuid "607e608f-00ba-40c9-95a8-1bc8d6911fb6")
 	)
 	(label "HVIL_P"
-		(at 195.58 77.47 180)
+		(at 198.12 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2042,7 +2094,7 @@
 		(uuid "8c8100fa-088c-444f-a85c-661f453c4d23")
 	)
 	(label "TS_N"
-		(at 86.36 66.04 0)
+		(at 87.63 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2104,7 +2156,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 182.88 77.47 180)
+		(at 185.42 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2113,7 +2165,7 @@
 		)
 		(uuid "1aafa50d-4307-4576-95e4-60ef9df16aec")
 		(property "Netclass" "HV"
-			(at 183.5785 80.01 0)
+			(at 186.1185 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2124,7 +2176,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 13.97 34.29 0)
+			(at 16.51 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2308,7 +2360,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 86.36 66.04 0)
+		(at 87.63 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2319,7 +2371,7 @@
 		(fields_autoplaced yes)
 		(uuid "00a5c429-01ce-4700-b837-5a989539627b")
 		(property "Reference" "#PWR0123"
-			(at 86.36 72.39 0)
+			(at 87.63 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,7 +2382,7 @@
 			)
 		)
 		(property "Value" "TS_N"
-			(at 86.36 69.85 0)
+			(at 87.63 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2340,7 +2392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 66.04 0)
+			(at 87.63 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2351,7 +2403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 66.04 0)
+			(at 87.63 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2362,7 +2414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 86.36 66.04 0)
+			(at 87.63 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -519,6 +519,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BZV55B18"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZV55B18"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MiniMELF"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "18V, 500mW, 2%, Zener diode, MiniMELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*MiniMELF*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BZV55B18_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZV55B18_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FS_4_Global_Symbol_Library:PR30-12V-450-1A-E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2573,7 +2738,7 @@
 	)
 	(text "nPrecharge_Control outputs LOW during precharge\n"
 		(exclude_from_sim no)
-		(at 68.072 80.772 0)
+		(at 52.07 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2582,7 +2747,13 @@
 		(uuid "2e8151b6-78a5-43fd-8c35-ccde310dd0d0")
 	)
 	(junction
-		(at 68.58 92.71)
+		(at 78.74 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26a6c66b-aa1b-4ddf-90c4-3470128e4a3a")
+	)
+	(junction
+		(at 52.07 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37e6aa11-a976-42a2-b1f5-7fffee13bd75")
@@ -2593,9 +2764,15 @@
 		(color 0 0 0 0)
 		(uuid "52da3197-6ae3-406f-95fe-54011133b9b6")
 	)
+	(junction
+		(at 88.9 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfa7da04-e038-44d2-af26-fe669847a1cb")
+	)
 	(wire
 		(pts
-			(xy 68.58 93.98) (xy 68.58 92.71)
+			(xy 52.07 93.98) (xy 52.07 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2615,6 +2792,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 85.09) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf97120-b518-4eeb-8ead-71534a214812")
+	)
+	(wire
+		(pts
+			(xy 88.9 101.6) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129506d6-03c1-40ff-8dd0-acad628c125a")
+	)
+	(wire
+		(pts
 			(xy 66.04 52.07) (xy 71.12 52.07)
 		)
 		(stroke
@@ -2622,16 +2819,6 @@
 			(type default)
 		)
 		(uuid "2037e118-4dfc-498c-9275-7a0ea30220f5")
-	)
-	(wire
-		(pts
-			(xy 88.9 85.09) (xy 128.27 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29b62257-9300-411d-821f-e74cf45603ff")
 	)
 	(wire
 		(pts
@@ -2665,6 +2852,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 101.6) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532e8d14-cd3b-4141-87b1-9c8ac2d88b85")
+	)
+	(wire
+		(pts
 			(xy 111.76 92.71) (xy 111.76 90.17)
 		)
 		(stroke
@@ -2675,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 92.71) (xy 69.85 92.71)
+			(xy 52.07 92.71) (xy 53.34 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2705,16 +2902,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 92.71) (xy 81.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7278ef43-34b6-49d5-adc8-344a1c1532e3")
-	)
-	(wire
-		(pts
 			(xy 114.3 53.34) (xy 114.3 60.96)
 		)
 		(stroke
@@ -2735,7 +2922,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 97.79) (xy 88.9 100.33)
+			(xy 88.9 97.79) (xy 88.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 92.71) (xy 68.58 92.71)
+			(xy 39.37 92.71) (xy 52.07 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2772,6 +2959,16 @@
 			(type default)
 		)
 		(uuid "bc67900e-511d-49b8-8b06-a48d0a792f57")
+	)
+	(wire
+		(pts
+			(xy 60.96 92.71) (xy 78.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0db93f-de99-4d3e-b1d4-d09fa25d7ac3")
 	)
 	(wire
 		(pts
@@ -2803,6 +3000,26 @@
 		)
 		(uuid "d325d6fe-930b-4c2b-b785-b60bfff19f03")
 	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc98252f-d1cc-40af-8f95-e7cec1e0035d")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 78.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f4127f-f1dc-4f53-b797-c6c618fac183")
+	)
 	(label "IR-_12V"
 		(at 111.76 92.71 0)
 		(effects
@@ -2825,7 +3042,7 @@
 	)
 	(hierarchical_label "nPreCharge_Control"
 		(shape input)
-		(at 55.88 92.71 180)
+		(at 39.37 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2947,7 +3164,7 @@
 		)
 		(uuid "d55ea6b0-4a1f-477d-b053-4d88cdcd54aa")
 		(property "Netclass" "Power"
-			(at 102.108 81.534 0)
+			(at 101.6 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3447,7 +3664,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 92.71 90)
+		(at 57.15 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3458,7 +3675,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fb53c51-5585-47ad-ae3d-4261b0ac66d8")
 		(property "Reference" "R49"
-			(at 73.66 86.36 90)
+			(at 57.15 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3468,7 +3685,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 73.66 88.9 90)
+			(at 57.15 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3478,7 +3695,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 73.66 94.488 90)
+			(at 57.15 94.488 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,7 +3706,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 73.66 92.71 0)
+			(at 57.15 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3500,7 +3717,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 92.71 0)
+			(at 57.15 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3511,7 +3728,7 @@
 			)
 		)
 		(property "Digi PN" "311-10KLDCT-ND"
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3522,7 +3739,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3533,7 +3750,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,7 +3761,7 @@
 			)
 		)
 		(property "MFG PN" "AC0603FR-0710KL"
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3555,7 +3772,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3566,7 +3783,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3577,7 +3794,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +3805,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3599,7 +3816,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3610,7 +3827,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3621,7 +3838,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3632,7 +3849,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3860,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3654,7 +3871,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 73.66 92.71 90)
+			(at 57.15 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,10 +3906,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4bf649ee-51d4-47d9-84ae-e4971a2ac85a")
 		(property "Reference" "J11"
-			(at 135.89 87.6299 0)
+			(at 135.89 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3923,7 +4139,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 97.79 0)
+		(at 52.07 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3934,7 +4150,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e867446-e3d7-4c69-89a2-c4426d34f9e6")
 		(property "Reference" "R48"
-			(at 71.12 96.5199 0)
+			(at 54.61 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3945,7 +4161,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 71.12 99.0599 0)
+			(at 54.61 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3956,7 +4172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 66.802 97.79 90)
+			(at 50.292 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +4183,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG1608P-104-B-T5/1240451"
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +4194,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,7 +4205,7 @@
 			)
 		)
 		(property "Digi PN" "13-AC0603FR-13100KLCT-ND"
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +4216,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-13100KL/13694122"
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4011,7 +4227,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,7 +4238,7 @@
 			)
 		)
 		(property "MFG PN" "AC0603FR-13100KL"
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4033,7 +4249,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4044,7 +4260,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4055,7 +4271,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4066,7 +4282,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4077,7 +4293,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4088,7 +4304,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4099,7 +4315,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,7 +4326,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4121,7 +4337,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4132,7 +4348,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 68.58 97.79 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4453,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 100.33 0)
+		(at 88.9 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4247,7 +4463,7 @@
 		(dnp no)
 		(uuid "a48318a8-be7b-4f77-a042-9e16185aedd3")
 		(property "Reference" "#PWR0120"
-			(at 88.9 106.68 0)
+			(at 88.9 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4474,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.344 102.362 0)
+			(at 85.344 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4268,7 +4484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 100.33 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +4495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 100.33 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +4506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 100.33 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4384,6 +4600,86 @@
 			(project "tractive-battery-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ac482d60-6836-463e-957d-ce68dc019c86"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZV55B18")
+		(at 78.74 97.79 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4d87e9d-6f11-49ab-b782-27757b863b47")
+		(property "Reference" "D18"
+			(at 72.39 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BZV55B18"
+			(at 74.93 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 83.185 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 78.74 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "18V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 78.74 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef38f8ff-411f-4dfc-a923-82bcde41424b")
+		)
+		(pin "2"
+			(uuid "74acb3d7-4c60-4283-817b-c378925ea06d")
+		)
+		(instances
+			(project "tractive-battery-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ac482d60-6836-463e-957d-ce68dc019c86"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -4903,7 +5199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 101.6 0)
+		(at 52.07 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4914,7 +5210,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5895c8c-6701-4083-84cb-62a1523be69d")
 		(property "Reference" "#PWR0119"
-			(at 68.58 107.95 0)
+			(at 52.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +5221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 106.68 0)
+			(at 52.07 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4935,7 +5231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 101.6 0)
+			(at 52.07 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4946,7 +5242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 101.6 0)
+			(at 52.07 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4957,7 +5253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 101.6 0)
+			(at 52.07 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

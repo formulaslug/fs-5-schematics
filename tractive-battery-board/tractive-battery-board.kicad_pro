@@ -543,12 +543,22 @@
         "microvia_drill": 0.0,
         "name": "HV",
         "pcb_color": "rgb(255, 121, 27)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 121, 27)",
         "track_width": 0.254,
         "tuning_profile": "",
         "via_diameter": 0.508,
         "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
         "wire_width": 6
       }
     ],
@@ -612,7 +622,12 @@
         "HV"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "+12V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -870,6 +885,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "kicad-embed://formulaslug_drawing_sheet.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
@@ -889,7 +912,7 @@
         "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
-    "used_designators": "U1,R1",
+    "used_designators": "K1-2,#FLG1,#FLG4-8,U1,U3-4,U20-21,R1,R3,R41,R60-63,C10-11,C14-15,C43-49,#PWR17-20,#PWR91-92,#PWR108,#PWR116,#PWR118,FB2-3,D13-19,L3-4",
     "variants": []
   },
   "sheets": [
