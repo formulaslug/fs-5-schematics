@@ -5796,8 +5796,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K1"
-				(at 20.32 -25.4 0)
+			(property "Reference" "K"
+				(at 20.32 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5807,7 +5807,7 @@
 				)
 			)
 			(property "Value" "1-1462039-8"
-				(at 20.32 -22.86 0)
+				(at 20.32 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5816,7 +5816,7 @@
 					)
 				)
 			)
-			(property "Footprint" "formula_slug_footprint_library:RELAY8_SMTGUL_TEC"
+			(property "Footprint" "RELAY8_SMTGUL_TEC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5841,50 +5841,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey Part Number" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey URL" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6180,21 +6136,7 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "1-1462039-8_1_1"
-				(rectangle
-					(start 7.62 5.08)
-					(end 33.02 -20.32)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 0 0)
 					(length 7.62)
 					(name "1"
@@ -6212,7 +6154,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -5.08 0)
 					(length 7.62)
 					(name "2"
@@ -6230,7 +6172,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "3"
@@ -6248,7 +6190,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "4"
@@ -6266,7 +6208,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 40.64 -15.24 180)
 					(length 7.62)
 					(name "5"
@@ -6284,7 +6226,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 40.64 -10.16 180)
 					(length 7.62)
 					(name "6"
@@ -6302,7 +6244,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "7"
@@ -6320,7 +6262,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 40.64 0 180)
 					(length 7.62)
 					(name "8"
@@ -6336,6 +6278,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "1-1462039-8_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 33.02 -20.32)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -7725,7 +7681,7 @@
 	)
 	(rectangle
 		(start 276.225 108.585)
-		(end 377.19 130.175)
+		(end 417.83 130.175)
 		(stroke
 			(width 0)
 			(type default)
@@ -8402,19 +8358,23 @@
 		(uuid "fc5e1d2c-8424-49bd-8d67-769b3f843c5b")
 	)
 	(no_connect
-		(at 302.26 121.92)
+		(at 300.99 121.92)
 		(uuid "04b85583-77db-4c18-9ff0-ed57297fde9e")
 	)
 	(no_connect
-		(at 349.25 111.76)
+		(at 327.66 121.92)
+		(uuid "05016653-370c-45a5-b8c0-6f9e51151856")
+	)
+	(no_connect
+		(at 368.3 111.76)
 		(uuid "1da8ea8c-0b6c-47ee-baff-6be3b138d596")
 	)
 	(no_connect
-		(at 359.41 118.11)
+		(at 377.19 119.38)
 		(uuid "1e114477-bd21-4bf7-a872-c80e96a553fe")
 	)
 	(no_connect
-		(at 323.85 121.92)
+		(at 322.58 121.92)
 		(uuid "4bea3137-d870-4c9d-b187-02504e32a730")
 	)
 	(no_connect
@@ -8426,7 +8386,11 @@
 		(uuid "552fc92d-508f-408a-9d31-f25f0e80c1e7")
 	)
 	(no_connect
-		(at 287.02 119.38)
+		(at 414.02 121.92)
+		(uuid "572331e4-b747-471c-9999-827961c64526")
+	)
+	(no_connect
+		(at 285.75 119.38)
 		(uuid "6815d796-d225-451b-ab88-cf8ac58b16e7")
 	)
 	(no_connect
@@ -8442,31 +8406,43 @@
 		(uuid "91508fc4-59e5-482a-b44c-63f1a1dfd648")
 	)
 	(no_connect
+		(at 398.78 119.38)
+		(uuid "952abd26-15eb-445f-b178-b8a26aa0120e")
+	)
+	(no_connect
 		(at 396.24 158.75)
 		(uuid "a9bc4532-00b3-44d8-add0-3ef5469a96c0")
 	)
 	(no_connect
-		(at 349.25 127)
+		(at 368.3 127)
 		(uuid "c51c460c-279b-4e2f-bcf4-6420289ef962")
 	)
 	(no_connect
-		(at 359.41 123.19)
+		(at 377.19 124.46)
 		(uuid "c6b6102b-6d9e-4988-bf50-1a499b566b41")
 	)
 	(no_connect
-		(at 308.61 121.92)
+		(at 342.9 121.92)
+		(uuid "c727a394-ed6d-4ab4-8616-1f3c4ebf93dd")
+	)
+	(no_connect
+		(at 307.34 121.92)
 		(uuid "d387021a-2db4-473e-9fcc-5db69b3c692e")
 	)
 	(no_connect
-		(at 374.65 120.65)
+		(at 398.78 124.46)
+		(uuid "d5c83afa-5fa8-446b-86f0-6f46ad7beb9a")
+	)
+	(no_connect
+		(at 392.43 121.92)
 		(uuid "e0824ffc-8c34-476a-8b3a-831105bb35bb")
 	)
 	(no_connect
-		(at 287.02 124.46)
+		(at 285.75 124.46)
 		(uuid "e5bba5f9-21e1-4304-80cb-53fe48440985")
 	)
 	(no_connect
-		(at 336.55 119.38)
+		(at 355.6 119.38)
 		(uuid "f499d8fa-3a92-4d67-b86a-61d08487cd3b")
 	)
 	(wire
@@ -20182,7 +20158,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 367.03 120.65 0)
+		(at 384.81 121.92 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20193,7 +20169,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e5e699b-71ac-445a-9ec7-4e7b1bead087")
 		(property "Reference" "U1"
-			(at 367.0217 111.76 0)
+			(at 384.8017 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20203,7 +20179,7 @@
 			)
 		)
 		(property "Value" "SN74HC132QDRQ1"
-			(at 367.0217 114.3 0)
+			(at 384.8017 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20213,7 +20189,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 367.03 120.65 0)
+			(at 384.81 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20224,7 +20200,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 367.03 120.65 0)
+			(at 384.81 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20235,7 +20211,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 367.03 120.65 0)
+			(at 384.81 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20246,7 +20222,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 367.03 120.65 0)
+			(at 384.81 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20257,7 +20233,7 @@
 			)
 		)
 		(property "Digikey URL" ""
-			(at 367.03 120.65 0)
+			(at 384.81 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20268,7 +20244,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 367.03 120.65 0)
+			(at 384.81 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20279,7 +20255,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 367.03 120.65 0)
+			(at 384.81 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28092,6 +28068,254 @@
 	)
 	(symbol
 		(lib_id "formula_slug_symbol_library:SN74HCS08DR")
+		(at 406.4 121.92 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df7b70bc-571b-44de-89cb-59c0a2526dd4")
+		(property "Reference" "U10"
+			(at 406.3917 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HCS08DR"
+			(at 406.3917 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 406.146 116.332 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input AND gate"
+			(at 404.622 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "296-SN74HCS08DRCT-ND"
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HCS08DR/12342946"
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Texas Instruments"
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "SN74HCS08DR"
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP PN" ""
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 406.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "352d57b0-0ab3-409f-a842-42a1f0e66f82")
+		)
+		(pin "8"
+			(uuid "85c26a41-ed46-473a-96c4-bdafc3df9731")
+		)
+		(pin "12"
+			(uuid "550569d3-d8fc-4b43-b708-309215509566")
+		)
+		(pin "13"
+			(uuid "22cb17a5-9384-4f80-91e8-fdda040e6f4d")
+		)
+		(pin "11"
+			(uuid "f315e5a6-7914-4f64-8236-73287c2c9e97")
+		)
+		(pin "4"
+			(uuid "800a0a84-ca78-4bb6-ad35-dd38ab3fdaed")
+		)
+		(pin "5"
+			(uuid "500d83c2-5a2f-425e-af5b-6fa04a6929ad")
+		)
+		(pin "6"
+			(uuid "335efa84-da8f-4545-b50d-dc00b0187eb6")
+		)
+		(pin "9"
+			(uuid "948b8f95-f567-4bf7-aac7-0e468cce8fe3")
+		)
+		(pin "14"
+			(uuid "2ede88df-0018-4829-adb4-1d180a7c1b84")
+		)
+		(pin "7"
+			(uuid "dd71ccc2-d6d4-42bc-a4a6-2a42e5423a1a")
+		)
+		(pin "3"
+			(uuid "7a51ddbe-c35a-4fb6-8339-e75001360059")
+		)
+		(pin "1"
+			(uuid "ef9f21ee-92a9-4d68-b64b-c27ba7daa8eb")
+		)
+		(pin "2"
+			(uuid "93c2e2bf-62ad-4d66-98c7-26f6f8bf704e")
+		)
+		(instances
+			(project "vehicle-control-unit"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
+					(reference "U10")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "formula_slug_symbol_library:SN74HCS08DR")
 		(at 130.81 195.58 0)
 		(unit 2)
 		(body_style 1)
@@ -29218,7 +29442,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
-		(at 294.64 121.92 0)
+		(at 293.37 121.92 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29229,7 +29453,7 @@
 		(fields_autoplaced yes)
 		(uuid "edbb7f4a-6e62-496b-973c-bbb870322a48")
 		(property "Reference" "U11"
-			(at 294.64 111.76 0)
+			(at 293.37 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29239,7 +29463,7 @@
 			)
 		)
 		(property "Value" "MCP6004"
-			(at 294.64 114.3 0)
+			(at 293.37 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29249,7 +29473,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 293.37 119.38 0)
+			(at 292.1 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29260,7 +29484,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/268/21733e-41017.pdf"
-			(at 295.91 116.84 0)
+			(at 294.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29271,7 +29495,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29282,7 +29506,7 @@
 			)
 		)
 		(property "Digi PN" "MCP6004T-I/SLCT-ND"
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29293,7 +29517,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/microchip-technology/MCP6004T-I-SL/523092"
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29304,7 +29528,7 @@
 			)
 		)
 		(property "MFG" "MT"
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29315,7 +29539,7 @@
 			)
 		)
 		(property "MFG PN" "MCP6004T-I/SL"
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29326,7 +29550,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29337,7 +29561,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29348,7 +29572,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29359,7 +29583,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29370,7 +29594,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29381,7 +29605,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29392,7 +29616,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 294.64 121.92 0)
+			(at 293.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30081,8 +30305,8 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 316.23 121.92 0)
-		(unit 2)
+		(at 335.28 121.92 0)
+		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30092,7 +30316,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1a95bbb-17ac-4ad7-89ff-21aeae97ac60")
 		(property "Reference" "U13"
-			(at 316.23 113.03 0)
+			(at 335.28 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30102,7 +30326,7 @@
 			)
 		)
 		(property "Value" "SN74HC14DR"
-			(at 316.23 115.57 0)
+			(at 335.28 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30112,7 +30336,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30123,7 +30347,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf"
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30134,7 +30358,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30145,7 +30369,7 @@
 			)
 		)
 		(property "Digi PN" "296-1194-1-ND"
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30156,7 +30380,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC14DR/276837"
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30167,7 +30391,7 @@
 			)
 		)
 		(property "MFG" "TI"
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30178,7 +30402,7 @@
 			)
 		)
 		(property "MFG PN" "SN74HC14DR"
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30189,7 +30413,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30200,7 +30424,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30211,7 +30435,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30222,7 +30446,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30233,7 +30457,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30244,7 +30468,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30255,7 +30479,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30266,7 +30490,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30277,7 +30501,7 @@
 			)
 		)
 		(property "Digikey URL" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30288,7 +30512,277 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 316.23 121.92 0)
+			(at 335.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b2681d6c-65a9-4250-9376-688783d46f2d")
+		)
+		(pin "1"
+			(uuid "689341ac-dc75-48b3-b303-d9554d590af2")
+		)
+		(pin "11"
+			(uuid "6394e2dd-6ed9-4e3a-ab13-9591d474c2f5")
+		)
+		(pin "10"
+			(uuid "198542f4-3910-4b4f-8081-1346ce02362f")
+		)
+		(pin "8"
+			(uuid "b67b8126-dad7-4863-8dfe-0206af5fc6c3")
+		)
+		(pin "13"
+			(uuid "c98e54f1-c814-45d2-b4fe-fef61832c8de")
+		)
+		(pin "12"
+			(uuid "6716efbf-312b-4d11-a094-b80384e053a8")
+		)
+		(pin "14"
+			(uuid "14f5d55e-aef4-431e-994b-426bffbbfdc3")
+		)
+		(pin "7"
+			(uuid "7df4b4de-a47c-4f99-be3f-e5a01b04f9d6")
+		)
+		(pin "3"
+			(uuid "5ffb7ce9-f16f-4ba0-86ac-cfdb38aa7f47")
+		)
+		(pin "4"
+			(uuid "a4a7447e-1031-4236-8c57-cd498a32ccd7")
+		)
+		(pin "2"
+			(uuid "0ef7c7c3-c6f8-4dcf-808a-75b4db76b4bd")
+		)
+		(pin "9"
+			(uuid "f727c19a-2d81-4b7d-b279-28f06a4b765d")
+		)
+		(pin "6"
+			(uuid "15128dd8-fa6c-4e6b-aca1-b6eff3d0dce9")
+		)
+		(instances
+			(project "vehicle-control-unit"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/ea6a280a-2379-492f-a1be-47be4daa3461"
+					(reference "U13")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 314.96 121.92 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a95bbb-17ac-4ad7-89ff-21aeae97ac60")
+		(property "Reference" "U13"
+			(at 314.96 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HC14DR"
+			(at 314.96 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf"
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi PN" "296-1194-1-ND"
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC14DR/276837"
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "TI"
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "SN74HC14DR"
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP PN" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 314.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 314.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31058,7 +31552,7 @@
 	)
 	(symbol
 		(lib_id "FS_4_Global_Symbol_Library:SZNUD3124DMT1G")
-		(at 349.25 119.38 0)
+		(at 368.3 119.38 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31068,7 +31562,7 @@
 		(dnp no)
 		(uuid "f6574e40-0d9d-4789-8940-1b9d344edd97")
 		(property "Reference" "U14"
-			(at 329.438 123.952 0)
+			(at 348.488 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31079,7 +31573,7 @@
 			)
 		)
 		(property "Value" "SZNUD3124DMT1G"
-			(at 329.438 126.492 0)
+			(at 348.488 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31090,7 +31584,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
-			(at 376.174 103.378 0)
+			(at 395.224 103.378 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31102,7 +31596,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 381.508 108.458 0)
+			(at 400.558 108.458 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31114,7 +31608,7 @@
 			)
 		)
 		(property "Description" "Relay Driver (Dual Case)"
-			(at 366.014 100.838 0)
+			(at 385.064 100.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31125,7 +31619,7 @@
 			)
 		)
 		(property "Digi PN" "SZNUD3124DMT1GOSCT-ND"
-			(at 367.284 98.298 0)
+			(at 386.334 98.298 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31136,7 +31630,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/onsemi/SZNUD3124DMT1G/3063415"
-			(at 393.192 105.918 0)
+			(at 412.242 105.918 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31147,7 +31641,7 @@
 			)
 		)
 		(property "MFG" "onsemi"
-			(at 357.378 110.998 0)
+			(at 376.428 110.998 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31158,7 +31652,7 @@
 			)
 		)
 		(property "MFG PN" "SZNUD3124DMT1G"
-			(at 362.712 95.758 0)
+			(at 381.762 95.758 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31169,7 +31663,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 349.25 119.38 0)
+			(at 368.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31180,7 +31674,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 349.25 119.38 0)
+			(at 368.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31191,7 +31685,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 349.25 119.38 0)
+			(at 368.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31202,7 +31696,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 349.25 119.38 0)
+			(at 368.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31213,7 +31707,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 349.25 119.38 0)
+			(at 368.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31224,7 +31718,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 349.25 119.38 0)
+			(at 368.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31235,7 +31729,7 @@
 			)
 		)
 		(property "Digikey URL" ""
-			(at 349.25 119.38 0)
+			(at 368.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31246,7 +31740,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 349.25 119.38 0)
+			(at 368.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
