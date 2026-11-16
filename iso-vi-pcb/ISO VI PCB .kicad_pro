@@ -39,9 +39,9 @@
         "other_text_thickness": 0.1524,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.95
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -160,7 +160,7 @@
         "min_text_thickness": 0.1524,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.254,
+        "min_via_annular_width": 0.127,
         "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -211,9 +211,11 @@
       ],
       "track_widths": [
         0.0,
-        0.254,
-        0.508,
-        1.016
+        0.2,
+        0.25,
+        0.3,
+        0.5,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -247,8 +249,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.508,
-          "drill": 0.254
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -280,7 +286,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|381000|1409700|f09a4cc8-371f-40aa-902f-8fe300646a0b|c6422d53-e366-4b65-b409-31f9861ef940|||",
+        ""
+      ],
+      [
+        "pin_to_pin|508000|723900|d7c41e8a-9eff-4f16-8456-582cc7a95fc3|a0c3bc69-95e8-4250-8fe4-13462b44a2ef|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1041400|1536700|f30424eb-5cb0-4dd6-9e29-f1de0489b5d2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|381000|1384300|df3f992d-4627-42fd-91bb-47de58ca14a2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|381000|1460500|824d1df2-e83b-41d3-a2ff-247353cf96a1|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -557,7 +584,40 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HV",
+        "pattern": "HGND"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "HLDO_V"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "TRAY_*"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "TRAC_*"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "AIN*"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "PH_RST"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "PH_RST_GPO"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "Net-(U1-DCDC_OUT)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -834,7 +894,7 @@
         "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
-    "used_designators": "R1-2,U1-10,J1,J3-8,D1,#PWR1-8,#PWR16,#PWR22-25,#PWR48-51,C1-5,L1",
+    "used_designators": "R1-17,U1-10,J1,J3-8,#PWR1-8,#PWR16,#PWR18-19,#PWR22-30,#PWR48-51,#PWR56,Q1-2,C1-5,C29,C37-48,D1-2,L1,H1-4,#FLG4",
     "variants": []
   },
   "sheets": [
