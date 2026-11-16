@@ -167,7 +167,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U4"
+			(property "Reference" "U"
 				(at 2.1433 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -789,6 +789,150 @@
 		(uuid "f0212a4c-c502-486f-8528-58847f7c4ffb")
 	)
 	(symbol
+		(lib_id "formula_slug_symbol_library:UCC24624DR")
+		(at 149.86 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "197176c8-d6d1-430f-9014-dccb9f9c6341")
+		(property "Reference" "U4"
+			(at 152.0033 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UCC24624DR"
+			(at 152.0033 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 149.86 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc24624.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1779739005956&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fucc24624"
+			(at 144.272 64.516 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LLC IC Sync Rectifier Gate Driver/Controller"
+			(at 150.622 60.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "296-UCC24624DRCT-ND"
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC24624DR/10820444"
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "UCC24624DR"
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc8c48c9-c30c-49f9-8705-1444a1b0e384")
+		)
+		(pin "5"
+			(uuid "2ef5b50d-0385-4751-a057-7aeae54fdcaa")
+		)
+		(pin "4"
+			(uuid "6cb0545c-fcd0-4cfc-a72c-1908e3ca6382")
+		)
+		(pin "6"
+			(uuid "d82727e7-ad64-4cf4-a19e-0fe18569d7cc")
+		)
+		(pin "8"
+			(uuid "90c5c56d-708e-4b93-8545-f52b4fcad5aa")
+		)
+		(pin "3"
+			(uuid "380c4708-d7db-4c06-9dbc-8594bb2d4f35")
+		)
+		(pin "7"
+			(uuid "c935ebb6-4597-4126-965f-30895f67ce40")
+		)
+		(pin "2"
+			(uuid "6ad2e754-7d96-4c4c-b2d4-878223dab479")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 81.28 0)
 		(unit 1)
@@ -1097,150 +1241,6 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "formula_slug_symbol_library:UCC24624DR")
-		(at 149.86 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1bca5d5-c49c-434b-95e2-0b33cbee6c15")
-		(property "Reference" "U4"
-			(at 152.0033 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UCC24624DR"
-			(at 152.0033 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 149.86 69.342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc24624.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1779739005956&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fucc24624"
-			(at 144.272 64.516 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LLC IC Sync Rectifier Gate Driver/Controller"
-			(at 150.622 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "296-UCC24624DRCT-ND"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "UCC24624DR"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC24624DR/10820444"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "934550ff-9d13-4946-abc7-42c38894be29")
-		)
-		(pin "5"
-			(uuid "9cd2df61-d001-4b05-b6e9-228429cb6a5c")
-		)
-		(pin "6"
-			(uuid "8fb53b55-47ad-4302-acf6-eaed41ad7bda")
-		)
-		(pin "7"
-			(uuid "33d7bef0-d61d-4a5e-b9ea-8e1dc22c7c84")
-		)
-		(pin "8"
-			(uuid "430442ab-65a9-4bf1-a97a-7b4eb68f8e08")
-		)
-		(pin "3"
-			(uuid "ef4f6a8e-ddfb-45f8-8faf-c37accae9a46")
-		)
-		(pin "2"
-			(uuid "f3b0c48f-815a-4c92-baf9-52203cf362f4")
-		)
-		(pin "1"
-			(uuid "356e3538-e5f8-4636-ac66-f717a3319320")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/508479c0-2eea-4cd3-a684-6cd0511d58ed"
-					(reference "U4")
 					(unit 1)
 				)
 			)
