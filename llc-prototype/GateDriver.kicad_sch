@@ -51,7 +51,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -125,7 +125,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -143,7 +143,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -205,7 +205,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -393,7 +393,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -561,7 +561,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -633,7 +633,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.016)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -651,7 +651,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.016)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -669,7 +669,196 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_US"
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Thermistor_NTC_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -682,7 +871,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TH"
-				(at 2.54 1.27 90)
+				(at -4.445 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -691,18 +880,39 @@
 					)
 				)
 			)
-			(property "Value" "Thermistor_US"
-				(at -2.54 0 90)
+			(property "Value" "Thermistor_NTC_US"
+				(at 3.175 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Footprint" ""
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient, US symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -713,7 +923,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -724,7 +934,7 @@
 					)
 				)
 			)
-			(property "Description" "Thermistor, temperature dependent resistor, US symbol"
+			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -735,32 +945,94 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res thermistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "Thermistor_NTC_US_0_1"
+				(arc
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-			)
-			(property "ki_fp_filters" "R_* RV_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-			)
-			(symbol "Thermistor_US_0_1"
+				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27) (xy 1.905 -2.54)
+						(xy -2.54 2.159) (xy -2.54 2.794)
 					)
 					(stroke
 						(width 0)
@@ -768,6 +1040,43 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -831,11 +1140,11 @@
 					)
 				)
 			)
-			(symbol "Thermistor_US_1_1"
+			(symbol "Thermistor_NTC_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -853,7 +1162,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1115,24 +1424,6 @@
 					)
 				)
 				(pin input line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCCP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "ISNS"
@@ -1179,6 +1470,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1883,7 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 168.91) (xy 101.6 172.72)
+			(xy 101.6 171.45) (xy 101.6 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1963,16 +2272,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 177.8) (xy 101.6 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "badcfa96-b244-4acd-a2fd-08e9a2c4377d")
-	)
-	(wire
-		(pts
 			(xy 111.76 166.37) (xy 111.76 168.91)
 		)
 		(stroke
@@ -2030,6 +2329,16 @@
 			(type default)
 		)
 		(uuid "cf34e602-a51c-460d-98bc-817b73ad45ff")
+	)
+	(wire
+		(pts
+			(xy 101.6 179.07) (xy 101.6 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d835a203-a7c6-4806-8a9d-9916ff48ab9b")
 	)
 	(wire
 		(pts
@@ -2449,7 +2758,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 111.76 162.56 270)
+		(at 198.12 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2458,31 +2767,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14a69a0b-d812-479d-b3a9-00c427cd2ce7")
-		(property "Reference" "D13"
-			(at 114.3 161.2899 90)
+		(uuid "1d56c50b-efbc-429d-b048-f488997841ac")
+		(property "Reference" "D11"
+			(at 198.12 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "D_Zener"
-			(at 114.3 163.8299 90)
+			(at 198.12 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 162.56 0)
+			(at 198.12 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +2800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 162.56 0)
+			(at 198.12 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2504,7 +2811,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 111.76 162.56 0)
+			(at 198.12 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2514,16 +2821,431 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "f39b9bfd-927c-4dde-9ae0-ca641af8a7f7")
-		)
 		(pin "2"
-			(uuid "6a1bc6c1-f8b0-42c7-9568-ade968d0ff85")
+			(uuid "699c3232-c06d-493a-86f6-5d2af4f9e550")
+		)
+		(pin "1"
+			(uuid "84d49e72-f68a-49ed-88fc-97630e31b5c4")
 		)
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "D13")
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 35.56 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f078b02-a2a8-4436-9d70-c0a441178cc7")
+		(property "Reference" "R20"
+			(at 38.1 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "178k"
+			(at 38.1 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT178K/1713674?_gl=1*1bfpx5o*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34ff1543-70b8-4f21-933a-9c05317b93c7")
+		)
+		(pin "1"
+			(uuid "22c97ee0-278c-42e2-a761-8cad584ba580")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 71.12 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2352655e-f3cc-4aae-bcbb-2c401e6e3f10")
+		(property "Reference" "R22"
+			(at 73.66 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 73.66 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 71.12 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 71.12 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889?_gl=1*113c8wh*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 71.12 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23035ba3-3e98-4a37-b87c-1decc4d17657")
+		)
+		(pin "1"
+			(uuid "88e4a1d2-81be-42ef-ade5-a8ccffea7081")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 71.12 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d55cff5-a9d5-4c1b-b301-efd2602db572")
+		(property "Reference" "R21"
+			(at 73.66 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "576k"
+			(at 73.66 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-3EKF5763V/196413?_gl=1*mu4021*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4986abeb-d11c-4f70-9be0-53f440e35236")
+		)
+		(pin "1"
+			(uuid "3ff75189-1bc6-40f3-9480-de8a9477d545")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC_US")
+		(at 111.76 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b904c51-4692-43bf-8181-d4b4191cce0b")
+		(property "Reference" "TH1"
+			(at 114.3 174.3074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 114.3 176.8474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient, US symbol"
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66a698b2-2f0e-4e3b-9488-dd86a58c4d4b")
+		)
+		(pin "1"
+			(uuid "cf13750d-f6f0-48cc-a671-d99d08b10d90")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -2572,7 +3294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2584,6 +3306,61 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-3EKF5763V/196413?_gl=1*mu4021*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2751,6 +3528,61 @@
 				)
 			)
 		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-3EKF5763V/196413?_gl=1*mu4021*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 118.11 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 118.11 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 118.11 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 118.11 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 118.11 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c7add1ac-db5d-4efc-93bb-91f8252db6bb")
 		)
@@ -2844,88 +3676,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 35.56 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d6cae07-3926-4eef-9f3d-63f7a9fa78dc")
-		(property "Reference" "R27"
-			(at 38.1 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 38.1 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 35.56 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "168621d6-5679-4c11-a094-869104d72fdd")
-		)
-		(pin "1"
-			(uuid "74a17fd9-8b5b-4bc7-8303-0948a1d4f711")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 170.18 100.33 270)
 		(unit 1)
@@ -3004,6 +3754,50 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1N5819HW-FDICT-ND"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1N5819HW-7-F"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3107,8 +3901,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 35.56 162.56 0)
+		(lib_id "Device:R_US")
+		(at 101.6 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3117,9 +3911,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7708a978-8e71-4155-8167-baf6bebdf50f")
+		(uuid "837da897-685d-4c7a-b360-357929b8a60d")
 		(property "Reference" "R23"
-			(at 38.1 161.2899 0)
+			(at 104.14 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3129,8 +3923,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "464k"
-			(at 38.1 163.8299 0)
+		(property "Value" ""
+			(at 104.14 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3140,8 +3934,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 35.56 162.56 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 102.616 175.514 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,8 +3945,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 35.56 162.56 0)
+		(property "Datasheet" "~"
+			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,8 +3956,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 35.56 162.56 0)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,11 +3967,66 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "b9f2b3ce-105b-46df-8dc8-f2f80d31bde4")
+		(property "DigiKey URL" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "1915d8bc-20af-41f5-bbcf-99561f4b0427")
+			(uuid "a3c4b30a-0a53-493f-a7a0-9cb768adcf2b")
+		)
+		(pin "2"
+			(uuid "14e1a540-bd3d-4dc0-92f9-ef431d142a2f")
 		)
 		(instances
 			(project "llc-prototype"
@@ -3260,88 +4109,6 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 71.12 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9054ed55-b1b1-423e-a28c-2239d1c527e4")
-		(property "Reference" "R29"
-			(at 73.66 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 73.66 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 71.12 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "84559ac6-b5d8-4148-8dba-71366b3a710a")
-		)
-		(pin "1"
-			(uuid "210a213b-af73-4041-898a-65b1d6c87481")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3490,6 +4257,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "490-7203-1-ND"
+			(at 123.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465"
+			(at 123.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 123.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM188R61E475KE11D"
+			(at 123.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0843d112-6378-4abc-a5f0-71ba90461ec2")
 		)
@@ -3500,6 +4311,86 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 198.12 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c25ae045-140c-42eb-8aff-f6587fc3756e")
+		(property "Reference" "D12"
+			(at 198.12 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 198.12 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 198.12 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf3815b7-4b56-433f-ba39-c8db2490f8e5")
+		)
+		(pin "1"
+			(uuid "4c5847dc-2a4a-4585-b880-5219142938ca")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3538,7 +4429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "formula_slug_footprint_library:SOIC-16_3.9x9.9mm_P1.27mm_editedForLLC"
 			(at 136.398 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3582,6 +4473,17 @@
 				)
 			)
 		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/ucc256612ddbr/26769276"
+			(at 135.89 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 135.89 97.79 0)
 			(hide yes)
@@ -3604,18 +4506,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC256612DDBR/26769276?s=N4IgTCBcDa4JwDYC0BVAwmsBWBCCMYAIoQEIBKaAKkgHKEgC6AvkA"
-			(at 135.89 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
+		(pin "12"
 			(uuid "b11e7343-8ac8-49ae-abbc-9150d8f1b3c7")
 		)
 		(pin "7"
@@ -3661,88 +4552,6 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_US")
-		(at 111.76 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9ab2a3c-5a2b-4a0b-b386-f578b00ad76e")
-		(property "Reference" "TH1"
-			(at 114.3 173.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Thermistor_US"
-			(at 114.3 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 111.76 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "060e1430-a6e8-46e3-b345-db955ca1505f")
-		)
-		(pin "1"
-			(uuid "b79f789b-7165-45bf-819d-71143ee8ae66")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -3812,6 +4621,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "490-12332-1-ND"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT188R61H225KE13D"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "72cb2d35-75de-4ba4-a4ad-afea69251fe6")
 		)
@@ -3822,6 +4675,132 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 111.76 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1184898-0da7-4f64-ab4e-3dc3a3c1511e")
+		(property "Reference" "D7"
+			(at 114.3 161.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "14V"
+			(at 114.3 163.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/1n5221b-d.pdf"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1N5244B-ND"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/onsemi/1N5244B/977602"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1N5244B"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7525083-5fe7-4cf2-9035-4473e6f9006d")
+		)
+		(pin "2"
+			(uuid "a01776af-32c7-45a2-9bf3-104bccd45d55")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3891,6 +4870,50 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "490-12332-1-ND"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT188R61H225KE13D"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6942788e-97f3-4458-adfb-c5167d410d51")
 		)
@@ -3908,7 +4931,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 101.6 175.26 0)
+		(at 35.56 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3917,9 +4940,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d645e4f6-44b1-4253-8eb4-3085063891a5")
-		(property "Reference" "R30"
-			(at 104.14 175.2599 0)
+		(uuid "ea0032ef-98d3-4aa5-a22e-5eb520da4b0f")
+		(property "Reference" "R19"
+			(at 38.1 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3929,8 +4952,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 104.14 176.5299 0)
+		(property "Value" "464k"
+			(at 38.1 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3940,8 +4963,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 175.26 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 35.56 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,8 +4974,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 101.6 175.26 0)
+		(property "Datasheet" "~"
+			(at 35.56 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +4986,18 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 101.6 175.26 0)
+			(at 35.56 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07464KL/727251?_gl=1*2o5rcl*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 35.56 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,97 +5008,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "19be38cf-1b03-4b28-9851-f7c872215e81")
+			(uuid "3982657e-5efb-4740-8cb8-4179a4815349")
 		)
 		(pin "1"
-			(uuid "138a609d-7117-4450-bbd9-6f3f4fdbfa39")
+			(uuid "35768bde-dc25-486b-8b7f-d20a09bc8cd9")
 		)
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 71.12 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f343442a-33c0-45a6-91d0-fb78188d0700")
-		(property "Reference" "R28"
-			(at 73.66 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 73.66 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 71.12 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5b937813-bac9-453f-aa2d-96a296773426")
-		)
-		(pin "1"
-			(uuid "d64d32e3-bed7-4c67-8014-90e36319eb5a")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "R28")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4127,6 +5079,61 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889?_gl=1*113c8wh*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
