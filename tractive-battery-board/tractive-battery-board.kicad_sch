@@ -11548,10 +11548,6 @@
 		(uuid "9fc2613b-075e-450e-bb3e-606cea4db645")
 	)
 	(no_connect
-		(at 351.79 187.96)
-		(uuid "9fc8d37c-9057-4271-b37d-806c3653ce78")
-	)
-	(no_connect
 		(at 55.88 234.95)
 		(uuid "a0bb92ac-30d5-4fc2-8411-8ab46a894274")
 	)
@@ -11586,10 +11582,6 @@
 	(no_connect
 		(at 87.63 87.63)
 		(uuid "e59256c1-46f6-4217-b0ee-8ea16b9506c3")
-	)
-	(no_connect
-		(at 351.79 190.5)
-		(uuid "e609fa4f-e71e-4215-ae53-4ecee2232d83")
 	)
 	(no_connect
 		(at 87.63 85.09)
@@ -14631,16 +14623,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 203.2) (xy 351.79 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb868db-7cb2-4075-8249-1f3b168bfeed")
-	)
-	(wire
-		(pts
 			(xy 73.66 157.48) (xy 73.66 149.86)
 		)
 		(stroke
@@ -14958,16 +14940,6 @@
 			(type default)
 		)
 		(uuid "e1c29468-05ef-4a88-8075-f95c9f51c75f")
-	)
-	(wire
-		(pts
-			(xy 358.14 200.66) (xy 351.79 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1ec6b1c-b170-4f0c-86fa-33c13a46e51a")
 	)
 	(wire
 		(pts
@@ -16687,30 +16659,6 @@
 			)
 		)
 	)
-	(global_label "V_Out_Negative"
-		(shape input)
-		(at 358.14 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6dbe0c24-7308-423a-be09-44f16fd67481")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.458 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Shutdown_In_3V3_Filtered"
 		(shape output)
 		(at 189.23 217.17 0)
@@ -17882,30 +17830,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "V_Out_Positive"
-		(shape input)
-		(at 358.14 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8d5c0b3-a629-42cf-9b59-02c10e7928e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.7928 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -22953,6 +22877,83 @@
 			(project "tractive-battery-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 351.79 187.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b59df54-dafd-4521-82ca-ff13c54fadfa")
+		(property "Reference" "TP32"
+			(at 368.808 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_READY"
+			(at 361.188 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 351.79 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7415a63c-a1d7-4f2d-b70d-83870fa5daf8")
+		)
+		(instances
+			(project "tractive-battery-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -30229,6 +30230,83 @@
 			(project "tractive-battery-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 351.79 200.66 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68f8b2f0-fbb9-40ac-8f4d-0c25f04ac82e")
+		(property "Reference" "TP13"
+			(at 370.84 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Charge_State"
+			(at 363.22 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 351.79 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9250f516-c8c0-4986-bd5f-b2c594d628ae")
+		)
+		(instances
+			(project "tractive-battery-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -38363,6 +38441,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 351.79 190.5 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96c16c31-f0b3-4372-88a4-0bfe4a14ccf8")
+		(property "Reference" "TP31"
+			(at 368.808 190.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRs_Final"
+			(at 361.188 190.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 351.79 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c901a89-39ad-4d8a-a048-0a19bf57c798")
+		)
+		(instances
+			(project "tractive-battery-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 254 0)
 		(mirror y)
@@ -41974,6 +42129,83 @@
 			(project "tractive-battery-board"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 351.79 203.2 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bba9d34d-0ea6-4227-959c-5298f0bb0108")
+		(property "Reference" "TP14"
+			(at 368.808 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fan_PWM"
+			(at 361.188 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 351.79 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7408010-444d-448e-ad3e-9ed17cbe366f")
+		)
+		(instances
+			(project "tractive-battery-board"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
