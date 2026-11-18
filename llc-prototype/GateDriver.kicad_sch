@@ -1643,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 90.17) (xy 125.73 90.17)
+			(xy 124.46 90.17) (xy 125.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1663,17 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 90.17) (xy 106.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3922791a-4c2d-4aa5-80c0-df8f22432f90")
-	)
-	(wire
-		(pts
-			(xy 100.33 95.25) (xy 125.73 95.25)
+			(xy 124.46 95.25) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1750,6 +1740,16 @@
 			(type default)
 		)
 		(uuid "5d23b1eb-cb72-4799-9b4d-caff1cd273db")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 106.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d41e295-f919-4bb3-95f1-b01a926dc753")
 	)
 	(wire
 		(pts
@@ -1963,6 +1963,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 90.17) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1188d07-ebf4-42c5-a0f6-2cd5334353b7")
+	)
+	(wire
+		(pts
 			(xy 101.6 177.8) (xy 101.6 181.61)
 		)
 		(stroke
@@ -2063,7 +2073,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 115.57 90.17)
+			(xy 118.11 90.17) (xy 119.38 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2405,7 +2415,7 @@
 	)
 	(hierarchical_label "HV"
 		(shape input)
-		(at 102.87 90.17 180)
+		(at 105.41 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2427,7 +2437,7 @@
 	)
 	(hierarchical_label "BLK"
 		(shape input)
-		(at 100.33 95.25 180)
+		(at 124.46 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2531,7 +2541,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 109.22 90.17 90)
+		(at 115.57 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2542,7 +2552,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e9e538a-82ac-4b68-a5cf-8adf8fba5e0b")
 		(property "Reference" "R24"
-			(at 109.22 83.82 90)
+			(at 115.57 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2551,8 +2561,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 109.22 86.36 90)
+		(property "Value" "165k"
+			(at 115.57 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2562,7 +2572,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 109.22 90.17 0)
+			(at 115.57 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,7 +2583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 90.17 0)
+			(at 115.57 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2584,7 +2594,51 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 109.22 90.17 0)
+			(at 115.57 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 115.57 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 115.57 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 115.57 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 115.57 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2688,7 +2742,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 118.11 90.17 90)
+		(at 121.92 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2699,7 +2753,7 @@
 		(fields_autoplaced yes)
 		(uuid "4689a303-c81b-4a33-8a02-9b60a6c9f255")
 		(property "Reference" "R25"
-			(at 118.11 83.82 90)
+			(at 121.92 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2708,8 +2762,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 118.11 86.36 90)
+		(property "Value" "165k"
+			(at 121.92 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2719,7 +2773,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 118.11 90.17 0)
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 90.17 0)
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +2795,51 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 118.11 90.17 0)
+			(at 121.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 121.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 121.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 121.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,6 +3445,130 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 109.22 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a5a733a-9e7f-4ca6-86c7-e7d30f5a26a8")
+		(property "Reference" "R27"
+			(at 109.22 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "165k"
+			(at 109.22 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20c4841e-e657-4e1a-afe7-b4d6e635786d")
+		)
+		(pin "1"
+			(uuid "8c7db253-8a4a-4937-9910-2e7a81152957")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "R27")
 					(unit 1)
 				)
 			)
