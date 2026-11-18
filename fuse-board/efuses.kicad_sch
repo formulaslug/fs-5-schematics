@@ -713,9 +713,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PEB (U4), Telemetry (U6), TBB (U7):\nBlade Current ATM: 5A\neFuse Current Limit Set: 5A (4.9767A)\nR_ILIM: 300 Ohm\nR_IMON: 1.91 kOhm\nC_ITIMER: 15nF\nC_dVdt: 3.3nF\n\nV_IMON_MAX = 2.31V (@ 4.9767A)\nSR_ON = 1.15 V/ms @ 12V (Table 6.7)\nt_D,ON = 3.83 ms @ 12V (Table 6.7)\nt_ITIMER = 7ms\n\nShutdown (U5), Inverter (U8), VCU (U9):\nBlade Current ATM: 10A\neFuse Current Limit Set: 10A (10.0427A)\nR_ILIM: 147 Ohm\nR_IMON: 1.02 kOhm\nC_ITIMER: 15nF\nC_dVdt: 3.3nF\n\nV_IMON_MAX = 2.49V (@ 10.0427A)\nSR_ON = 1.15 V/ms @ 12V (Table 6.7)\nt_D,ON = 3.83 ms @ 12V (Table 6.7)\nt_ITIMER = 7ms\n\nFANA (U10), FANB (U11), FANC (U12):\nBlade Current ATM: 10A\neFuse Current Limit Set: 10A (10.0427A)\nR_ILIM: 147 Ohm\nR_IMON: 1.02 kOhm\nC_ITIMER: 15nF\nC_dVdt: 3.3nF\n\nV_IMON_MAX = 2.49V (@ 10.0427A)\nSR_ON = 1.15 V/ms @ 12V (Table 6.7)\nt_D,ON = 3.83 ms @ 12V (Table 6.7)\nt_ITIMER = 7ms\n\nALL:\nOVLO: 16.5V (16.37V)\nUVLO: 9V (8.11-8.85V)"
+	(text "PEB (U4), Telemetry (U6), TBB (U7):\nBlade Current ATM: 5A\neFuse Current Limit Set: 5A nominal (4.9767A)\nR_ILIM: 300 Ohm\nR_IMON: 1.91 kOhm\nC_dVdt: 3.3nF\n\nV_IMON = 2.31V at 4.9767A nominal\nSR_ON = 1.15 V/ms typical at 12V\nt_D,ON = 3.83 ms typical at 12V\n\nShutdown (U5), Inverter (U8), VCU (U9):\nBlade Current ATM: 10A\neFuse Current Limit Set: 10A nominal (10.0427A)\nR_ILIM: 147 Ohm\nR_IMON: 1.02 kOhm\n\nV_IMON = 2.49V at 10.0427A nominal\nShutdown / VCU C_dVdt: 3.3nF\nInverter C_dVdt: 6.6nF (two 3.3nF capacitors)\n\nFANA (U10), FANB (U11), FANC (U12):\nBlade Current ATM: 10A\neFuse Current Limit Set: 10A nominal (10.0427A)\nR_ILIM: 147 Ohm\nR_IMON: 1.02 kOhm\nC_dVdt: 6.6nF (two 3.3nF capacitors)\n\nV_IMON = 2.49V at 10.0427A nominal\n\nALL:\nC_ITIMER: 15nF, DNP by default\nWhen populated: t_ITIMER approximately 7ms\nWith ITIMER open: minimum overcurrent delay\n\nOVLO target: 16.5V\nUVLO target: 9V\nActual thresholds depend on tolerances."
 		(exclude_from_sim no)
-		(at 226.06 56.642 0)
+		(at 218.694 59.436 0)
 		(effects
 			(font
 				(size 1.27 1.27)
