@@ -2231,6 +2231,16 @@
 		)
 		(uuid "0e4ba50f-96cf-4719-838b-1182b947d0a0")
 	)
+	(text "used 420R instead of 470"
+		(exclude_from_sim no)
+		(at 82.55 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16950401-b7b5-49c6-963e-885a39f6e358")
+	)
 	(text "Peripheral Board Input/SPI Daisy Chaining Connector"
 		(exclude_from_sim no)
 		(at 45.72 140.208 0)
@@ -2281,7 +2291,17 @@
 		)
 		(uuid "3f61d1d4-8520-4c98-9a3c-83e44f97a3ea")
 	)
-	(text "TSV914IDT - $1.15\nMCP3564RT-E/ST - $5.44\nLDK320AM33R - $0.65\n---------------------\nTotal - 7.24"
+	(text "used 402R instead of 350R"
+		(exclude_from_sim no)
+		(at 112.522 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6de474c7-dbd3-46f1-a40c-496fc7abbf74")
+	)
+	(text "TSV914IDT - $1.15\nMCP3564RT-E/ST - $5.44\nLDK320AM33R - $0.65\n348R - 0.25 * 6 = $1.5\n---------------------\nTotal - 8.74"
 		(exclude_from_sim no)
 		(at 245.364 27.94 0)
 		(effects
@@ -2323,7 +2343,7 @@
 	)
 	(text "Tau = 1/f_sample = 1/20kHz = 0.00005\nRC = 0.00005\nR = 470R\nC = 0.0005/470 = 0.0000001064 = ~0.1uF\n\nTotal current draw of op amp and RCs:\n5v/(sqrt(470R^2 + (1/(2 * pi * 20kHz * 0.1uF))^2)) = 10.49mA * 4 = 41.96 mA\n5v/(sqrt(10kR^2 + (1/(2 * pi * 1Hz * 100uF))^2)) = 0.5 mA\n\n41.96 mA + 0.5 mA = 42.46 mA"
 		(exclude_from_sim no)
-		(at 213.36 129.286 0)
+		(at 215.9 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
