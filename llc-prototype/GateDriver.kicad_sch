@@ -161,7 +161,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
+		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
 			)
@@ -184,7 +184,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -216,7 +216,7 @@
 					)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -227,29 +227,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -271,10 +249,10 @@
 					)
 				)
 			)
-			(symbol "D_0_1"
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -309,7 +287,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1433,7 +1411,7 @@
 	)
 	(text "ISNS\nMin V: -6.5V\nMax V: 6.5V\n"
 		(exclude_from_sim no)
-		(at 74.93 29.718 0)
+		(at 36.576 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1441,29 +1419,9 @@
 		)
 		(uuid "115cd9cc-7eaf-4d61-b40d-caea05906e65")
 	)
-	(text "Light Load Activation: say 10% of max load -> 10% of 50A = 5A"
-		(exclude_from_sim no)
-		(at 160.02 35.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1c76f25c-23a7-43ff-b461-dfa7c51c30bb")
-	)
-	(text "LL Pin HFBurstEntry at ~160W i.e ~23% of max load"
-		(exclude_from_sim no)
-		(at 44.704 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5e1cc7df-0b2d-48a3-af78-e9fe78b711c2")
-	)
 	(text "Light Load Entry is determined if FBReplica equals HFBurstEntry"
 		(exclude_from_sim no)
-		(at 160.782 38.862 0)
+		(at 45.466 36.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1473,7 +1431,7 @@
 	)
 	(text "BLK, LL, TSET\nMin V: -0.55V\nMax V: 5.5V\n"
 		(exclude_from_sim no)
-		(at 91.186 29.972 0)
+		(at 51.308 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1483,7 +1441,7 @@
 	)
 	(text "VCCP\n(min based on UVLO specs)\nUVLO Rising : 7.5V nom\nUVLO Falling : 6.8 nom\nnom 15V\nmax 18.5V\n\n"
 		(exclude_from_sim no)
-		(at 66.294 45.72 0)
+		(at 28.194 28.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1493,7 +1451,7 @@
 	)
 	(text "FBReplica: 0 to 8V\nGiven by FBReplica = (I_FB-I_OPTO) * R_FBInternal\nwhere I_OPTO is 0 at full load"
 		(exclude_from_sim no)
-		(at 159.766 31.496 0)
+		(at 88.392 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,7 +1461,7 @@
 	)
 	(text "HV/HB \nMin V: -0.3V \nMax V: 700V"
 		(exclude_from_sim no)
-		(at 58.928 29.972 0)
+		(at 21.336 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1518,6 +1476,18 @@
 		(uuid "030c8c4c-38ff-4e07-854a-4d46fbf736cd")
 	)
 	(junction
+		(at 151.13 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d25dd4d-2424-4307-8e51-3c14cace53a1")
+	)
+	(junction
+		(at 96.52 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1d551c-cb45-4a8d-bde2-04ac83597c7b")
+	)
+	(junction
 		(at 101.6 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1528,6 +1498,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "621e8054-711a-4ac9-b928-90b5cb36214e")
+	)
+	(junction
+		(at 35.56 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "658965fd-94ae-48cc-99c3-68d0a6699afa")
+	)
+	(junction
+		(at 101.6 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73cdfe36-a044-415c-81a3-4f98c65fed41")
+	)
+	(junction
+		(at 29.21 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9a7d28f-b61f-48b7-8ec9-f80870805809")
 	)
 	(junction
 		(at 123.19 107.95)
@@ -1566,10 +1554,16 @@
 		(uuid "bf2f9caf-63ff-42ab-b558-d7b25b61a5ce")
 	)
 	(junction
-		(at 101.6 168.91)
+		(at 71.12 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dc7b0c5a-b18d-4bac-b82f-42bf3b80b003")
+		(uuid "d0dc6105-9e70-40dc-95f1-1d7f6e8fe9a3")
+	)
+	(junction
+		(at 66.04 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df6b4198-82f1-4482-9603-fcc3cf5ca271")
 	)
 	(wire
 		(pts
@@ -1583,7 +1577,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 168.91) (xy 71.12 168.91)
+			(xy 58.42 168.91) (xy 66.04 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1643,6 +1637,26 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 105.41) (xy 151.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2adb458b-f58b-4049-9dce-d0827c672a35")
+	)
+	(wire
+		(pts
+			(xy 29.21 181.61) (xy 35.56 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aeed4ba-9794-4f31-bc10-73429e7d09a0")
+	)
+	(wire
+		(pts
 			(xy 124.46 90.17) (xy 125.73 90.17)
 		)
 		(stroke
@@ -1660,6 +1674,16 @@
 			(type default)
 		)
 		(uuid "2ed33d8f-d693-4cb2-9a8c-4cd1e9296e6a")
+	)
+	(wire
+		(pts
+			(xy 71.12 177.8) (xy 71.12 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31418859-0609-46a3-a8e2-b89f5582c7ad")
 	)
 	(wire
 		(pts
@@ -1683,13 +1707,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 146.05) (xy 111.76 158.75)
+			(xy 111.76 156.21) (xy 111.76 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44285b2e-f491-4930-b9f1-90e5f768805b")
+	)
+	(wire
+		(pts
+			(xy 66.04 168.91) (xy 71.12 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c052b9-2851-4793-bb83-8ed20c6cee9b")
 	)
 	(wire
 		(pts
@@ -1703,6 +1737,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 168.91) (xy 35.56 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545c9cea-af0e-4bc1-ae57-a5b6e8fc92af")
+	)
+	(wire
+		(pts
 			(xy 135.89 118.11) (xy 135.89 115.57)
 		)
 		(stroke
@@ -1713,17 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 177.8) (xy 35.56 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a115c42-668c-4dfe-8d65-091284e6b003")
-	)
-	(wire
-		(pts
-			(xy 22.86 168.91) (xy 35.56 168.91)
+			(xy 22.86 168.91) (xy 29.21 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1823,13 +1857,43 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 168.91) (xy 101.6 168.91)
+			(xy 29.21 177.8) (xy 29.21 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f180f8-c36e-451c-8010-4557920afe91")
+	)
+	(wire
+		(pts
+			(xy 151.13 105.41) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8a4e84-7f52-4122-850c-4faa71d360f2")
+	)
+	(wire
+		(pts
+			(xy 93.98 168.91) (xy 96.52 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ffd18fd-032f-4114-99ac-4c5cbc061fe1")
+	)
+	(wire
+		(pts
+			(xy 66.04 177.8) (xy 66.04 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818f8eaf-bcda-46e3-86ff-12a2c2880b61")
 	)
 	(wire
 		(pts
@@ -1863,6 +1927,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 168.91) (xy 66.04 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d151f79-d486-4bac-80a6-aaba2e270a3a")
+	)
+	(wire
+		(pts
 			(xy 123.19 115.57) (xy 123.19 114.3)
 		)
 		(stroke
@@ -1883,6 +1957,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 181.61) (xy 101.6 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2567642-9bf5-4361-93bc-13dad448ccb7")
+	)
+	(wire
+		(pts
 			(xy 101.6 168.91) (xy 101.6 172.72)
 		)
 		(stroke
@@ -1900,6 +1984,16 @@
 			(type default)
 		)
 		(uuid "a88dcbe5-2192-4c9d-9626-597446070a37")
+	)
+	(wire
+		(pts
+			(xy 66.04 181.61) (xy 71.12 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa26894e-c533-4b1e-b5cc-c13245edbf96")
 	)
 	(wire
 		(pts
@@ -1943,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 148.59 105.41)
+			(xy 146.05 105.41) (xy 151.13 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1979,7 +2073,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "badcfa96-b244-4acd-a2fd-08e9a2c4377d")
+		(uuid "b18185ed-ff7b-4fc1-8edc-8d617b6b6353")
+	)
+	(wire
+		(pts
+			(xy 29.21 168.91) (xy 29.21 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b738fcce-1c26-47e6-a98f-27e713fbd7de")
+	)
+	(wire
+		(pts
+			(xy 96.52 168.91) (xy 101.6 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9364f54-d786-47d1-8230-f5e75e335d95")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 151.13 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baab0b52-0ccb-470e-be3d-aa4cae22fec8")
 	)
 	(wire
 		(pts
@@ -2043,13 +2167,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 177.8) (xy 71.12 181.61)
+			(xy 151.13 115.57) (xy 135.89 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd1aa402-23c1-44ed-b964-90de941e345f")
+		(uuid "d50ea076-3a81-4bf8-8e8f-d0ea45b00608")
+	)
+	(wire
+		(pts
+			(xy 35.56 177.8) (xy 35.56 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd819810-bdbe-4cbd-abc7-1c95e7a9e91a")
 	)
 	(wire
 		(pts
@@ -2060,6 +2194,26 @@
 			(type default)
 		)
 		(uuid "df0f05b0-3dc7-4004-bd73-11057c40fbfa")
+	)
+	(wire
+		(pts
+			(xy 96.52 168.91) (xy 96.52 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea214f30-7b9d-4585-ab1a-1cbaa7073654")
+	)
+	(wire
+		(pts
+			(xy 96.52 177.8) (xy 96.52 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee11b873-7932-460e-8db0-34804630a166")
 	)
 	(wire
 		(pts
@@ -2251,7 +2405,7 @@
 	)
 	(global_label "OVP{slash}OTP"
 		(shape output)
-		(at 88.9 168.91 180)
+		(at 93.98 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2261,7 +2415,7 @@
 		)
 		(uuid "9f9892f9-fb9d-489f-a073-fd5ab2f9e4ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.3271 168.91 0)
+			(at 82.4071 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2275,7 +2429,7 @@
 	)
 	(global_label "VCCP"
 		(shape passive)
-		(at 111.76 146.05 90)
+		(at 111.76 156.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2285,7 +2439,7 @@
 		)
 		(uuid "c2f61d05-1d1c-40ed-ac95-e96721495b5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 139.2775 90)
+			(at 111.76 149.4375 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,7 +2525,7 @@
 	)
 	(hierarchical_label "ISNS"
 		(shape input)
-		(at 148.59 105.41 0)
+		(at 153.67 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2458,8 +2612,8 @@
 		(uuid "fb905312-0239-4db2-b5d0-760abdd68b4e")
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 111.76 162.56 270)
+		(lib_id "Device:C_Small")
+		(at 96.52 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2467,10 +2621,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14a69a0b-d812-479d-b3a9-00c427cd2ce7")
-		(property "Reference" "D11"
-			(at 114.3 161.2899 90)
+		(uuid "2fc1e0bd-8020-4279-9ee0-82e5a20b234b")
+		(property "Reference" "C36"
+			(at 90.932 173.736 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2480,8 +2633,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 114.3 163.8299 90)
+		(property "Value" "100pF"
+			(at 89.662 177.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2491,8 +2644,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 162.56 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,7 +2656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 162.56 0)
+			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,8 +2666,8 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
-			(at 111.76 162.56 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2524,16 +2677,60 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "f39b9bfd-927c-4dde-9ae0-ca641af8a7f7")
+		(property "Digikey Part Number" ""
+			(at 96.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 96.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 96.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 96.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "6a1bc6c1-f8b0-42c7-9568-ade968d0ff85")
+			(uuid "f6add5fe-2b94-480c-9e3f-5eefa324af1c")
+		)
+		(pin "1"
+			(uuid "0542b186-96fe-44e9-b503-2194992b8977")
 		)
 		(instances
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
-					(reference "D11")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -2942,6 +3139,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5432ad59-bac5-417b-a8ab-1ebf9602dd99")
+		(property "Reference" "C35"
+			(at 60.452 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220pF"
+			(at 59.182 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c410360d-a840-4e66-9fc4-a90f8ba59892")
+		)
+		(pin "1"
+			(uuid "a137b376-2d2f-4f65-8f86-4a915835d8c1")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 35.56 175.26 0)
 		(unit 1)
@@ -3067,7 +3389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Device:D_Schottky")
 		(at 170.18 100.33 270)
 		(unit 1)
 		(body_style 1)
@@ -3089,7 +3411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819HW-7-F"
+		(property "Value" "STPS2150A"
 			(at 172.72 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,7 +3433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/1N5819HW.pdf"
+		(property "Datasheet" ""
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3155,7 +3477,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "497-2467-1-ND"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3166,7 +3488,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/stmicroelectronics/STPS2150A/603492?s=N4IgjCBcoEwAwHYLRABwC5RAVQHYEt0B5AMwFkBTAQwGcBXAJwpABoQ6sA1VkAWyoAeWMAFY4IAL5sAtDCigAxlHQM6FNgHsoAbRABOHiJABdCVJAA2eSHwATLPCQ8MWPIVKVajZm3QBPVGZIEFsaJTMgA&_gl=1*1exy58k*_up*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3177,7 +3499,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3188,7 +3510,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "STPS2150A"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3445,6 +3767,131 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 151.13 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "885619fa-e4b6-419d-bdd5-278525897102")
+		(property "Reference" "C38"
+			(at 145.542 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 144.272 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4fc8c71-512e-471b-aa52-98137398a3a0")
+		)
+		(pin "1"
+			(uuid "ebdb33e3-1327-467b-95e5-69775784cae0")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3777,6 +4224,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 111.76 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba8e49b2-af2b-42e3-8b55-7fc3f7a579b8")
+		(property "Reference" "D16"
+			(at 106.172 160.782 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15V"
+			(at 106.172 163.068 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "MMSZ5245BT1GOSCT-ND"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/onsemi/MMSZ5245BT1G/919762?s=N4IgjCBcoJwEwAYqgMZQGYEMA2BnApgDQgD2UA2uAKwAEAaiALrEAOALlCAKoB2AlmwDy6ALL5MuAK4AnfCAC%2BioA&_gl=1*l5mwgd*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MMSZ5245BT1G"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "552dbb99-2011-42bf-8251-92848e17ae90")
+		)
+		(pin "1"
+			(uuid "282c3132-30e1-4211-8e9c-38110d671821")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 123.19 111.76 0)
 		(unit 1)
@@ -3902,6 +4474,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 29.21 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c487099e-b4bf-4654-84ac-fcd503ba379d")
+		(property "Reference" "C34"
+			(at 23.622 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330pF"
+			(at 22.352 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 29.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 29.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 29.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 29.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 29.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a4d108f4-c5fe-4924-bb82-5a381aa8a906")
+		)
+		(pin "1"
+			(uuid "e39b1b1e-51ae-42ce-9540-fe2c2e595b1a")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/c418867e-dc5c-4e54-b875-cab03a75b2d9"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_US")
 		(at 111.76 175.26 0)
 		(unit 1)
@@ -3924,7 +4621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_US"
+		(property "Value" "TH11-3M104FT"
 			(at 114.3 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3935,7 +4632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.76 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -3958,6 +4655,50 @@
 			)
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "2259-TH11-3M104FTCT-ND"
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/mitsubishi-materials-u-s-a-corporation/TH11-3M104FT/14308049?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwIAOWPGghkkdNnxFSIWFMqMW7SF16CR48JQmUEc1JlwFikMgAYQDIwFpq5%2BbwCuy22QCsIARmzkYyoHwAJhzUYPZm2hwAqgJ8rADyKACyOGhYXjw4QSCsAJ7MRbqRWMiiokA&_gl=1*f7pan2*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiA2frXBhC_ARIsAPTFcdPqqJkV2FFBJaYPoCkQ9M9a-a_UpeykDbGvXUWzQtYploDQFJvGvBkaAgSoEALw_wcB&gclsrc=aw.ds"
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Mitsubishi Materials U.S.A. Corporation"
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TH11-3M104FT"
 			(at 111.76 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -4239,10 +4980,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d645e4f6-44b1-4253-8eb4-3085063891a5")
 		(property "Reference" "R23"
-			(at 104.14 175.2599 0)
+			(at 104.14 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4252,7 +4992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "20.5k"
 			(at 104.14 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,6 +5026,50 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -4621,7 +5405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "2.2"
 			(at 172.72 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4655,6 +5439,50 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
