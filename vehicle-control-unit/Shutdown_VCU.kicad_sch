@@ -8206,12 +8206,6 @@
 		(uuid "541233fc-2eb9-4fbc-9821-2bfcb0a2858a")
 	)
 	(junction
-		(at 307.34 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d25f477-b248-4cfd-a38e-5540f6f0d858")
-	)
-	(junction
 		(at 55.88 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8573,16 +8567,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 181.61) (xy 269.24 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025aa620-2d87-4828-8eb7-1671efd36631")
-	)
-	(wire
-		(pts
 			(xy 285.75 203.2) (xy 285.75 209.55)
 		)
 		(stroke
@@ -8750,6 +8734,16 @@
 			(type default)
 		)
 		(uuid "13f1d886-9616-4801-bd03-1cd589a0a6ea")
+	)
+	(wire
+		(pts
+			(xy 269.24 181.61) (xy 269.24 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140f199a-9189-4e81-9483-801d71663ed7")
 	)
 	(wire
 		(pts
@@ -9060,16 +9054,6 @@
 			(type default)
 		)
 		(uuid "3a647910-ccff-4cf0-8777-2b9f973b9072")
-	)
-	(wire
-		(pts
-			(xy 307.34 195.58) (xy 307.34 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c52452a-9d07-4c9f-bbab-5df692bd734a")
 	)
 	(wire
 		(pts
@@ -9883,7 +9867,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 193.04) (xy 307.34 193.04)
+			(xy 304.8 193.04) (xy 325.12 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10133,16 +10117,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 195.58) (xy 307.34 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f01884f-3237-43ca-860e-6a971aba85ba")
-	)
-	(wire
-		(pts
 			(xy 52.07 81.28) (xy 53.34 81.28)
 		)
 		(stroke
@@ -10330,16 +10304,6 @@
 			(type default)
 		)
 		(uuid "b7cb7d05-5add-4a41-ac84-9dfd62173ab5")
-	)
-	(wire
-		(pts
-			(xy 307.34 193.04) (xy 325.12 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b818d2d2-c2c0-4a60-a44c-afa56baeb626")
 	)
 	(wire
 		(pts
@@ -11201,8 +11165,8 @@
 		)
 		(uuid "737c6c16-1c6b-4f5b-a369-856d776fb7cc")
 	)
-	(label "BSPD_Fault_nDelayed"
-		(at 269.24 184.15 180)
+	(label "BSPD_Fault"
+		(at 269.24 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12274,12 +12238,12 @@
 	)
 	(hierarchical_label "BSPD_Fault"
 		(shape input)
-		(at 309.88 195.58 0)
+		(at 269.24 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "30ecbd10-0019-48c4-8c3e-7bcc4fd2c58e")
 	)
