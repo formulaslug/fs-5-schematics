@@ -693,6 +693,113 @@
         "name": "Digikey Export",
         "sort_asc": true,
         "sort_field": "Reference"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Do Not Place",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Position Files",
+            "name": "${EXCLUDE_FROM_POS_FILES}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MFG",
+            "name": "MFG",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MFG PN",
+            "name": "MFG PN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Digi PN",
+            "name": "Digi PN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Digi URL",
+            "name": "Digi URL",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": true,
+        "name": "FS",
+        "sort_asc": true,
+        "sort_field": "Reference"
       }
     ],
     "bom_settings": {
@@ -705,33 +812,15 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
@@ -741,10 +830,46 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "group_by": false,
+          "label": "Do Not Place",
+          "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
         },
         {
           "group_by": false,
@@ -754,60 +879,30 @@
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
+          "label": "Digikey Part Number",
+          "name": "Digikey Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Digikey URL",
           "name": "Digikey URL",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "MFG",
-          "name": "MFG",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "MFG PN",
-          "name": "MFG PN",
           "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Digi PN",
-          "name": "Digi PN",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Digi URL",
-          "name": "Digi URL",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Digikey Part Number",
-          "name": "Digikey Part Number",
           "show": true
         }
       ],
-      "filter_string": "J",
+      "filter_string": "CR",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -884,7 +979,7 @@
         "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
-    "used_designators": "J1-4,R1-30,CR1-10,U1-5,#PWR1-29,T1-2,C1-38,TH1,D1-4,Q1,TP1,L1",
+    "used_designators": "J1-4,#FLG1,R1-33,CR1-10,U1-5,#PWR1-30,T1-2,C1-42,TH1,D1-4,Q1,TP1-4,L1",
     "variants": []
   },
   "sheets": [
