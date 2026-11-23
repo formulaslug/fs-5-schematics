@@ -3717,6 +3717,12 @@
 		(uuid "14cf5e4c-afa2-4587-9bac-019d7f2e181a")
 	)
 	(junction
+		(at 198.12 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15dc7bcf-4b9e-4936-b542-2f184f728af1")
+	)
+	(junction
 		(at 173.99 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3735,16 +3741,10 @@
 		(uuid "2c38bff0-b086-4060-813e-49bd725e88cb")
 	)
 	(junction
-		(at 198.12 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2eea8ca6-83cf-4fc7-8ead-49b28878467e")
-	)
-	(junction
 		(at 198.12 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f725683-56c9-4205-9c48-f8e049d043b6")
+		(uuid "34c17779-3ceb-4176-80ed-c74f3ca60bf0")
 	)
 	(junction
 		(at 341.63 125.73)
@@ -3879,12 +3879,6 @@
 		(uuid "9f547abf-f53f-417b-af11-1e7fec99e4bd")
 	)
 	(junction
-		(at 191.77 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3b34405-596d-4965-a47f-4231f14d177f")
-	)
-	(junction
 		(at 325.12 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3961,12 +3955,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eec55758-0cd4-490c-8b88-3709203ee496")
-	)
-	(junction
-		(at 198.12 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f048a443-2afe-4848-afaf-b642e7dc5184")
 	)
 	(junction
 		(at 83.82 114.3)
@@ -4354,7 +4342,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 73.66) (xy 198.12 74.93)
+			(xy 198.12 73.66) (xy 198.12 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4394,7 +4382,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 67.31) (xy 191.77 67.31)
+			(xy 179.07 67.31) (xy 198.12 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4491,16 +4479,6 @@
 			(type default)
 		)
 		(uuid "5c41ce00-632c-4add-80de-75c8c62ef37b")
-	)
-	(wire
-		(pts
-			(xy 191.77 67.31) (xy 198.12 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1c21cc-8fe8-467b-9718-ac01cff9f946")
 	)
 	(wire
 		(pts
@@ -4651,16 +4629,6 @@
 			(type default)
 		)
 		(uuid "7b167b8e-aec1-45cc-9838-047675d1e55e")
-	)
-	(wire
-		(pts
-			(xy 191.77 74.93) (xy 198.12 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b6262d6-57e5-403d-bf5c-09b2c5a8482a")
 	)
 	(wire
 		(pts
@@ -4964,16 +4932,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 74.93) (xy 198.12 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa5af438-1644-487d-9cad-964d5f85d6db")
-	)
-	(wire
-		(pts
 			(xy 212.09 153.67) (xy 209.55 153.67)
 		)
 		(stroke
@@ -5124,16 +5082,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 67.31) (xy 191.77 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4fb2ea3-8fc7-4236-8827-2906ee0f777c")
-	)
-	(wire
-		(pts
 			(xy 212.09 130.81) (xy 218.44 130.81)
 		)
 		(stroke
@@ -5241,16 +5189,6 @@
 			(type default)
 		)
 		(uuid "da0b6476-e6c7-40ba-b178-486fc10cdbfe")
-	)
-	(wire
-		(pts
-			(xy 191.77 73.66) (xy 191.77 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7b7323-ed7c-4f5f-85b9-de04bfd4ea69")
 	)
 	(wire
 		(pts
@@ -6018,6 +5956,134 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09d13069-ed38-4f23-838f-28361b993fc3")
+		(property "Reference" "C49"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02733e1c-77f7-4089-98f6-fe4b7aa147b3")
+		)
+		(pin "2"
+			(uuid "77a686e7-9227-43a9-b659-b09f38bd863b")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -7179,134 +7245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 198.12 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "276df25f-bfbf-414a-a0c8-7fd2bbcd4dba")
-		(property "Reference" "C15"
-			(at 200.66 69.8562 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF x3"
-			(at 200.66 72.3962 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "490-7203-1-ND"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM188R61E475KE11D"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f080f8db-e6ea-4085-ac65-ce722acf91fb")
-		)
-		(pin "2"
-			(uuid "81329f60-09a1-4a41-a085-958fbf263b15")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 252.73 139.7 90)
 		(mirror x)
@@ -7381,6 +7319,134 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cde9b75-406f-4090-8bb7-9093f859bc9c")
+		(property "Reference" "C50"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dae26a1b-cc0d-46a3-9ab6-8aa77ecff4e4")
+		)
+		(pin "2"
+			(uuid "155493bb-7534-42f2-92df-993bfb6e683c")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -7598,6 +7664,262 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36593d07-6139-41b8-ab70-9f1c35352823")
+		(property "Reference" "C51"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa499e77-f72c-40bb-8bfa-4e820aa146ef")
+		)
+		(pin "2"
+			(uuid "fad24db0-ebdc-44c5-92df-011c666e775f")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370690ce-5b68-42c0-97da-2098412d4a2b")
+		(property "Reference" "C44"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c08a26d-7c25-4b88-a765-a2ad5a27225c")
+		)
+		(pin "2"
+			(uuid "ec0c8aba-0cf2-4b6c-b0d8-f4efcad52357")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -7849,131 +8171,6 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 191.77 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39d732c8-6a87-4e60-a57d-f3aded28b652")
-		(property "Reference" "C4"
-			(at 189.23 69.3038 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220uF"
-			(at 189.23 71.8438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "399-A768MS227M1GLAE022CT-ND"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/A768MS227M1GLAE022/12704610?s=N4IgjCBcoEwAwHYCcVQGMoDMCGAbAzgKYA0IA9lANogAscABAGogC6pADgC5QgCqAdgEtOAeUwBZQtnwBXAE6EQAXyWkAbKhCCAJjwC0YCB26QQIUpwCe7RaeVKgA&_gl=1*h1w053*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "A768MS227M1GLAE022"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9a03f17e-4bcf-47c9-9a99-41bc18c39ef3")
-		)
-		(pin "1"
-			(uuid "d276182d-043a-4f8a-b56b-aeb0b07cdcfc")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8864,6 +9061,134 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55a6e61f-4e8d-40f3-880e-aafe61d7216e")
+		(property "Reference" "C45"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d91ca72-c994-46ca-b1f3-dd63506eaa28")
+		)
+		(pin "2"
+			(uuid "7cf2a572-3a83-4612-8a6c-0ac12cf2f1fc")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 341.63 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -8990,6 +9315,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c73fe97-4abd-4699-9b8a-fa5dc70fec1e")
+		(property "Reference" "C40"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4ca7bbc-5c7c-456c-957a-815a5da712f1")
+		)
+		(pin "2"
+			(uuid "9e1ad1dc-b189-4839-8ffa-7b4c8c9039de")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 256.54 179.07 0)
 		(unit 1)
@@ -9066,6 +9519,134 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eba12df-d154-430d-8544-89624e06e62d")
+		(property "Reference" "C52"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "595aa3f9-b99e-4a58-9c84-705fdce83988")
+		)
+		(pin "2"
+			(uuid "2ca7b0a5-1959-4baa-ac50-24e0591c38b9")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -9519,134 +10100,6 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 198.12 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c0e712c-7de2-4202-829b-a0b7c936eefc")
-		(property "Reference" "C16"
-			(at 200.66 69.8562 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF x3"
-			(at 200.66 72.3962 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "490-7203-1-ND"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM188R61E475KE11D"
-			(at 198.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b17094a-6b15-48ca-bbaa-edf176955478")
-		)
-		(pin "2"
-			(uuid "56c46ded-cd68-43c1-9376-20253b9d0b65")
-		)
-		(instances
-			(project "llc-prototype"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10169,6 +10622,134 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7698d200-582a-408b-bb6a-0b25e3bea925")
+		(property "Reference" "C53"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26d1d144-6129-40ac-ad11-46947bd80d32")
+		)
+		(pin "2"
+			(uuid "e58aee51-f14f-41a9-8a5c-1a527901102d")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 341.63 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -10545,6 +11126,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c8167d1-5e13-4f83-9879-4f6fc66f1f6d")
+		(property "Reference" "C54"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "055822a8-2cfd-4a2a-a461-cc896019956e")
+		)
+		(pin "2"
+			(uuid "1581347b-52c6-4a9a-a3ac-cb309d58b50d")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 217.17 195.58 0)
 		(unit 1)
@@ -10869,6 +11578,134 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83e89f17-f68d-4b04-a42a-1e16c152c260")
+		(property "Reference" "C42"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7175a41d-f924-4933-b857-a2e1242bd6df")
+		)
+		(pin "2"
+			(uuid "4d9f004b-3961-4444-9987-86d7e0ad1b16")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -11327,6 +12164,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "889c280c-8ff0-4291-afb3-e0c49a1a423c")
+		(property "Reference" "C55"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a7f6bf5-a460-41cf-a4f7-9a99f93a506c")
+		)
+		(pin "2"
+			(uuid "6ca7dddf-3742-49fc-b66d-05be40e74e56")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Reference_Voltage:TL431DBZ")
 		(at 234.95 215.9 270)
 		(mirror x)
@@ -11616,6 +12581,134 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3745c35-d73b-414e-81ac-914e3ae67a9d")
+		(property "Reference" "C58"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70654b19-3c19-4921-83f9-7f16742b4a3e")
+		)
+		(pin "2"
+			(uuid "436081ca-b58d-4fac-8cc3-57eebd47e655")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -12048,7 +13141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF x3"
+		(property "Value" "0.1uF x20"
 			(at 200.66 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12092,7 +13185,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "490-7203-1-ND"
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
 			(at 198.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12103,7 +13196,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
 			(at 198.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12114,7 +13207,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "KEMET"
 			(at 198.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12125,7 +13218,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188R61E475KE11D"
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
 			(at 198.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12364,6 +13457,262 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b57b8d69-f7c3-4a53-8cc5-22ccbef00ed8")
+		(property "Reference" "C48"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3eaa060-5710-4d5b-b570-aaef59603c83")
+		)
+		(pin "2"
+			(uuid "531fe39d-db4f-4a48-bfb8-3d8ac0138b7f")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7754a6a-3174-418a-80fa-db5d5f9a9ab7")
+		(property "Reference" "C43"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff2bc090-a136-40fa-8b0c-b135c3c5767d")
+		)
+		(pin "2"
+			(uuid "6922aa24-9dad-4480-bc71-ca1b21379d14")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -13744,6 +15093,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e75f60bb-fa7e-46d1-842d-013bb3545457")
+		(property "Reference" "C56"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c37bef3-927e-4556-ae54-a32506820efa")
+		)
+		(pin "2"
+			(uuid "20a9e821-d345-4f49-ad4c-af5232153416")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 234.95 228.6 0)
 		(unit 1)
@@ -14025,6 +15502,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f51735fd-30c0-439a-80ec-65cd2045ef57")
+		(property "Reference" "C46"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b1dd8e9-0c8e-42f9-b64b-38cc3a567b79")
+		)
+		(pin "2"
+			(uuid "07cfdf8d-b857-4273-b756-96fd4dbe7c02")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
 		(at 83.82 91.44 0)
 		(unit 1)
@@ -14097,6 +15702,390 @@
 			(project "llc-prototype"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fab29f77-ff7d-4280-bd5e-e74aefbee145")
+		(property "Reference" "C57"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "505bb5d0-b0e4-415e-b141-17d874c33b5e")
+		)
+		(pin "2"
+			(uuid "629aab20-92ce-42f5-8c7f-064a37943365")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fce409c2-bb27-409e-bc18-5925e488279d")
+		(property "Reference" "C47"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b219b810-6f3f-4993-a4b3-789558706636")
+		)
+		(pin "2"
+			(uuid "dc31e74d-c008-4091-83b3-98a05d65bea6")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff84874d-2d8d-4d32-bedc-0fc05cff58c7")
+		(property "Reference" "C41"
+			(at 200.66 69.8562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF x20"
+			(at 200.66 72.3962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUCT-ND"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594?_gl=1*po4qks*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDqn3ZWwTn9PhU43E0MsZzIMmkmM5QxQBzprBcsLf3AYVLb0VQ8Kni0aAovbEALw_wcB&gclsrc=aw.ds"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 198.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6db6b3b2-bb84-403e-a9bf-13a9c32acfa7")
+		)
+		(pin "2"
+			(uuid "53d61e01-896e-4f92-9cb5-3dd11d98adb1")
+		)
+		(instances
+			(project "llc-prototype"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C41")
 					(unit 1)
 				)
 			)
