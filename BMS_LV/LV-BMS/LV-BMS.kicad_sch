@@ -756,24 +756,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "J3"
+				(at -1.27 -2.5401 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "XT60"
+				(at -1.27 -0.0001 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -889,7 +891,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -907,7 +909,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -5158,7 +5160,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "XT60"
 			(at 204.47 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5865,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 195.58 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
