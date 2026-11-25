@@ -1341,7 +1341,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FS_4_Global_Footprint_Library:ATS13-34PB2-BM01"
+			(property "Footprint" "formula_slug_footprint_library:ATS13-34PB2-BM01"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1452,6 +1452,50 @@
 				)
 			)
 			(property "Part Name" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey URL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1889,7 +1933,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 -38.1 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1907,7 +1951,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 -35.56 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2051,7 +2095,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -2339,7 +2383,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -38.1 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_27"
 						(effects
@@ -2375,7 +2419,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -35.56 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_29"
 						(effects
@@ -4788,16 +4832,6 @@
 		)
 		(uuid "2ca0e7ae-d2c8-4449-971e-32cb925cd43f")
 	)
-	(text "External IMU UART"
-		(exclude_from_sim no)
-		(at 84.074 133.096 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2cf30249-8bcc-481d-ae5c-4ffce91b6ad5")
-	)
 	(text "3.2A @ 70C"
 		(exclude_from_sim no)
 		(at 54.61 232.41 0)
@@ -5073,6 +5107,12 @@
 		(uuid "96c8cd6d-159b-4c6d-b9e3-83dfb3e22fe5")
 	)
 	(junction
+		(at 71.12 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e3c940a-2ce2-4e4c-9eaa-28d4ec7fa78f")
+	)
+	(junction
 		(at 59.69 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5103,12 +5143,6 @@
 		(uuid "d778ff6f-b0f0-4038-955f-ac1a309c70e9")
 	)
 	(junction
-		(at 74.93 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd6c2d0c-5aed-424c-83ac-bde0a5e72cc2")
-	)
-	(junction
 		(at 81.28 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5119,6 +5153,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9c5c35a-09da-4047-be1e-92a18994a51c")
+	)
+	(junction
+		(at 162.56 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f12120b0-361f-49f1-b39a-7338bcb3bd19")
+	)
+	(no_connect
+		(at 340.36 95.25)
+		(uuid "207cdaff-2d32-4228-b780-25b608a86284")
 	)
 	(wire
 		(pts
@@ -5932,7 +5976,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 241.3) (xy 93.98 241.3)
+			(xy 68.58 241.3) (xy 71.12 241.3)
 		)
 		(stroke
 			(width 0)
@@ -5979,6 +6023,16 @@
 			(type default)
 		)
 		(uuid "77fff0f6-cc0f-4abe-87e9-8931eb6ac944")
+	)
+	(wire
+		(pts
+			(xy 71.12 241.3) (xy 93.98 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a769c99-09b8-4ca5-bf1a-60363d757541")
 	)
 	(wire
 		(pts
@@ -6432,7 +6486,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 241.3) (xy 171.45 241.3)
+			(xy 157.48 241.3) (xy 162.56 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6519,6 +6573,16 @@
 			(type default)
 		)
 		(uuid "ba816678-bc7f-4c4a-a620-335d15eefb4e")
+	)
+	(wire
+		(pts
+			(xy 162.56 241.3) (xy 171.45 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb294852-0bb9-4d8d-9836-831b7c383713")
 	)
 	(wire
 		(pts
@@ -7150,6 +7214,16 @@
 		)
 		(uuid "3de792a8-99bb-4274-a2d0-d43bbd7b8582")
 	)
+	(label "CAN_SWB_H"
+		(at 92.71 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f0960ee-e015-4bad-ac80-1542c35843b0")
+	)
 	(label "BPPS_1_Raw"
 		(at 334.01 161.29 180)
 		(effects
@@ -7169,6 +7243,16 @@
 			(justify left bottom)
 		)
 		(uuid "507ab537-d7ff-49e4-8d94-25d6708aa19c")
+	)
+	(label "CAN_SWB_L"
+		(at 92.71 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50ed41d9-5cbf-4091-8de7-503351ae5cf4")
 	)
 	(label "Inertia_Pos"
 		(at 260.35 113.03 0)
@@ -7459,6 +7543,183 @@
 			(justify left bottom)
 		)
 		(uuid "fab1bdea-e107-47b0-83be-801e35a7d0fe")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04f42735-c946-4c12-92ee-c2bdd265f4a8")
+		(property "Reference" "TP8"
+			(at 83.058 234.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12V"
+			(at 82.804 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 81.28 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 81.28 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP PN" ""
+			(at 81.28 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 81.28 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 81.28 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 81.28 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 81.28 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 81.28 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 81.28 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa3c987f-4f7f-468d-9dbd-516545f8e153")
+		)
+		(instances
+			(project "vehicle-control-unit"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -8066,7 +8327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f82994-7a7c-4b98-8ff0-d4979b1313d3")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 45.72 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -8126,7 +8387,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8562,7 +8823,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 74.93 241.3 0)
+		(at 71.12 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8573,7 +8834,7 @@
 		(fields_autoplaced yes)
 		(uuid "25aba09e-806e-48ed-a82d-40a85c8db3e5")
 		(property "Reference" "#PWR023"
-			(at 74.93 245.11 0)
+			(at 71.12 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +8845,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 74.93 236.22 0)
+			(at 71.12 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8594,7 +8855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 241.3 0)
+			(at 71.12 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8605,7 +8866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 241.3 0)
+			(at 71.12 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8616,7 +8877,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.93 241.3 0)
+			(at 71.12 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9259,6 +9520,183 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 162.56 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39ee22af-6956-41c2-88d8-aa308333262e")
+		(property "Reference" "TP9"
+			(at 164.846 234.188 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 163.576 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 167.64 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 162.56 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 162.56 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP PN" ""
+			(at 162.56 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 162.56 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 162.56 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 162.56 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 162.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 162.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "057796b6-6ddf-4f1b-9262-a5ec4b05f5b3")
+		)
+		(instances
+			(project "vehicle-control-unit"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 328.93 130.81 90)
 		(unit 1)
 		(body_style 1)
@@ -9664,7 +10102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446c5cf9-656a-46d6-8759-a4d37b396250")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG03"
 			(at 93.98 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -9724,7 +10162,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#FLG09")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9868,7 +10306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45beade1-968e-4b66-b932-279e6d5bfec6")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 48.26 59.055 0)
 			(hide yes)
 			(show_name no)
@@ -9928,7 +10366,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -13145,7 +13583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7e0f7fc-ae51-4875-8250-c5f28042c7a1")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR03"
 			(at 62.23 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13249,7 +13687,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR0206")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13496,6 +13934,183 @@
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 130.81 214.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d746c0ed-dcdc-45f8-aaf0-1f420c5d5b73")
+		(property "Reference" "TP7"
+			(at 139.954 214.884 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3"
+			(at 140.97 213.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 130.81 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 130.81 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 130.81 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP PN" ""
+			(at 130.81 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 130.81 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 130.81 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 130.81 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 130.81 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 130.81 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 130.81 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daddd8f2-1c48-4778-98d4-74b35609c828")
+		)
+		(instances
+			(project "vehicle-control-unit"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -13778,150 +14393,6 @@
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 340.36 95.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e17fb23c-ea97-4145-ada5-f02b0e3b1a66")
-		(property "Reference" "TP2"
-			(at 329.946 93.472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 327.152 95.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 340.36 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 340.36 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 340.36 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Link" ""
-			(at 340.36 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP PN" ""
-			(at 340.36 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 340.36 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" ""
-			(at 340.36 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 340.36 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8da1a128-40b6-4857-b8bb-cf8e762d4606")
-		)
-		(instances
-			(project "vehicle-control-unit"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -14233,24 +14704,25 @@
 			"b718d4f6-5cbc-4b98-9fec-5a6af7b8e0b4" "ba012cdf-9d88-4911-b15b-f6244328be26"
 			"ba0153e4-f527-4de8-be26-32d383f6e394" "bf78e81e-ae0f-494a-806d-08e84f7c8579"
 			"c473c5e7-73af-49d3-814f-aa94928deb44" "c5c5fd02-4b91-42f5-91b5-abb561db1a8b"
-			"cf66211e-4a6c-48c8-9eb8-f182b33313d5" "edfa0c59-aebd-4b08-a366-2e63b0c8d52a"
-			"f188207f-ab87-4d64-8c2e-a500a881dbb5"
+			"cf66211e-4a6c-48c8-9eb8-f182b33313d5" "d746c0ed-dcdc-45f8-aaf0-1f420c5d5b73"
+			"edfa0c59-aebd-4b08-a366-2e63b0c8d52a" "f188207f-ab87-4d64-8c2e-a500a881dbb5"
 		)
 	)
 	(group "DCDC_5V_3A_New"
 		(uuid "b5048a39-9fc1-42c6-abe9-a31da72f83ea")
 		(lib_id "formula_slug_design_blocks_library:DCDC_5V_3A_New")
-		(members "0905d2eb-83a1-493a-a886-c4302e7a5b03" "0d8ee4c7-85cf-4b25-b9fc-30e4ae3d06f7"
-			"0db84ab3-c2b1-4482-9ab0-ddfa3078b66d" "0ecfb2a8-05d1-4776-beaa-09e4f7312fe4"
-			"10f82994-7a7c-4b98-8ff0-d4979b1313d3" "127a8b27-2c6c-45ee-a4ee-81cf1dcbcc0e"
-			"164f2034-aecb-4070-b8a2-943449d6b547" "168b5a0e-92e4-404c-80ff-95057a9998fc"
-			"16af0717-a211-4068-9821-ca9912d9ff93" "1a58b571-f472-4941-96d1-c85672fbb581"
-			"223aca35-776a-4aab-956e-2cdcb086d790" "25aba09e-806e-48ed-a82d-40a85c8db3e5"
-			"2b8acdc2-4fc3-4016-a298-1b9d5b2faa72" "2bea8596-716c-46ba-bf1f-31d30838b638"
-			"2d6aef3a-077a-44db-8f21-e05baba6a63b" "2f8c73ee-d38d-4d9c-87b4-2029c1d56324"
-			"31252123-3383-441c-b4d7-5fd4da012ae3" "319f9e41-75b7-4ac0-bc18-a8565273ec54"
-			"31a23638-c1eb-40c3-bef9-e437724783f0" "33709009-f241-49aa-8c6e-ddf5ad1eaefb"
-			"35931eee-b0f1-4781-9cb2-a2e414f3a17b" "3e802af6-7ac0-4722-b82d-0632f6da716d"
+		(members "04f42735-c946-4c12-92ee-c2bdd265f4a8" "0905d2eb-83a1-493a-a886-c4302e7a5b03"
+			"0d8ee4c7-85cf-4b25-b9fc-30e4ae3d06f7" "0db84ab3-c2b1-4482-9ab0-ddfa3078b66d"
+			"0ecfb2a8-05d1-4776-beaa-09e4f7312fe4" "10f82994-7a7c-4b98-8ff0-d4979b1313d3"
+			"127a8b27-2c6c-45ee-a4ee-81cf1dcbcc0e" "164f2034-aecb-4070-b8a2-943449d6b547"
+			"168b5a0e-92e4-404c-80ff-95057a9998fc" "16af0717-a211-4068-9821-ca9912d9ff93"
+			"1a58b571-f472-4941-96d1-c85672fbb581" "223aca35-776a-4aab-956e-2cdcb086d790"
+			"25aba09e-806e-48ed-a82d-40a85c8db3e5" "2b8acdc2-4fc3-4016-a298-1b9d5b2faa72"
+			"2bea8596-716c-46ba-bf1f-31d30838b638" "2d6aef3a-077a-44db-8f21-e05baba6a63b"
+			"2f8c73ee-d38d-4d9c-87b4-2029c1d56324" "31252123-3383-441c-b4d7-5fd4da012ae3"
+			"319f9e41-75b7-4ac0-bc18-a8565273ec54" "31a23638-c1eb-40c3-bef9-e437724783f0"
+			"33709009-f241-49aa-8c6e-ddf5ad1eaefb" "35931eee-b0f1-4781-9cb2-a2e414f3a17b"
+			"39ee22af-6956-41c2-88d8-aa308333262e" "3e802af6-7ac0-4722-b82d-0632f6da716d"
 			"3f7d1917-d606-4f74-972b-aa6c1444e34f" "401a71bd-cf82-4603-adc2-697079405836"
 			"44f4b672-cdb4-497c-98f5-e7be5c447705" "49ab04ae-d55c-4696-b22d-93c700c112fc"
 			"4cfda2eb-6dd2-451a-b85f-9993e6349915" "4f9c1200-9f08-43fa-bd0f-6488a33a8c40"
@@ -14262,23 +14734,25 @@
 			"6c4acb19-c033-4d51-be8d-3cacd698c207" "6dc9d319-3390-4bfb-bb86-eb723b57aee4"
 			"6e633864-affa-45f1-8379-b39aaedf72db" "6ed13d6a-cc87-41de-9361-8f179dec1804"
 			"751cb229-9152-431e-955b-01354df00946" "77fff0f6-cc0f-4abe-87e9-8931eb6ac944"
-			"83727d4c-5537-4983-9fa7-60a3a01f3bae" "84a90f9e-696a-48cf-aed3-cabdda9ee0b6"
-			"860a31c3-4b44-4a8f-864f-20c5f72d06d2" "862d8195-7de2-4c1d-a503-9d393ac61590"
-			"86feb9cf-8adb-4a6b-86c6-21ebf71e2db1" "8a464622-d423-40db-be11-2380fea0bf0a"
-			"8a623328-470e-410e-bc4e-cd2bc5693d96" "8e31f4cd-ef7b-4ce8-a7e2-a3c2bc632fcc"
-			"92bde67a-6161-4180-98e3-09792f2991dc" "96c8cd6d-159b-4c6d-b9e3-83dfb3e22fe5"
-			"98c7b0b2-f64e-4c94-9b3c-6df4f85cdb5a" "9983c588-b112-4acf-9d26-c3a9372ca67e"
-			"9a8a1c05-6ee0-40f6-89c5-692dc6814c44" "9b7ef7aa-022a-4848-a5ca-fb50818d3011"
-			"9c709800-669a-44cc-bf2a-2aae60838f12" "a8bba8ca-0973-4efe-93a2-0aa5e83a9a3c"
+			"7a769c99-09b8-4ca5-bf1a-60363d757541" "83727d4c-5537-4983-9fa7-60a3a01f3bae"
+			"84a90f9e-696a-48cf-aed3-cabdda9ee0b6" "860a31c3-4b44-4a8f-864f-20c5f72d06d2"
+			"862d8195-7de2-4c1d-a503-9d393ac61590" "86feb9cf-8adb-4a6b-86c6-21ebf71e2db1"
+			"8a464622-d423-40db-be11-2380fea0bf0a" "8a623328-470e-410e-bc4e-cd2bc5693d96"
+			"8e31f4cd-ef7b-4ce8-a7e2-a3c2bc632fcc" "92bde67a-6161-4180-98e3-09792f2991dc"
+			"96c8cd6d-159b-4c6d-b9e3-83dfb3e22fe5" "98c7b0b2-f64e-4c94-9b3c-6df4f85cdb5a"
+			"9983c588-b112-4acf-9d26-c3a9372ca67e" "9a8a1c05-6ee0-40f6-89c5-692dc6814c44"
+			"9b7ef7aa-022a-4848-a5ca-fb50818d3011" "9c709800-669a-44cc-bf2a-2aae60838f12"
+			"9e3c940a-2ce2-4e4c-9eaa-28d4ec7fa78f" "a8bba8ca-0973-4efe-93a2-0aa5e83a9a3c"
 			"a9c9f8f4-2679-44e2-9623-de834beae9bc" "aa33bca7-8df2-44ba-8a8d-21afae805cba"
 			"b2b68645-46a1-4bf9-a743-c63d78f08322" "b5219d43-b5ce-4ab2-aedd-4abf74e07991"
-			"bb13214c-b4ce-41c0-82b8-aae09bc75d28" "c082ed27-552e-4094-befe-ca22947a4a46"
-			"c4be8f2b-df59-4162-bfeb-f7cb3f9149bc" "c5b23f1a-9b35-442d-b365-a26e077566c8"
-			"d793611a-5ec4-4d59-b3b7-a51c3080a644" "dd6c2d0c-5aed-424c-83ac-bde0a5e72cc2"
+			"bb13214c-b4ce-41c0-82b8-aae09bc75d28" "bb294852-0bb9-4d8d-9836-831b7c383713"
+			"c082ed27-552e-4094-befe-ca22947a4a46" "c4be8f2b-df59-4162-bfeb-f7cb3f9149bc"
+			"c5b23f1a-9b35-442d-b365-a26e077566c8" "d793611a-5ec4-4d59-b3b7-a51c3080a644"
 			"e128b2e4-5b7d-4c6f-9ce8-3c3f2f23d22f" "e9a9f1a9-5d9c-4176-8fdd-46507788eb34"
-			"f43f12bd-f426-4bac-81c9-8dc439268bf2" "f5a228e3-db1a-4a66-a736-730575cc0906"
-			"f6d98c9d-8a96-493e-a850-bd480a32f322" "f82e0402-a2cb-4c32-ad0a-b77cffca3ebc"
-			"fadc43fd-4974-4913-a5e9-da154886d279" "ff22fb6a-192b-4104-a0b1-c03e38486a12"
+			"f12120b0-361f-49f1-b39a-7338bcb3bd19" "f43f12bd-f426-4bac-81c9-8dc439268bf2"
+			"f5a228e3-db1a-4a66-a736-730575cc0906" "f6d98c9d-8a96-493e-a850-bd480a32f322"
+			"f82e0402-a2cb-4c32-ad0a-b77cffca3ebc" "fadc43fd-4974-4913-a5e9-da154886d279"
+			"ff22fb6a-192b-4104-a0b1-c03e38486a12"
 		)
 	)
 	(sheet
@@ -14894,7 +15368,7 @@
 				(justify left)
 			)
 		)
-		(pin "BSPD_Fault" input
+		(pin "BSPD_Fault" output
 			(at 146.05 109.22 180)
 			(uuid "4780ff66-66b7-49b3-ae99-7e19729f76d2")
 			(effects

@@ -8843,7 +8843,7 @@
 	)
 	(text "RED LED\n"
 		(exclude_from_sim no)
-		(at 362.6485 92.71 0)
+		(at 367.7285 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9151,7 +9151,7 @@
 		(uuid "6f7e3785-369c-4da8-9fad-b8838cd0a9d7")
 	)
 	(junction
-		(at 346.71 88.9)
+		(at 351.79 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71b45cf8-113f-4434-8f42-d3eae5f4882d")
@@ -9577,6 +9577,10 @@
 		(uuid "c0df79b5-8b96-4673-ba6e-28768a7d4800")
 	)
 	(no_connect
+		(at 320.04 86.36)
+		(uuid "cfa0f213-217c-4014-aeb1-13a871ec9ca0")
+	)
+	(no_connect
 		(at 398.78 144.78)
 		(uuid "cfc0b8dc-27fe-4898-958d-c88d793dc56e")
 	)
@@ -9873,16 +9877,6 @@
 			(type default)
 		)
 		(uuid "14592fb8-df29-44d6-9208-6e61ba77bad7")
-	)
-	(wire
-		(pts
-			(xy 320.04 86.36) (xy 322.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14751baa-e7bb-481a-8f2b-e1c6d3b08ffb")
 	)
 	(wire
 		(pts
@@ -11686,7 +11680,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 88.9) (xy 346.71 88.9)
+			(xy 320.04 88.9) (xy 351.79 88.9)
 		)
 		(stroke
 			(width 0)
@@ -12126,7 +12120,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 88.9) (xy 349.25 88.9)
+			(xy 351.79 88.9) (xy 354.33 88.9)
 		)
 		(stroke
 			(width 0)
@@ -12906,7 +12900,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 88.9) (xy 358.14 88.9)
+			(xy 361.95 88.9) (xy 363.22 88.9)
 		)
 		(stroke
 			(width 0)
@@ -12946,7 +12940,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 88.9) (xy 365.76 88.9)
+			(xy 374.65 88.9) (xy 370.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -13667,30 +13661,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "BSPD_Shutdown_Out"
-		(shape input)
-		(at 322.58 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "603e41e6-aee9-414c-b41f-13fc82efbb77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.7358 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -15481,7 +15451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b5ed37-1848-4ea8-b569-0ba8d1b9fea2")
-		(property "Reference" "R45"
+		(property "Reference" "R44"
 			(at 116.84 251.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15664,7 +15634,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R45")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -15884,7 +15854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "095c4a2d-3e9d-4f80-ad69-8a060a7e61a1")
-		(property "Reference" "R36"
+		(property "Reference" "R35"
 			(at 384.81 207.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16102,7 +16072,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -16187,7 +16157,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 361.95 88.9 180)
+		(at 367.03 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16197,7 +16167,7 @@
 		(dnp no)
 		(uuid "11b085f2-56ad-438c-93dc-02e1d0067e72")
 		(property "Reference" "D2"
-			(at 362.204 94.996 0)
+			(at 367.284 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16207,7 +16177,7 @@
 			)
 		)
 		(property "Value" "LTST-S270KRKT"
-			(at 362.204 97.536 0)
+			(at 367.284 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16217,7 +16187,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16228,7 +16198,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-210/LTST-S270KRKT.pdf"
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16239,7 +16209,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16250,7 +16220,7 @@
 			)
 		)
 		(property "Digi PN" "160-1479-1-ND"
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16261,7 +16231,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/liteon/LTST-S270KRKT/386895"
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16272,7 +16242,7 @@
 			)
 		)
 		(property "MFG" "Lite-On Inc."
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16283,7 +16253,7 @@
 			)
 		)
 		(property "MFG PN" "LTST-S270KRKT"
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16294,7 +16264,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16305,7 +16275,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16316,7 +16286,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16327,7 +16297,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16338,7 +16308,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16349,7 +16319,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16360,7 +16330,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16371,7 +16341,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 361.95 88.9 0)
+			(at 367.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16407,7 +16377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15729add-dcea-4a09-bd5f-d81277aa83ae")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 96.52 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16467,7 +16437,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -16693,7 +16663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16b7be22-9890-40f3-9482-ba12f4c63d95")
-		(property "Reference" "TP13"
+		(property "Reference" "TP16"
 			(at 341.884 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16820,7 +16790,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "TP13")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -17328,7 +17298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a334bf0-9aae-49d3-bc7c-6e70ebbe04bb")
-		(property "Reference" "R41"
+		(property "Reference" "R40"
 			(at 110.49 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17513,7 +17483,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R41")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -17781,7 +17751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ca372eb-b74d-444b-b887-2c23b74b1418")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR091"
 			(at 270.51 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -17841,7 +17811,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR092")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -17858,7 +17828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cc86916-5f42-4569-bab2-3f0bd4c9d77f")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR073"
 			(at 240.03 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17930,7 +17900,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR074")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -19442,7 +19412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c58c712-b5ef-47d0-bf43-b83d0e4a2d8f")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR087"
 			(at 101.6 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -19502,7 +19472,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR088")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -19519,7 +19489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c7086e5-ab6c-49df-8914-f928f17e2da7")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 148.59 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -19591,7 +19561,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -20045,7 +20015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ef615ca-7c74-4e74-a745-98f8c120a0e8")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0105"
 			(at 124.46 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -20105,7 +20075,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0106")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -20742,7 +20712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3150f1a2-cd88-4318-8bf9-8ee9b1f01df7")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR074"
 			(at 342.9 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -20814,7 +20784,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -20832,7 +20802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "326a9ba9-a20b-4a21-96ae-6d7ab14fddbc")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0106"
 			(at 46.99 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -20892,7 +20862,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0107")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -21729,7 +21699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a6c3d55-aa2d-44c8-bd4f-d8588df20a24")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR089"
 			(at 179.07 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -21789,7 +21759,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR090")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -22086,7 +22056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f426c32-edfe-46c7-b1e9-b29222096dde")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0101"
 			(at 393.7 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -22146,7 +22116,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0102")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -22163,7 +22133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fc8814b-b5d3-4a88-945d-b9cfe4e766ed")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR085"
 			(at 334.01 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -22235,7 +22205,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR086")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -22252,7 +22222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41ad3fb3-fbf5-4a67-86bd-7996e2cd90b5")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR075"
 			(at 88.9 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -22312,7 +22282,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR076")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -22687,7 +22657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b3bbea0-446a-4778-8574-fa777749b056")
-		(property "Reference" "R43"
+		(property "Reference" "R42"
 			(at 175.26 243.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22870,7 +22840,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R43")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -24459,7 +24429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a11fbf1-16f0-4cdb-be05-944089b0effe")
-		(property "Reference" "R38"
+		(property "Reference" "R37"
 			(at 50.8 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24642,7 +24612,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -24868,7 +24838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a63301b-f9c8-4306-ab6b-297c47b727f1")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0100"
 			(at 290.83 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -24928,7 +24898,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0101")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -24936,7 +24906,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 353.06 88.9 270)
+		(at 358.14 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24947,7 +24917,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aaa32e1-9187-4804-8c59-993fe8e88dae")
 		(property "Reference" "R20"
-			(at 353.06 82.55 90)
+			(at 358.14 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24957,7 +24927,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 353.06 85.09 90)
+			(at 358.14 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24967,7 +24937,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 353.06 87.122 90)
+			(at 358.14 87.122 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24978,7 +24948,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 353.06 88.9 0)
+			(at 358.14 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24989,7 +24959,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 353.06 88.9 0)
+			(at 358.14 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25000,7 +24970,7 @@
 			)
 		)
 		(property "Digi PN" "YAG5330CT-ND"
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25011,7 +24981,7 @@
 			)
 		)
 		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-07300RL/5896018"
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25022,7 +24992,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25033,7 +25003,7 @@
 			)
 		)
 		(property "MFG PN" "AC0603FR-07300RL"
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25044,7 +25014,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25055,7 +25025,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25066,7 +25036,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25077,7 +25047,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25088,7 +25058,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25099,7 +25069,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25110,7 +25080,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 353.06 88.9 90)
+			(at 358.14 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25146,7 +25116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c460393-1087-4da7-b62d-e145f692e4f5")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR081"
 			(at 378.46 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -25206,7 +25176,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR082")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -25404,7 +25374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cac9f4a-5228-4cb7-910f-3a2a6e326f11")
-		(property "Reference" "R37"
+		(property "Reference" "R36"
 			(at 392.43 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25622,7 +25592,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -26396,7 +26366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62cf0f04-2c4b-4cbe-9674-6a1e336fd091")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 29.21 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -26456,7 +26426,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -26551,7 +26521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64c322ed-9a0c-473c-a09b-39870732c06e")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR092"
 			(at 334.01 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -26623,7 +26593,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR093")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -26640,7 +26610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67e72095-cc26-439a-aee7-7b81957fbe40")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR078"
 			(at 200.66 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -26712,7 +26682,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR079")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -26931,7 +26901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68efa3e1-fa6b-4d9b-beec-1caaa553a896")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0108"
 			(at 137.16 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -26991,7 +26961,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0109")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -27008,7 +26978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "699482bf-80cc-47ad-a41f-3df365fe874e")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR096"
 			(at 403.86 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -27068,7 +27038,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR097")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -27289,7 +27259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b7d2ff2-6e26-4198-8464-a50a45e6535f")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR098"
 			(at 39.37 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -27349,7 +27319,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR099")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -27688,7 +27658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "724cf103-78e9-43f9-968f-dd354f9821c9")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR082"
 			(at 394.97 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -27760,7 +27730,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR083")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -28384,7 +28354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d28406-07c5-4abf-bbc3-29092b91ab5a")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR097"
 			(at 101.6 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -28444,7 +28414,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR098")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -28461,7 +28431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a397981-5010-4791-a2d7-926bfa4f35ef")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR083"
 			(at 139.7 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -28533,7 +28503,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR084")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -28551,7 +28521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aca78ea-aeac-4875-a537-1b2b47ab0e58")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0104"
 			(at 113.03 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -28611,7 +28581,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0105")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -28829,7 +28799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ccefde9-7e00-4702-bd98-d3b3035fbf85")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0103"
 			(at 48.26 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -28889,7 +28859,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0104")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -29246,7 +29216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80539842-6925-476d-accf-c049b5b038fb")
-		(property "Reference" "TP12"
+		(property "Reference" "TP15"
 			(at 353.568 125.476 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29373,7 +29343,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "TP12")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -30165,7 +30135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8832dae6-2a41-4c4d-aed0-236c48bfc6fd")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0107"
 			(at 57.15 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -30225,7 +30195,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0108")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -30442,7 +30412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dac8f5c-0122-412b-90f6-9a8b0409582a")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR084"
 			(at 224.79 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -30514,7 +30484,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR085")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -30901,7 +30871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "934cbfaf-1344-4e3d-a8f6-efa2ea858d42")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR093"
 			(at 373.38 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -30961,7 +30931,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR094")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -32006,7 +31976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "formula_slug_footprint_library:SOIC-8_ISO1044BD"
 			(at 361.95 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -32671,7 +32641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3c833fb-4b86-4738-a015-b4fedf80bb24")
-		(property "Reference" "R32"
+		(property "Reference" "R31"
 			(at 87.122 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32856,7 +32826,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -32996,7 +32966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5abe218-53ed-412a-8be4-7d824f5c9c5d")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR079"
 			(at 275.59 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -33056,7 +33026,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -33073,7 +33043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a724c17c-c514-4ef6-a17f-995986dd95c8")
-		(property "Reference" "TP8"
+		(property "Reference" "TP11"
 			(at 252.476 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33200,7 +33170,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "TP8")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -33217,7 +33187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a83f94a9-5a2a-4f4c-8679-4d2f14d5c310")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR095"
 			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -33277,7 +33247,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR096")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -33972,7 +33942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae1fcba2-ea7f-4356-8bb4-0b288e5e28a5")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR088"
 			(at 139.7 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -34044,7 +34014,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR089")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -34061,7 +34031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b09f8eeb-09e4-4585-ae45-d17ae217da07")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR077"
 			(at 184.15 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -34121,7 +34091,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR078")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -34138,7 +34108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0ed1ae6-19cd-41b3-b869-3fdc6029ba5a")
-		(property "Reference" "TP11"
+		(property "Reference" "TP14"
 			(at 252.476 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34265,7 +34235,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "TP11")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -34283,7 +34253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2bb807c-4a0d-44f6-9384-920a3c0587f2")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR099"
 			(at 54.61 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -34343,7 +34313,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0100")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -34360,7 +34330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3323765-3fa1-472a-bfda-0b5cacfcfa8b")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR094"
 			(at 201.93 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -34420,7 +34390,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR095")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -34557,7 +34527,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 346.71 88.9 0)
+		(at 351.79 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34566,8 +34536,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3cf2905-5be4-4369-9d70-47ce649790c4")
-		(property "Reference" "TP7"
-			(at 347.726 83.566 0)
+		(property "Reference" "TP10"
+			(at 352.806 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34578,7 +34548,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 350.52 81.788 0)
+			(at 355.6 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34589,7 +34559,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 351.79 88.9 0)
+			(at 356.87 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34600,7 +34570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 88.9 0)
+			(at 356.87 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34611,7 +34581,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 346.71 88.9 0)
+			(at 351.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34622,7 +34592,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 346.71 88.9 90)
+			(at 351.79 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34633,7 +34603,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 346.71 88.9 90)
+			(at 351.79 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34644,7 +34614,7 @@
 			)
 		)
 		(property "MFP PN" ""
-			(at 346.71 88.9 90)
+			(at 351.79 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34655,7 +34625,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 346.71 88.9 90)
+			(at 351.79 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34666,7 +34636,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 346.71 88.9 90)
+			(at 351.79 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34677,7 +34647,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 346.71 88.9 90)
+			(at 351.79 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34693,7 +34663,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "TP7")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -35532,7 +35502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b936650c-fcd7-4eb9-aebe-60c4ce6e79de")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0109"
 			(at 186.69 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -35592,7 +35562,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0110")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -35939,7 +35909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be98a7cb-45f9-452c-b2e0-c309fa8119c2")
-		(property "Reference" "R44"
+		(property "Reference" "R43"
 			(at 44.45 251.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36124,7 +36094,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R44")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -36141,7 +36111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c224bcb5-3d52-4cb8-8e19-ad004505f477")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 281.686 206.756 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36359,7 +36329,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -36376,7 +36346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3e5ee71-6cb8-4930-b185-cf6729bbaa00")
-		(property "Reference" "TP10"
+		(property "Reference" "TP13"
 			(at 192.024 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36398,7 +36368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 181.61 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -36497,13 +36467,46 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b4c64ea-4dd2-4b17-9f95-20880466c427")
 		)
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "TP10")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -37048,7 +37051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9697ba7-430f-45fe-aee6-0b1c2a31394d")
-		(property "Reference" "R35"
+		(property "Reference" "R34"
 			(at 289.814 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37266,7 +37269,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -37555,7 +37558,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 369.57 88.9 0)
+		(at 374.65 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37565,7 +37568,7 @@
 		(dnp no)
 		(uuid "cf0057fb-dd29-4826-b9d2-1dcfdb18dad3")
 		(property "Reference" "#PWR049"
-			(at 369.57 95.25 0)
+			(at 374.65 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37576,7 +37579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 369.57 93.472 0)
+			(at 374.65 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37586,7 +37589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 88.9 0)
+			(at 374.65 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37597,7 +37600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 88.9 0)
+			(at 374.65 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37608,7 +37611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 369.57 88.9 0)
+			(at 374.65 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37766,7 +37769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d382d6db-f5ac-4302-bae9-63ae6ab73d95")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 292.1 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -37838,7 +37841,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -38713,7 +38716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd02bb6-8c92-4842-8b53-e51eb05bcc29")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR086"
 			(at 39.37 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -38773,7 +38776,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR087")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -38790,7 +38793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de412e4f-018d-4e82-b20d-ebae6336a2f5")
-		(property "Reference" "R40"
+		(property "Reference" "R39"
 			(at 118.364 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38973,7 +38976,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R40")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -39981,7 +39984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "formula_slug_footprint_library:SOIC-8_ISO1044BD"
 			(at 259.08 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -40123,7 +40126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8fef6df-f7d0-4418-b9dc-490a943d97d7")
-		(property "Reference" "R42"
+		(property "Reference" "R41"
 			(at 52.07 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40306,7 +40309,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R42")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -40885,7 +40888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eed1b70b-490b-47f3-9aed-19bdf23410ff")
-		(property "Reference" "TP9"
+		(property "Reference" "TP12"
 			(at 252.476 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40907,7 +40910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 262.89 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -41006,13 +41009,46 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f861d480-7ea6-4764-8433-a35a89dc5b60")
 		)
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "TP9")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -41029,7 +41065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efd7a519-9889-4095-a71b-8677d2545b0d")
-		(property "Reference" "R39"
+		(property "Reference" "R38"
 			(at 57.15 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41214,7 +41250,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R39")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -41231,7 +41267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0e8fa80-a7c4-4da8-8d0c-e8db81d0f705")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0102"
 			(at 186.69 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -41291,7 +41327,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR0103")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -41437,7 +41473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f53b9eb3-94a6-4313-bf84-1477ac1b69f5")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR090"
 			(at 224.79 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -41509,7 +41545,7 @@
 			)
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "#PWR091")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -41649,7 +41685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb720b26-21a2-4369-898a-686e04661a1a")
-		(property "Reference" "R33"
+		(property "Reference" "R32"
 			(at 85.344 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41832,7 +41868,7 @@
 		(instances
 			(project "vehicle-control-unit"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d/9df7db25-2a8f-4808-86be-5c4b2bdfb77e"
-					(reference "R33")
+					(reference "R32")
 					(unit 1)
 				)
 			)

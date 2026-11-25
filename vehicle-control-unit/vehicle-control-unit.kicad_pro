@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.508,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_clearance": 0.0,
+          "min_island_area": 9.9999993548,
+          "min_thickness": 0.254,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -249,6 +249,10 @@
         {
           "diameter": 0.508,
           "drill": 0.254
+        },
+        {
+          "diameter": 0.762,
+          "drill": 0.381
         }
       ],
       "zones_allow_external_fillets": false
@@ -280,24 +284,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_issues|1638300|546100|54c2fd58-5a0e-4b8c-b4db-0d9eff25af24|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|241300|457200|c1db4d8c-9f9f-4f86-bc19-b209d6c58371|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|254000|1079500|8a16af4c-7038-4723-9ab3-57aab1a60f77|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|254000|863600|c28285aa-db57-4276-ba21-02ae414037d5|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -548,11 +535,22 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.254,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1778,
+        "name": "big trace",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "tuning_profile": "",
+        "via_diameter": 0.762,
+        "via_drill": 0.381
       }
     ],
     "meta": {
@@ -563,7 +561,23 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "SPS_1_Buff_Filt"
+        "pattern": ""
+      },
+      {
+        "netclass": "big trace",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "big trace",
+        "pattern": "Shutdown_In"
+      },
+      {
+        "netclass": "big trace",
+        "pattern": "BSPD_Shutdown_Out"
+      },
+      {
+        "netclass": "big trace",
+        "pattern": "/MCU/Solenoid_Neg"
       }
     ]
   },
@@ -956,7 +970,7 @@
         "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
-    "used_designators": "#FLG1-9,Y1-4,#PWR1-239,D1-29,L1-4,LS1,H1-4,R1-118,J1-7,U1-32,U34,SW1-7,K1-4,FB1-4,C1-76,Q1-13,RV1-5,TP1-45,XTAL1",
+    "used_designators": "XTAL1,TP1-45,RV1-5,Q1-13,C1-76,FB1-4,K1-4,U1-32,U34,SW1-7,J1-7,R1-118,H1-4,LS1,L1-4,D1-29,#PWR1-239,Y1-4,#FLG1-9",
     "variants": []
   },
   "sheets": [
