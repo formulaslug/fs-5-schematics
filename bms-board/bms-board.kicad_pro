@@ -512,52 +512,115 @@
     ]
   },
   "meta": {
-    "filename": "Untitled.kicad_pro",
+    "filename": "bms-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.127,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.254,
+        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.0,
-        "microvia_drill": 0.0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "tuning_profile": "",
-        "via_diameter": 0.508,
-        "via_drill": 0.254,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.508,
+        "clearance": 0.127,
         "line_style": 0,
-        "microvia_diameter": 0.0,
-        "microvia_drill": 0.0,
-        "name": "HV",
-        "pcb_color": "rgb(255, 121, 27)",
-        "priority": 0,
-        "schematic_color": "rgb(255, 121, 27)",
-        "track_width": 0.254,
+        "name": "Balance",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 125, 20)",
+        "track_width": 0.508,
         "tuning_profile": "",
-        "via_diameter": 0.508,
-        "via_drill": 0.254,
-        "wire_width": 6
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 8
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 7, 200)",
+        "track_width": 0.508,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 8
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {},
+    "netclass_assignments": {
+      "/BB0/B#": [
+        "Balance"
+      ],
+      "/BB0/B#+1": [
+        "Balance"
+      ],
+      "/BB1/B#+1": [
+        "Balance"
+      ],
+      "/BB2/B#+1": [
+        "Balance"
+      ],
+      "/BB3/B#+1": [
+        "Balance"
+      ],
+      "/BB4/B#+1": [
+        "Balance"
+      ],
+      "/BB5/B#+1": [
+        "Balance"
+      ],
+      "Net-(C6-Pad1)": [
+        "Power"
+      ],
+      "Net-(D11-K)": [
+        "Balance"
+      ],
+      "Net-(D13-K)": [
+        "Balance"
+      ],
+      "Net-(D3-K)": [
+        "Balance"
+      ],
+      "Net-(D5-K)": [
+        "Balance"
+      ],
+      "Net-(D7-K)": [
+        "Balance"
+      ],
+      "Net-(D9-K)": [
+        "Balance"
+      ],
+      "Net-(J1-Pin_2)": [
+        "Power"
+      ],
+      "V-": [
+        "Power"
+      ],
+      "VREG": [
+        "Power"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -830,18 +893,42 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Untitled.kicad_sch",
-        "name": "Untitled",
+        "filename": "bms-board.kicad_sch",
+        "name": "bms-board",
         "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
-    "used_designators": "R1",
+    "used_designators": "#FLG1-4,#PWR1-10,#VREG1-7,C1-14,D1-14,J1-8,L1,Q1-7,R1-41,R43,SW1,TP1,U1",
     "variants": []
   },
   "sheets": [
     [
       "e994741c-7c7d-4124-9d00-43b883baa61d",
-      "Untitled"
+      "bms-board"
+    ],
+    [
+      "118e6701-e090-47e8-8784-4389d6b07751",
+      "BB0"
+    ],
+    [
+      "800a2327-2f99-4f29-a0a6-7c10d106a084",
+      "BB1"
+    ],
+    [
+      "b470b396-e017-41e2-aaea-ec5e5fe41a2e",
+      "BB2"
+    ],
+    [
+      "807e480c-3e8c-4ad4-8193-65a1fd20f7b9",
+      "BB3"
+    ],
+    [
+      "f2b01556-5c0a-4ea9-8763-6e8a88233430",
+      "BB4"
+    ],
+    [
+      "122212ff-3020-483e-b870-ba488da02c4b",
+      "BB5"
     ]
   ],
   "text_variables": {
