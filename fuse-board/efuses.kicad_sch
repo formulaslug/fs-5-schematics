@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "bc91ddca-be29-4384-9734-26a36d633cc6")
-	(paper "A")
+	(paper "B")
 	(title_block
 		(rev "1.0")
 	)
@@ -713,6 +713,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "combine PEB TBB, then do 15A fuse for driverless\n"
+		(exclude_from_sim no)
+		(at 61.468 182.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "089c650f-8040-42a6-ae45-6ad8dab23e5f")
+	)
 	(text "PEB (U4), Telemetry (U6), TBB (U7):\nBlade Current ATM: 5A\neFuse Current Limit Set: 5A nominal (4.9767A)\nR_ILIM: 300 Ohm\nR_IMON: 1.91 kOhm\nC_dVdt: 3.3nF\n\nV_IMON = 2.31V at 4.9767A nominal\nSR_ON = 1.15 V/ms typical at 12V\nt_D,ON = 3.83 ms typical at 12V\n\nShutdown (U5), Inverter (U8), VCU (U9):\nBlade Current ATM: 10A\neFuse Current Limit Set: 10A nominal (10.0427A)\nR_ILIM: 147 Ohm\nR_IMON: 1.02 kOhm\n\nV_IMON = 2.49V at 10.0427A nominal\nShutdown / VCU C_dVdt: 3.3nF\nInverter C_dVdt: 6.6nF (two 3.3nF capacitors)\n\nFANA (U10), FANB (U11), FANC (U12):\nBlade Current ATM: 10A\neFuse Current Limit Set: 10A nominal (10.0427A)\nR_ILIM: 147 Ohm\nR_IMON: 1.02 kOhm\nC_dVdt: 6.6nF (two 3.3nF capacitors)\n\nV_IMON = 2.49V at 10.0427A nominal\n\nALL:\nC_ITIMER: 15nF, DNP by default\nWhen populated: t_ITIMER approximately 7ms\nWith ITIMER open: minimum overcurrent delay\n\nOVLO target: 16.5V\nUVLO target: 9V\nActual thresholds depend on tolerances."
 		(exclude_from_sim no)
 		(at 218.694 59.436 0)
@@ -733,6 +743,16 @@
 			)
 		)
 		(uuid "739261cd-6f15-4e8e-9de1-e996afb784bc")
+	)
+	(text "change efuse to 3A with high ITIMER"
+		(exclude_from_sim no)
+		(at 115.316 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3ada441-f497-4885-afdc-f6e95d245c3f")
 	)
 	(junction
 		(at 168.91 91.44)
